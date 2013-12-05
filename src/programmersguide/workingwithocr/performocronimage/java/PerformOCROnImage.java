@@ -8,10 +8,7 @@
 
 package programmersguide.workingwithocr.performocronimage.java;
 
-import com.aspose.ocr.ILanguage;
-import com.aspose.ocr.Language;
-import com.aspose.ocr.OcrEngine;
-import com.aspose.ocr.ResourcesSource;
+import com.aspose.ocr.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -26,23 +23,24 @@ public class PerformOCROnImage
 
         // Set the paths
         String imagePath = dataDir + "Sampleocr.bmp";
-        String xmlEtalonFileName = "englishStandarts";
-        String fontCollectionFileName = "arialAndTimesAndCourierRegular.xml.bin";
         String resourcesFilePath = "../lib/resources.zip";
 
         // Create an instance of OcrEngine class but providing required.
         // parameters
-        OcrEngine ocr = new OcrEngine(ResourcesSource.BINARY_ZIP_FILE,
-                resourcesFilePath, xmlEtalonFileName, fontCollectionFileName);
-        ocr.getConfig().setNeedRotationCorrection(false);
+        OcrEngine ocr = new OcrEngine();
 
         // Set image file.
-        File image = new File(imagePath);
-        ocr.setImage(image);
+        ocr.setImage(ImageStream.fromFile(imagePath));
+
+        // Set Resources for OcrEngine
+        ocr.setResource(new ZipFileStream(resourcesFilePath));
 
         // Add language..
         ILanguage language = Language.load("english");
         ocr.getLanguages().addLanguage(language);
+
+        // Set NeedRotationCorrection property to false
+        ocr.getConfig().setNeedRotationCorrection(false);
 
         // Perform OCR and get extracted text.
         try {
