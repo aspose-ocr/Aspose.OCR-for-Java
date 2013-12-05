@@ -23,7 +23,7 @@ public class PerformOCROnImage
 
         // Set the paths
         String imagePath = dataDir + "Sampleocr.bmp";
-        String resourcesFilePath = "../lib/resources.zip";
+        String resourcesFilePath = dataDir + "../../../../../../lib/resources.zip";
 
         // Create an instance of OcrEngine class but providing required.
         // parameters
