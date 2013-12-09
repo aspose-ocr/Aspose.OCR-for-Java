@@ -1,8 +1,9 @@
 ##Aspose.OCR for Java Examples Repository
-<a href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">![Download the Examples Dashboard](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button.png "Download the Examples Dashboard")</a>
-<a href="https://github.com/asposeocr/Aspose_OCR_Java/archive/master.zip">&nbsp;![Download the Examples ZIP](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button.png "Download the Examples ZIP")</a>
 
 This package contains Java Example Projects for [Aspose.OCR for Java](http://www.aspose.com/java/ocr-component.aspx).
+
+<a href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">![Download the Examples Dashboard](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button.png "Download the Examples Dashboard")</a>
+<a href="https://github.com/asposeocr/Aspose_OCR_Java/archive/master.zip">&nbsp;![Download the Examples ZIP](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button.png "Download the Examples ZIP")</a>
 
 ##How to use the Examples?
 
