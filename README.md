@@ -1,3 +1,6 @@
+![Download the Examples Dashboard](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button.png)
+&nbsp;![Download the Examples ZIP](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button.png)
+		
 #Aspose.OCR for Java Examples Repository
 
 This package contains Java Example Projects for [Aspose.OCR for Java](http://www.aspose.com/java/ocr-component.aspx).
@@ -12,7 +15,10 @@ Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/communit
 
 ###With IDE
 
-Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
+Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly \\
+\
+\
+
 by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
 
 Also download the [latest version](http://www.aspose.com/community/files/72/java-components/aspose.ocr-for-java/default.aspx) of Aspose.OCR for Java and set/fix jar references.
