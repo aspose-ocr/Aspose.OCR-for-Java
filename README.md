@@ -1,4 +1,5 @@
-![Download the Examples Dashboard](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button.png "Download the Examples Dashboard")
+<a href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">![Download the Examples Dashboard](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button.png "Download the Examples Dashboard")</a>
+
 &nbsp;![Download the Examples ZIP](https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button.png "Download the Examples ZIP")
 #Aspose.OCR for Java Examples Repository
 
