@@ -12,6 +12,7 @@ import com.aspose.ocr.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 
 public class PerformOCROnImage
@@ -21,42 +22,34 @@ public class PerformOCROnImage
         // The path to the documents directory.
         String dataDir = "src/programmersguide/workingwithocr/performocronimage/data/";
 
-        // Set the paths
-        String imagePath = dataDir + "Sampleocr.bmp";
-        String resourcesFilePath = dataDir + "../../../../../../lib/resources.zip";
+        /// Set the paths
+        String imagePath = dataDir+ "Sampleocr.bmp";
+        String resourcesFolderPath = dataDir+ "resource.zip";
 
-        // Create an instance of OcrEngine class but providing required.
-        // parameters
+        // Create an instance of OcrEngine
         OcrEngine ocr = new OcrEngine();
+        // Set Resources for OcrEngine
+        ocr.setResource(new FileInputStream(resourcesFolderPath));
 
-        // Set image file.
+        // Set image file
         ocr.setImage(ImageStream.fromFile(imagePath));
 
-        // Set Resources for OcrEngine
-        ocr.setResource(new ZipFileStream(resourcesFilePath));
-
-        // Add language..
+        // Add language
         ILanguage language = Language.load("english");
         ocr.getLanguages().addLanguage(language);
 
-        // Set NeedRotationCorrection property to false
-        ocr.getConfig().setNeedRotationCorrection(false);
-
-        // Perform OCR and get extracted text.
+        // Perform OCR and get extracted text
         try {
             if (ocr.process()) {
                 System.out.println("\ranswer -> " + ocr.getText());
-                BufferedWriter out = new BufferedWriter(new FileWriter(dataDir + "Output.txt"));
-                out.write(ocr.getText().toString());
-                out.close();
-                System.out.println("OCR performed on Input Image successfully.");
             }
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("Error: " + e.getMessage());
         }
+
+    }
 
 
     }
-}
+
 
