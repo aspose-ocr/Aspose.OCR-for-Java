@@ -22,11 +22,7 @@ Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/communit
 
 ###With IDE
 
-Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly \\
-\
-\
-
-by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
+Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
 
 Also download the [latest version](http://www.aspose.com/community/files/72/java-components/aspose.ocr-for-java/default.aspx) of Aspose.OCR for Java and set/fix jar references.
 
@@ -62,7 +58,7 @@ Each example is runnable Java class with its own main method. You can run each e
 + **Product Home:** [Aspose.OCR for Java](http://www.aspose.com/categories/java-components/aspose.OCR-for-java/default.aspx)
 + **Download:** [Download Aspose.OCR for Java](http://www.aspose.com/community/files/72/java-components/aspose.OCR-for-java/default.aspx)
 + **Documentation:** [Aspose.OCR for Java Documentation](http://www.aspose.com/documentation/java-components/aspose.OCR-for-java/index.html)
-+ **Forum:** [Aspose.OCR for Java Forum](http://www.aspose.com/community/forums/aspose.OCR-product-family/19/showforum.aspx)
++ **Forum:** [Aspose.OCR for Java Forum](http://www.aspose.com/community/forums/aspose.ocr-product-family/493/showforum.aspx)
 + **Blog:** [Aspose.OCR for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-OCR-product-family.html)
  
 
