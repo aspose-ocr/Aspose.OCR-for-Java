@@ -1,4 +1,4 @@
-##Aspose.OCR for Java Examples Repository
+##Aspose.OCR for Java Examples
 
 This package contains Java Example Projects for [Aspose.OCR for Java](http://www.aspose.com/java/ocr-component.aspx).
 <br/><br/>
