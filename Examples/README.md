@@ -1,4 +1,4 @@
-# Aspose.OCR for Java
+# Aspose.OCR for Java Examples
 
 This directory contains examples for [Aspose.OCR for Java](http://www.aspose.com/java/ocr-component.aspx).
 
