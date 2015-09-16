@@ -1,0 +1,5 @@
+jar_dir: ../asposeocrjava/jars
+license_path: ../asposeocrjava/license/path
+jvm_args: -Xms512m -Xmx1G
+
+
