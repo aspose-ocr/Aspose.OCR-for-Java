@@ -12,7 +12,7 @@ Please navigate to:
 
 http://www.aspose.com/community/files/72/java-components/aspose.ocr-for-java/
 
-For most complete documentation of the project, check Aspose.Email Java for PHP confluence wiki link:
+For most complete documentation of the project, check Aspose.OCR Java for PHP confluence wiki link:
 
 http://www.aspose.com/docs/display/OCRJAVA/2.+Aspose.OCR+Java+For+PHP
 
@@ -25,4 +25,4 @@ http://www.aspose.com/docs/display/OCRJAVA/2.+Aspose.OCR+Java+For+PHP
 
 This project is also hosted and maintained at CodePlex. To clone navigate to: 
 
-* [Aspose.Email Java for PHP - click here](https://asposeocrjavaphp.codeplex.com/SourceControl/latest)
+* [Aspose.OCR Java for PHP - click here](https://asposeocrjavaphp.codeplex.com/SourceControl/latest)
