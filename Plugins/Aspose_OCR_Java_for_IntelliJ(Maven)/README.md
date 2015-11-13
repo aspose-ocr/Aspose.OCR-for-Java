@@ -34,6 +34,12 @@ For more info about the **Aspose.OCR for Java API**, please check the api docume
 
 For the complete documentation of this Intellij IDEA plugin, [please go through this wiki - click here](http://goo.gl/nTwBgf)
 
-## Looking for Aspose.OCR plugins for some other platform?
+## Download Latest Versions?
 
-Please check the following URL of "Aspose.OCR for Java" API GitHub repository, [Aspose.OCR for Java on GitHub - click here](https://github.com/asposeocr/Aspose_OCR_Java/tree/master/Plugins)
+* [Latest Releases on Codeplex](https://asposeocrjavaintellij.codeplex.com/releases)
+
+## Clone Plugin SourceCodes?
+
+This project is also hosted and maintained at CodePlex. To clone navigate to: 
+
+* [Aspose.OCR Java for IntelliJ Maven on CodePlex - click here](https://asposeocrjavaintellij.codeplex.com/SourceControl/latest)
