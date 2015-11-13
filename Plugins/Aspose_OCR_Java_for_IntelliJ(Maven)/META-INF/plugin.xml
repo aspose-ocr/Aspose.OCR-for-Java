@@ -1,0 +1,29 @@
+<!--
+  ~ @author Adeel Ilyas <adeel.ilyas@aspose.com>
+  -->
+<idea-plugin version="2">
+    <id>com.aspose.ocr.java.intellij.maven</id>
+    <name>Aspose.OCR Java for IntelliJ IDEA Maven</name>
+    <version>1.0.0.0</version>
+
+    <vendor email="ocr@aspose.com" url="http://www.aspose.com">Aspose Pty Ltd.</vendor>
+
+
+    <description><![CDATA[<br/><b>Aspose.OCR for Java</b> Aspose.OCR for Java is a character recognition API that allows developers to add OCR and OMR functionality in their Java based applications.<br/><br/>Aspose.OCR is aimed at developers who need to find text in image files. It allows developers to extract text from images quickly and easily, saving the time and effort involved in developing an OCR solution from scratch.<br/><br/>The plugin's <b>Aspose.OCR Maven Project</b> wizard lets you create a Aspose.OCR Java API maven project by fetching & referencing the latest API mvn artifact from the Aspose Cloud Maven Repository.<br/><br/>Plugin provided wizards also gives you option to download & import the example source codes for using Aspose.OCR for Java API.<br/><br/>After the completion of wizard, project will be created and API examples are downloaded. All references and required resources will also be automatically added to the project.<br/><br/>You can then import / use codes (using option <b>File-> New-> Aspose.OCR Example</b>) from downloaded examples for your project needs and enhance them as necessary.<br/>
+    ]]></description>
+
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="139"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <moduleBuilder builderClass="com.aspose.wizards.maven.AsposeMavenModuleBuilder"/>
+    </extensions>
+
+    <actions>
+        <action id="aspose.ocr.example" class="com.aspose.examples.AsposeExampleAction" text="Aspose.OCR Example" icon="/resources/asposeSmall.png"
+                description="Aspose.OCR Examples allow you to add Aspose sourcecode examples to demonstrate Aspose.OCR Java API usage. Available samples are displayed in tree format from where you can select one. Selected category examples will be added to current project including source files and required data files.">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
