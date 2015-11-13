@@ -6,7 +6,7 @@
  * "as is", without warranty of any kind, either expressed or implied.
  */
 
-package com.aspose.ocr.examples.WorkingWithOcr1;
+package com.aspose.ocr.examples.WorkingWithOcr;
 
 import com.aspose.ocr.*;
 import com.aspose.ocr.examples.Utils;
