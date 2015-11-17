@@ -1,13 +1,14 @@
 ﻿# Aspose.OCR Java for IntelliJ IDEA (Maven)
 
-The project is **Intellij IDEA (JetBrains Java IDE) maven plugin** facilitates java developer to comfortably work with Aspose.OCR for Java API within the IntelliJ IDEA.
+The project is **Intellij IDEA (JetBrains Java IDE) maven plugin** facilitates java developer to comfortably work with **Aspose.OCR for Java API** and utilize the API in Java Applications within the IntelliJ IDEA.
 
-Aspose.OCR for Java is a character recognition API that allows developers to add OCR and OMR functionality in their Java based applications.
+**Aspose.OCR for Java** is an optical character & marker recognition component allowing the programmers to add OCR & OMR technology into their Java applications quickly and easily. 
 
-Aspose.OCR is aimed at developers who need to find text in image files. It allows developers to extract text from images quickly and easily, saving the time and effort involved in developing an OCR solution from scratch. 
-The plugins is for those who wants to utilize / use **Aspose.OCR for Java API** in their java projects / applications.
+While **OMR** features can be used to process questionnaires, ballots, educational tests and ordering sheets, where the documents to be processed are filled in by hand, and scanned images of such forms are used for marker recognition.
 
-The plugin contains two wizards:
+The plugin is aimed at developers who are using IntelliJ IDEA and need to find text in image files. It allows developers to extract text from images quickly and easily, saving the time and efforts by creating Aspose.OCR for Java API enabled projects. The Project wizard also gives option to create the Example source codes for using the API effectively.
+
+The plugin comes with two useful wizards:
 
 1.  **Aspose-OCR Maven Project** Wizard - To create **Aspose.OCR for Java API** Maven project
 2.  **Aspose.OCR Examples** - To create / download **Aspose.OCR for Java API** Examples Source Codes (Which is meant to demonstrate the usages of the API)
