@@ -14,7 +14,7 @@ public class GetTextPartHierarchyofRecognizedText {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetTextPartHierarchyofRecognizedText.class);
+		String dataDir = Utils.getSharedDataDir(GetTextPartHierarchyofRecognizedText.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imageFileName = dataDir + "Sample1.jpg";
@@ -28,8 +28,7 @@ public class GetTextPartHierarchyofRecognizedText {
 			// Retrieve the first block of the recognized text part
 			IRecognizedTextPartInfo firstBlock = (IRecognizedTextPartInfo) ocrEngine.getText().getPartsInfo()[0];
 
-			// Get the children of the first block that will the the lines in
-			// the block
+			// Get the children of the first block that will the the lines in the block
 			IRecognizedPartInfo[] linesOfFirstBlock = firstBlock.getChildren();
 
 			// Retrieve the fist line from the collection of lines

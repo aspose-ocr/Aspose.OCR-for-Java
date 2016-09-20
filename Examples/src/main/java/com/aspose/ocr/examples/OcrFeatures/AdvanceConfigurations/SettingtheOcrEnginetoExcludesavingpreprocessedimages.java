@@ -13,7 +13,7 @@ public class SettingtheOcrEnginetoExcludesavingpreprocessedimages {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingtheOcrEnginetoExcludesavingpreprocessedimages.class);
+		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoExcludesavingpreprocessedimages.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

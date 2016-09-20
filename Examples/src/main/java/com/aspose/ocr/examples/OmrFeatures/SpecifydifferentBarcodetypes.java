@@ -9,7 +9,7 @@ import com.aspose.omr.elements.BarcodeElement;
 public class SpecifydifferentBarcodetypes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SpecifydifferentBarcodetypes
-		String dataDir = Utils.getDataDir(SpecifydifferentBarcodetypes.class);
+		String dataDir = Utils.getSharedDataDir(SpecifydifferentBarcodetypes.class) + "OmrFeatures/";
 
 		String templateFile = dataDir + "sample_1.amr";
 		String imageFile = dataDir + "sample1.jpg";

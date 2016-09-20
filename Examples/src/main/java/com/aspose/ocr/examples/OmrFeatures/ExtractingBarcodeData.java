@@ -15,7 +15,7 @@ import com.aspose.omr.elements.BarcodeElement;
 public class ExtractingBarcodeData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExtractingBarcodeData
-		String dataDir = Utils.getDataDir(ExtractingBarcodeData.class);
+		String dataDir = Utils.getSharedDataDir(ExtractingBarcodeData.class) + "OmrFeatures/";
 
 		String templateFile = dataDir + "sample_1.amr";
 		String imageFile = dataDir + "sample1.jpg";

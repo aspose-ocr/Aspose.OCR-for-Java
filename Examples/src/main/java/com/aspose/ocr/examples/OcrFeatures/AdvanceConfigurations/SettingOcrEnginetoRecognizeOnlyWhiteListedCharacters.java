@@ -22,7 +22,7 @@ public class SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters {
 		ocrConfig.setWhitelist(new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' });
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters.class);
+		String dataDir = Utils.getSharedDataDir(SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";
@@ -33,9 +33,7 @@ public class SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters {
 		// Call the Process method to retrieve the results
 		ocrEngine.process();
 
-		// Filtration can be done using different approaches such as by using
-		// the
-		// regular expressions as demonstrated below
+		// Filtration can be done using different approaches such as by using the regular expressions as demonstrated below
 
 		if (ocrEngine.process()) {
 			IRecognizedText text = ocrEngine.getText();

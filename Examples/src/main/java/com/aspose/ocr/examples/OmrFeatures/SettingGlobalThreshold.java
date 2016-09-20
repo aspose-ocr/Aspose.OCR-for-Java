@@ -11,7 +11,7 @@ public class SettingGlobalThreshold {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettingGlobalThreshold
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingGlobalThreshold.class);
+		String dataDir = Utils.getSharedDataDir(SettingGlobalThreshold.class) + "OmrFeatures/";
 		// Load template
 		OmrTemplate template = OmrTemplate.load(dataDir + "template.amr");
 

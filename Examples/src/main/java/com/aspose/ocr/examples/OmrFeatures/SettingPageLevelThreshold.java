@@ -12,7 +12,7 @@ public class SettingPageLevelThreshold {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettingPageLevelThreshold
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingPageLevelThreshold.class);
+		String dataDir = Utils.getSharedDataDir(SettingPageLevelThreshold.class) + "OmrFeatures/";
 		// Load template
 		OmrTemplate template = OmrTemplate.load(dataDir + "template.amr");
 

@@ -11,7 +11,7 @@ public class SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings.class);
+		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

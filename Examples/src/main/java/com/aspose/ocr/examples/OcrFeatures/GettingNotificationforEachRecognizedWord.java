@@ -15,7 +15,7 @@ public class GettingNotificationforEachRecognizedWord {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GettingNotificationforEachRecognizedWord.class);
+		String dataDir = Utils.getSharedDataDir(GettingNotificationforEachRecognizedWord.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imageFileName = dataDir + "Sample1.jpg";

@@ -12,7 +12,7 @@ public class ReadingPartInformation {
 		// Initialize an instance of OcrEngine
 		OcrEngine ocrEngine = new OcrEngine();
 
-		String dataDir = Utils.getDataDir(ReadingPartInformation.class);
+		String dataDir = Utils.getSharedDataDir(ReadingPartInformation.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

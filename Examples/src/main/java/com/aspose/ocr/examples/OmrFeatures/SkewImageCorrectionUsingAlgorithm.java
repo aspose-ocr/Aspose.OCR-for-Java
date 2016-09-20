@@ -13,7 +13,7 @@ public class SkewImageCorrectionUsingAlgorithm {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SkewImageCorrectionUsingAlgorithm
 		// Load image
-		String dataDir = Utils.getDataDir(SkewImageCorrectionUsingAlgorithm.class);
+		String dataDir = Utils.getSharedDataDir(SkewImageCorrectionUsingAlgorithm.class) + "OmrFeatures/";
 		OmrImage image = OmrImage.load(dataDir + "sample1.jpg");
 
 		// Use empty template or load any existing template
@@ -26,7 +26,7 @@ public class SkewImageCorrectionUsingAlgorithm {
 		engine.rotateImage(image, degree);
 
 		// Save image
-		File fileObj = new java.io.File(dataDir + "result.jpg");
+		File fileObj = new java.io.File(dataDir + "SkewImageCorrectionUsingAlgorithm_out.jpg");
 		ImageIO.write(image.asBitmap(), "jpg", fileObj);
 		// ExEnd:SkewImageCorrectionUsingAlgorithm
 	}

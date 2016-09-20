@@ -13,7 +13,7 @@ public class ExtractingOMRData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExtractingOMRData
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractingOMRData.class);
+		String dataDir = Utils.getSharedDataDir(ExtractingOMRData.class) + "OmrFeatures/";
 		// Initialize a string with template file location
 		String templateFile = dataDir + "template.amr";
 		// Initialize a string with scanned image file location

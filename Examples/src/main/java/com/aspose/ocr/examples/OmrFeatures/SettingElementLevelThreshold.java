@@ -15,7 +15,7 @@ public class SettingElementLevelThreshold {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettingElementLevelThreshold
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingElementLevelThreshold.class);
+		String dataDir = Utils.getSharedDataDir(SettingElementLevelThreshold.class) + "OmrFeatures/";
 		// Load template
 		OmrTemplate template = OmrTemplate.load(dataDir + "template.amr");
 

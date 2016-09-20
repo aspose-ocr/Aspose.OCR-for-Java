@@ -15,7 +15,7 @@ public class ExtractTextDatafromScannedOMRForm {
 
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractTextDatafromScannedOMRForm.class);
+		String dataDir = Utils.getSharedDataDir(ExtractTextDatafromScannedOMRForm.class) + "OmrFeatures/";
 
 		/// Set the paths
 		String imageFile = dataDir + "sample1.jpg";
