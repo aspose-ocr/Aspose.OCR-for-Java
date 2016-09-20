@@ -8,7 +8,7 @@ public class SkewImageCorrectionAlgorithm {
 	public static void main(String[] args) throws Exception {
 		
 		// Load image
-		String dataDir = Utils.getDataDir(SkewImageCorrectionAlgorithm.class);
+		String dataDir = Utils.getSharedDataDir(SkewImageCorrectionAlgorithm.class) + "OmrFeatures/";
 		com.aspose.omr.OmrImage image = com.aspose.omr.OmrImage.load(dataDir + "sample1.jpg");
 
 		// Area of the image to be processed
@@ -27,7 +27,7 @@ public class SkewImageCorrectionAlgorithm {
 		skewCorrection.process(image, area);
 
 		// save image
-		java.io.File fileObj = new java.io.File(dataDir + "result.jpg");
+		java.io.File fileObj = new java.io.File(dataDir + "SkewImageCorrectionAlgorithm_out.jpg");
 		ImageIO.write(image. asBitmap(), "jpg", fileObj);
 
 	}

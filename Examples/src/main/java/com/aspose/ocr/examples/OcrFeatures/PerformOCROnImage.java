@@ -9,7 +9,7 @@ public class PerformOCROnImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:PerformOCROnImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PerformOCROnImage.class);
+		String dataDir = Utils.getSharedDataDir(PerformOCROnImage.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

@@ -31,7 +31,7 @@ public class AddingUserDefinedRecognitionBlocks {
 		ocrEngine.getConfig().setDetectTextRegions(false);
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingUserDefinedRecognitionBlocks.class);
+		String dataDir = Utils.getSharedDataDir(AddingUserDefinedRecognitionBlocks.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";
@@ -48,8 +48,7 @@ public class AddingUserDefinedRecognitionBlocks {
 				System.out.println("Null");
 				continue;
 			}
-			// Display dimension & size of rectangle that defines the
-			// recognition block
+			// Display dimension & size of rectangle that defines the recognition block
 			System.out.println("Block" + block.getRectangle());
 
 			// Display the recognition results

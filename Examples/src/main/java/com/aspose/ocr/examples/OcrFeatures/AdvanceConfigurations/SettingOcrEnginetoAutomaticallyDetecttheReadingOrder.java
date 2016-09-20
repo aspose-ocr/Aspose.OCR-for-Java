@@ -11,7 +11,7 @@ public class SettingOcrEnginetoAutomaticallyDetecttheReadingOrder {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingOcrEnginetoAutomaticallyDetecttheReadingOrder.class);
+		String dataDir = Utils.getSharedDataDir(SettingOcrEnginetoAutomaticallyDetecttheReadingOrder.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

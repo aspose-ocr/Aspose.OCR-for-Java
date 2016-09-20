@@ -16,7 +16,7 @@ public class ApplyingCorrectionFilters {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ApplyingCorrectionFilters.class);
+		String dataDir = Utils.getSharedDataDir(ApplyingCorrectionFilters.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

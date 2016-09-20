@@ -8,7 +8,8 @@
 
 package com.aspose.ocr.examples.WorkingWithOcr;
 
-import com.aspose.ocr.*;
+import com.aspose.ocr.ImageStream;
+import com.aspose.ocr.OcrEngine;
 import com.aspose.ocr.examples.Utils;
 
 public class PerformOCROnImage
@@ -16,7 +17,7 @@ public class PerformOCROnImage
     public static void main(String[] args) throws Exception
     {
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir(PerformOCROnImage.class);
+        String dataDir = Utils.getSharedDataDir(PerformOCROnImage.class) + "WorkingWithOcr/";
 
         /// Set the paths
         String imagePath = dataDir + "Sampleocr.bmp";

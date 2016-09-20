@@ -12,7 +12,7 @@ public class WorkingwithDifferentLanguages {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(WorkingwithDifferentLanguages.class);
+		String dataDir = Utils.getSharedDataDir(ReadingPartInformation.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imageFileName = dataDir + "Sample1.jpg";
@@ -23,8 +23,7 @@ public class WorkingwithDifferentLanguages {
 		// Clear the default language (English)
 		ocrEngine.getLanguageContainer().clear();
 
-		// Load the resources of the language from file path location or an
-		// instance of InputStream
+		// Load the resources of the language from file path location or an instance of InputStream
 		ocrEngine.getLanguageContainer().addLanguage(LanguageFactory.load("LanguageResources.zip"));
 
 		// Process the image

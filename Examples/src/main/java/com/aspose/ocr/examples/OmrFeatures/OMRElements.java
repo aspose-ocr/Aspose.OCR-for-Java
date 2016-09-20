@@ -9,7 +9,7 @@ public class OMRElements {
 	public static void main(String[] args) throws Exception {
 		// ExStart:OMRElements
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OMRElements.class);
+		String dataDir = Utils.getSharedDataDir(OMRElements.class) + "OmrFeatures/";
 		// Initialize a string with file path to the template
 		String templateFile = dataDir + "template.amr";
 		// Create an instance of OmrTemplate and load the template

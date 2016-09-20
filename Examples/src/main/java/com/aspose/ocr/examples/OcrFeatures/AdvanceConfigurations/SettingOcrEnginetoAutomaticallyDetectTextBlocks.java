@@ -11,7 +11,7 @@ public class SettingOcrEnginetoAutomaticallyDetectTextBlocks {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingOcrEnginetoAutomaticallyDetectTextBlocks.class);
+		String dataDir = Utils.getSharedDataDir(SettingOcrEnginetoAutomaticallyDetectTextBlocks.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";

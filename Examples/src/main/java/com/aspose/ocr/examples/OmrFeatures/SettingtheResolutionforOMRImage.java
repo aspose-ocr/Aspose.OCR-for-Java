@@ -7,7 +7,7 @@ public class SettingtheResolutionforOMRImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettingtheResolutionforOMRImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingtheResolutionforOMRImage.class);
+		String dataDir = Utils.getSharedDataDir(SettingtheResolutionforOMRImage.class) + "OmrFeatures/";
 
 		// Load the image to be analyzed
 		OmrImage image = OmrImage.load(dataDir + "sample1.jpg");

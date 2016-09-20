@@ -13,7 +13,7 @@ public class DetectingtheImageResolution {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DetectingtheImageResolution
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DetectingtheImageResolution.class);
+		String dataDir = Utils.getSharedDataDir(DetectingtheImageResolution.class) + "OmrFeatures/";
 
 		// Load the image to be analyzed
 		OmrImage image = OmrImage.load(dataDir + "sample1.jpg");

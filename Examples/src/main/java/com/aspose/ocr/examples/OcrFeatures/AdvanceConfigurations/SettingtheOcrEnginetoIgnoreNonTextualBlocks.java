@@ -11,7 +11,7 @@ public class SettingtheOcrEnginetoIgnoreNonTextualBlocks {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingtheOcrEnginetoIgnoreNonTextualBlocks.class);
+		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoIgnoreNonTextualBlocks.class) + "OcrFeatures/";
 
 		/// Set the paths
 		String imagePath = dataDir + "Sample1.jpg";
