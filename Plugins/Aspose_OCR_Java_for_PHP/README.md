@@ -10,11 +10,11 @@ http://php-java-bridge.sourceforge.net/pjb/index.php
 To download Aspose.OCR for Java API to be used with these examples through PHP/Java Bridge
 Please navigate to:
 
-http://www.aspose.com/community/files/72/java-components/aspose.ocr-for-java/
+https://downloads.aspose.com/ocr/java
 
 For most complete documentation of the project, check Aspose.OCR Java for PHP confluence wiki link:
 
-http://www.aspose.com/docs/display/OCRJAVA/2.+Aspose.OCR+Java+For+PHP
+https://docs.aspose.com/display/OCRJAVA/2.1.1+Introduction+to+Aspose.OCR+Java+for+PHP
 
 
 ## Download Latest Versions?

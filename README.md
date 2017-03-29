@@ -1,6 +1,6 @@
 ## Aspose.OCR for Java
 
-This package contains Java example code for [Aspose.OCR for Java](http://www.aspose.com/java/ocr-component.aspx).
+This package contains Java example code for [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java).
 
 <p align="center">
   <a href="https://github.com/asposeocr/Aspose_OCR_Java/archive/master.zip">
@@ -17,9 +17,9 @@ Directory | Description
 ##  Resources
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.OCR for Java](http://www.aspose.com/categories/java-components/aspose.OCR-for-java/default.aspx)
-+ **Download:** [Download Aspose.OCR for Java](http://www.aspose.com/community/files/72/java-components/aspose.OCR-for-java/default.aspx)
-+ **Documentation:** [Aspose.OCR for Java Documentation](http://www.aspose.com/documentation/java-components/aspose.OCR-for-java/index.html)
-+ **Forum:** [Aspose.OCR for Java Forum](http://www.aspose.com/community/forums/aspose.ocr-product-family/493/showforum.aspx)
-+ **Blog:** [Aspose.OCR for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-OCR-product-family.html)
++ **Product Home:** [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java)
++ **Download:** [Download Aspose.OCR for Java](https://downloads.aspose.com/ocr/java)
++ **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com//display/OCRjava/Home)
++ **Forum:** [Aspose.OCR for Java Forum](https://www.aspose.com/community/forums/aspose.ocr-product-family/493/showforum.aspx)
++ **Blog:** [Aspose.OCR for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-OCR-product-family/)
  

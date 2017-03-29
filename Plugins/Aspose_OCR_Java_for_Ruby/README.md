@@ -9,13 +9,13 @@ Execute following command.
 
 To download Aspose.OCR for Java API to be used with these examples through RJB, Please navigate to:
 
-http://www.aspose.com/community/files/72/java-components/aspose.ocr-for-java/default.aspx
+https://downloads.aspose.com/ocr/java
 
 Note: Create jars folder at root of the gem folder and copy downloaded Aspose.OCR for java component into it.
 
 For most complete documentation of the project, check Aspose.OCR Java for Ruby confluence wiki link:
 
-http://www.aspose.com/docs/display/OCRJAVA/1.+Aspose.OCR+Java+For+Ruby
+https://docs.aspose.com/display/OCRJAVA/Aspose.OCR+Java+For+Ruby
 
 ## Usage
 
