@@ -17,7 +17,7 @@ Directory | Description
 
 ##  Resources
 
-+ **Website:** [www.aspose.com](http://www.aspose.com)
++ **Website:** [www.aspose.com](https://www.aspose.com/)
 + **Product Home:** [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java)
 + **Download:** [Download Aspose.OCR for Java](https://downloads.aspose.com/ocr/java)
 + **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com//display/OCRjava/Home)
