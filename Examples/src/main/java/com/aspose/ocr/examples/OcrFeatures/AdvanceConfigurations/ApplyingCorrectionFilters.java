@@ -37,10 +37,6 @@ public class ApplyingCorrectionFilters {
 		filter = new GaussBlurFilter();
 		filters.add(filter);
 
-		// Create Noise Removal filter
-		filter = new RemoveNoiseFilter();
-		filters.add(filter);
-
 		// Assign collection to OcrEngine
 		ocr.getConfig().setCorrectionFilters(filters);
 
