@@ -21,6 +21,6 @@ Directory | Description
 + **Product Home:** [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java)
 + **Download:** [Download Aspose.OCR for Java](https://downloads.aspose.com/ocr/java)
 + **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com//display/OCRjava/Home)
-+ **Forum:** [Aspose.OCR for Java Forum](https://www.aspose.com/community/forums/aspose.ocr-product-family/493/showforum.aspx)
++ **Forum:** [Aspose.OCR for Java Forum](https://forum.aspose.com/c/ocr)
 + **Blog:** [Aspose.OCR for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-OCR-product-family/)
  
