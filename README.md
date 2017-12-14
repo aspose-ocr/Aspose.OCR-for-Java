@@ -1,6 +1,6 @@
 ## Aspose.OCR for Java
 
-This repository contains [Examples](Examples) and [Plugins](Plugins) for [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java).
+This repository contains [Examples](Examples) and [Plugins](Plugins) for [Aspose.OCR for Java](https://products.aspose.com/ocr/java).
 
 <p align="center">
   <a href="https://github.com/asposeocr/Aspose_OCR_Java/archive/master.zip">

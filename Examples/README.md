@@ -1,6 +1,6 @@
 ## Aspose.OCR for Java Examples
 
-This directory contains examples for [Aspose.OCR for Java](https://www.aspose.com/products/ocr/java).
+This directory contains examples for [Aspose.OCR for Java](https://products.aspose.com/ocr/java).
 
 ## How to use the examples?
 
