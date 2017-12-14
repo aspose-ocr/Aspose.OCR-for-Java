@@ -26,10 +26,9 @@ The API is extensible, easy to use and compact. It provides common functionality
 
 Aspose.OCR is aimed at developers who need to find text in image files from within their own applications. It allows developers to extract text from images quickly and easily, saving the time and effort involved in developing an OCR solution from scratch.
 
-For more info about the **Aspose.OCR for Java API**, please check the api documentation urls:
+For more info about the **Aspose.OCR for Java API**, please check the api documentation url:
 
-* [http://www.aspose.com/java/ocr-component.aspx](http://www.aspose.com/java/ocr-component.aspx)
-* [http://www.aspose.com/java/ocr-component/key-features.aspx](http://www.aspose.com/java/ocr-component/key-features.aspx)
+* [https://products.aspose.com/ocr/java](https://products.aspose.com/ocr/java)
 
 ## Plugin Documentation
 
