@@ -14,13 +14,13 @@
         <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-ocr</artifactId>
-            <version>17.3</version>
+            <version>17.6</version>
         </dependency>
     </dependencies>
     <repositories>
         <repository>
             <id>aspose-maven-repository</id>
-            <url>http://maven.aspose.com/repository/repo/</url>
+            <url>http://artifact.aspose.com/repo/</url>
         </repository>
     </repositories>
 </project>
