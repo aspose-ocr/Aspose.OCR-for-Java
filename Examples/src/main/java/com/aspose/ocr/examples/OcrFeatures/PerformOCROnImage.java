@@ -9,21 +9,21 @@ public class PerformOCROnImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:PerformOCROnImage
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(PerformOCROnImage.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(PerformOCROnImage.class);
 
-		/// Set the paths
-		String imagePath = dataDir + "Sample1.jpg";
+		// The image path
+		String imagePath = dataDir + "Sampleocr.bmp";
 
 		// Create an instance of OcrEngine
 		OcrEngine ocr = new OcrEngine();
 
-		// Set image file
+		// Set the Image property
 		ocr.setImage(ImageStream.fromFile(imagePath));
 
 		// Perform OCR and get extracted text
 		try {
 			if (ocr.process()) {
-				System.out.println("\ranswer -> " + ocr.getText());
+				System.out.println(ocr.getText());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

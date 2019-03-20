@@ -15,12 +15,12 @@ public class GettingNotificationforEachRecognizedWord {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GettingNotificationforEachRecognizedWord.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(GettingNotificationforEachRecognizedWord.class);
 
-		/// Set the paths
-		String imageFileName = dataDir + "Sample1.jpg";
+		// The image path
+		String imageFileName = dataDir + "Sampleocr.bmp";
 
-		// Set image file
+		// Set the Image property
 		ocrEngine.setImage(ImageStream.fromFile(imageFileName));
 
 		final int[] totalWords = { 0 };
@@ -31,6 +31,7 @@ public class GettingNotificationforEachRecognizedWord {
 		processorWord.Elapsed.add(new NotifierHandler() {
 			public void invoke(Object sender, IRecognizedText recognizedText) {
 				totalWords[0]++;
+				System.out.println(recognizedText);
 			}
 		});
 

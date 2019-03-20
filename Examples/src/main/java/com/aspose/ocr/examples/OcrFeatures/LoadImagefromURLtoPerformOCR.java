@@ -10,7 +10,7 @@ public class LoadImagefromURLtoPerformOCR {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// Set the Image property by loading the image from remote location
-		ocrEngine.setImage(ImageStream.fromUrl("http://www.ece.rice.edu/~wakin/images/lena512.bmp"));
+		ocrEngine.setImage(ImageStream.fromUrl("https://blog.aspose.com/wp-content/uploads/sites/2/2019/03/SampleTextOnline.jpg"));
 
 		// Process the image
 		if (ocrEngine.process()) {

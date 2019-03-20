@@ -11,10 +11,10 @@ public class PerformingOCRonMultipageTIFF {
 		// Create an initialize an instance of OcrEngine
 		OcrEngine engine = new OcrEngine();
 
-		String dataDir = Utils.getSharedDataDir(PerformingOCRonMultipageTIFF.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(PerformingOCRonMultipageTIFF.class);
 
-		/// Set the paths
-		String imagePath = dataDir + "new.tiff";
+		// The image path
+		String imagePath = dataDir + "SampleTiff.tiff";
 
 		// Set the OcrEngine.Image property by loading a multipage TIFF from
 		// disk, memory or URL

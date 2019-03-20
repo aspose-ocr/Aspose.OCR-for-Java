@@ -22,10 +22,10 @@ public class SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters {
 		ocrConfig.setWhitelist(new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' });
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(SettingOcrEnginetoRecognizeOnlyWhiteListedCharacters.class);
 
-		/// Set the paths
-		String imagePath = dataDir + "Sample1.jpg";
+		// The image path
+		String imagePath = dataDir + "SampleNumbers.jpg";
 
 		// Set Image property by loading an image from file path
 		ocrEngine.setImage(ImageStream.fromFile(imagePath));

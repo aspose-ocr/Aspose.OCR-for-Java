@@ -12,10 +12,10 @@ public class WorkingwithDifferentLanguages {
 		OcrEngine ocrEngine = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ReadingPartInformation.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(ReadingPartInformation.class);
 
-		/// Set the paths
-		String imageFileName = dataDir + "Sample1.jpg";
+		// The image path
+		String imageFileName = dataDir + "SpanishOCR.bmp";
 
 		// Set the Image property by loading the image from file path location
 		ocrEngine.setImage(ImageStream.fromFile(imageFileName));
@@ -24,7 +24,7 @@ public class WorkingwithDifferentLanguages {
 		ocrEngine.getLanguageContainer().clear();
 
 		// Load the resources of the language from file path location or an instance of InputStream
-		ocrEngine.getLanguageContainer().addLanguage(LanguageFactory.load("LanguageResources.zip"));
+		ocrEngine.getLanguageContainer().addLanguage(LanguageFactory.load(dataDir + "Aspose.OCR.Spanish.Resources.zip"));
 
 		// Process the image
 		if (ocrEngine.process()) {

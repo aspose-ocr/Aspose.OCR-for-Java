@@ -11,10 +11,10 @@ public class SettingtheOcrEnginetoIgnoreNonTextualBlocks {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoIgnoreNonTextualBlocks.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoIgnoreNonTextualBlocks.class);
 
-		/// Set the paths
-		String imagePath = dataDir + "Sample1.jpg";
+		// The image path
+		String imagePath = dataDir + "Sampleocr.bmp";
 
 		// Set Image property by loading an image from file path
 		ocr.setImage(ImageStream.fromFile(imagePath));
@@ -22,6 +22,7 @@ public class SettingtheOcrEnginetoIgnoreNonTextualBlocks {
 		// Set the RemoveNonText to true
 		ocr.getConfig().setRemoveNonText(true);
 		// Perform OCR operation
+		
 		if (ocr.process()) {
 			// Display results
 			System.out.println(ocr.getText());

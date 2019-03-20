@@ -11,10 +11,10 @@ public class SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings {
 		OcrEngine ocr = new OcrEngine();
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings.class) + "OcrFeatures/";
+		String dataDir = Utils.getSharedDataDir(SettingtheOcrEnginetoAutomaticallyCorrecttheSpellings.class);
 
-		/// Set the paths
-		String imagePath = dataDir + "Sample1.jpg";
+		// The image path
+		String imagePath = dataDir + "SampleSpellingCorrection.jpg";
 
 		// Set Image property by loading an image from file path
 		ocr.setImage(ImageStream.fromFile(imagePath));
