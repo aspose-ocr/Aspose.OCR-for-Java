@@ -10,7 +10,7 @@ import com.aspose.pdf.devices.Resolution;
 public class PerformOCROnPDF {
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:PerformOCROnImage
+		// ExStart:PerformOCROnPDF
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PerformOCROnPDF.class);
 
@@ -44,6 +44,6 @@ public class PerformOCROnPDF {
                 System.out.println(ocrEngine.getText());
             }
 		}
-		// ExEnd:PerformOCROnImage
+		// ExEnd:PerformOCROnPDF
 	}
 }

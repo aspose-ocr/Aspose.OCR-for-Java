@@ -59,5 +59,6 @@ public class AddingUserDefinedRecognitionBlocks {
 				System.out.println("Text: " + textPartInfo.getText());
 			}
 		}
+		// ExEnd:AddingUserDefinedRecognitionBlocks
 	}
 }
