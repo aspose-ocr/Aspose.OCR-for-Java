@@ -36,4 +36,4 @@ Please find more details for how to run the examples [here](https://docs.aspose.
 * **Download:** [Download Aspose.OCR for Java](https://downloads.aspose.com/ocr/java)
 * **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com//display/OCRjava/Home)
 * **Forum:** [Aspose.OCR for Java Forum](https://forum.aspose.com/c/ocr)
-* **Blog:** [Aspose.OCR for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-OCR-product-family/)
+* **Blog:** [Aspose.OCR for Java Blog](https://blog.aspose.com/category/ocr/)
