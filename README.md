@@ -25,7 +25,7 @@ Directory | Description
 * Open the project in your selected IDE.
 * Open the example file that you want to run.
 * Run the file in your IDE (method may vary depending on the IDE you use).
-* Data folder at the root folder of Examples contains input files used in the examples. It is mandatory that you download the Data folder along with the examples project.
+* resources folder in Examples/src/main folder contains input files used in the examples. It is mandatory that you download this folder along with the examples project.
 
 Please find more details for how to run the examples [here](https://docs.aspose.com/display/OCRJAVA/How+to+Use+the+Examples).
 
