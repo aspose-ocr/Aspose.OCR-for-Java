@@ -1,8 +1,8 @@
 # Aspose.OCR for Java
 
-[Aspose.OCR for Java](https://products.aspose.com/ocr/java) is a character and optical mark recognition API that allows developers to add OCR and OMR functionality in their ASP.NET web applications, web services and Windows applications without requiring any additional tool or API. It provides a simple set of classes for controlling character recognition.
+[Aspose.OCR for Java](https://products.aspose.com/ocr/java) is a character and optical mark recognition API that allows developers to add OCR functionality in their applications. It provides a simple set of classes for controlling character recognition.
 
-This repository contains [Examples](Examples) and Showcase projects for [Aspose.OCR for Java](https://products.aspose.com/ocr/java) to help you learn and write your own applications.
+This repository contains [Examples](Examples) and [Plugins](Plugins) projects for [Aspose.OCR for Java](https://products.aspose.com/ocr/java) to help you learn and write your own applications.
 
 <p align="center">
   <a href="https://github.com/asposeocr/Aspose_OCR_Java/archive/master.zip">
