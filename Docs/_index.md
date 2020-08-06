@@ -9,7 +9,7 @@ url: /java/
 
 ![Aspose.OCR for Java Product Logo](home_1.png)
 
-**Welcome to the Aspose.OCR for Java_develop_test6** 
+**Welcome to the Aspose.OCR for Java_develop_test7** 
 
 Aspose.OCR for Java is an optical character API that allows developers to add OCR functionality to their Java applications without requiring any additional tool or API. Aspose.OCR for Java allows extracting text from images having different fonts and styles - saving the time and effort involved in developing an OCR solution from scratch.
 
