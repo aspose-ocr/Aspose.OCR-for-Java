@@ -1,0 +1,176 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Install Aspose.Pdf for SharePoint</title>
+    <link>https://docs.aspose.com/pdf/sharepoint/install-aspose-pdf-for-sharepoint/</link>
+    <description>Recent content in Install Aspose.Pdf for SharePoint on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/sharepoint/install-aspose-pdf-for-sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: System Requirements</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/system-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/system-requirements/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;server-requirements&#34;&gt;&lt;strong&gt;Server Requirements&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To install Aspose.PDF for SharePoint you need a computer running Microsoft SharePoint Server 2010.&lt;/p&gt;
+&lt;h3 id=&#34;client-requirements&#34;&gt;&lt;strong&gt;Client Requirements&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You need a browser to access SharePoint sites. Aspose.PDF for SharePoint has been tested with the following browsers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Internet Explorer 8&lt;/li&gt;
+&lt;li&gt;Mozilla FireFox 3.5&lt;/li&gt;
+&lt;li&gt;Google Chrome 3&lt;/li&gt;
+&lt;li&gt;Safari 4&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Installing Aspose.Pdf for SharePoint</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/installing-aspose-pdf-for-sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/installing-aspose-pdf-for-sharepoint/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for SharePoint is downloadable as Aspose.PDF.SharePoint.zip archive.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;This archive contains:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aspose.PDF.SharePoint.wsp
+SharePoint solution file. Aspose.PDF for SharePoint is packaged as a SharePoint solution to facilitate deployment/retraction and feature activation/deactivation across the server farm.&lt;/li&gt;
+&lt;li&gt;Aspose_LicenseAgreement.rtf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;End user license agreement:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aspose.PDF for SharePoint.pdf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;User documentation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aspose.PDF for SharePoint Documentation.chm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;User documentation with Public API reference:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;setup.exe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Setup program:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;setup.exe.config&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Setup configuration file:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The setup program checks the following conditions before proceeding:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharePoint 2010 is installed.&lt;/li&gt;
+&lt;li&gt;The user has permission to install SharePoint solutions.&lt;/li&gt;
+&lt;li&gt;SharePoint database is online.&lt;/li&gt;
+&lt;li&gt;SharePoint Administration service is started.&lt;/li&gt;
+&lt;li&gt;SharePoint Timer service is started. SharePoint Administration service and Timer service are needed because some setup actions rely on a timer job to propagate to all servers in the server farm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;To install Aspose.PDF for SharePoint:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unpack Aspose.PDF.SharePoint zip to the local drive.&lt;/li&gt;
+&lt;li&gt;Run setup.exe and follow the instructions on the screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The setup program performs the following actions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check installation prerequisites. Setup will not continue if any check fails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;installing-aspose-pdf-for-sharepoint_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Display End User License Agreement. The user must accept the agreement in order to proceed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;installing-aspose-pdf-for-sharepoint_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Display deployment target selection dialog. The user selects web applications and site collections where the feature shall be activated. See the figure below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;installing-aspose-pdf-for-sharepoint_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deploy the feature to the server farm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;installing-aspose-pdf-for-sharepoint_4.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Activate the feature for the selected site collections and configure their parent web applications.&lt;/li&gt;
+&lt;li&gt;Display a list of web applications and site collections where the feature has been deployed and activated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;installing-aspose-pdf-for-sharepoint_5.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: More installation details</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/more-installation-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/more-installation-details/</guid>
+      <description>
+        
+        
+        &lt;h5 id=&#34;deployment-hahahugoshortcode-s0-hbhb&#34;&gt;&lt;strong&gt;Deployment 
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for SharePoint performs the following actions during deployment: Install Aspose.PDF.SharePoint.dll into Global Assembly Cache and add SafeControl entry to the web.config file. Install feature manifest and other necessary files to the appropriate directories. Register the feature in the SharePoint database and make it available for the activation at the feature scope.
+&lt;/div&gt;
+&lt;/strong&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;activation-asposepdf-for-sharepoint-is-packaged-as-a-site-site-collection-level-feature-and-can-be-activated-and-deactivated-on-site-collections-during-activation-the-feature-makes-some-changes-to-the-virtual-directory-of-the-parent-web-application-of-the-site-collection-add-conversion-settings-page-to-the-sitemap-file-copy-necessary-resource-files-to-the-app_globalresources-folder-in-the-virtual-directory&#34;&gt;&lt;strong&gt;Activation Aspose.PDF for SharePoint is packaged as a site (site collection) level feature and can be activated and deactivated on site collections. During activation, the feature makes some changes to the virtual directory of the parent web application of the site collection: Add conversion settings page to the sitemap file. Copy necessary resource files to the App_GlobalResources folder in the virtual directory.&lt;/strong&gt;&lt;/h5&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Activation and Deactivation after installation</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/activation-and-deactivation-after-installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/activation-and-deactivation-after-installation/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+During installation, Aspose.PDF for SharePoint is activated for all selected site collections. After installation, you can use Site Actions menu at the root web site of a site collection to activate and deactivate Aspose.PDF for SharePoint.
+&lt;/div&gt;
+
+&lt;h5 id=&#34;activating-asposepdf-for-sharepoint-on-a-site-collection-todoimage_alt_textactivation-and-deactivation-after-installation_1png&#34;&gt;&lt;code&gt; &lt;/code&gt;&lt;strong&gt;Activating Aspose.PDF for SharePoint on a site collection &lt;img src=&#34;activation-and-deactivation-after-installation_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Uninstalling Aspose.Pdf for SharePoint</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To uninstall Aspose.PDF for SharePoint, just run the setup program. If Aspose.PDF for SharePoint is already installed, the setup program suggests removing it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;uninstalling-aspose-pdf-for-sharepoint_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;During un-installation the setup program deactivates Aspose.PDF for SharePoint feature for all site collections and retracts the solution from the server farm.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

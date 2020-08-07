@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2017</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/release-notes-2017/</link>
+    <description>Recent content in Release Notes - 2017 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/release-notes-2017/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Aspose.Pdf for Reporting Services 17.1.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-17-1-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-17-1-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We are very much excited to announce the release of Aspose.PDF for Reporting Services 17.1.0 with new features set.&lt;/p&gt;
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFRS-33354&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Export output in EPUB format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

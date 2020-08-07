@@ -1,0 +1,115 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Plugins</title>
+    <link>https://docs.aspose.com/pdf/net/plugins/</link>
+    <description>Recent content in Plugins on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/plugins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF .NET for DNN</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-dnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-dnn/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section has the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/dnn-pdf-import-module&#34;&gt;DNN PDF Import Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF .NET for Umbraco</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-umbraco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-umbraco/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section has the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/umbraco-pdf-import-module/&#34;&gt;Umbraco PDF Import Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF .NET for VisualStudio</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-visualstudio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-visualstudio/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section has the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/visual-studio-export-gridview-to-pdf-control/&#34;&gt;Visual Studio Export GridView To PDF Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/aspose-pdf-visual-studio-plugin/&#34;&gt;Aspose.PDF Visual Studio Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF .NET for CRM</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-crm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-crm/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;inswhat-is-microsoft-dynamics-crmins&#34;&gt;&lt;strong&gt;&lt;ins&gt;What is Microsoft Dynamics CRM?&lt;ins/&gt;&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Microsoft Dynamics CRM is a customer relationship management software package developed by Microsoft. Out of the box, the product focuses mainly on Sales, Marketing, and Service (help desk) sectors, but Microsoft has been marketing Dynamics CRM as an XRM platform and has been encouraging partners to use its proprietary (.NET based) framework to customize it. It is part of the Microsoft Dynamics family of business applications.&lt;/p&gt;
+&lt;p&gt;Dynamics CRM is a server-client application, which, like Microsoft SharePoint, is primarily an IIS-based web application which also supports extensive web services interfaces. Clients access Dynamics CRM either by using a Browser or by a thick client plug-in to Microsoft Outlook.&lt;/p&gt;
+&lt;h1 id=&#34;insasposepdf-for-netins&#34;&gt;&lt;strong&gt;&lt;ins&gt;Aspose.PDF for .NET&lt;ins/&gt;&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Aspose.PDF for .NET is a PDF document creation and manipulation component that enables your .NET applications to read, write and manipulate existing PDF documents without using Adobe Acrobat.
+For more details about Aspose.PDF for .NET API&lt;/p&gt;
+&lt;h1 id=&#34;insasposepdf-for-crmins&#34;&gt;&lt;strong&gt;&lt;ins&gt;Aspose.PDF for CRM&lt;ins/&gt;&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Aspose .NET can be used with Dynamics CRM in multiple ways. When you are working with documents, either it is document generation or document processing, you need to look at the Aspose APIs which can deliver quick results with minimum lines of code. Checkout our add-on examples below, these add-on will help you using Aspose in your application.&lt;/p&gt;
+&lt;p&gt;We have created the following plugins for CRM using Aspose.PDF&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/oneclick-pdf-document-generator/&#34;&gt;OneClick PDF Document Generator&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/using-oneclick-pdf-document-generator/&#34;&gt;Using OneClick PDF Document Generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF .NET for Sitefinity</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-sitefinity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-sitefinity/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section has the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/sitefinity-pdf-import/&#34;&gt;Sitefinity PDF Import&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

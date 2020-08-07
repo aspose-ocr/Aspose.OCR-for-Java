@@ -1,0 +1,133 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Stamps and Watermarks</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks/</link>
+    <description>Recent content in Working with Stamps and Watermarks on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Adding Stamp in a PDF file</title>
+      <link>https://docs.aspose.com/pdf/java/adding-stamp-in-a-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/adding-stamp-in-a-pdf-file/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadd-page-number-stamp-in-a-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Page Number Stamp in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PageNumberStamp&#34;&gt;PageNumberStamp&lt;/a&gt; class to add a page number stamp in a PDF document. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PageNumberStamp&#34;&gt;PageNumberStamp&lt;/a&gt; class provides methods to create a page number based stamp like format, margins, alignments, starting number etc. In order to add page number stamp, you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object and a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PageNumberStamp&#34;&gt;PageNumberStamp&lt;/a&gt; object with required properties. After that, you can call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp(..)&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; class to add the stamp in PDF file. You can also set the font attributes of the page number stamp.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add page numbers in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-AddPageNumberStampInPDF-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insadd-text-stamp-in-a-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Text Stamp in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java provides &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class to add a text stamp in a PDF file. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class provides necessary methods to specify font size, font style, and font color etc for stamp object. In order to add text stamp, first you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object and a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; object using required methods. After that, you may call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp(..)&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; class to add the stamp in the PDF document.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add text stamp in the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdf-StampsAndWatermarks-AddingTextStampInPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;In order to add Text stamp on all pages, please iterate through all pages and add call [&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp&lt;/a&gt;](textStamp) method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdf-StampsAndWatermarks-AddingTextStampInPDFFile-InfoClass.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;define-alignment-for-textstamp-object&#34;&gt;&lt;strong&gt;Define alignment for TextStamp object&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Adding watermarks to PDF documents is one of the frequent demanded features and Aspose.PDF for Java is fully capable of adding Image as well as Text watermarks. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class provides the feature to add text stamps over the PDF file. Recently there has been a requirement to support the feature to specify the alignment of text when using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; object. So in order to fulfill this requirement, we have introduced setTextAlignment(..) method in &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class. By using this method, you can specify the Horizontal text alignment.&lt;/p&gt;
+&lt;p&gt;The following code snippets shows an example on how to load an existing PDF document and add &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; over it.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-DefineAlignmentForTextStampObject-.java&#34;&gt;&lt;/script&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;img src=&#34;http://i.imgur.com/qfLATYl.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Figure: Output PDF file displaying stamp alignment feature&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;insadd-image-stamp-in-a-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Image Stamp in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/ImageStamp&#34;&gt;ImageStamp&lt;/a&gt; class to add an image as a stamp in PDF document. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/ImageStamp&#34;&gt;ImageStamp&lt;/a&gt; class provides methods to specify height, width, and opacity etc. In order to add image stamp, first you need to create a &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object and an &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/ImageStamp&#34;&gt;ImageStamp&lt;/a&gt; object with required properties. After that, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp(..)&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; class to add the stamp in the PDF.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add image stamp in the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-AddingImageStampInPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;control-image-quality-when-adding-image-stamp&#34;&gt;&lt;strong&gt;Control Image Quality when Adding Image Stamp&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/ImageStamp&#34;&gt;ImageStamp&lt;/a&gt; class lets you add an image as a stamp in a PDF document. It also allows you to control the image quality when adding an image as a watermark in a PDF file. To allow this, a method named setQuality(&amp;hellip;) has been added to the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/ImageStamp&#34;&gt;ImageStamp&lt;/a&gt; class. A similar method can also be found in the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Stamp&#34;&gt;Stamp&lt;/a&gt; class of the com.aspose.pdf.facades package. Please note that possible values for this method are (0..100).&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to control image quality when adding as stamp in the PDF file.&lt;/p&gt;
+&lt;h4 id=&#34;dom-approach&#34;&gt;&lt;strong&gt;DOM approach&lt;/strong&gt;&lt;/h4&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-ControlImageQualityWhenAddingImageStamp-DOMApproch.java&#34;&gt;&lt;/script&gt;
+
+&lt;h4 id=&#34;facades-approach&#34;&gt;&lt;strong&gt;Facades approach&lt;/strong&gt;&lt;/h4&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-ControlImageQualityWhenAddingImageStamp-FacadesApproach.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insadd-pdf-page-stamp-in-a-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add PDF Page Stamp in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PdfPageStamp&#34;&gt;PdfPageStamp&lt;/a&gt; class to add a PDF page as stamp in a PDF file. &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PdfPageStamp&#34;&gt;PdfPageStamp&lt;/a&gt; class provides properties necessary to create a PDF page based stamp. You can pass a particular page of any PDF file to the constructor of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PdfPageStamp&#34;&gt;PdfPageStamp&lt;/a&gt; class. In order to add page based stamp, you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object and a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PdfPageStamp&#34;&gt;PdfPageStamp&lt;/a&gt; object using required properties. After that, you can call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; to add the stamp in the PDF. The following code snippet shows you how to add PDF page stamp in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-AddingPDFPageStampInThePDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insadd-image-stamp-as-background-in-floating-box&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Image Stamp as Background in Floating Box&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF API lets you add image stamp as background in a floating box. The BackgroundImage property of FloatingBox class can be used to set the background image stamp for a floating box as shown in following code sample.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-StampsAndWatermarks-AddImageStampAsBackgroundInFloatingBox-AddImageStampAsBackgroundInFloatingBox.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Text Stamp in the Header or Footer section of the PDF file</title>
+      <link>https://docs.aspose.com/pdf/java/add-text-stamp-in-the-header-or-footer-section-of-the-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-text-stamp-in-the-header-or-footer-section-of-the-pdf-file/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadding-different-headers-in-one-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Adding different Headers in one PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We know that we can add &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; in the Header/Footer section of the document by using TopMargin or BottomMargin properties, but sometimes we may have the requirement to add multiple headers/footers in a single PDF document. In order to accomplish this requirement, we will create individual &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; objects (number of objects depends upon the number of Header/Footers required) and will add them to PDF document. We may also specify different formatting information for individual stamp object. In the following example, we have created a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object and three &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; objects and then we have used &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp(&amp;hellip;)&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; to add the text in the header section of the PDF.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add an image in the footer of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-AddingDifferentHeadersInOnePDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insadding-text-in-header-or-footer-of-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Adding Text in Header or Footer of PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class is used to add text in PDF documents. We can also use the same class to add text in the Header/Footer area of PDF file. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; class provides necessary methods to specify font size, font style, and font color, etc for stamp object. In order to add text in the Header area, first, you need to create a &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object and a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/TextStamp&#34;&gt;TextStamp&lt;/a&gt; object using the required methods. After that, you can call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#addStamp-com.aspose.pdf.Stamp-&#34;&gt;addStamp(&amp;hellip;)&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; class to add text in the PDF file.&lt;/p&gt;
+&lt;p&gt;Please note that when placing text in the Header section, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Stamp#setTopMargin-double-&#34;&gt;setTopMargin(..)&lt;/a&gt; in such a way that it adjusts the text in the header area of your PDF. Similarly, when placing text in Footer section, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Stamp#setBottomMargin-double-&#34;&gt;setBottomMargin(..)&lt;/a&gt; in such a way that it adjusts to the text in Footer area.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When adding a stamp object in the Header section, you also need to set &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/VerticalAlignment&#34;&gt;VerticalAlignment&lt;/a&gt; to &lt;strong&gt;Top&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;When adding a stamp object in the Footer section, you also need to set &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/VerticalAlignment&#34;&gt;VerticalAlignment&lt;/a&gt; to &lt;strong&gt;Bottom&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows you how to add text in the header of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-stampsandwatermarks-AddingTextInHeaderOrFooterOfPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Extract Text From Stamps</title>
+      <link>https://docs.aspose.com/pdf/java/extract-text-from-stamps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/extract-text-from-stamps/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insextract-text-from-stamp-annotations&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Text from Stamp Annotations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java lets you extract text from stamp annotations. In order to extract text from Stamp Annotations in a PDF, the following steps can be used.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a Document class object&lt;/li&gt;
+&lt;li&gt;Get the desired Annotation from list of annotations of a page&lt;/li&gt;
+&lt;li&gt;Define a new object of TextAbsorber class&lt;/li&gt;
+&lt;li&gt;Use the TextAbsorber&amp;rsquo;s visit method to get the Text&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-StampsAndWatermarks-ExtractTextFromStampAnnotation-ExtractTextFromStampAnnotation.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

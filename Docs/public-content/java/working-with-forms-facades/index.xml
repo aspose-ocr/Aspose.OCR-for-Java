@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Forms - facades</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-forms-facades/</link>
+    <description>Recent content in Working with Forms - facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-forms-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Import Data into a PDF File - facades</title>
+      <link>https://docs.aspose.com/pdf/java/import-data-into-a-pdf-file-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/import-data-into-a-pdf-file-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insimport-data-from-xml-into-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Import Data from XML into a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class allows you to import data from an XML file to the PDF file using importXml method. In order to import data from XML, you need to create an object of Form class and then call the importXml method using the FileInputStream object. Finally, you can save the PDF file using save method of the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=ImportDataFromXmlInToPdf.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insimport-data-from-fdf-into-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Import Data from FDF into a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class allows you to import data from an FDF file to the PDF file using importFdf method. In order to import data from FDF, you need to create an object of &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class and then call the importFdf method using the FileInputStream object. Finally, you can save the PDF file using save method of the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=ImportDataFromFDFIntoPDF.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insimport-data-from-xfdf-into-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Import Data from XFDF into a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class allows you to import data from an XFDF file to the PDF file using importXfdf method. In order to import data from XFDF, you need to create an object of &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/Form&#34;&gt;Form&lt;/a&gt; class and then call the importXfdf method using the FileInputStream object. Finally, you can save the PDF file using save method of the Form class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=ImportDataFromXFDFInToPDF.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

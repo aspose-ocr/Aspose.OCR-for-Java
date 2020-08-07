@@ -1,0 +1,414 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Document Object in PHP</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-document-object-in-php/</link>
+    <description>Recent content in Working with Document Object in PHP on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-document-object-in-php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Adding JavaScript in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/adding-javascript-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/adding-javascript-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---adding-javascript&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Adding JavaScript&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To add JavaScript in Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;AddJavaScript&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Adding JavaScript at Document Level
+# Instantiate JavascriptAction with desried JavaScript statement
+$javaScript = new JavascriptAction(&amp;quot;this.print({bUI:true,bSilent:false,bShrinkToFit:true});&amp;quot;);
+
+# Assign JavascriptAction object to desired action of Document
+$doc-&amp;gt;setOpenAction($javaScript);
+
+# Adding JavaScript at Page Level
+$doc-&amp;gt;getPages()-&amp;gt;get_Item(2)-&amp;gt;getActions()-&amp;gt;setOnOpen(new JavascriptAction(&amp;quot;app.alert(&#39;page 2 is opened&#39;)&amp;quot;));
+$doc-&amp;gt;getPages()-&amp;gt;get_Item(2)-&amp;gt;getActions()-&amp;gt;setOnClose(new JavascriptAction(&amp;quot;app.alert(&#39;page 2 is closed&#39;)&amp;quot;));
+
+# Save PDF Document
+$doc-&amp;gt;save($dataDir . &amp;quot;JavaScript-Added.pdf&amp;quot;);
+
+print &amp;quot;Added JavaScript Successfully, please check the output file.&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Adding JavaScript (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/AddJavascript.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add TOC to Existing PDF in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/add-toc-to-existing-pdf-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-toc-to-existing-pdf-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---add-toc&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Add TOC&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To add TOC in Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;AddToc&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Get access to first page of PDF file
+$toc_page = $doc-&amp;gt;getPages()-&amp;gt;insert(1);
+
+# Create object to represent TOC information
+$toc_info = new TocInfo();
+$title = new TextFragment(&amp;quot;Table Of Contents&amp;quot;);
+$title-&amp;gt;getTextState()-&amp;gt;setFontSize(20);
+#title.getTextState().setFontStyle(Rjb::import(&#39;com.aspose.pdf.FontStyles.Bold&#39;))
+
+# Set the title for TOC
+$toc_info-&amp;gt;setTitle($title);
+$toc_page-&amp;gt;setTocInfo($toc_info);
+
+# Create string objects which will be used as TOC elements
+$titles = array(&amp;quot;First page&amp;quot;, &amp;quot;Second page&amp;quot;);
+
+$i = 0;
+while ($i &amp;lt; 2){
+
+    # Create Heading object
+    $heading2 = new Heading(1);
+
+    $segment2 = new TextSegment();
+    $heading2-&amp;gt;setTocPage($toc_page);
+    $heading2-&amp;gt;getSegments()-&amp;gt;add($segment2);
+
+    # Specify the destination page for heading object
+    $heading2-&amp;gt;setDestinationPage($doc-&amp;gt;getPages()-&amp;gt;get_Item($i + 2));
+
+    # Destination page
+    $heading2-&amp;gt;setTop($doc-&amp;gt;getPages()-&amp;gt;get_Item($i + 2)-&amp;gt;getRect()-&amp;gt;getHeight());
+
+    # Destination coordinate
+    $segment2-&amp;gt;setText($titles[$i]);
+
+    # Add heading to page containing TOC
+    $toc_page-&amp;gt;getParagraphs()-&amp;gt;add($heading2);
+
+    $i +=1;
+
+}
+
+# Save PDF Document
+$doc-&amp;gt;save($dataDir . &amp;quot;TOC.pdf&amp;quot;);
+
+print &amp;quot;Added TOC Successfully, please check the output file.&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Add TOC (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/AddToc.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Document Window and Page Display Properties in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/get-document-window-and-page-display-properties-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-document-window-and-page-display-properties-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---get-document-window-and-page-display-properties&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Get Document Window and Page Display Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To Get Document Window and Page Display Properties of Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;GetDocumentWindow&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Get different document properties
+# Position of document&#39;s window - Default: false
+print &amp;quot;CenterWindow :- &amp;quot; . $doc-&amp;gt;getCenterWindow() . PHP_EOL;
+
+# Predominant reading order; determine the position of page
+# when displayed side by side - Default: L2R
+print &amp;quot;Direction :- &amp;quot; . $doc-&amp;gt;getDirection() . PHP_EOL;
+
+# Whether window&#39;s title bar should display document title.
+# If false, title bar displays PDF file name - Default: false
+print &amp;quot;DisplayDocTitle :- &amp;quot; . $doc-&amp;gt;getDisplayDocTitle() . PHP_EOL;
+
+#Whether to resize the document&#39;s window to fit the size of
+#first displayed page - Default: false
+print &amp;quot;FitWindow :- &amp;quot; . $doc-&amp;gt;getFitWindow() . PHP_EOL;
+
+# Whether to hide menu bar of the viewer application - Default: false
+print &amp;quot;HideMenuBar :-&amp;quot; . $doc-&amp;gt;getHideMenubar() . PHP_EOL;
+
+# Whether to hide tool bar of the viewer application - Default: false
+print &amp;quot;HideToolBar :-&amp;quot; . $doc-&amp;gt;getHideToolBar() . PHP_EOL;
+
+# Whether to hide UI elements like scroll bars
+# and leaving only the page contents displayed - Default: false
+print &amp;quot;HideWindowUI :-&amp;quot; . $doc-&amp;gt;getHideWindowUI() . PHP_EOL;
+
+# The document&#39;s page mode. How to display document on exiting full-screen mode.
+print &amp;quot;NonFullScreenPageMode :-&amp;quot; . $doc-&amp;gt;getNonFullScreenPageMode() . PHP_EOL;
+
+# The page layout i.e. single page, one column
+print &amp;quot;PageLayout :-&amp;quot; . $doc-&amp;gt;getPageLayout() . PHP_EOL;
+
+#How the document should display when opened.
+print &amp;quot;pageMode :-&amp;quot; . $doc-&amp;gt;getPageMode() . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Get Document Window and Page Display Properties (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/GetDocumentWindow.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get PDF File Information in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/get-pdf-file-information-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-pdf-file-information-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---get-pdf-file-information&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Get PDF File Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To Get File Information of Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;GetPdfFileInfo&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Get document information
+$doc_info = $doc-&amp;gt;getInfo();
+
+# Show document information
+print &amp;quot;Author:-&amp;quot; . $doc_info-&amp;gt;getAuthor();
+print &amp;quot;Creation Date:-&amp;quot; . $doc_info-&amp;gt;getCreationDate();
+print &amp;quot;Keywords:-&amp;quot; . $doc_info-&amp;gt;getKeywords();
+print &amp;quot;Modify Date:-&amp;quot; . $doc_info-&amp;gt;getModDate();
+print &amp;quot;Subject:-&amp;quot; . $doc_info-&amp;gt;getSubject();
+print &amp;quot;Title:-&amp;quot; . $doc_info-&amp;gt;getTitle();
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Get PDF File Information (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/GetPdfFileInfo.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get XMP Metadata from PDF File in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/get-xmp-metadata-from-pdf-file-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-xmp-metadata-from-pdf-file-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---get-xmp-metadata&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Get XMP Metadata&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To get XMP Metadata from Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;GetXMPMetadata&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Get properties
+print &amp;quot;xmp:CreateDate: &amp;quot; + $doc-&amp;gt;getMetadata()-&amp;gt;get_Item(&amp;quot;xmp:CreateDate&amp;quot;) . PHP_EOL;
+print &amp;quot;xmp:Nickname: &amp;quot; + $doc-&amp;gt;getMetadata()-&amp;gt;get_Item(&amp;quot;xmp:Nickname&amp;quot;) . PHP_EOL;
+print &amp;quot;xmp:CustomProperty: &amp;quot; + $doc-&amp;gt;getMetadata()-&amp;gt;get_Item(&amp;quot;xmp:CustomProperty&amp;quot;) . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Get XMP Metadata (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/GetXMPMetadata.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Optimize PDF Document for the Web in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/optimize-pdf-document-for-the-web-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/optimize-pdf-document-for-the-web-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---optimize-pdf-for-web&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Optimize PDF for Web&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To optimize PDF document for the web using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;optimize_web&lt;/strong&gt; method of  &lt;strong&gt;Optimize&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt; public static function optimize_web($dataDir=null)
+
+{
+
+    # Open a pdf document.
+
+    $doc = new Document($dataDir . &amp;#34;input1.pdf&amp;#34;);
+
+    # Optimize for web
+
+    $doc-&amp;gt;optimize();
+
+    #Save output document
+
+    $doc-&amp;gt;save($dataDir . &amp;#34;Optimized_Web.pdf&amp;#34;);
+
+    print &amp;#34;Optimized PDF for the Web, please check output file.&amp;#34; . PHP_EOL;
+
+}   &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Optimize PDF for Web (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/Optimize.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Remove Metadata from PDF in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/remove-metadata-from-pdf-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/remove-metadata-from-pdf-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---remove-metadata&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Remove Metadata&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To remove Metadata from Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;RemoveMetadata&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+if (preg_match(&#39;/pdfaid:part/&#39;,$doc-&amp;gt;getMetadata())) {
+    $doc-&amp;gt;getMetadata()-&amp;gt;removeItem(&amp;quot;pdfaid:part&amp;quot;);
+
+}
+
+if (preg_match(&#39;/dc:format/&#39;,$doc-&amp;gt;getMetadata())) {
+    $doc-&amp;gt;getMetadata()-&amp;gt;removeItem(&amp;quot;dc:format&amp;quot;);
+
+}
+
+# save update document with new information
+$doc-&amp;gt;save($dataDir . &amp;quot;Remove_Metadata.pdf&amp;quot;);
+
+print &amp;quot;Removed metadata successfully, please check output file.&amp;quot; . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Remove Metadata (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/RemoveMetadata.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set PDF Expiration in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/set-pdf-expiration-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/set-pdf-expiration-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---set-pdf-expiration&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Set PDF Expiration&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To set expiration of  Pdf document using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;SetExpiration&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+$javascript = new JavascriptAction(
+        &amp;quot;var year=2014;
+    var month=4;
+    today = new Date();
+    today = new Date(today.getFullYear(), today.getMonth());
+    expiry = new Date(year, month);
+    if (today.getTime() &amp;gt; expiry.getTime())
+    app.alert(&#39;The file is expired. You need a new one.&#39;);&amp;quot;);
+$doc-&amp;gt;setOpenAction($javascript);
+
+# save update document with new information
+$doc-&amp;gt;save($dataDir . &amp;quot;set_expiration.pdf&amp;quot;);
+
+print &amp;quot;Update document information, please check output file.&amp;quot; . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Set PDF Expiration (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/SetExpiration.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set PDF File Information in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/set-pdf-file-information-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/set-pdf-file-information-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---set-pdf-file-information&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Set PDF File Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To update Pdf document information using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;SetPdfFileInfo&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open a pdf document.
+$doc = new Document($dataDir . &amp;quot;input1.pdf&amp;quot;);
+
+# Get document information
+$doc_info = $doc-&amp;gt;getInfo();
+
+$doc_info-&amp;gt;setAuthor(&amp;quot;Aspose.PDF for java&amp;quot;);
+$doc_info-&amp;gt;setCreationDate(new Date());
+$doc_info-&amp;gt;setKeywords(&amp;quot;Aspose.PDF, DOM, API&amp;quot;);
+$doc_info-&amp;gt;setModDate(new Date());
+$doc_info-&amp;gt;setSubject(&amp;quot;PDF Information&amp;quot;);
+$doc_info-&amp;gt;setTitle(&amp;quot;Setting PDF Document Information&amp;quot;);
+
+# save update document with new information
+$doc-&amp;gt;save($dataDir . &amp;quot;Updated_Information.pdf&amp;quot;);
+
+print &amp;quot;Update document information, please check output file.&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Set PDF File Information (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentObject/SetPdfFileInfo.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

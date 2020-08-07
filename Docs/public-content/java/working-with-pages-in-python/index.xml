@@ -1,0 +1,342 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Pages in Python</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-pages-in-python/</link>
+    <description>Recent content in Working with Pages in Python on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-pages-in-python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Concatenate PDF Files in Python</title>
+      <link>https://docs.aspose.com/pdf/java/concatenate-pdf-files-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/concatenate-pdf-files-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To concatenate PDF files using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;ConcatenatePdfFiles&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;doc= self.Document()
+pdf = self.Document()
+pdf=self.dataDir + &#39;input1.pdf&#39;
+
+# Open the source document
+pdf1 = self.Document()
+pdf1=self.dataDir + &#39;input2.pdf&#39;
+
+# Add the pages of the source document to the target document
+pdf1.getPages().add(pdf1.getPages())
+
+# Save the concatenated output file (the target document)
+doc.save(self.dataDir + &amp;quot;Concatenate_output.pdf&amp;quot;)
+
+print &amp;quot;New document has been saved, please check the output file&amp;quot; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Concatenate PDF Files (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/ConcatenatePdfFiles/ConcatenatePdfFiles.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/ConcatenatePdfFiles/ConcatenatePdfFiles.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Delete a Particular Page from the PDF File in Python</title>
+      <link>https://docs.aspose.com/pdf/java/delete-a-particular-page-from-the-pdf-file-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/delete-a-particular-page-from-the-pdf-file-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To delete a Particular Page from the PDF document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;DeletePage&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+doc= self.Document()
+pdf = self.Document()
+pdf=self.dataDir + &#39;input1.pdf&#39;
+
+# delete a particular page
+pdf.getPages().delete(2)
+
+# save the newly generated PDF file
+doc.save(self.dataDir + &amp;quot;output.pdf&amp;quot;)
+
+print &amp;quot;Page deleted successfully!&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Delete Page (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/DeletePage/DeletePage.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/DeletePage/DeletePage.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get a Particular Page in a PDF File in Python</title>
+      <link>https://docs.aspose.com/pdf/java/get-a-particular-page-in-a-pdf-file-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-a-particular-page-in-a-pdf-file-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To get a Particular Page in a PDF document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;GetPage&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;doc= self.Document()
+pdf = self.Document()
+pdf=self.dataDir + &#39;input1.pdf&#39;
+
+# get the page at particular index of Page Collection
+pdf_page = pdf.getPages().get_Item(1)
+
+# create a new Document object
+new_document = self.Document()
+
+# add page to pages collection of new document object
+new_document.getPages().add(pdf_page)
+
+# save the newly generated PDF file
+new_document.save(self.dataDir + &amp;quot;output.pdf&amp;quot;)
+
+print &amp;quot;Process completed successfully!
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Get Page (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose.PDF-for-Java_for_Python/test/WorkingWithPages/GetPage/GetPage.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/GetPage/GetPage.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Page Count of PDF in Python</title>
+      <link>https://docs.aspose.com/pdf/java/get-page-count-of-pdf-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-page-count-of-pdf-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To get page count of Pdf document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;GetNumberOfPages&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;doc= self.Document()
+pdf = self.Document()
+pdf=self.dataDir + &#39;input1.pdf&#39;
+page_count = pdf.getPages().size()
+print &amp;quot;Page Count:&amp;quot; . page_count
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Get Page Count (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/GetNumberOfPages/GetNumberOfPages.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/GetNumberOfPages/GetNumberOfPages.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Page Properties in Python</title>
+      <link>https://docs.aspose.com/pdf/java/get-page-properties-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-page-properties-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To get page properties of Pdf document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;GetPageProperties&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;doc= self.Document()
+pdf_document = self.Document()
+pdf_document=self.dataDir + &#39;input1.pdf&#39;
+
+# get page collection
+page_collection = pdf_document.getPages();
+
+# get particular page
+pdf_page = page_collection.get_Item(1);
+
+# get page properties
+print &amp;quot;ArtBox : Height = &amp;quot; + pdf_page.getArtBox().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getArtBox().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getArtBox().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getArtBox().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getArtBox().getURX() + &amp;quot;, URY = &amp;quot; + pdf_page.getArtBox().getURY()
+print &amp;quot;BleedBox : Height = &amp;quot; + pdf_page.getBleedBox().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getBleedBox().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getBleedBox().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getBleedBox().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getBleedBox().getURX() + &amp;quot;, URY = &amp;quot; . pdf_page.getBleedBox().getURY()
+print &amp;quot;CropBox : Height = &amp;quot; + pdf_page.getCropBox().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getCropBox().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getCropBox().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getCropBox().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getCropBox().getURX() + &amp;quot;, URY = &amp;quot; . pdf_page.getCropBox().getURY()
+print &amp;quot;MediaBox : Height = &amp;quot; + pdf_page.getMediaBox().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getMediaBox().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getMediaBox().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getMediaBox().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getMediaBox().getURX() + &amp;quot;, URY = &amp;quot; . pdf_page.getMediaBox().getURY()
+print &amp;quot;TrimBox : Height = &amp;quot; + pdf_page.getTrimBox().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getTrimBox().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getTrimBox().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getTrimBox().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getTrimBox().getURX() + &amp;quot;, URY = &amp;quot; . pdf_page.getTrimBox().getURY()
+print &amp;quot;Rect : Height = &amp;quot; + pdf_page.getRect().getHeight() + &amp;quot;, Width = &amp;quot; + pdf_page.getRect().getWidth() + &amp;quot;, LLX = &amp;quot; + pdf_page.getRect().getLLX() + &amp;quot;, LLY = &amp;quot; + pdf_page.getRect().getLLY() + &amp;quot;, URX = &amp;quot; + pdf_page.getRect().getURX() + &amp;quot;, URY = &amp;quot; + pdf_page.getRect().getURY()
+print &amp;quot;Page Number :- &amp;quot; + pdf_page.getNumber()
+print &amp;quot;Rotate :-&amp;quot; + pdf_page.getRotate()
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Get Page Properties (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/GetPageProperties/GetPageProperties.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/GetPageProperties/GetPageProperties.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Insert an Empty Page at End of PDF File in Python</title>
+      <link>https://docs.aspose.com/pdf/java/insert-an-empty-page-at-end-of-pdf-file-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/insert-an-empty-page-at-end-of-pdf-file-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To Insert an Empty Page at the end of PDF document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;InsertEmptyPageAtEndOfFile&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+pdf_document = self.Document()
+pdf_document=self.dataDir + &#39;input1.pdf&#39;
+
+# insert a empty page in a PDF
+pdf_document.getPages().add();
+
+# Save the concatenated output file (the target document)
+pdf_document.save(self.dataDir + &amp;quot;output.pdf&amp;quot;)
+
+print &amp;quot;Empty page added successfully!&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Insert an Empty Page at End of PDF File (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/InsertEmptyPageAtEndOfFile/InsertEmptyPageAtEndOfFile.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/InsertEmptyPageAtEndOfFile/InsertEmptyPageAtEndOfFile.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Insert an Empty Page into a PDF File in Python</title>
+      <link>https://docs.aspose.com/pdf/java/insert-an-empty-page-into-a-pdf-file-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/insert-an-empty-page-into-a-pdf-file-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To Insert an Empty Page into a Pdf document using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;InsertEmptyPage&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+doc= self.Document()
+pdf_document = self.Document()
+pdf_document=self.dataDir + &#39;input1.pdf&#39;
+
+# insert a empty page in a PDF
+pdf_document.getPages().insert(1)
+
+# Save the concatenated output file (the target document)
+pdf_document.save(self.dataDir + &amp;quot;output.pdf&amp;quot;)
+
+print &amp;quot;Empty page added successfully!&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Insert an Empty Page (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/InsertEmptyPage/InsertEmptyPage.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/InsertEmptyPage/InsertEmptyPage.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Split PDF File into Individual Pages in Python</title>
+      <link>https://docs.aspose.com/pdf/java/split-pdf-file-into-individual-pages-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/split-pdf-file-into-individual-pages-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To split PDF document into individual pages using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;SplitAllPages&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+pdf = self.Document()
+pdf=self.dataDir + &#39;input1.pdf&#39;
+
+# loop through all the pages
+pdf_page = 1
+total_size = pdf.getPages().size()
+while (pdf_page &amp;lt;= total_size):
+
+# create a new Document object
+new_document = self.Document();
+
+# get the page at particular index of Page Collection
+new_document.getPages().add(pdf.getPages().get_Item(pdf_page))
+
+# save the newly generated PDF file
+new_document.save(self.dataDir + &amp;quot;page_#{$pdf_page}.pdf&amp;quot;)
+
+pdf_page+=1
+
+print &amp;quot;Split process completed successfully!&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Split Pages (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/SplitAllPages/SplitAllPages.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/SplitAllPages/SplitAllPages.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Update Page Dimensions in Python</title>
+      <link>https://docs.aspose.com/pdf/java/update-page-dimensions-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/update-page-dimensions-in-python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;ins&gt;To update page Dimensions using &lt;strong&gt;Aspose.PDF Java for Python&lt;/strong&gt;, simply invoke &lt;strong&gt;UpdatePageDimensions&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-s&#34; data-lang=&#34;s&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;self.Document&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;self.dataDir&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;input1.pdf&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# get page collection&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;page_collection&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf.getPages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# get particular page&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf_page&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page_collection.get_Item&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# set the page size as A4 (11.7 x 8.3 in) and in Aspose.PDF, 1 inch = 72 points&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# so A4 dimensions in points will be (842.4, 597.6)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf_page.setPageSize&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;597.6&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;842.4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# save the newly generated PDF file&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf.save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;self.dataDir&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;output.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Dimensions updated successfully!&amp;#34;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Update Page Dimensions (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_Python/test/WorkingWithPages/UpdatePageDimensions/UpdatePageDimensions.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposepdfjavapython.codeplex.com/SourceControl/latest#test/WorkingWithPages/UpdatePageDimensions/UpdatePageDimensions.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

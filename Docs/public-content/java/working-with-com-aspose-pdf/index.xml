@@ -1,0 +1,485 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with com.aspose.pdf</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf/</link>
+    <description>Recent content in Working with com.aspose.pdf on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Working with Document Object</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-object/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-document/&#34;&gt;Create Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/pdf-file-metadata/&#34;&gt;PDF File Metadata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/formatting-pdf-document/&#34;&gt;Formatting PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/optimize-pdf-document/&#34;&gt;Optimize PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/manipulate-pdf-document/&#34;&gt;Manipulate PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Document Conversion - DOM</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-conversion-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-conversion-dom/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-a-file-to-pdf-format/&#34;&gt;Convert a File to PDF Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-html-to-pdf-html/&#34;&gt;Convert HTML to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-other-formats/&#34;&gt;Convert PDF to other Formats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-notification-when-font-substitute/&#34;&gt;Get Notification when Font Substitute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/use-default-font-when-document-27s-font-is-missing/&#34;&gt;Use Default Font when Document&amp;rsquo;s Font is Missing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-html-format/&#34;&gt;Convert PDF to HTML format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-doc-and-docx/&#34;&gt;Convert PDF to DOC and DOCX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-excel-xls-and-xlsx/&#34;&gt;Convert PDF to Excel XLS and XLSX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-powerpoint-pptx/&#34;&gt;Convert PDF to PowerPoint PPTX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Attachments</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-attachments/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-attachment-to-pdf/&#34;&gt;Add Attachment to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-attachments-from-a-pdf-document/&#34;&gt;Get Attachments from a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-all-attachments-from-pdf/&#34;&gt;Delete All Attachments from PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-attachment-information/&#34;&gt;Get Attachment Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/disable-files-compression-when-adding-as-embedded-resources/&#34;&gt;Disable Files Compression when Adding as Embedded Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Bookmarks</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-bookmarks/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-a-bookmark-to-a-pdf-document/&#34;&gt;Add a Bookmark to a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-a-child-bookmark-to-a-pdf-document/&#34;&gt;Add a Child Bookmark to a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-bookmarks-from-pdf-document/&#34;&gt;Delete Bookmarks from PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-bookmarks-from-pdf-document/&#34;&gt;Get Bookmarks from PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/bookmark-should-point-to-start-of-page/&#34;&gt;Bookmark Should Point to Start of page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/update-bookmarks-in-a-pdf-document/&#34;&gt;Update Bookmarks in a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/expanded-bookmarks-when-viewing-document/&#34;&gt;Expanded Bookmarks when viewing document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Annotations</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-annotations/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topic&#34;&gt;&lt;strong&gt;This section includes the following topic&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-annotation-to-pdf/&#34;&gt;Add Annotation to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/adding-richmediaannotation/&#34;&gt;Adding RichMediaAnnotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/redact-certain-page-region-with-redactionannotation/&#34;&gt;Redact certain page region with RedactionAnnotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/strike-out-words-using-strikeoutannotation/&#34;&gt;Strike Out Words using StrikeOutAnnotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-a-particular-annotation-from-a-pdf/&#34;&gt;Get a Particular Annotation from a PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-all-annotations-from-page-in-a-pdf/&#34;&gt;Get All Annotations from Page in a PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-a-particular-annotation-from-the-pdf-file/&#34;&gt;Delete a Particular Annotation from the PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-all-annotations-from-a-page-of-a-pdf-file/&#34;&gt;Delete All Annotations from a Page of a PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Links and Actions</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-links-and-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-links-and-actions/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-hyperlink-in-a-pdf-file/&#34;&gt;Add Hyperlink in a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/remove-document-open-action-from-a-pdf-file/&#34;&gt;Remove Document Open Action from a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-pdf-hyperlink-destination-url/&#34;&gt;Get PDF Hyperlink Destination - URL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-a-link-to-another-pdf-document/&#34;&gt;Create a Link to Another PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Security and Signatures</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-security-and-signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-security-and-signatures/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/encrypt-pdf-document-using-encryption-types/&#34;&gt;Encrypt PDF document using Encryption Types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/decrypt-pdf-file-using-owner-password/&#34;&gt;Decrypt PDF file using Owner Password&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-digital-signature-to-pdf-file/&#34;&gt;Add Digital Signature to PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-image-from-signature-field/&#34;&gt;Extract Image from Signature Field&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-privileges-on-an-existing-pdf-file/&#34;&gt;Set Privileges on an Existing PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/determine-if-the-source-pdf-file-is-password-protected/&#34;&gt;Determine if the Source PDF file is Password Protected&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Tables - DOM</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-tables-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-tables-dom/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;working-with-tables&#34;&gt;&lt;strong&gt;Working with Tables&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This section contains topics related to creation of tables in PDF file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-border-style-margins-and-padding-of-table/&#34;&gt;Set Border Style, Margins and Padding of Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/force-table-rendering-on-new-page/&#34;&gt;Force Table Rendering on New Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/manipulate-tables-in-existing-pdf/&#34;&gt;Manipulate tables in existing PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/remove-tables-from-existing-pdf/&#34;&gt;Remove tables from existing PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-table-in-existing-pdf-document/&#34;&gt;Add Table in Existing PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Tagged PDFs</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-tagged-pdfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-tagged-pdfs/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-tagged-pdf-documents/&#34;&gt;Create Tagged PDF Documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-tagged-content-from-tagged-pdfs/&#34;&gt;Extract Tagged Content from Tagged PDFs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-tagged-pdfs-element-properties/&#34;&gt;Set Tagged PDFs Element Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-table-in-tagged-pdfs/&#34;&gt;Working with Table in Tagged PDFs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Forms</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-forms/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-delete-and-modify-form-field-in-a-pdf-document/&#34;&gt;Create, Delete and Modify Form Field in a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-and-set-value-of-form-field-in-a-pdf-document/&#34;&gt;Get and Set value of Form Field in a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-tooltip-to-form-field/&#34;&gt;Add Tooltip to Form Field&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/how-to-add-grouped-checkboxes/&#34;&gt;How to add Grouped CheckBoxes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-custom-form-field-font/&#34;&gt;Set Custom Form Field Font&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-form-fields-from-a-specific-region-of-pdf-file/&#34;&gt;Get Form Fields from a Specific Region of PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-dynamic-xfa-form-to-standard-acroform/&#34;&gt;Convert Dynamic XFA Form to Standard AcroForm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Graphs</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-graphs/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/what-is-graph/&#34;&gt;What is Graph?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-line-object-to-a-pdf-file/&#34;&gt;Add Line Object to a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/draw-line-across-the-page/&#34;&gt;Draw Line Across the Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-filled-rectangle-object/&#34;&gt;Create Filled Rectangle Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/control-z-order-of-rectangle/&#34;&gt;Control Z-Order of Rectangle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/gradiant-color-fill-of-graph-object/&#34;&gt;Gradiant Color Fill of Graph Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-text-inside-graph-object/&#34;&gt;Add text inside Graph Object&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Headings - DOM</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-headings-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-headings-dom/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/apply-numbering-style-in-heading/&#34;&gt;Apply Numbering Style in Heading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Images - DOM</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-images-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-images-dom/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-delete-and-extract-images-from-the-pdf-file/&#34;&gt;Add, Delete and Extract Images from the PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-page-to-image/&#34;&gt;Convert PDF Page to Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-name-of-images-embedded-in-pdf-file/&#34;&gt;Get Name of Images Embedded in PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-raw-properties-of-image-from-pdf-document/&#34;&gt;Extract Raw Properties of Image from PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/setting-dpi-or-ppi-of-images-in-pdf/&#34;&gt;Setting DPI or PPI of Images in PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/identify-if-image-inside-pdf-is-colored-or-black-and-white/&#34;&gt;Identify if image inside PDF is Colored or Black and White&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-an-image-to-pdf/&#34;&gt;Convert an Image to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-reference-of-a-single-image-multiple-times-in-a-pdf-document/&#34;&gt;Add Reference of a single Image multiple times in a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-count-of-images-embedded-in-pdf-file/&#34;&gt;Get count of Images Embedded in PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with JavaScript</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-javascript/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadding-javascript-dom&#34;&gt;&lt;ins&gt;&lt;strong&gt;Adding JavaScript (DOM)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;what-is-acrobat-javascript&#34;&gt;&lt;strong&gt;What is Acrobat JavaScript?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Acrobat JavaScript is a language based on the core of JavaScript version 1.5 of ISO-16262, formerly known as ECMAScript, an object-oriented scripting language developed by Netscape Communications. JavaScript was created to offload Web page processing from a server onto a client in Web-based applications. Acrobat JavaScript implements extensions, in the form of new objects and their accompanying methods and properties, to the JavaScript language. These Acrobat-specific objects enable a developer to manage document security, communicate with a database, handle file attachments, manipulate a PDF file so that it behaves like an interactive, web-enabled form, and so on. Because the Acrobat-specific objects are added on top of core JavaScript, you still have access to its standard classes, including Math, String, Date, Array, and RegExp.&lt;/p&gt;
+&lt;h3 id=&#34;acrobat-javascript-vs-html-web-javascript&#34;&gt;&lt;strong&gt;Acrobat JavaScript vs HTML (Web) JavaScript&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;PDF documents have great versatility since they can be displayed both within the Acrobat software as well as in a Web browser. Therefore, it is important to be aware of the differences between Acrobat JavaScript and JavaScript used in a Web browser, also known as HTML JavaScript :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acrobat JavaScript does not have access to objects within an HTML page. Similarly, HTML JavaScript cannot access objects within a PDF file.&lt;/li&gt;
+&lt;li&gt;HTML JavaScript is able to manipulate such objects as Windows. Acrobat JavaScript cannot access this particular object but it can manipulate PDF-specific objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can add JavaScript at both the document and page levels with Aspose.PDF for Java. To add JavaScript:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Declare and instantiate a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/JavascriptAction&#34;&gt;JavascriptAction&lt;/a&gt; object with the desired JavaScript statement as the constructor argument.&lt;/li&gt;
+&lt;li&gt;Assign the JavascriptAction object to the desired action of the PDF document or page.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example below applies the OpenAction to a specific document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-AddingJavaScriptDOM-AddingJavaScriptDOM.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;add-formatting-code-and-value-validation&#34;&gt;&lt;strong&gt;Add Formatting Code and Value Validation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippet shows the steps to add formatting code and value validation using JavaScript.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-AddingJavaScriptDOM-AddFormattingCodeAndValueValidation.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;after-printing-and-saving&#34;&gt;&lt;strong&gt;After Printing and Saving&lt;/strong&gt;&lt;/h3&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-AddingJavaScriptDOM-AfterPrintingAndSaving.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Pages</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pages/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-delete-and-access-a-page-in-a-pdf-file/&#34;&gt;Add, Delete and Access a Page in a PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-and-set-page-properties/&#34;&gt;Get and Set Page Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/concatenate-pdf-files/&#34;&gt;Concatenate PDF Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/split-pdf-file-into-individual-pages/&#34;&gt;Split PDF File into Individual Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-image-as-page-background/&#34;&gt;Add Image as Page Background&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with PDF Portfolio</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pdf-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pdf-portfolio/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PDF Portfolios allow you to bring together content from a variety of sources (for example, PDF, Word, Excel, JPEG files) into one unified container. The original files retain their individual identities but are assembled into a PDF Portfolio file. Users can open, read, edit, and format each component file independently of the other component files.&lt;/p&gt;
+&lt;h2 id=&#34;insextract-files-from-pdf-portfolio&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract files from PDF Portfolio&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java allows the creation of PDF Portfolio documents using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class. It also offers the capability to extract files from a PDF portfolio.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows the steps to extract files from a PDF portfolio.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-ExtractFilesFromPDFPortfolio-ExtractFilesFromPDFPortfolio.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insdeleteremove-files-from-pdf-portfolio&#34;&gt;&lt;ins&gt;&lt;strong&gt;Delete/Remove Files from PDF Portfolio&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to delete/remove files from PDF portfolio, try using the following code lines.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-ExtractFilesFromPDFPortfolio-ToDeletePDFPortfolioFile.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Stamps and Watermarks</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/adding-stamp-in-a-pdf-file/&#34;&gt;Adding Stamp in a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-text-stamp-in-the-header-or-footer-section-of-the-pdf-file/&#34;&gt;Add Text Stamp in the Header or Footer section of the PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-text-from-stamps/&#34;&gt;Extract Text From Stamps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Text - DOM</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-text-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-text-dom/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-text-to-a-pdf-file/&#34;&gt;Add Text to a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-text-from-pdf/&#34;&gt;Extract Text from PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/search-and-get-text-from-pages-of-a-pdf-document/&#34;&gt;Search and Get Text from Pages of a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/replace-text-in-a-pdf-document/&#34;&gt;Replace Text in a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/determine-line-break/&#34;&gt;Determine Line Break&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Accessible PDF Documents</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-accessible-pdf-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-accessible-pdf-documents/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;Working with Accessible PDF Documents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/create-accessible-pdf-files/&#34;&gt;Create Accessible PDF Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/covert-simple-pdf-to-pdf/ua-compliant-document-and-validate/&#34;&gt;Covert simple PDF to PDF/UA Compliant Document and Validate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/pdf-ua-compliance-test-errors-list/&#34;&gt;PDF-UA Compliance Test - Errors List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Miscellaneous</title>
+      <link>https://docs.aspose.com/pdf/java/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/miscellaneous/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics&lt;/strong&gt;:&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/getting-product-and-build-information/&#34;&gt;Getting Product and Build Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/changing-color-space-of-a-pdf-document/&#34;&gt;Changing Color Space of a PDF Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/how-to-add-drawing-with-transparent-color/&#34;&gt;How to add drawing with transparent Color&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Advanced Features</title>
+      <link>https://docs.aspose.com/pdf/java/advanced-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/advanced-features/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;inssupport-for-latex-tags&#34;&gt;&lt;ins&gt;&lt;strong&gt;Support for Latex Tags&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Aspose.PDF API provides support for \begin \end \qedhere Latex tags. This requires you to enclose the LaTeX text into document environment as shown in the following code sample.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-Text-UseLatexScript3-UseLatexScript3.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

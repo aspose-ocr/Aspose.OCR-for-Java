@@ -1,0 +1,214 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Android via Java Release Notes - 2016</title>
+    <link>https://docs.aspose.com/pdf/java/android-via-java-release-notes-2016/</link>
+    <description>Recent content in Android via Java Release Notes - 2016 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/android-via-java-release-notes-2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.Pdf for Android 16.12.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-16-12-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-16-12-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-400&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding bullet text in PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-450&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to EPUB conversion support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-390&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;To set RGB color as text foreground color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-444&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pefromance issue - application takes almost 5 minutes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-236&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance problem on loading and saving PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-415&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to BMP conversion throws OutOfMemory&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-461&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ClassCastException at PdfFileInfo#saveNewInfo(java.io.OutputStream)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-465&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PdfSerializationException: Wrong object format. Id:426 Generation:0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-430&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG: a blank image is being rendered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-462&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Background сolor is not being set in PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-464&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text has arabic symbols but extractor.isBidi() return false&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-463&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extracted text from pdf-file is wrong&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Android 1.7.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-1-7-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-1-7-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-181&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Part of image wasn&amp;rsquo;t converted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-179&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception occurred during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-176&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is not bold, line isn&amp;rsquo;t seen&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-175&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is fuzzy&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-269&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;khmer unicode is not shown in PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-344&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding image to a PDF documents stops with OutOfMemoryError&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-364&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Transparent image is added with sold background&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-350&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG image conversion corrupts the font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Android 1.6.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-1-6-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-1-6-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-331&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;com.aspose.pdf throws exception while adding FreeTextAnnotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-330&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PdfContenEditor throws exception while adding FreeTextAnnotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-267&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Contents are missing over resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-202&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is taking long time to create PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-81&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception while converting TIFF to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

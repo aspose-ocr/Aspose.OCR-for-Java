@@ -1,0 +1,380 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Developer Guide</title>
+    <link>https://docs.aspose.com/pdf/sharepoint/developer-guide/</link>
+    <description>Recent content in Developer Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/sharepoint/developer-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: Export a Particular Item from a List</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/export-a-particular-item-from-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/export-a-particular-item-from-a-list/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for SharePoint lets you convert several documents, or one at a time. This article shows how to export an item from a list.
+&lt;/div&gt;
+
+&lt;p&gt;To export a particular item from a list: select &lt;strong&gt;Export to Pdf&lt;/strong&gt; from the item&amp;rsquo;s Edit Control Block (ECB).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Export to Pdf in the item&amp;rsquo;s ECB&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;export-a-particular-item-from-a-list_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Export to PDF&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;export-a-particular-item-from-a-list_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Add Watermark to PDF</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/add-watermark-to-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/add-watermark-to-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Aspose.PDF for SharePoint lets you add watermark to a PDF document. The feature adds a text watermark to the bottom left corner of every page in a PDF document added to the library.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watermark Text on bottom left corner&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;add-watermark-to-pdf_1.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;To enable watermark feature for a specific library:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Watermark Settings&lt;/strong&gt; in the &lt;strong&gt;Aspose Tools&lt;/strong&gt; tab in the &lt;strong&gt;Library Tools&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Library tools&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;add-watermark-to-pdf_2.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Watermark settings are list-specific so you can choose different watermark setting for different libraries. The following screen shot shows the Watermark Settings dialog for the &lt;strong&gt;Shared Documents&lt;/strong&gt; library.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watermark settings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;add-watermark-to-pdf_3.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select &lt;strong&gt;Enable watermarking for&lt;/strong&gt; to enable the watermark feature for a specific list.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Watermark text&lt;/strong&gt; – the text that will appear on the page as a watermark.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font&lt;/strong&gt; – the font used for the watermark.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Color&lt;/strong&gt; – the watermark&amp;rsquo;s color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After you enable watermark for a specific library, Aspose.PDF adds watermarks to each PDF document added to that library.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Convert to PDF</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/convert-to-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/convert-to-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for SharePoint allows converting HTML files, text files, and images (JPG, PNG, GIF, TIFF, BMP) to PDF format.
+&lt;/div&gt;
+
+&lt;p&gt;To convert a document to PDF:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click &lt;strong&gt;Convert to PDF&lt;/strong&gt; in the ECB menu.&lt;/li&gt;
+&lt;li&gt;Download and save the resultant PDF file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Convert to PDF option in the ECB menu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;convert-to-pdf_1.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pdf-creator-information&#34;&gt;&lt;strong&gt;PDF Creator information&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Please note that you cannot set values against the &lt;strong&gt;Application&lt;/strong&gt; and &lt;strong&gt;Producer&lt;/strong&gt; fields, because Aspose Ltd. and Aspose.PDF for SharePoint x.x.x will be displayed against these fields. &lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Add Barcode to a PDF File</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/add-barcode-to-a-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/add-barcode-to-a-pdf-file/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Aspose.PDF for SharePoint lets you add a barcode to a PDF document. Users can add a barcode to the bottom left corner of every page of a PDF document added to the library. The image below gives an idea of how a PDF document with a barcode added may look.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Barcode on bottom left corner&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;add-barcode-to-a-pdf-file_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;To enable the barcode feature for a specific library, use the &lt;strong&gt;Watermark Settings&lt;/strong&gt; button in the &lt;strong&gt;Aspose PDF Watermark Tools&lt;/strong&gt; tab in &lt;strong&gt;Library Tools&lt;/strong&gt; as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PDF watermark settings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;add-barcode-to-a-pdf-file_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After you enable barcodes for the specific library, Aspose.PDF for SharePoint adds a barcode to any PDF document added to that library.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Converting a File to PDF via Workflow Activity</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/converting-a-file-to-pdf-via-workflow-activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/converting-a-file-to-pdf-via-workflow-activity/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Support for workflows is key functionality of Microsoft Office SharePoint Server. Workflows help automate movement of documents according to business logic and streamline the cost and time of document organization. This article demonstrates how to use Aspose.PDF for SharePoint in a workflow that converts a document to PDF.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;setting-up-a-workflow&#34;&gt;&lt;strong&gt;Setting up a Workflow&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This example creates a workflow that converts any new item in a document library to PDF format and stores it in another document library. The example users the &lt;strong&gt;Personal Documents&lt;/strong&gt; library as the source library and the &lt;strong&gt;Pdf&lt;/strong&gt; sub-folder in the &lt;strong&gt;Shared Documents&lt;/strong&gt; library as the destination library.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for SharePoint supports conversion of HTML, text and image files.&lt;/p&gt;
+&lt;h4 id=&#34;design-the-workflow-using-sharepoint-designer&#34;&gt;&lt;strong&gt;Design the Workflow using SharePoint Designer&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;strong&gt;SharePoint Designer&lt;/strong&gt; and connect to the site where the workflow will be implemented.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Workflows&lt;/strong&gt; from &lt;strong&gt;site objects&lt;/strong&gt; and then open &lt;strong&gt;List Workflow&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;Personal Documents&lt;/strong&gt; library to create and attach a new list workflow to the document library.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Personal Documents from the menu&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create and attach the list workflow to the &lt;strong&gt;Personal Documents&lt;/strong&gt; library by typing a workflow name and description.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to complete this step.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creating a list workflow&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A workflow step editor appears. This is used to define conditions and actions for workflows. Now add an action to convert a new document to PDF without any condition, from &lt;strong&gt;Aspose Actions&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;Convert file to PDF via Aspose.PDF&lt;/strong&gt; action from the &lt;strong&gt;Action&lt;/strong&gt; menu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting and action&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Configure the action parameters:
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Set &lt;strong&gt;this folder&lt;/strong&gt; parameter to the destination folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Either leave the other action parameters as default values or set using the action properties window. The default value for the &lt;strong&gt;Overwrite&lt;/strong&gt; parameter is false.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Workflow Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_4.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting the destination library&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_5.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting the properties&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_6.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Workflow&lt;/strong&gt; menu, select &lt;strong&gt;Workflow Settings&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;start workflow automatically when a new item created&lt;/strong&gt; and clear other options from &lt;strong&gt;Start Options&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting the start options&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_7.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The workflow design is finished.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Save and publish the workflow to implement it on the SharePoint site.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;test-the-workflow&#34;&gt;&lt;strong&gt;Test the Workflow&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To test the workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the SharePoint site and upload a new document to the &lt;strong&gt;Personal Documents&lt;/strong&gt; document library.
+Aspose.PDF for SharePoint supports conversion from HTML files, text files, and images (JPG, PNG, GIF, TIFF and BMP*) to PDF. The workflow is configured to start automatically when a new item is created, so files are process automatically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Refresh the browser.
+The workflow status appear in the workflow column, &lt;strong&gt;Aspose.PDF Workflow&lt;/strong&gt; in this case.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adding a document to the source library&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_8.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the destination document library to view the converted document. &lt;strong&gt;Shared Documents/Pdf&lt;/strong&gt; is the path in this example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The destination library&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;converting-a-file-to-pdf-via-workflow-activity_9.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Creating a Secure PDF</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/creating-a-secure-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/creating-a-secure-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Aspose.PDF for SharePoint supports creating secure PDFs. Installing Aspose.PDF for SharePoint adds a &lt;strong&gt;PDF Secure Settings&lt;/strong&gt; option in Site Setting. Here, You can set the user password, owner password and any value from the algorithm list to encrypt the output PDF. The algorithm list provides different combinations of encryption algorithms and key sizes. Pass the value of your choice.&lt;/p&gt;
+&lt;p&gt;This article demonstrates how to use Aspose.PDF for SharePoint to generate an encrypted PDF.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;creating-a-secure-pdf&#34;&gt;&lt;strong&gt;Creating a Secure PDF&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To demonstrate the feature, first we configure the &lt;strong&gt;PDF Secure Setting&lt;/strong&gt; option for owner and user password and encryption algorithm. The example then merges two documents from a document library.&lt;/p&gt;
+&lt;h4 id=&#34;setting-pdf-secure-setting-options&#34;&gt;&lt;strong&gt;Setting PDF Secure Setting Options&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Open &lt;strong&gt;PDF Secure Settings&lt;/strong&gt; option from Site Settings and set algorithm, owner password and user password.&lt;/p&gt;
+&lt;p&gt;Specify different user and owner passwords while encrypting PDF file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The user password, if set, is what you need to provide in order to open a PDF. Acrobat Reader prompts a user to enter the user password. If it&amp;rsquo;s wrong, the document does not open.&lt;/li&gt;
+&lt;li&gt;The owner password, if set, controls permissions such as printing, editing, extracting, commenting, etc. Acrobat Reader disallows these features based on the permission settings. Acrobat requires this password if you want to set/change permissions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;creating-a-secure-pdf_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;merge-documents&#34;&gt;&lt;strong&gt;Merge Documents&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Merge two documents using the &lt;strong&gt;Convert to PDF&lt;/strong&gt; option. This feature merges multiple non-PDF files (HTML, text or image) into a PDF file.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a document library and select desired documents from the list.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;creating-a-secure-pdf_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the &lt;strong&gt;Merge to PDF&lt;/strong&gt; option from Library Tools to save the output file. You are prompted to save output file to disk.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;creating-a-secure-pdf_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;output&#34;&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Output file is encrypted.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;creating-a-secure-pdf_4.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Convert PDF to PDFA</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/convert-pdf-to-pdfa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/convert-pdf-to-pdfa/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;In &lt;a href=&#34;http://www.aspose.com/community/files/73/sharepoint-components/aspose.pdf-for-sharepoint/entry610978.aspx&#34;&gt;Aspose.PDF for SharePoint 2.0&lt;/a&gt; release we have added support to create PDFA compliant PDF.&lt;/p&gt;
+&lt;p&gt;Currently Aspose.PDF for SharePoint supports only PDFA1b standard.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;creating-a-pdfa-compliant-document&#34;&gt;&lt;strong&gt;Creating a PDFA compliant Document&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Convert PDF from SharePoint Document library to PDFA as following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click &lt;strong&gt;Convert to PDF&lt;/strong&gt; in the ECB menu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;convert-pdf-to-pdfa_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;      &lt;/code&gt;2. Download and save the resultant PDF file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;convert-pdf-to-pdfa_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Convert PDF to HTML</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/convert-pdf-to-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/convert-pdf-to-html/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for SharePoint supports feature to convert PDF document form SharePoint document library to HTML format. In this article we will demonstrate PDF to HTML conversion.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;converting-pdf-document-to-html&#34;&gt;&lt;strong&gt;Converting PDF document to HTML&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Convert PDF document from SharePoint Document library to HTML as following:&lt;/p&gt;
+&lt;p&gt;\1. Click &lt;strong&gt;Convert to HTML&lt;/strong&gt; in the ECB menu of PDF document.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;convert-pdf-to-html_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;\2. Download and save the resultant HTML file to disk.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;convert-pdf-to-html_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Merge PDF files</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/merge-pdf-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/merge-pdf-files/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Merging/concatenating of multiple PDF files into a single PDF file is very popular and demanding feature in PDF file processing applications. We have introduced this important feature in &lt;a href=&#34;http://www.aspose.com/community/files/73/sharepoint-components/aspose.pdf-for-sharepoint/entry679427.aspx&#34;&gt;Aspose.PDF for SharePoint 2.2.0&lt;/a&gt; version. Merging two files is, creating a single file by adding second file to the end of first file.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;merge-pdf-files&#34;&gt;&lt;strong&gt;Merge PDF files&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Merge multiple PDF files from SharePoint Document library in a single PDF as following:&lt;/p&gt;
+&lt;p&gt;\1.  Select the PDF files from SharePoint Document library to be merged.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;merge-pdf-files_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;\2.  Click Aspose Tools tab in Library Tools.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;merge-pdf-files_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;\3.  Click Merge to PDF option from Library Tools to merge all the selected PDF files to resultant PDF.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;merge-pdf-files_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;\4.  Prompt will be shown to download/save the resultant PDF file with appropriate name.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;merge-pdf-files_4.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,126 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Images - Facades</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-images-facades/</link>
+    <description>Recent content in Working with Images - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-images-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add and Delete Images</title>
+      <link>https://docs.aspose.com/pdf/net/add-and-delete-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-and-delete-images/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;delete-images-from-a-particular-page-of-pdf-facades&#34;&gt;&lt;strong&gt;Delete Images from a Particular Page of PDF (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to delete the images from a particular page, you need to call &lt;strong&gt;DeleteImage&lt;/strong&gt; method with &lt;strong&gt;pageNumber&lt;/strong&gt; and &lt;strong&gt;index&lt;/strong&gt; parameter. The &lt;strong&gt;index&lt;/strong&gt; parameter represents an array of integers – the indexes of the images to be deleted. First of all, you need to create an object of &lt;strong&gt;PdfContentEditor&lt;/strong&gt; class and then call the &lt;strong&gt;DeleteImage&lt;/strong&gt; method. After that, you can save the updated PDF file using &lt;strong&gt;Save&lt;/strong&gt; method. The following code snippet shows you how to delete images from a particular page of PDF.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-DeleteImagesPage-DeleteImagesPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-all-the-images-from-a-pdf-file-facades&#34;&gt;&lt;strong&gt;Delete All the Images from a PDF File (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;All the images can be deleted from a PDF file using &lt;strong&gt;DeleteImage&lt;/strong&gt; method of the &lt;strong&gt;PdfContentEditor&lt;/strong&gt; . You only need to create an object of &lt;strong&gt;PdfContentEditor&lt;/strong&gt; and bind the input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, call the &lt;strong&gt;DeleteImage&lt;/strong&gt; method – the overload without any parametes – to delete all the images, and then save the updated PDF file using &lt;strong&gt;Save&lt;/strong&gt; method. The following code snippet shows you how to delete all the images from a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-DeleteAllImages-DeleteAllImages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-image-in-an-existing-pdf-file-facades&#34;&gt;&lt;strong&gt;Add Image in an Existing PDF File (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;strong&gt;AddImage&lt;/strong&gt; method of the &lt;strong&gt;PdfFileMend&lt;/strong&gt; class. The &lt;strong&gt;AddImage&lt;/strong&gt; method requires the image to be added, the page number at which the image needs to be added and the coordinate information. After that, save the updated PDF file using &lt;strong&gt;Close&lt;/strong&gt; method. The following code snippet shows you how to add image in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-AddImage-AddImage.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert PDF File</title>
+      <link>https://docs.aspose.com/pdf/net/convert-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/convert-pdf-file/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;convert-pdf-pages-to-different-image-formats-facades&#34;&gt;&lt;strong&gt;Convert PDF Pages to Different Image Formats (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to convert PDF pages to different image formats, you need to create &lt;strong&gt;PdfConverter&lt;/strong&gt; object and open the PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you need to call &lt;strong&gt;DoConvert&lt;/strong&gt; method for initialization tasks. Then, you can loop through all the pages using &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. The &lt;strong&gt;GetNextImage&lt;/strong&gt; method allows you to create image of a particular page. You also need to pass ImageFormat to this method in order to create an image of specific type i.e. JPEG, GIF or PNG etc. Finally, call the &lt;strong&gt;Close&lt;/strong&gt; method of the &lt;strong&gt;PdfConverter&lt;/strong&gt; class. The following code snippet shows you how to convert PDF pages to images.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ConvertPDFPages-ConvertPDFPages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;convert-pdf-file-to-single-tiff-image-facades&#34;&gt;&lt;strong&gt;Convert PDF File to Single TIFF Image (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to convert PDF pages to single TIFF image format, you need to create &lt;strong&gt;PdfConverter&lt;/strong&gt; object and open the PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you need to call &lt;strong&gt;DoConvert&lt;/strong&gt; method for initialization tasks. Then, you can use &lt;strong&gt;SaveAsTIFF&lt;/strong&gt; method to save the PDF file as a single TIFF image. Finally, call the &lt;strong&gt;Close&lt;/strong&gt; method of the &lt;strong&gt;PdfConverter&lt;/strong&gt; class. The following code snippet shows you how to convert PDF pages to single TIFF image.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ConvertToTIFF-ConvertToTIFF.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;convert-pdf-file-to-single-tiff-image-using-settings-facades&#34;&gt;&lt;strong&gt;Convert PDF File to Single TIFF Image using Settings (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to convert PDF pages to single TIFF image format, you need to create &lt;strong&gt;PdfConverter&lt;/strong&gt; object and open the PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you need to call &lt;strong&gt;DoConvert&lt;/strong&gt; method for initialization tasks. Then, you can use &lt;strong&gt;SaveAsTIFF&lt;/strong&gt; method to save the PDF file as a single TIFF image.&lt;/p&gt;
+&lt;p&gt;You can also specify certain settings to produce a TIFF image according to your requirement. You can set the resolution of the output image using &lt;strong&gt;Resolution&lt;/strong&gt; property of the &lt;strong&gt;PdfConverter&lt;/strong&gt; class. You need to set this property before &lt;strong&gt;BindPdf&lt;/strong&gt; method. You can also specify other settings using &lt;strong&gt;TiffSettings&lt;/strong&gt; class and then pass this object to the &lt;strong&gt;SaveAsTiff&lt;/strong&gt; method. Finally, call the &lt;strong&gt;Close&lt;/strong&gt; method of the &lt;strong&gt;PdfConverter&lt;/strong&gt; class. The following code snippet shows you how to convert PDF pages to single TIFF image using Settings.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ConvertToTIFFSettings-ConvertToTIFFSettings.cs&#34;&gt;&lt;/script&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+If your requirement is to save the resultant TIFF file to a specific page size, you can use the overloaded &lt;strong&gt;SaveAsTIFF&lt;/strong&gt; method of &lt;strong&gt;PdfConverter&lt;/strong&gt; with &lt;strong&gt;Aspose.Pdf.Facades.PageSize&lt;/strong&gt; parameter. Different predefined page sizes are available as per your need e.g. A4, A3, Letter etc.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-particular-page-region-to-image-format&#34;&gt;&lt;strong&gt;Convert particular page region to Image format&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We know that &lt;strong&gt;PdfConverter&lt;/strong&gt; class offers &lt;strong&gt;DoConvert&lt;/strong&gt; method which provides the capability to convert the whole PDF pages into Image format. However sometimes there is a requirement to convert particular page region into Image format, so in order to fulfill this requirement, we may consider using &lt;strong&gt;MovePosition(..)&lt;/strong&gt; method of &lt;strong&gt;PdfPageEditor&lt;/strong&gt; class which provides the capability to move the origin from (0, 0) to the specified point. The origin is left-bottom and the unit is point.&lt;/p&gt;
+&lt;p&gt;We are also aware that &lt;strong&gt;PdfConverter&lt;/strong&gt; class also contains methods which provide the capability to loop through all the pages using &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. The &lt;strong&gt;GetNextImage&lt;/strong&gt; method allows you to create image of a particular page. You also need to pass ImageFormat to this method in order to create an image of specific type i.e. JPEG, GIF or PNG etc. Finally, call the &lt;strong&gt;Close&lt;/strong&gt; method of the &lt;strong&gt;PdfConverter&lt;/strong&gt; class.
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+1 inch = 72 points and 1 cm = 1/2.54 inch = 0.3937 inch = 28.3 points.
+&lt;/div&gt;
+ 
+The following code snippet shows you how to convert PDF pages to images.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ConvertPageRegion-ConvertPageRegion.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Replace and Extract Images</title>
+      <link>https://docs.aspose.com/pdf/net/replace-and-extract-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/replace-and-extract-images/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;replace-image-in-an-existing-pdf-file-facades&#34;&gt;&lt;strong&gt;Replace Image in an Existing PDF File (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfContentEditor&lt;/strong&gt; class allows you to replace image in an existing PDF file. The &lt;strong&gt;ReplaceImage&lt;/strong&gt; method helps you achieve this goal. You need to create an object of &lt;strong&gt;PdfContentEditor&lt;/strong&gt; class and bind the input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you need to call &lt;strong&gt;ReplaceImage&lt;/strong&gt; method with three parameters: a page number, index of the image to replace, and path of the image to be replaced. The following code snippet shows you how to replace an image in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ReplaceImage-ReplaceImage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-images-from-the-whole-pdf-to-files-facades&#34;&gt;&lt;strong&gt;Extract Images from the Whole PDF to Files (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfExtractor&lt;/strong&gt; class allows you to extract images from a PDF file. First off, you need to create an object of &lt;strong&gt;PdfExtractor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, call &lt;strong&gt;ExtractImage&lt;/strong&gt; method to extract all the images into memory. Once the images are extracted, you can get those images with the help of &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. You need to loop through all the extracted images using a while loop. In order to save the images to disk, you can call the overload of the &lt;strong&gt;GetNextImage&lt;/strong&gt; method which takes file path as argument. The following code snippet shows you how to extract images from the whole PDF to files.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ExtractImages-ExtractImages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-images-from-the-whole-pdf-to-streams-facades&#34;&gt;&lt;strong&gt;Extract Images from the Whole PDF to Streams (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfExtractor&lt;/strong&gt; class allows you to extract images from a PDF file into streams. First off, you need to create an object of &lt;strong&gt;PdfExtractor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, call &lt;strong&gt;ExtractImage&lt;/strong&gt; method to extract all the images into memory. Once the images are extracted, you can get those images with the help of &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. You need to loop through all the extracted images using a while loop. In order to save the images to stream, you can call the overload of the &lt;strong&gt;GetNextImage&lt;/strong&gt; method which takes Stream as argument. The following code snippet shows you how to extract images from the whole PDF to streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ExtractImagesStream-ExtractImagesStream.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-images-from-a-particular-page-of-a-pdf-facades&#34;&gt;&lt;strong&gt;Extract Images from a Particular Page of a PDF (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can extract images from a particular page of a PDF file. In order to do that, you need to set &lt;strong&gt;StartPage&lt;/strong&gt; and &lt;strong&gt;EndPage&lt;/strong&gt; properties to the particular page you want to extract images from. First of all, you need to create an object of &lt;strong&gt;PdfExtractor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. Secondly, you have to set &lt;strong&gt;StartPage&lt;/strong&gt; and &lt;strong&gt;EndPage&lt;/strong&gt; properties. After that, call &lt;strong&gt;ExtractImage&lt;/strong&gt; method to extract all the images into memory. Once the images are extracted, you can get those images with the help of &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. You need to loop through all the extracted images using a while loop. You can either save the images to disk or stream. You only need to call the appropriate overload of &lt;strong&gt;GetNextImage&lt;/strong&gt; method. The following code snippet shows you how to extract images from a particular page of PDF to streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ExtractImagesPage-ExtractImagesPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-images-from-a-range-of-pages-of-a-pdf-facades&#34;&gt;&lt;strong&gt;Extract Images from a Range of Pages of a PDF (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can extract images from a range of pages of a PDF file. In order to do that, you need to set &lt;strong&gt;StartPage&lt;/strong&gt; and &lt;strong&gt;EndPage&lt;/strong&gt; properties to the range of pages you want to extract images from. First of all, you need to create an object of &lt;strong&gt;PdfExtractor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. Secondly, you have to set &lt;strong&gt;StartPage&lt;/strong&gt; and &lt;strong&gt;EndPage&lt;/strong&gt; properties. After that, call &lt;strong&gt;ExtractImage&lt;/strong&gt; method to extract all the images into memory. Once the images are extracted, you can get those images with the help of &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. You need to loop through all the extracted images using a while loop. You can either save the images to disk or stream. You only need to call the appropriate overload of &lt;strong&gt;GetNextImage&lt;/strong&gt; method. The following code snippet shows you how to extract images from a range of pages of PDF to streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ExtractImagesPage-ExtractImagesPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-images-using-image-extraction-mode-facades&#34;&gt;&lt;strong&gt;Extract Images using Image Extraction Mode (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfExtractor&lt;/strong&gt; class allows you to extract images from a PDF file. Aspose.PDF supports two extraction modes; first is &lt;strong&gt;ActuallyUsedImage&lt;/strong&gt; which extract the images actually used in the PDF document. Second mode is &lt;strong&gt;DefinedInResources&lt;/strong&gt; which extract the images defined in the resources of the PDF document (default extraction mode). First, you need to create an object of &lt;strong&gt;PdfExtractor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, specify the image extraction mode using &lt;strong&gt;PdfExtractor.ExtractImageMode&lt;/strong&gt; property. Then call &lt;strong&gt;ExtractImage&lt;/strong&gt; method to extract all the images into memory depending on the mode you specified. Once the images are extracted, you can get those images with the help of &lt;strong&gt;HasNextImage&lt;/strong&gt; and &lt;strong&gt;GetNextImage&lt;/strong&gt; methods. You need to loop through all the extracted images using a while loop. In order to save the images to disk, you can call the overload of the &lt;strong&gt;GetNextImage&lt;/strong&gt; method which takes file path as argument.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to extract images from PDF file using ExtractImageMode option.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Images-ExtractImageExtractionMode-ExtractImageExtractionMode.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

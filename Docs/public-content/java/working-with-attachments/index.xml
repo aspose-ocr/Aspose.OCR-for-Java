@@ -1,0 +1,163 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Attachments</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-attachments/</link>
+    <description>Recent content in Working with Attachments on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-attachments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Add Attachment to PDF</title>
+      <link>https://docs.aspose.com/pdf/java/add-attachment-to-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-attachment-to-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Attachments can contain a wide variety of information and can be of a variety of file types. This article explains how to add an attachment to a PDF file.
+&lt;/div&gt;
+
+&lt;p&gt;To add an attachment to a PDF document:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object that contains the file you want to attach, and file description.&lt;/li&gt;
+&lt;li&gt;Add the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object to a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/EmbeddedFileCollection&#34;&gt;EmbeddedFiles&lt;/a&gt; collection using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;add(..)&lt;/a&gt; method.
+The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/EmbeddedFileCollection&#34;&gt;EmbeddedFiles&lt;/a&gt; collection contains all the attachments added to a PDF file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to add an attachment to a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-attachments-AddAttachmentToPDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Attachments from a PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/get-attachments-from-a-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-attachments-from-a-pdf-document/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s EmbeddedFiles collection contains all a file&amp;rsquo;s attachments. Each element of this collection represents a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object.
+&lt;/div&gt;
+
+&lt;h4 id=&#34;extract-particular-attachment-from-pdf-file&#34;&gt;&lt;strong&gt;Extract Particular Attachment from PDF File&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To get an individual attachment from the EmbeddedFiles collection, use its index value. The index represents the specific number (in the collection) of the file to be fetched. This way, you get a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object. Once the object is available, retrieve either all the file&amp;rsquo;s properties or the file itself.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to get an individual attachment from the PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-attachments-GetAttachmentsFromPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Delete All Attachments from PDF</title>
+      <link>https://docs.aspose.com/pdf/java/delete-all-attachments-from-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/delete-all-attachments-from-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+As well as &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-attachment-to-pdf/&#34;&gt;adding attachments&lt;/a&gt;, Aspose.Cells can remove attachments from PDF files.
+&lt;/div&gt;
+
+&lt;p&gt;A PDF document&amp;rsquo;s attachments are held in the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s EmbeddedFiles collection.&lt;/p&gt;
+&lt;p&gt;To delete all attachments associated with a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Call the EmbeddedFiles collection&amp;rsquo;s delete(..) method.&lt;/li&gt;
+&lt;li&gt;Save the updated file using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s save method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to delete all the attachments from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-attachments-DeleteAllAttachmentsFromPDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Attachment Information</title>
+      <link>https://docs.aspose.com/pdf/java/get-attachment-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-attachment-information/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;As mentioned in &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-attachments-from-a-pdf-document/&#34;&gt;Get Attachments from a PDF Document&lt;/a&gt;, attachment information is held in the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object, gathered with other attachments in the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s EmbeddedFiles collection.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; object provides methods that get information about the attachment, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;getName() – gets the file name.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification#getDescription--&#34;&gt;getDescription()&lt;/a&gt; – gets the file description.&lt;/li&gt;
+&lt;li&gt;getMIMEType() – gets the file&amp;rsquo;s MIME type.&lt;/li&gt;
+&lt;li&gt;getParams() – information about the file parameters, for example CheckSum, CreationDate, ModDate and Size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To get these parameters, first make sure that the getParams() method does not return null.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Either loop through all of the attachments in the EmbeddedFiles collection using for loop, or get an individual attachment by specifying its index value. The following code snippet shows how to get information about a specific attachment.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-attachments-GetAttachmentInformation-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Disable Files Compression when Adding as Embedded Resources</title>
+      <link>https://docs.aspose.com/pdf/java/disable-files-compression-when-adding-as-embedded-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/disable-files-compression-when-adding-as-embedded-resources/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; class allows developers to add attachments to PDF documents. By default, attachments are compressed. We have updated the API to allow developers to disable compression when adding files as embedded resource. This gives developers more control over how files are processed.
+&lt;/div&gt;
+
+&lt;p&gt;To allow developers to control file compression the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification#setEncoding-int-&#34;&gt;setEncoding(..)&lt;/a&gt; method has been added to the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileSpecification&#34;&gt;FileSpecification&lt;/a&gt; class. This property determines which encoding will be used for file compression. The method accepts a value from the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileEncoding&#34;&gt;FileEncoding&lt;/a&gt; enumerator. The possible values are &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileEncoding&#34;&gt;FileEncoding&lt;/a&gt;.None and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileEncoding&#34;&gt;FileEncoding&lt;/a&gt;.Zip.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+If Encoding is set to &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileEncoding&#34;&gt;FileEncoding&lt;/a&gt;.None, then attachment is not compressed. The default encoding is &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/FileEncoding&#34;&gt;FileEncoding&lt;/a&gt;.Zip.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows how to add an attachment to a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-attachments-DisableFilesCompressionWhenAddingAsEmbeddedResources-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

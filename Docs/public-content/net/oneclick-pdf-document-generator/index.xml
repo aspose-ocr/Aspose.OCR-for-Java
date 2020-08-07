@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – OneClick PDF Document Generator</title>
+    <link>https://docs.aspose.com/pdf/net/oneclick-pdf-document-generator/</link>
+    <description>Recent content in OneClick PDF Document Generator on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/oneclick-pdf-document-generator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Using OneClick PDF Document Generator</title>
+      <link>https://docs.aspose.com/pdf/net/using-oneclick-pdf-document-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/using-oneclick-pdf-document-generator/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;create-template-and-add-in-crm&#34;&gt;&lt;strong&gt;Create Template and Add in CRM&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Open word and create a template.&lt;/li&gt;
+&lt;li&gt;Insert MailMerge fields for data comming from CRM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_1&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure that the Field name matches exactly with the CRM field.&lt;/li&gt;
+&lt;li&gt;Templates are specific to use with individual entity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_2&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once the Template is created, Open OneClick PDF Configuration entity in CRM and Create a New record.&lt;/li&gt;
+&lt;li&gt;Give the name of the template, select entity the template is defined for and attach the created document in the attachment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_3&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-document-from-ribbon-button&#34;&gt;&lt;strong&gt;Generate Document from Ribbon Button&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Record where you want to generate document. (Make sure a template is already attached in the configuration for that entity)&lt;/li&gt;
+&lt;li&gt;Click OneClick PDF button from the ribbon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_4&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From the Popup: Select template, File Name and Action and Click Generate.&lt;/li&gt;
+&lt;li&gt;Check the Downloaded file or Notes, on basis of the selection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;configure-oneclick-buttons-and-use-them&#34;&gt;&lt;strong&gt;Configure OneClick Buttons and use them&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In Order to use OneClick Button directly from Form, Open Form Customization.&lt;/li&gt;
+&lt;li&gt;Insert WebResource where you want to add OneClick Buttons.&lt;/li&gt;
+&lt;li&gt;Select OpenButtonPage in Webresource and give it a Name.&lt;/li&gt;
+&lt;li&gt;Configure the Buttons in Data field in the following sample.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_5&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use seperate line for each button and use the following syntax:
+&lt;ul&gt;
+&lt;li&gt;Syntax:Template Name |&amp;lt;Action: Download/Note&amp;gt;|Output FileName&lt;/li&gt;
+&lt;li&gt;Example:Demo|Download|My Downloaded File&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Save and publish the customization.&lt;/li&gt;
+&lt;li&gt;The button is available on the form.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;using-oneclick-pdf-document-generator_6&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

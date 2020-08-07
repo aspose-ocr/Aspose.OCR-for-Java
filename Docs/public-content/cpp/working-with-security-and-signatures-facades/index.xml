@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Security and Signatures - Facades</title>
+    <link>https://docs.aspose.com/pdf/cpp/working-with-security-and-signatures-facades/</link>
+    <description>Recent content in Working with Security and Signatures - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/cpp/working-with-security-and-signatures-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Encrypt, Decrypt and set Privileges on PDF documents</title>
+      <link>https://docs.aspose.com/pdf/cpp/encrypt-decrypt-and-set-privileges-on-pdf-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/encrypt-decrypt-and-set-privileges-on-pdf-documents/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;set-privileges-on-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Set Privileges on an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set privileges on an existing PDF document, you can use &lt;strong&gt;Document-&amp;gt;Encrypt(&amp;hellip;)&lt;/strong&gt; method, which takes &lt;strong&gt;DocumentPrivilege&lt;/strong&gt; object. A &lt;strong&gt;DocumentPrivilege&lt;/strong&gt; class is used to set different privileges to access PDF document. Furthermore, there are 4 following ways using this class:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt; &lt;/code&gt;Using predefined privilege directly.&lt;/li&gt;
+&lt;li&gt;Based on a predefined privilege and change some specific permissions.&lt;/li&gt;
+&lt;li&gt;Based on a predefined privilege and change some specific Adobe Professional permissions combination.&lt;/li&gt;
+&lt;li&gt;Mixes the way 2 and way 3.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Following code snippet will demonstrate above 4 ways to set document privileges:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-SecurityAndSignatures-SetPrivileges-Priveleges.cpp&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

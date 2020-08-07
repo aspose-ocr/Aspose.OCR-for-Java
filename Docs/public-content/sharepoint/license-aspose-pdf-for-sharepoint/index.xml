@@ -1,0 +1,96 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – License Aspose.Pdf for SharePoint</title>
+    <link>https://docs.aspose.com/pdf/sharepoint/license-aspose-pdf-for-sharepoint/</link>
+    <description>Recent content in License Aspose.Pdf for SharePoint on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/sharepoint/license-aspose-pdf-for-sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: Installing Aspose.Pdf for SharePoint License</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/installing-aspose-pdf-for-sharepoint-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/installing-aspose-pdf-for-sharepoint-license/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Once you are happy with your evaluation, you can &lt;a href=&#34;http://www.aspose.com/purchase/default.aspx&#34;&gt;purchase a license&lt;/a&gt;. Before purchasing make sure you understand and agree to the license subscription terms.
+&lt;/div&gt;
+
+&lt;p&gt;The license will be emailed to you after the order has been paid. The license is a .zip archive containing a regular SharePoint solution package.&lt;/p&gt;
+&lt;p&gt;This archive contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aspose.PDF.SharePoint.License.wsp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SharePoint solution package file. Aspose.PDF for SharePoint License is packaged as a SharePoint solution to facilitate deployment/retraction across the server farm.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;readme.txt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;License installation instructions. License installation is performed from the server console via stsadm.exe. The steps required to install the license are given below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The paths are omitted for clarity. You may need to add the actual path to stsadm.exe and/or solution file when executing them.&lt;/p&gt;
+&lt;p&gt;\1. Run stsadm to add the solution to the SharePoint solution store:&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o addsolution -filename Aspose.PDF.SharePoint.License.wsp&lt;/p&gt;
+&lt;p&gt;\2. Deploy the solution to all servers in the farm:&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o deploysolution -name Aspose.PDF.SharePoint.License.wsp -immediate -force&lt;/p&gt;
+&lt;p&gt;\3. Execute administrative timer jobs to complete the deployment immediately.&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o execadmsvcjobs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You will receive a warning when running deployment step if Windows SharePoint Services Administration service is not started. Stsadm.exe relies on this service and Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on your server farm, you may need to deploy the license at each server.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Testing a License</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/testing-a-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/testing-a-license/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+To test that a license has been installed correctly, convert any document into desired format. If the document contains no Evaluation Warning, the license was activated successfully.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Uninstalling Aspose.Pdf for SharePoint License</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint-license/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To uninstall Aspose.PDF for SharePoint license, please use the steps below from the server console.&lt;/p&gt;
+&lt;p&gt;\1. Retract the license solution from the farm:&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o retractsolution -name Aspose.PDF.SharePoint.License.wsp -immediate&lt;/p&gt;
+&lt;p&gt;\2. Execute administrative timer jobs to complete the retraction immediately:&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o execadmsvcjobs&lt;/p&gt;
+&lt;p&gt;\3. Wait for the retraction to complete. You can use Central Administration to check if the retraction completed under Central Administration -&amp;gt; Operations -&amp;gt; Solution Management&lt;/p&gt;
+&lt;p&gt;\4. Remove the solution from the SharePoint solution store:&lt;/p&gt;
+&lt;p&gt;stsadm.exe -o deletesolution -name Aspose.PDF.SharePoint.License.wsp&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

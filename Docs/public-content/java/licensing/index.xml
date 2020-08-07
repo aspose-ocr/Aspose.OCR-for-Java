@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Licensing</title>
+    <link>https://docs.aspose.com/pdf/java/licensing/</link>
+    <description>Recent content in Licensing on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/licensing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: When to Apply a License</title>
+      <link>https://docs.aspose.com/pdf/java/when-to-apply-a-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/when-to-apply-a-license/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Follow these simple rules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The license only needs to be set once per application domain.&lt;/li&gt;
+&lt;li&gt;You need to set the license before using any other Aspose.PDF classes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Calling License.SetLicense multiple times is not harmful, but wastes processor time.&lt;/p&gt;
+&lt;p&gt;If you are developing a class library, call License.SetLicense from a static constructor that uses Aspose.PDF. The static constructor execute before an instance of your class is created, making sure Aspose.PDF license is applied properly.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,164 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Tables - DOM</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-tables-dom/</link>
+    <description>Recent content in Working with Tables - DOM on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-tables-dom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Set Border Style, Margins and Padding of Table</title>
+      <link>https://docs.aspose.com/pdf/java/set-border-style-margins-and-padding-of-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/set-border-style-margins-and-padding-of-table/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for Java allows developers to create tables in PDF documents. According to of Aspose.PDF&amp;rsquo;s Document Object Model, a table is a paragraph level element.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;working-with-borders-margins-and-padding&#34;&gt;&lt;strong&gt;Working with Borders, Margins and Padding&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Please note that it also supports the feature to set border style, margins and cell padding for tables. Before going into more technical details, it&amp;rsquo;s important to understand the concepts of border, margins and padding which are presented below in a diagram:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Borders, margins and padding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;set-border-style-margins-and-padding-of-table_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the above figure, you can see that the borders of table, row and cell overlap. Using Aspose.PDF, a table can have margins and cells can have paddings. To set cell margins, we have to set cell padding.&lt;/p&gt;
+&lt;h4 id=&#34;borders&#34;&gt;&lt;strong&gt;Borders&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To set the borders of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table&#34;&gt;Table&lt;/a&gt;, Row and Cell objects, use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table#setBorder-com.aspose.pdf.BorderInfo-&#34;&gt;Table.setBorder()&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Row#setBorder-com.aspose.pdf.BorderInfo-&#34;&gt;Row.setBorder()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Cell#setBorder-com.aspose.pdf.BorderInfo-&#34;&gt;Cell.setBorder()&lt;/a&gt; methods. Cell borders can also be set using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table&#34;&gt;Table&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table#setDefaultCellBorder-com.aspose.pdf.BorderInfo-&#34;&gt;setDefaultCellBorder()&lt;/a&gt; method. All border related methods above are assigned an instance of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BorderInfo&#34;&gt;BorderInfo&lt;/a&gt; class, which is created by calling its constructor. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BorderInfo&#34;&gt;BorderInfo&lt;/a&gt; constructor has many overloads that take almost all parameters required to customize the border.&lt;/p&gt;
+&lt;h4 id=&#34;margins-or-padding&#34;&gt;&lt;strong&gt;Margins Or Padding&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Cell padding can be managed using the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Table&#34;&gt;Table&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table#setDefaultCellBorder-com.aspose.pdf.BorderInfo-&#34;&gt;setDefaultCellBorder()&lt;/a&gt; method. All padding related properties are assigned an instance of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/MarginInfo&#34;&gt;MarginInfo&lt;/a&gt; class that takes information about the Left, Right, Top and Bottom parameters for creating customized margins.&lt;/p&gt;
+&lt;p&gt;In the example below, the cell border width is set to 0.1 point, the table border width is set to 1 point and cell padding is set to 5 points.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-tables-SetBorderStyleMarginsAndPaddingOfTable-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Force Table Rendering on New Page</title>
+      <link>https://docs.aspose.com/pdf/java/force-table-rendering-on-new-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/force-table-rendering-on-new-page/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The com.aspose.pdf.&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table&#34;&gt;Table&lt;/a&gt; class provides makes it possible to create/render tables in PDF documents. A similar feature is also supported by the aspose.pdf.&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Table&#34;&gt;Table&lt;/a&gt; class but we encourage our customers to try using the latest Document Object Model (DOM) of the com.aspose.pdf package, because all the new features and issue resolution is being performed in new DOM. However, the legacy Aspose.PDF for Java (the aspose.pdf package) has a method &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BaseParagraph#isInNewPage--&#34;&gt;isInNewPage(..)&lt;/a&gt; in the paragraph class, so that the paragraph is rendered on a new page. For backward compatibility, the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BaseParagraph#isInNewPage--&#34;&gt;isInNewPage(..)&lt;/a&gt; method has been added to the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BaseParagraph&#34;&gt;BaseParagraph&lt;/a&gt; class.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippets show the steps to create a table and force it to render on new page.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-tables-ForceTableRenderingOnNewPage-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Manipulate tables in existing PDF</title>
+      <link>https://docs.aspose.com/pdf/java/manipulate-tables-in-existing-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/manipulate-tables-in-existing-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+One of the earliest features supported by Aspose.PDF for Java is its capabilities of &lt;a href=&#34;http://www.aspose.com/docs/display/pdfjava/Working+with+Tables+(DOM)&#34;&gt;Working with Tables&lt;/a&gt; and it provides great support for adding tables in PDF files being generated from scratch or any existing PDF files. You also get the capability to dynamically create tables and place them inside PDF file. Starting &lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.pdf-for-java/entry649204.aspx&#34;&gt;Aspose.PDF for Java 10.6.0&lt;/a&gt;, a new feature of searching and parsing simple tables that already exist in PDF document has been provided. A new class named &lt;strong&gt;com.aspose.pdf.TableAbsorber&lt;/strong&gt; provides these capabilities. The usage of TableAbsorber is very much similar to existing TextFragmentAbsorber class.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows the steps to update contents in particular table cell.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-tables-ManipulateTablesInExistingPDF-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h4 id=&#34;future-enhancements&#34;&gt;&lt;strong&gt;Future Enhancements&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Features related to this functionality which still need to be implemented.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One of the customers has requested to fetch the data based on the blocks of table or borders (as given in the diagram) and colors as well.&lt;/li&gt;
+&lt;li&gt;Currently TableAbsorber cannot recognize table cell background color now. However we expect to make this improvement in this future and a separate ticket is already created in our issue tracking system.&lt;/li&gt;
+&lt;li&gt;Another customer wants to get contents of column in the table. Currently TableAbsorber cannot recognize table without borders, but conversion to XLS works well in such cases. However conversion to XLS is a workaround. An enhancement ticket has been logged to improve TableAbsorber for working with such table types.&lt;/li&gt;
+&lt;li&gt;A Customer wants to update table in existing PDF dynamically. Including deleting / insertion of rows. This request is a bit difficult to implement and current implementation of TableAbsorber cannot fulfill such requirements.&lt;/li&gt;
+&lt;li&gt;If you have a requirement of looking for text property in &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Cells&#34;&gt;Cells&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BaseParagraph&#34;&gt;BaseParagraph&lt;/a&gt; types, (such types are designed for adding new contents on the page), you must cast &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/BaseParagraph&#34;&gt;BaseParagraph&lt;/a&gt; to one of the inherited types. For example next code must help:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdf-Tables-ManipulateTablesInExistingPDF-FutureEnhancements.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Remove tables from existing PDF</title>
+      <link>https://docs.aspose.com/pdf/java/remove-tables-from-existing-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/remove-tables-from-existing-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for Java offers the capabilities to insert/create Table inside PDF document while its being generated from scratch or you can also add the table object in any existing PDF document. However you may have a requirement to &lt;a href=&#34;http://www.aspose.com/docs/display/pdfjava/Manipulate+tables+in+existing+PDF&#34;&gt;Manipulate Tables in existing PDF&lt;/a&gt; where you can update the contents in existing table cells. However you may come across a requirement to remove table objects from existing PDF document.
+&lt;/div&gt;
+
+&lt;p&gt;In order to remove the tables, we need to use TableAbsorber class to get hold of tables in existing PDF and then replace the table cell contents with blank characters and in order to remove the border, certain page region is redacted. The following code snippet shows the steps to delete table from existing PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-tables-RemoveTablesFromExistingPDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Table in Existing PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/add-table-in-existing-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-table-in-existing-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Tables are important when working with PDF documents. They provide great features for displaying information in a systematic manner. The com.aspose.pdf package contains classes named &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Table&#34;&gt;Table&lt;/a&gt;, &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Cell&#34;&gt;Cell&lt;/a&gt; and &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Row&#34;&gt;Row&lt;/a&gt; which provide functionality for creating tables when generating PDF documents from scratch.&lt;/p&gt;
+&lt;p&gt;In this article, we show how to use these new classes to add a table to an existing PDF.&lt;/p&gt;
+&lt;h3 id=&#34;adding-a-table&#34;&gt;&lt;strong&gt;Adding a Table&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To add a table to an existing PDF file with Aspose.PDF for Java, take the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Load the source file.&lt;/li&gt;
+&lt;li&gt;Initialize a table and set its columns and rows.&lt;/li&gt;
+&lt;li&gt;Set table setting (we&amp;rsquo;ve set the borders).&lt;/li&gt;
+&lt;li&gt;Populate table.&lt;/li&gt;
+&lt;li&gt;Add the table to a page.&lt;/li&gt;
+&lt;li&gt;Save the file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippets show how to add table in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com//474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-Tables-AddTableInExistingPDFDocument-AddTableInExistingPDFDocument.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;autofittowindow-property-in-columnadjustmenttype-enumeration&#34;&gt;&lt;strong&gt;AutoFitToWindow property in ColumnAdjustmentType enumeration&lt;/strong&gt;&lt;/h3&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com//474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-Tables-AddTableInExistingPDFDocument-SetAutoFitToWindowPropertyInColumnAdjustmentTypeEnumeration.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;hide-spanned-cell-borders&#34;&gt;&lt;strong&gt;Hide Spanned Cell Borders&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;While adding cells to a table, the spanned cell borders may show up when they break to another row. Such spanned borders can be made hidden as shown in the following code sample.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-Tables-HideSpannedCellBorder-HideSpannedCellBorder.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

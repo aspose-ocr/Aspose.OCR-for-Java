@@ -1,0 +1,121 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Document</title>
+    <link>https://docs.aspose.com/pdf/cpp/working-with-document/</link>
+    <description>Recent content in Working with Document on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/cpp/working-with-document/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Formatting PDF Document</title>
+      <link>https://docs.aspose.com/pdf/cpp/formatting-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/formatting-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;getset-document-window-and-page-display-properties&#34;&gt;&lt;strong&gt;Get/Set Document Window and Page Display Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic helps you understand how to get/set properties of the document window, viewer application, and how pages pages are displayed. In order to get these properties:&lt;/p&gt;
+&lt;p&gt;Open the PDF file using the Document class. Now, you can select the Document object&amp;rsquo;s properties, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CenterWindow – Center the document window on screen. Default: false.&lt;/li&gt;
+&lt;li&gt;Direction – Reading order. This determines how pages are laid out when displayed side by side. Default: left to right.&lt;/li&gt;
+&lt;li&gt;DisplayDocTitle – Display the document title in the document window title bar. Default: false (the title is displayed).&lt;/li&gt;
+&lt;li&gt;HideMenuBar -– Hide or display the document window&amp;rsquo;s menu bar. Default: false (menu bar is displayed).&lt;/li&gt;
+&lt;li&gt;HideToolBar -– Hide or display the document window&amp;rsquo;s toolbar. Default: false (toolbar is displayed).&lt;/li&gt;
+&lt;li&gt;HideWindowUI -– Hide or display document window elements like scroll bars. Default: false (UI elements are displayed).&lt;/li&gt;
+&lt;li&gt;NonFullScreenPageMode -– How the document when its not displayed in full-page mode.&lt;/li&gt;
+&lt;li&gt;PageLayout -– The page layout.&lt;/li&gt;
+&lt;li&gt;PageMode -– How the document is displayed when first opened. The options are show thumbnails, full-screen, show attachment panel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to set the properties of the document window, viewer application and page display:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the PDF file using the Document class.&lt;/li&gt;
+&lt;li&gt;Set the Document object&amp;rsquo;s properties.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF file using the Save method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Properties available are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CenterWindow&lt;/li&gt;
+&lt;li&gt;Direction&lt;/li&gt;
+&lt;li&gt;DisplayDocTitle&lt;/li&gt;
+&lt;li&gt;FitWindow&lt;/li&gt;
+&lt;li&gt;HideMenuBar&lt;/li&gt;
+&lt;li&gt;HideToolBar&lt;/li&gt;
+&lt;li&gt;HideWindowUI&lt;/li&gt;
+&lt;li&gt;NonFullScreenPageMode&lt;/li&gt;
+&lt;li&gt;PageLayout&lt;/li&gt;
+&lt;li&gt;PageMode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each is used and described in the code below. The following code snippet shows you how to get/set the properties using the Document class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-GetSetDocWindowProperties-GetSetDocWindowProperties.cpp&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;embedding-fonts-while-creating-pdf&#34;&gt;&lt;strong&gt;Embedding Fonts while creating PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you need to use any font other than the 14 core fonts supported by Adobe Reader, than you must embed the font description while generating PDF file. If font information is not embedded, Adobe Reader will take it from the Operating System if it’s installed over the system, or it will construct a substitute font according to the font descriptor in the PDF.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please note the embedded font must be installed on host machine i.e. in case of following code ‘Universe Condensed’ font is installed over the system.
+&lt;/div&gt;
+
+&lt;p&gt;We use the method set_IsEmbedded of Font class to embed the font information into PDF file. Setting the value of this property to ‘True’ will embed the complete font file into the PDF, knowing the fact that it will increase the PDF file size. Following is the code snippet that can be used to embed the font information into PDF. To embed the full font, use the Font class&amp;rsquo; set_IsEmbedded() method, whereas in order to use a subset of the font, use the set_IsSubset() method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-EmbedFont-EmbedFont.cpp&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;A font subset embeds only the characters that are used and is useful where fonts are used for short sentences or slogans, for example where a corporate font is used for a logo, but not for the body text. Using a subset reduces the file size of the output PDF.&lt;/p&gt;
+&lt;p&gt;However if a custom font is used for the body text, embed it in its entirety.&lt;/p&gt;
+&lt;h2 id=&#34;set-zoom-factor-of-pdf-file&#34;&gt;&lt;strong&gt;Set Zoom Factor of PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to set PDF document&amp;rsquo;s zoom factor. With Aspose.PDF for C++, you can set the value of zoom factor by &lt;strong&gt;set_OpenAction(&amp;hellip;)&lt;/strong&gt; method of Document class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-SetZoomFactor-SetZoomFactor.cpp&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;set-particular-page-to-display-when-document-is-opened&#34;&gt;&lt;strong&gt;Set Particular Page to Display when Document is opened&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to display a particular page of a PDF file when it is opened in any PDF Viewer. Aspose.PDF for C++ allows you to specify page inside PDF document, which will be displayed when PDF is opened. Following code snippet shows you, how to create a document which displays full second page when opened.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-CreateDoc-CreateDoc.cpp&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: PDF File Metadata</title>
+      <link>https://docs.aspose.com/pdf/cpp/pdf-file-metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/pdf-file-metadata/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;getset-pdf-file-information&#34;&gt;&lt;strong&gt;Get/Set PDF File Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get file specific information of a PDF file, you first need to call the &lt;strong&gt;get_Info()&lt;/strong&gt; of Document class. Once the DocumentInfo object is retrieved, you can get the values of the individual properties. Furthermore, you can also set the properties by using respective methods of DocumentInfo class. Following code snippet demonstrate, how to get/set PDF File information using Aspose.PDF for C++:&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please note that you cannot set values against the &lt;strong&gt;Application&lt;/strong&gt; and &lt;strong&gt;Producer&lt;/strong&gt; fields, because Aspose Ltd. and Aspose.PDF for C++ x.x.x will be displayed against these fields.
+&lt;/div&gt;
+
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-GetSetInfo-GetSetInfo.cpp&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;getset-xmp-metadata-from-pdf-file&#34;&gt;&lt;strong&gt;Get/Set XMP Metadata from PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for C++ allows you to access a PDF file&amp;rsquo;s XMP metadata as well as set it. To get/set a PDF file&amp;rsquo;s metadata:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a Document object and open the input PDF file.&lt;/li&gt;
+&lt;li&gt;Get/Set the file&amp;rsquo;s metadata using respective methods.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to get/set metadata from the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Document-GetSetMetadata-GetSetMetadata.cpp&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

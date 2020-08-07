@@ -1,0 +1,93 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Install Aspose.Pdf for Reporting Services</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/install-aspose-pdf-for-reporting-services/</link>
+    <description>Recent content in Install Aspose.Pdf for Reporting Services on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/install-aspose-pdf-for-reporting-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Install with MSI Installer</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/install-with-msi-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/install-with-msi-installer/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+You can install Aspose.PDF for Reporting Services by using a MSI installer. Run Aspose.PDF.ReportingServices.msi and follow the steps offered by the installer. Installer will copy the assembly and other files to the specified directory and install the product on the default instance of Reporting Services. You do not need to copy or modify any files manually unless you want to add special configuration parameters as described in the Configure Aspose.PDF for Reporting Services section.
+&lt;/div&gt;
+
+&lt;p&gt;Automatic installation is the best option that works in most cases. However, you may need to install the product manually in some situations like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic installation fails due to I/O security issues.&lt;/li&gt;
+&lt;li&gt;You need to install the product on a named (not default) instance of Reporting Services or on multiple instances.&lt;/li&gt;
+&lt;li&gt;You upgrade to the latest version and just want to replace the assembly instead of uninstalling the old version and installing the new one using MSI installer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that when performing manual installation, some files including offline product documentation etc are not upgraded.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Install Manually</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/install-manually/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/install-manually/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/install-to-report-server-html/&#34;&gt;Install to Report Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/install-to-visual-studio-report-designer-html/&#34;&gt;Install to Visual Studio Report Designer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Install with Configuring Tool</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/install-with-configuring-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/install-with-configuring-tool/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose Pdf for Reporting Service Config uring to ol can help you to config the &amp;lsquo;Aspose.PDF for ReportingServices.dll&amp;rsquo; file for Report Server(RS) and VisualStudio(VS) products. Currently it supports RS2000, RS2005, RS2008, VS2005 and VS2008.
+&lt;/div&gt;
+
+&lt;p&gt;If you wan t to register the DLL file, the &amp;lsquo;Register&amp;rsquo; action type should be selected. And &amp;lsquo;Unregister&amp;rsquo; action type should be used for unregistering.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;install-with-configuring-tool_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The following steps describe how to use it in detail:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Input or browse the path of the DLL file for Aspose Pdf for Reporting Service;&lt;/li&gt;
+&lt;li&gt;Select the corresponding action type: register or unregister;&lt;/li&gt;
+&lt;li&gt;Select the corresponding product: ReportServer or VS Design tool;&lt;/li&gt;
+&lt;li&gt;In the tab pages, select the version of the current product you want to configure. In this step, it is necessary for you to check the DLL file be suitable for the current version. If the current version of this product is not installed on your machine, the configuration tool will inform you with tips. If you are configuring for RS and the name of MS SQLServer instance is not &amp;lsquo;MSSQLSERVER&amp;rsquo;, please input the custom instance name, then press refresh button.&lt;/li&gt;
+&lt;li&gt;Make sure that the configure file’s path and name showed in the textbox be correct. If not, you can press the button to look it up manually.&lt;/li&gt;
+&lt;li&gt;Press &amp;lsquo;Config&amp;rsquo; button. After several seconds, it will inform you the result of configuration, successful or failed.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

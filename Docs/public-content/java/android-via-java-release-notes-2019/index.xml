@@ -1,0 +1,419 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Android via Java Release Notes - 2019</title>
+    <link>https://docs.aspose.com/pdf/java/android-via-java-release-notes-2019/</link>
+    <description>Recent content in Android via Java Release Notes - 2019 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/android-via-java-release-notes-2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.PDF for Android via Java 19.12 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-19-12-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-19-12-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for Android via Java 19.12.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-588&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-569&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-562&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Out of memory exception while saving PDF with an image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-19&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Facades: BindPdf() method is missing in Form class&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-598&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implementation Redaction Annotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-593&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on getModDate()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-594&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException while extracting text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-595&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiline parsing of pdf through TextFragmentAbsorber with regex not working&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-596&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Merging PDF Documents - issue with radio buttons in output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;pdf-to-pptx-support&#34;&gt;&lt;strong&gt;PDF to PPTX Support&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;inFile&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PptxSaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;saveOptions&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PptxSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outFileName&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;saveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;pdf-to-doc-support&#34;&gt;&lt;strong&gt;PDF to DOC Support&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;inFile&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;DocSaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;docsave&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DocSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;docsave&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setMode&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DocSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;RecognitionMode&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Textbox&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outFile&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;docsave&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdfannotationselector&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.AnnotationSelector&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Method&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.AnnotationSelector.visit(RedactionAnnotation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdfdocsaveoptions&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.DocSaveOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Constructor&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.#ctor()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.getMaxDistanceBetweenTextLines&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.setMaxDistanceBetweenTextLines(float)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.setFormat(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.getFormat&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.setImageResolutionY(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.getImageResolutionY&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.setImageResolutionX(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.getImageResolutionX&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.setAddReturnToLineEnd(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.isAddReturnToLineEnd&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.isRecognizeBullets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Added Fields&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.RecognitionMode.Textbox&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.RecognitionMode&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.DocSaveOptions.CustomProgressHandler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;added-new-classclass-comasposepdfexceptionsfontnotfoundexception&#34;&gt;&lt;strong&gt;Added new class class com.aspose.pdf.exceptions.FontNotFoundException&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Constructors&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.exceptions.FontNotFoundException.#ctor(String)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdffacadesform&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.facades.Form&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Constructors&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(IDocument)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(IDocument,OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(IDocument,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(InputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(InputStream,OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(InputStream,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(String,OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.#ctor(String,String)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.bindPdf(InputStream,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.bindPdf(String,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.close&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.dispose&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.exportFdf(OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.exportXfdf(OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillBarcodeField(String,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillField(String,boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillField(String,int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillField(String,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillField(String,String,boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.fillField(String,String[])&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.flattenAllFields&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.flattenField(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getAttachmentName&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getButtonOptionCurrentValue(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getButtonOptionValues(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getContentDisposition&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getDestFileName&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getDestStream&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getField(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFieldFacade(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFieldFlag(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFieldLimit(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFieldNames&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFieldType(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFormSubmitButtonNames&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getFullFieldName(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getImportResult&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getRichText(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getSaveOptions&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getSrcFileName&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getSrcStream&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.getSubmitFlags(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.importFdf(InputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.importXfdf(InputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.importXml(InputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.importXml(InputStream,boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.isRequiredField(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.renameField(String,String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.save&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.save(OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.save(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setAttachmentName(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setContentDisposition(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setConvertTo(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setDestFileName(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setDestStream(OutputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setSaveOptions(SaveOptions)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setSrcFileName(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setSrcStream(InputStream)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.setXfaData(InputStream)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Added Fields&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.ImportStatus.Success&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.facades.Form.ImportStatus.FieldNotFound&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rename Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.Form.getFields_Rename_Namesake -&amp;gt; com.aspose.pdf.Form.getFields&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdfloadoptions&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.LoadOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Renamed Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.LoadOptions.setWarningHandler(IWarningCallback) -&amp;gt; com.aspose.pdf.LoadOptions.setWarningHandler(WarningCallback) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;added-new-classcomasposepdfpptxsaveoptions&#34;&gt;&lt;strong&gt;Added new class com.aspose.pdf.PptxSaveOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Constructors&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.#ctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.getSlidesAsImages&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.setSlidesAsImages(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.getImageResolution&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.setImageResolution(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.getSeparateImages&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.setSeparateImages(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.isOptimizeTextBoxes&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.PptxSaveOptions.setOptimizeTextBoxes(boolean)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;added-new-classcomasposepdfprogresseventtype&#34;&gt;&lt;strong&gt;Added new class com.aspose.pdf.ProgressEventType&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Fields&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.ProgressEventType.TotalProgress&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.ProgressEventType.SourcePageAnalized&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.ProgressEventType.ResultPageCreated&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.ProgressEventType.ResultPageSaved&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdfloadoptions-1&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.LoadOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.Rectangle.contains(Point)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.Rectangle.center&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;added-new-classcomasposepdfredactionannotation&#34;&gt;&lt;strong&gt;Added new class com.aspose.pdf.RedactionAnnotation&lt;/strong&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Constructors&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.#ctor(IDocument)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.#ctor(Page,Rectangle)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.accept(AnnotationSelector)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.getQuadPoint&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setQuadPoint(Point[])&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.getFillColor&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setFillColor(Color)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.getBorderColor&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setBorderColor(Color)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.getOverlayText&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setOverlayText(String)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.isRepeat&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setRepeat(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.getTextAlignment&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.setTextAlignment(int)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.flatten&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.redact&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.redactExact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdfrenderingoptions&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.RenderingOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.getOptimizeDimensions&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.setOptimizeDimensions(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.getDefaultFontName&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.setDefaultFontName(String)&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;added-new-classcomasposepdftextrenderingmode&#34;&gt;&lt;strong&gt;Added new class com.aspose.pdf.TextRenderingMode&lt;/strong&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Fields&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.FillText&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.StrokeText&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.FillThenStrokeText&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.Invisible&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.FillTextAndAddPathToClipping&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.StrokeTextAndAddPathToClipping&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.FillThenStrokeTextAndAddPathToClipping&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextRenderingMode.AddPathToClipping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes-inclass-comasposepdftextsearchoptions&#34;&gt;&lt;strong&gt;Changes in class com.aspose.pdf.TextSearchOptions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.setDotallMode(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.isDotallMode&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.getLogTextExtractionErrors&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.setLogTextExtractionErrors(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.getSearchForTextRelatedGraphics&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.TextSearchOptions.setSearchForTextRelatedGraphics(boolean)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Android via Java 19.3 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-19-3-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-19-3-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes of &lt;a href=&#34;https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf/19.3&#34;&gt;Aspose.PDF for Android via Java 19.3&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-533&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support for Setting locale&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-554&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of PDF to XLSX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-537&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding large images into PDF takes long time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-485&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG - the slow conversion process&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-498&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to EXCEL: columns are merged in output excel&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-558&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;EmptyValueException: CreationDate value is empty&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFANDROID-559&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Excel - Escaping XML reserved characters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;New Features PDFANDROID-533: Support for Setting locale&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;LocaleOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLocale&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;java&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;util&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Locale&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;US&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;New Features PDFANDROID-554: Support of PDF to XLSX&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;ExcelSaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ExcelSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setUniformWorksheets&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setMinimizeTheNumberOfWorksheets&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFormat&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ExcelSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;ExcelFormat&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;XLSX&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;inputPdfFile&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/mnt/sdcard/Aspose_19_3/output.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;dispose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Changes in &lt;strong&gt;class com.aspose.pdf.ExcelSaveOptions&lt;/strong&gt; 
+Added method:
+com.aspose.pdf.ExcelSaveOptions.getFormat
+com.aspose.pdf.ExcelSaveOptions.setFormat(int)&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.ExcelSaveOptions.ExcelFormat&lt;/strong&gt; 
+fields:
+com.aspose.pdf.ExcelSaveOptions.ExcelFormat.XMLSpreadSheet2003
+com.aspose.pdf.ExcelSaveOptions.ExcelFormat.XLSX&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.exceptions.EmptyValueException&lt;/strong&gt; 
+constructors:
+com.aspose.pdf.exceptions.EmptyValueException.#ctor(String)&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.exceptions.InvalidValueFormatException&lt;/strong&gt; 
+constructors:
+com.aspose.pdf.exceptions.InvalidValueFormatException.#ctor(String)&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.LocaleOptions&lt;/strong&gt; 
+methods:
+com.aspose.pdf.LocaleOptions.setLocale(Locale)
+com.aspose.pdf.LocaleOptions.getLocale
+com.aspose.pdf.LocaleOptions.clear&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Ruby Programmers Guide</title>
+    <link>https://docs.aspose.com/pdf/java/ruby-programmers-guide/</link>
+    <description>Recent content in Ruby Programmers Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/ruby-programmers-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Working with Document Object in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-object-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-object-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/adding-javascript-in-ruby/&#34;&gt;Adding JavaScript in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-layers-to-pdf-file-in-ruby/&#34;&gt;Add Layers to PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-toc-to-existing-pdf-in-ruby/&#34;&gt;Add TOC to Existing PDF in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-document-window-and-page-display-properties-in-ruby/&#34;&gt;Get Document Window and Page Display Properties in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-pdf-file-information-in-ruby/&#34;&gt;Get PDF File Information in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-xmp-metadata-from-pdf-file-in-ruby/&#34;&gt;Get XMP Metadata from PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/optimize-pdf-document-for-the-web-in-ruby/&#34;&gt;Optimize PDF Document for the Web in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/optimize-pdf-file-size-in-ruby/&#34;&gt;Optimize PDF File Size in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/remove-metadata-from-pdf-in-ruby/&#34;&gt;Remove Metadata from PDF in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-document-window-and-page-display-properties-in-ruby/&#34;&gt;Set Document Window and Page Display Properties in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-pdf-expiration-in-ruby/&#34;&gt;Set PDF Expiration in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-pdf-file-information-in-ruby/&#34;&gt;Set PDF File Information in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Pages in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pages-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pages-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/concatenate-pdf-files-in-ruby/&#34;&gt;Concatenate PDF Files in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-a-particular-page-from-the-pdf-file-in-ruby/&#34;&gt;Delete a Particular Page from the PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-a-particular-page-in-a-pdf-file-in-ruby/&#34;&gt;Get a Particular Page in a PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-page-count-of-pdf-in-ruby/&#34;&gt;Get Page Count of PDF in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-page-properties-in-ruby/&#34;&gt;Get Page Properties in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/insert-an-empty-page-at-end-of-pdf-file-in-ruby/&#34;&gt;Insert an Empty Page at End of PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/insert-an-empty-page-into-a-pdf-file-in-ruby/&#34;&gt;Insert an Empty Page into a PDF File in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/split-pdf-file-into-individual-pages-in-ruby/&#34;&gt;Split PDF File into Individual Pages in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/update-page-dimensions-in-ruby/&#34;&gt;Update Page Dimensions in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Text in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-text-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-text-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-html-string-using-dom-in-ruby/&#34;&gt;Add HTML String using DOM in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-text-to-an-existing-pdf-file-in-ruby/&#34;&gt;Add Text to an existing PDF file in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-text-from-all-the-pages-of-a-pdf-document-in-ruby/&#34;&gt;Extract Text From All the Pages of a PDF Document in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Document Conversion in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-conversion-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-conversion-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-html-to-pdf-format-in-ruby/&#34;&gt;Convert HTML to PDF Format in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-pages-to-images-in-ruby/&#34;&gt;Convert PDF pages to Images in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-doc-or-docx-format-in-ruby/&#34;&gt;Convert PDF to DOC or DOCX format in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-excel-workbook-in-ruby/&#34;&gt;Convert PDF to Excel Workbook in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-svg-format-in-ruby/&#34;&gt;Convert PDF to SVG Format in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-svg-file-to-pdf-format-in-ruby/&#34;&gt;Convert SVG file to PDF format in Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

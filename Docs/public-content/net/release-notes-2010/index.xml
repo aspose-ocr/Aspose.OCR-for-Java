@@ -1,0 +1,240 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2010</title>
+    <link>https://docs.aspose.com/pdf/net/release-notes-2010/</link>
+    <description>Recent content in Release Notes - 2010 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/release-notes-2010/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.7.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-7-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-7-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.7.0/&#34;&gt;Aspose.PDF for .NET 4.7.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re pleased to announce the release of another breakthrough version of Aspose.PDF for .NET which offers exhilarating new features and resolution for the issues reported in previous versions. Nevertheless, there has been a great improvement while generating large size PDF documents. In addition to all this, we have also added the support for following HTML controls while transforming HTML contents into PDF file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;alt&gt; html tag.
+&lt;width&gt; property of table
+&lt;menu&gt; html element 
+&lt;dir&gt; html element 
+&lt;dd&gt; html element 
+&lt;dl&gt; html element 
+&lt;dt&gt; html element 
+&lt;basefont&gt; html element 
+Fix image height
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.6.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-6-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-6-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.6.0/&#34;&gt;Aspose.PDF for .NET 4.6.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re proud to announce the release of another breakthrough version of Aspose.PDF for .NET which offers exciting new features as compared to earlier versions, with a remarkable support of transforming large TIFF images into PDF format through efficient utilization of memory resources. In addition to all this, we have also added the support for following HTML controls while transforming HTML contents into PDF file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select HTML control.&lt;/li&gt;
+&lt;li&gt;Option HTML control&lt;/li&gt;
+&lt;li&gt;CheckBox HTML control&lt;/li&gt;
+&lt;li&gt;TextArea HTML control&lt;/li&gt;
+&lt;li&gt;Text HTML control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNET-18416  Implement select html element&lt;/li&gt;
+&lt;li&gt;PDFNET-18417  Implement option html element&lt;/li&gt;
+&lt;li&gt;PDFNET-18418  Implement checkbox html element&lt;/li&gt;
+&lt;li&gt;PDFNET-18421  Implement textarea html element&lt;/li&gt;
+&lt;li&gt;PDFNET-18420  Implement text html element&lt;/li&gt;
+&lt;li&gt;PDFNET-18635  IsBroken Nested table Issue&lt;/li&gt;
+&lt;li&gt;PDFNET-18636  Nested Tables, textual area cell IsBroken-Issue&lt;/li&gt;
+&lt;li&gt;PDFNET-18010  IsBroken not working correctly when using inside a Nested Tables&lt;/li&gt;
+&lt;li&gt;PDFNET-15001  ImageInfo.DefaultFile is not working&lt;/li&gt;
+&lt;li&gt;PDFNET-17433  Problem converting multipage tiff to PDF using MemoryStream&lt;/li&gt;
+&lt;li&gt;PDFNET-18358  Create line-height function support&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.5.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-5-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-5-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.5.0/&#34;&gt;Aspose.PDF for .NET 4.5.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re pleased to announce the release of another breakthrough version of Aspose.PDF for .NET which offers superb performance as compared to earlier versions, remarkable support for True Type fonts and efficient memory utilization. In addition to all this, we have also added support for the following XSL-FO features.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt; &lt;/code&gt;Add start/end indent properties rendering.&lt;/li&gt;
+&lt;li&gt;Add Page sequence master testing class method&lt;/li&gt;
+&lt;li&gt;Add margin bottom, left, right, top rendering function&lt;/li&gt;
+&lt;li&gt;Create number-columns-repeated function&lt;/li&gt;
+&lt;li&gt;Implement, word-spacing property, unit test&lt;/li&gt;
+&lt;li&gt;Add padding before/bottom/end/left/right/start property rendering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s fixed?&lt;/p&gt;
+&lt;p&gt;· PDFNET-18008 Images in HTML Text are not displayed&lt;/p&gt;
+&lt;p&gt;· PDFNET-14503 Embedding two Postscript fonts, generates an error&lt;/p&gt;
+&lt;p&gt;· PDFNET-17419 Replaceable Symbols support&lt;/p&gt;
+&lt;p&gt;· PDFNET-17048 Paragraphs.Add does not add new pages&lt;/p&gt;
+&lt;p&gt;· PDFNET-16938 Object reference not set to an instance of an object&lt;/p&gt;
+&lt;p&gt;· PDFNET-16869 Index was outside the bounds of the array.&lt;/p&gt;
+&lt;p&gt;· PDFNET-13235 Producer field must be &amp;ldquo;&lt;a href=&#34;https://docs.aspose.com/pdf/pages/createpage.action?spaceKey=pdfnet&amp;amp;title=Product+Name&amp;amp;linkCreation=true&amp;amp;fromPageId=7120565&#34;&gt;Product Name&lt;/a&gt; &lt;a href=&#34;https://docs.aspose.com/pdf/pages/createpage.action?spaceKey=pdfnet&amp;amp;title=Product+Version&amp;amp;linkCreation=true&amp;amp;fromPageId=7120565&#34;&gt;Product Version&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;· PDFNET-17493 Add start/end indent properties rendering.&lt;/p&gt;
+&lt;p&gt;· PDFNET-17314 Add Page sequence master testing class method&lt;/p&gt;
+&lt;p&gt;· PDFNET-17660 Add margin bottom, left, right, top rendering function&lt;/p&gt;
+&lt;p&gt;· PDFNET-17658 Create number-columns-repeated function&lt;/p&gt;
+&lt;p&gt;· PDFNET-17853 Implement, word-spacing property, unit test&lt;/p&gt;
+&lt;p&gt;· PDFNET-17657 Add padding before/bottom/end/left/right/start property rendering&lt;/p&gt;
+&lt;p&gt;· PDFNET-17456 Add &amp;lsquo;fit-to-page&amp;rsquo; property/method&lt;/p&gt;
+&lt;p&gt;· PDFNET-17455 will the GetMaxColumnWidth become obsolete ?&lt;/p&gt;
+&lt;p&gt;· PDFNET-17162 Issue with PositioningType.PageRelative&lt;/p&gt;
+&lt;p&gt;· PDFNET-17047 Bottom border of table row is not displaying on subsequent pages&lt;/p&gt;
+&lt;p&gt;· PDFNET-16517 XML Template stopped working after upgrade&lt;/p&gt;
+&lt;p&gt;· PDFNET-17787 Throw exception if embedded font is not found&lt;/p&gt;
+&lt;p&gt;· PDFNET-17143 Dollar signs causing previous text on line to be removed&lt;/p&gt;
+&lt;p&gt;· PDFNET-16143 Background coloring eats cell border lines.&lt;/p&gt;
+&lt;p&gt;· PDFNET-14504 MyriadProBold font cannot be used in 4.1.2&lt;/p&gt;
+&lt;p&gt;· PDFNET-10125 System Defined Bullets are not working for heading object&lt;/p&gt;
+&lt;p&gt;· PDFNET-17603 return value of GetStringWidth has changed from v4.1.2 to v4.4&lt;/p&gt;
+&lt;p&gt;· PDFNET-16807 Inconsistency in the text placement using different sizes of font.&lt;/p&gt;
+&lt;p&gt;· PDFNET-17848 All the text is bold when using HTML text to generate PDF&lt;/p&gt;
+&lt;p&gt;· PDFNET-16884 Improve products performance
+·         PDFNET-17849 StackOverflow Exception is occurring when using HTML text inside table&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.4.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-4-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-4-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.4.0/&#34;&gt;Aspose.PDF for .NET 4.4.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to announce the release of a new version of Aspose.PDF for .NET which includes some new features and fixes for the issues reported earlier. Following is the brief of some of the exciting features in this release.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.3.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-3-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-3-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.3.0/&#34;&gt;Aspose.PDF for .NET 4.3.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;We are pleased to announce the release of a new version of Aspose.PDF for .NET which includes some new features and fixes for the issues reported earlier. More along, there have been some improvements in terms of memory management &amp;amp; HTML to PDF conversion, using InLineHTML method.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s improved?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inline HTML
+Memory Management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;p&gt;15744  -   
+Add a method to return the current version number12953 - Turn off word wrapping in a tablecell14292 - Cannot assign values for the radio button&lt;/p&gt;
+&lt;p&gt;15770 - Image TopMargin is not working correctly during XML to PDF conversion.15567 - Table rows are not repeating correctly15073 - PDF Table DefaultCellPadding Problem 15057 - XML contents are not being displayed in respective order in PDF 15234 - StackOverflowException during Word to PDF conversion 15424 - Bullets are represented in same bullet style&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 4.2.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-2-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-4-2-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-4.2.0/&#34;&gt;Aspose.PDF for .NET 4.2.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;It gives an immense pleasure to announce the release of another version of Aspose.PDF for .NET which includes BindFO(Beta) feature and improved inline HTML functionality. There have been some improvements in terms of memory management and Word to PDF conversion feature. Some bugs are also fixed in this version.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s improved?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BindFO (Beta)Supported Elements are·         Block Area·         Inline Container·         Font-Size·         Page-Height·         Page-Width·         Text-Align·         Text-Transform
+Inline HTML 
+Memory usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;p&gt;12331 - Converting Hebrew Word document to PDF 15124 - Braces around Hebrew text are not in correct order 15180 - Conversion of Word document containing Image is causing OutOfMemory Exception&lt;/p&gt;
+&lt;p&gt;14606 - Bullets not working in html text&lt;/p&gt;
+&lt;p&gt;14595 - Index was outside the bounds of the array error when using HTML text in table&lt;/p&gt;
+&lt;p&gt;14692 - Out of Memory Exception converting large TIFFs to PDF&lt;/p&gt;
+&lt;p&gt;15235 - Text Segment color information is not being entertained&lt;/p&gt;
+&lt;p&gt;14596 - Issue when rendering html contents with many levels of bullets&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

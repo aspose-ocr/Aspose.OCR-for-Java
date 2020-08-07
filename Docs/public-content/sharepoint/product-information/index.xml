@@ -1,0 +1,201 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Product Information</title>
+    <link>https://docs.aspose.com/pdf/sharepoint/product-information/</link>
+    <description>Recent content in Product Information on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/sharepoint/product-information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: Product Overview</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/product-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/product-overview/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;img src=&#34;product-overview_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;welcome-to-the-asposepdf-for-sharepoint-documentation&#34;&gt;&lt;strong&gt;Welcome to the Aspose.PDF for SharePoint Documentation!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for SharePoint is a solution that allows the users to export lists, list items and SharePoint Wiki pages to the PDF file format.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.PDF for SharePoint is designed to be used with Microsoft SharePoint Server 2010. There are no additional system requirements besides Microsoft SharePoint Server 2010.&lt;/p&gt;
+&lt;p&gt;This documentation describes Aspose.PDF for SharePoint&amp;rsquo;s &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/features-html/&#34;&gt;features&lt;/a&gt;, &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/install-aspose-pdf-for-sharepoint-html/&#34;&gt;installation&lt;/a&gt;, &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/evaluate-aspose-pdf-html/&#34;&gt;evaluation limitations&lt;/a&gt;, &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/license-aspose-pdf-for-sharepoint-html/&#34;&gt;licensing&lt;/a&gt;, common use cases and settings.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The tab Aspose Tools on the Lists and Libraries ribbon shows that Aspose.PDF for SharePoint is installed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;product-overview_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Supported File Formats</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/supported-file-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/supported-file-formats/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;supported-load-formats&#34;&gt;&lt;strong&gt;Supported Load Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats that Aspose.PDF for SharePoint can load.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/a/&#34;&gt;PDF/A&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;supported-save-formats&#34;&gt;&lt;strong&gt;Supported Save Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats in which the document can be saved by using Aspose.PDF for SharePoint. &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document is PDF format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/a/&#34;&gt;PDF/A&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in PDF/A format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Features</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/features/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/export-to-pdf-html/&#34;&gt;Export to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/world-class-free-technical-support-html/&#34;&gt;World Class Free Technical Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Install Aspose.Pdf for SharePoint</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/install-aspose-pdf-for-sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/install-aspose-pdf-for-sharepoint/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/system-requirements-html/&#34;&gt;System Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/installing-aspose-pdf-for-sharepoint-html/&#34;&gt;Installing Aspose.PDF for SharePoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/more-installation-details-html/&#34;&gt;More installation details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/activation-and-deactivation-after-installation-html/&#34;&gt;Activation and Deactivation after installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint-html/&#34;&gt;Uninstalling Aspose.PDF for SharePoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Evaluate Aspose.Pdf</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/evaluate-aspose-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/evaluate-aspose-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Make sure to take advantage of the free Aspose.PDF for SharePoint evaluation as it has no time limit, and free technical support is provided for evaluation users too.
+&lt;/div&gt;
+
+&lt;p&gt;It is the same download for both the evaluation and the paid version of Aspose.PDF for SharePoint. Simply download Aspose.PDF for SharePoint from the download page, install it and it will work in the evaluation mode by default.&lt;/p&gt;
+&lt;p&gt;Evaluation mode injects an Evaluation Warning into exported documents. When you have purchased a license, simply install the license solution over installed evaluation copy of Aspose.PDF for SharePoint and it will then work in the licensed mode.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF&lt;/strong&gt; &lt;strong&gt;for SharePoint injects an Evaluation Warning when working in the evaluation mode.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;evaluate-aspose-pdf_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: License Aspose.Pdf for SharePoint</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/license-aspose-pdf-for-sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/license-aspose-pdf-for-sharepoint/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/installing-aspose-pdf-for-sharepoint-license-html/&#34;&gt;Installing Aspose.Pdf for SharePoint License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/testing-a-license-html/&#34;&gt;Testing a License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/sharepoint/uninstalling-aspose-pdf-for-sharepoint-license-html/&#34;&gt;Uninstalling Aspose.Pdf for SharePoint License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: API Limitations</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/api-limitations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/api-limitations/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+There are some limitations while using this component.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;pdf-creator-information&#34;&gt;&lt;strong&gt;PDF Creator information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Please note that you cannot set values against the &lt;strong&gt;Application&lt;/strong&gt; and &lt;strong&gt;Producer&lt;/strong&gt; fields, because Aspose Ltd. and Aspose.PDF for SharePoint x.x.x will be displayed against these fields. &lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

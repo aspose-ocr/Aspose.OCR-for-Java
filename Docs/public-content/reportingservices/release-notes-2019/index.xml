@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2019</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/release-notes-2019/</link>
+    <description>Recent content in Release Notes - 2019 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/release-notes-2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Aspose.PDF for Reporting Services 19.7 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-19-7-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-19-7-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://downloads.aspose.com/pdf/reportingservices/new-releases/aspose.pdf-for-reporting-services-19.7.0/&#34;&gt;Aspose.PDF for Reporting Services 19.7&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFRS-33543&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF support for SSRS 2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

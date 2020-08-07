@@ -1,0 +1,3058 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2018</title>
+    <link>https://docs.aspose.com/pdf/net/release-notes-2018/</link>
+    <description>Recent content in Release Notes - 2018 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/release-notes-2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.12 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-12-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-12-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.12.0&#34;&gt;Aspose.PDF for .NET 18.12&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44637&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45657&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Create ITaggedContent interface for work with Tagged PDF documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45658&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Create Factory of Structure Elements&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45659&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Add ability to manage Logical Tree of Elements&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45661&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Ability setup Language and Title for Tagged PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45624&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Pdf.Generator.PrintController is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45696&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tagged PDF - Support for setting language field in tag tab of object properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45630&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add support of FlateDecode for storing new images into XImageCollection&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45766&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Introduce option in Optimization to store images with FlateDecode compression&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45598&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: Descriptive exception message when non existing default font is set&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44369&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF optimization - cannot change DCTDecode compression&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-35479&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG conversion takes longer time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45600&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextAbsorber returns incorrect result&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45365&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArgumentOutOfRangeException with TextFragmentAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38776&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem rendering different TextStates on Same Line in Table Cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39105&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue on TextFragment.Margin with justify&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38307&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text Extraction - Text being extracted in weird manner. Columns merge and scrambled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44028&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tiff to PDF: System.ArgumentException: Parameter is not valid.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44839&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The image output contains the inconsistent spacing between dots&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45651&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPG to PDF - an internal error occurred&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37424&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - OutOfMemoryException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39431&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Dotted background is substituted with the white one&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-34451&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance Issue: Converting PDF to PNG&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45573&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text in html fragment isn&amp;rsquo;t properly wrapped&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45528&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Form fields get invisible&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45244&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException when saving PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45654&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The footer shifts down and disappear for multiple page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45466&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArgumentOutOfRangeException with IsLowMemoryMode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45520&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;System Hangs while processing PDF document with HtmlFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44808&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A 1B - artifacts appear in the converted image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45672&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/UA - Change the tag of this structure element&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38307&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text Extraction - Text being extracted in weird manner. Columns merge and scrambled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39534&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extracting table data throws ArgumentOutOfRangeException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39377&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TableAbsorber throws InvalidOperationException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-1812&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.12&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Property Aspose.Pdf.Document.TaggedContent&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ImageFilterType.Flate&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Optimization.ImageCompressionOptions.Encoding&lt;/li&gt;
+&lt;li&gt;Enumeration Aspose.Pdf.Optimization.ImageEncoding&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.Optimization.ImageEncoding.Unchanged&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.Optimization.ImageEncoding.Jpeg&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.Optimization.ImageEncoding.Flate&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.Optimization.ImageEncoding.Jpeg2000&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Optimization.OptimizationOptions.ImageEncoding&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Page.BackgroundImage&lt;/li&gt;
+&lt;li&gt;Interface Aspose.Pdf.Tagged.ITaggedContent&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Tagged.ITaggedContent.StructTreeRootElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Tagged.ITaggedContent.RootElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.SetLanguage(System.String)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.SetTitle(System.String)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreatePartElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateArtElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateSectElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateDivElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateBlockQuoteElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateCaptionElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateTOCElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateTOCIElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateIndexElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateNonStructElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreatePrivateElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateParagraphElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateHeaderElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateHeaderElement(System.Int32)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateListElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateTableElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateSpanElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateQuoteElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateNoteElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateReferenceElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateBibEntryElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateCodeElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateLinkElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateAnnotElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateRubyElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateWarichuElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateFigureElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateFormulaElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Tagged.ITaggedContent.CreateFormElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.Tagged.TaggedException&lt;/li&gt;
+&lt;li&gt;Constructor Aspose.Pdf.Tagged.TaggedException&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.AnnotElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ArtElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.AttributeOwnerStandard&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.ToString&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.Layout&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.List&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.PrintField&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.Table&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.XML_100&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.HTML_320&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.HTML_401&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.OEB_100&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.RTF_105&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.CSS_100&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.CSS_200&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.BLSElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.BLSTextElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.BLSTextElement.TextState&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.BLSTextElement.SetText(System.String)&lt;/li&gt;
+&lt;li&gt;Aspose.Pdf.LogicalStructure.BibEntryElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.BlockQuoteElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.CaptionElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.CodeElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.DivElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.DocumentElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.Element&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.Element.ParentElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.Element.ChildElements&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.Element.AppendChild-(Aspose.Pdf.LogicalStructure.Element)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.Element.ToString&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ElementList&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.ElementList.Count&lt;/li&gt;
+&lt;li&gt;Indexer Aspose.Pdf.LogicalStructure.ElementList.ElementOf(System.Int32)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.ElementList.Item(System.Int32)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.ElementList.GetEnumerator&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.FigureElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.FormElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.FormulaElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.GroupingElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.HeaderElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ILSElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ILSTextElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.ILSTextElement.TextState&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.ILSTextElement.SetText(System.String)&lt;/li&gt;
+&lt;li&gt;Interface Aspose.Pdf.LogicalStructure.ITextElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.ITextElement.TextState&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.ITextElement.SetText(System.String)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.IllustrationElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.IllustrationElement.SetImage(System.String)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.IndexElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.LinkElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ListChildElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ListElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ListLBodyElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ListLIElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ListLblElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.MCRElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.MCRElement.ImageSrc&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.MCRElement.Content&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.MCRElement.MCID&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.MCRElement.ToString&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.NonStructElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.NoteElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.OBJRElement&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.OBJRElement.ToString&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ParagraphElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.PartElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.PrivateElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.QuoteElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.ReferenceElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.RubyChildElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.RubyElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.RubyRBElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.RubyRPElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.RubyRTElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.SectElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.SpanElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructTreeRootElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructureAttributeCollection&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureAttributeCollection&lt;br/&gt;GetAttributes- (Aspose.Pdf.LogicalStructure.AttributeOwnerStandard)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructureAttributes&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureAttributes.&lt;br/&gt;UpdateRectangle(System.String,Aspose.Pdf.Rectangle)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureAttributes.&lt;br/&gt;UpdateNumber(System.String,System.Double)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureAttributes.&lt;br/&gt;UpdateString(System.String,System.String)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructureElement&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.Attributes&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.StructureType&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.Title&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.Language&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.AlternativeText&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.ExpansionText&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureElement.ActualText&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureElement.SetTag(System.String)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureElement.ToString&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructureTypeCategory&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureTypeCategory.ToString&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeCategory.GroupingElements&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeCategory.BLSEs&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeCategory.ILSEs&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeCategory.IllustrationElements&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.StructureTypeStandard&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.LogicalStructure.StructureTypeStandard.Tag&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureTypeStandard.ToString&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Document&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Part&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Art&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Sect&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Div&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.BlockQuote&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Caption&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TOC&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TOCI&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Index&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.NonStruct&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Private&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.P&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H1&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H2&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H3&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H4&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H5&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.H6&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.L&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.LI&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Lbl&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.LBody&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Table&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.THead&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TBody&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TFoot&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TR&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TH&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.TD&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Span&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Quote&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Note&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Reference&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.BibEntry&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Code&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Link&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Annot&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Ruby&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.RB&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.RT&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.RP&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Warichu&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.WT&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.WP&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Figure&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Formula&lt;/li&gt;
+&lt;li&gt;Constant Aspose.Pdf.LogicalStructure.StructureTypeStandard.Form&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TOCElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TOCIElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableChildElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTBodyElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTDElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTFootElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTHElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTHeadElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.TableTRElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.WarichuChildElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.WarichuElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.WarichuWPElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LogicalStructure.WarichuWTElement&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.PrintController&lt;/li&gt;
+&lt;li&gt;Constructor Aspose.Pdf.PrintController&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.PrintController.FileName&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.PrintController.OnStartPage (System.Drawing.Printing.PrintDocument,&lt;br/&gt;System.Drawing.Printing.PrintPageEventArgs)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.PrintController.OnStartPrint-(System.Drawing.Printing.PrintDocument,&lt;br/&gt;System.Drawing.Printing.PrintEventArgs)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.PrintController.OnEndPage(System.Drawing.Printing.PrintDocument,&lt;br/&gt;System.Drawing.Printing.PrintPageEventArgs)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.PrintController.OnEndPrint&lt;br/&gt;(System.Drawing.Printing.PrintDocument,System.Drawing.Printing.PrintEventArgs)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.PrintController.Dispose&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.AttributeOwnerStandard.op_Explicit&lt;br/&gt;(System.String)~Aspose.Pdf.LogicalStructure.AttributeOwnerStandard&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureTypeCategory.op_Explicit&lt;br/&gt;(System.String)~Aspose.Pdf.LogicalStructure.StructureTypeCategory  &lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.LogicalStructure.StructureTypeStandard.op_Explicit&lt;br/&gt;(System.String)~Aspose.Pdf.LogicalStructure.StructureTypeStandard  &lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.11 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-11-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-11-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.11.0&#34;&gt;Aspose.PDF for .NET 18.11&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45582&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDFUA: Add taggedPdfTextBlockelement&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45584&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDFUA: Add text block named element&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45547&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Improve OptimizeResources performance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-35495&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - ArgumentNullException is occurring&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37575&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - ArgumentException is being generated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37817&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Formatting issues in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38032&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: Table background-color style is not working&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38075&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Execl: cells data merges to a single cell in output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38349&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: output image missing text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38426&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XLS - Error appears when viewing resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38527&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When using Custom font, SuperScript is not being honored&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38595&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect Character width and X coordinate information&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38689&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to EXCEL results in a corrupt file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not all characters are resized in PDF field&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38848&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink Alignment issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38892&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextState properties are not being applied in HeaderFooter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39270&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - NullReferenceException during PDF/A conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39347&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF to PDF - OutOfMemoryException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42133&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding svg into table cell from disk API throws ArgumentException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42220&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Which TIFF versions Aspose.Pdf for .NET supports&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42536&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF printing takes several minutes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42642&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when trying to add SVG image stream to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43026&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Black background is appearing while adding SVG into PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43150&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Text of lighter color is missing in output image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43330&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG turned out to be black and white while adding into table&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43863&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPG to PDF - output document failed to open in Adobe Reader&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44167&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44344&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HtmlFragment moves content to next page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44349&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cannot add local hyperlink to the text of table cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45022&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cannot extract table and its data using TableAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45291&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IsBlank property true when page is not blank&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45349&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - System.InvalidOperationException Exception occurred&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45360&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Preflight log contains fonts related problems&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45407&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Highlight Annotation hides/redacts the text after merging annotations&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45470&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Slow processing of document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45478&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Setting Cell.ColSpan to 4 leads to invalid render of graphs and text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45488&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException when validating or converting a PDF/A&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45497&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text extraction takes much time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45534&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDFA output contains more than one XREF subsection&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45558&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Document is not PDF/A compatible after conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45338&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Output document isn&amp;rsquo;t PDFA_2A compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45101&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement functionality to support fonts and text for PDF/UA format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-1811&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.11&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Class Aspose.Pdf.Optimization.ImageCompressionOptions
+Constructor Aspose.Pdf.Optimization.ImageCompressionOptions
+Property Aspose.Pdf.Optimization.ImageCompressionOptions.CompressImages (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.ImageCompressionOptions.ResizeImages (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.ImageCompressionOptions.ImageQuality (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.ImageCompressionOptions.MaxResolution (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.ImageCompressionOptions.Version
+Enumeration Aspose.Pdf.Optimization.ImageCompressionVersion
+Enumeration member Aspose.Pdf.Optimization.ImageCompressionVersion.Standard
+Enumeration member Aspose.Pdf.Optimization.ImageCompressionVersion.Fast
+Enumeration member Aspose.Pdf.Optimization.ImageCompressionVersion.Mixed
+Class Aspose.Pdf.Optimization.OptimizationOptions
+Constructor Aspose.Pdf.Optimization.OptimizationOptions.#ctor
+Property Aspose.Pdf.Optimization.OptimizationOptions.LinkDuplcateStreams (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.AllowReusePageContent (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.RemoveUnusedStreams (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.RemoveUnusedObjects (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.ImageCompressionOptions (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.CompressImages
+Property Aspose.Pdf.Optimization.OptimizationOptions.ResizeImages (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.ImageQuality (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.MaxResoultion (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.UnembedFonts (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Optimization.OptimizationOptions.RemovePrivateInfo (moved from Aspose.Pdf.Document.OptimizationOptions)
+Method Aspose.Pdf.Optimization.OptimizationOptions.All (moved from Aspose.Pdf.Document.OptimizationOptions)
+Property Aspose.Pdf.Text.TextFragment.Hyperlink
+Method Aspose.Pdf.Text.TextFragmentAbsorber.RemoveAllText(Aspose.Pdf.Page,Aspose.Pdf.Rectangle)
+Class Aspose.Pdf.TaggedPdf.TaggedPdfBlockLevelTextElement 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfBlockLevelTextElement.#ctor(Aspose.Pdf.Document,System.String,System.String,Aspose.Pdf.Text.TextState) 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfContent.Add(Aspose.Pdf.TaggedPdf.TaggedPdfBlockLevelTextElement) 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfDocumentElement.Add(Aspose.Pdf.Page,Aspose.Pdf.TaggedPdf.TaggedPdfBlockLevelTextElement) 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfElement.MCID 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfElement.Tag 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH1Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH1Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH2Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH2Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH3Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH3Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH4Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH4Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH5Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH5Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfH6Element 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfH6Element.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfPElement 
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfPElement.#ctor(Aspose.Pdf.Document,System.String,Aspose.Pdf.Text.TextState)&lt;/p&gt;
+&lt;h3 id=&#34;removed-apis&#34;&gt;&lt;strong&gt;Removed APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.Pdf.Document.OptimizationOptions was moved into Aspose.Pdf.Optimization namespace. &lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+But Aspose.Pdf.Document.OptimizationOptions class was kept for backward compatibility.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.10 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-10-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-10-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.10.0&#34;&gt;Aspose.PDF for .NET 18.10&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45213&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDFUA: Add support for Link Annotation in tagged pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44651&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate XObjects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44650&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Actions&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38012&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement Getter for Underline property&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45249&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tooltip displays the complete URL of WebHyperlink when hovering mouse on TextFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43464&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The numbering for the equation(math formulas) is missing when &lt;br&gt;PDF produced using Latex script.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45088&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with Subscript in LatexFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44518&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issues when rendering Japanese PDF document to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45218&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Out of memory error while converting PDF Document to PPTX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45212&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Text in output slides is overlapped&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45190&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Output is not correct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44813&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IndexOutOfRange exception while removing all text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37933&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextAbsorber extract incorrect coordinates&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37988&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to use custom font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38204&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragment is not honoring Rotate angle&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The conversion PDF to MobiXml produces the corrupted output.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45278&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Insert PNG into PDF - borders occur&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38267&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Image stamp of transparent GIF image rendered with black background&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43421&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Barcode is missing in resultant image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38437&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Unable to convert PDF to TIFF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45097&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some columns are dropped if repeating columns are used.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45302&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while saving to PDFA formats.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44537&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArgumentOutOfRangeException during PDF to PDF/A conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44069&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Vertical text renders in different order&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43448&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1B - the preflight compliance test is failed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45404&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: images missing in resulting file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40145&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF throws ArgumentException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45325&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XML to PDF - Line breaking and non-breaking space symbols are not working&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40536&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: incorrect different results in 10.9.0 and 11.4.0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42534&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion process hangs up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41202&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: image is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44535&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The FreeTextAnnotation text content isn&amp;rsquo;t shown in the output document.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44669&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Removing bookmarks do not work properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44935&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF - The content is shifting to right side on subsequent pages&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45144&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException during HTML to PDF conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41081&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Redaction annotation throws NullReference Exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45358&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA. Validator doesn&amp;rsquo;t found tagged content error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45359&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Generated Tagged Pdf document doesn&amp;rsquo;t compliance to PDF/UA spec&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45361&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Xmp Metadata Title problem when generate Tagged Pdf document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45362&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: PDF/UA identifier problem when generate Tagged Pdf document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45363&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Logical Structure problem when generate Tagged Pdf document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-1810&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.10&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Method Aspose.Pdf.Document.SetTitle(System.String) 
+Method Aspose.Pdf.OutlineCollection.Remove(System.Int32) 
+Method Aspose.Pdf.OutlineItemCollection.Remove(System.Int32)        &lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.9 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-9-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-9-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.9.0&#34;&gt;Aspose.PDF for .NET 18.9&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38535&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of PDF to XLSX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44643&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Optional Content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44644&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Embedded Files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44645&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Acroform Fields (Digital Signatures)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44646&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Non-Interactive Forms and XFA&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44647&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Security&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44648&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Navigation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44649&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Annotations&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-28514&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Identify paragraphs that runs over multiple columns while extracting text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44617&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support Stream for loading PCL document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement an option to suppress any text adjustment after replace.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41490&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement Rectangle property for HtmlFragment object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45248&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA. Make validation/convertation log more informative&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37896&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF file is not properly being converted to PDF/A_1a format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39643&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: resultant image is garbled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40423&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIF conversion results a blank image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40567&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: some contents are lost in resultant image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41134&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: text is missing in resultant image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41445&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIF: resultant Multipage TIF image is blank after first page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41847&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Resultant image is corrupted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42520&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Word document been cut off when print.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42532&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion process hangs up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42533&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion process hangs up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43033&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - The output file is empty.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43252&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - an empty TIFF is generated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43636&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The performance degradation while converting PDF to PDFA_1A&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43821&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with using ReplaceAdjustment.WholeWordsHyphenation option&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44007&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Images are missing when saving as image or HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44081&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - the highlighted color of text is not being removed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44206&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Pdf 18.2: Exception when trying to open particular XPS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44227&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Black background added on fields when flattening&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44690&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XPS - the redaction and additional blank pages are being added&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44783&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The method RedactArea throws an exception.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44825&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while flattening the document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44842&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is shifted over while replacing the text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44892&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PostScript to PDF - Program hangs at document loading&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44930&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - incorrect page size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44966&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A generic error occurred in GDI+ when saving PDF as HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44987&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After adding new paragraph to page, saving of PDF document &lt;br&gt;throws System.Exception - Cannot instantiate Artifact class&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45017&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rotation doesn&amp;rsquo;t work for EPUB&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45042&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect rendering of PDF document to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45043&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The conversion PDF to PDFA_1A hangs.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45086&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The exception raises while applying the text stamp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45096&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some columns are missing when using the repeating columns feature&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45098&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The repeating columns behave inconsistently when spanned&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45109&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Input string was not in correct format exception when CSS URL contains curly bracket&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45128&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When TIFF image is inserted to PDF, then the picture is rotated.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45147&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF file is not properly being converted to PDF/A_1b format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45191&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An inconsistent text content in TextFragment collection&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45228&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An execution hangs when HtmlFragment is inserted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45295&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XPS - the redaction and additional blank pages are being added&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-189&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.9&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Property Aspose.Pdf.ExcelSaveOptions.Format                               &lt;br&gt;
+Enumeration Aspose.Pdf.ExcelSaveOptions.ExcelFormat                          &lt;br&gt;
+Enumeration member Aspose.Pdf.ExcelSaveOptions.ExcelFormat.XMLSpreadSheet2003       &lt;br&gt;
+Enumeration member Aspose.Pdf.ExcelSaveOptions.ExcelFormat.XLSX                     &lt;br&gt;
+Property Aspose.Pdf.HtmlFragment.Rectangle                                &lt;br&gt;
+Property Aspose.Pdf.Matrix.Data                                           &lt;br&gt;
+Enumeration member Aspose.Pdf.Text.TextReplaceOptions.ReplaceAdjustment.ShiftRestOfLine
+Property Aspose.Pdf.Text.PageMarkup.IsMulticolumnParagraphsAllowed&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.8 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-8-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-8-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://nuget.org/packages/Aspose.Pdf/18.8.0&#34;&gt;Aspose.PDF for .NET 18.8&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45057&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add Replace image feature in ImagePlacementAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44639&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Headings&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44640&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Tables&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44641&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Lists&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44642&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Notes and References&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45069&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Writing correct file name attribute to validation log file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44955&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Add Warning and Manual check levels to validation log&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44462&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Track word wrapping / line breaking in scenarios of editing documents.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44823&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - the low quality of image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42857&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Too many text boxes in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45110&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text fragments are not matched by the regex.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43922&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text overlaps after replace operation and doubles&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40692&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text overlaps after replace operation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44936&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When saving document as image first page is filled with black color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44756&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error and missing image in PDF after inserting BW image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44029&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPEG to PDF: Inserted image is invisible&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44177&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Logo is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45061&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - incorrect output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42590&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG images are not sizing properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44834&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44877&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF is saved as TIF, a NullReferenceException occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42748&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG image is not visible when adding in table&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44983&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem rendering Chinese text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44986&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After conversion PDF-to-PDFA the output is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44976&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some items are missing in TOC.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39285&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A_2b - Resultant file is not complaint&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39284&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A_1b - Resultant file is not complaint&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42527&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion process hangs up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42528&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion process hangs up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43336&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException occurs when trying to add &lt;br&gt;attachment to a pdf file that does not contain attachments&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44611&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;All pages have null value.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44941&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The image isn&amp;rsquo;t shown while loading PDF from HTML file.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41857&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44255&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text strikeout works incorrect in some scenarios of use multiline text fragments.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37869&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragmentAbsrober throws exception:Index and &lt;br&gt;length must refer to a location within the string&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-188&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.8&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+FontSubsetStrategy enumeration has been moved under Aspose.Pdf namespace.
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Method Aspose.Pdf.ImagePlacement.Replace(System.IO.Stream)&lt;/p&gt;
+&lt;p&gt;Property Aspose.Pdf.PptxSaveOptions.RecognizeTextColumns&lt;/p&gt;
+&lt;p&gt;Method Aspose.Pdf.XImage.ToStream&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.7 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-7-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-7-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://nuget.org/packages/Aspose.Pdf/18.7.0&#34;&gt;Aspose.PDF for .NET 18.7&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37868&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove all text from PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-34403&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Feature Request to Replace a Table using PdfContentEditor&lt;br&gt; (as we have ReplaceText method)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Tagged of Real Content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44636&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Artifacts&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44863&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Recognize Natural Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44953&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Support Graphics Operators in Content Sequence Classes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44638&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Validate Graphics&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44894&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA:Add support images in tagged content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45035&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA:Add bounding box for images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45036&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA:Add suporting image attributes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44522&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XML to PDF - the type Cell does not exists&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43758&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement using of Shading Colors for text editing scenarios&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44923&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement Radial (Type 3) Shadings&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44847&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Headings are missing in the output document.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43316&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect retrieval of the rectangle coordinate LLX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36690&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragmentAbsorber does not replace flatten form text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37394&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text replace issue: long text is not being break to next line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39524&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A_2a (A_2b) - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44169&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44577&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Document is not PDF/A-3A compatible after conversion &lt;br&gt;(CMYK used but output intent is not CMYK)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40082&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA3b: compliance failure due to LZW compression and CYMK color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44271&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Turquoise image generated from PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44361&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The repeating column header has been overwritten when generating PDF output.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44802&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some repeating columns are missing.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44803&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text in the repeating column is cut off.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44921&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The conversion to PDFA_2A produces a XREF table with subsections&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41329&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: compliance verification issue - Integer value out of range(too high)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44075&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - Output does not pass the compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44076&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - missing text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44631&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multi byte characters not displayed in PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43883&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b problem&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38751&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA2b/PDFA3b: Converting PDF, generated from Aspose.Cells,&lt;br&gt; to PDFA2b and PDFA3b fails the compliance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43396&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - the square boxes are created in place of Chinese characters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41122&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC - Page number is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37806&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: stamp loses its transparency&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37667&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is not being extracted correctly.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44006&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Getting Garbage Characters after setting Font property &amp;lsquo;IsEmbedded=true&amp;rsquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36968&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Searching/replacing of text with character spacing is not supported&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-187&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.7&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Class Aspose.Pdf.Drawing.GradientRadialShading
+Constructor Aspose.Pdf.Drawing.GradientRadialShading
+Constructor Aspose.Pdf.Drawing.GradientRadialShading(Aspose.Pdf.Color,Aspose.Pdf.Color)
+Property Aspose.Pdf.Drawing.GradientRadialShading.Start
+Property Aspose.Pdf.Drawing.GradientRadialShading.End
+Property Aspose.Pdf.Drawing.GradientRadialShading.StartingRadius
+Property Aspose.Pdf.Drawing.GradientRadialShading.EndingRadius
+Property Aspose.Pdf.Drawing.GradientRadialShading.StartColor
+Property Aspose.Pdf.Drawing.GradientRadialShading.EndColor
+Method Aspose.Pdf.TaggedPdf.TaggedPdfContent.Add(Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement)
+Method Aspose.Pdf.TaggedPdf.TaggedPdfDocumentElement.Add(Aspose.Pdf.Page,Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement)
+Class Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement(Aspose.Pdf.Document,Aspose.Pdf.Image,Aspose.Pdf.Rectangle)
+Property Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement.Page
+Property Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement.Tag
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfTextElement(Aspose.Pdf.Document,System.String,System.String,Aspose.Pdf.Text.TextState)
+Method Aspose.Pdf.TaggedPdf.TaggedPdfContent.Add(Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement)
+Method Aspose.Pdf.TaggedPdf.TaggedPdfDocumentElement.Add(Aspose.Pdf.Page,Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement)
+Class Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement(Aspose.Pdf.Document,Aspose.Pdf.Image,Aspose.Pdf.Rectangle)
+Property Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement.Page
+Property Aspose.Pdf.TaggedPdf.TaggedPdfFigureElement.Tag
+Constructor Aspose.Pdf.TaggedPdf.TaggedPdfTextElement(Aspose.Pdf.Document,System.String,System.String,Aspose.Pdf.Text.TextState)
+Method Aspose.Pdf.Text.TableAbsorber.Remove(Aspose.Pdf.Text.AbsorbedTable)
+Method Aspose.Pdf.Text.TableAbsorber.Replace(Aspose.Pdf.Page,Aspose.Pdf.Text.AbsorbedTable,Aspose.Pdf.Table)
+Method Aspose.Pdf.Text.TextFragmentAbsorber.RemoveAllText(Aspose.Pdf.Page)
+Method Aspose.Pdf.Text.TextFragmentAbsorber.RemoveAllText(Aspose.Pdf.Document)&lt;/p&gt;
+&lt;h3 id=&#34;removed-apis&#34;&gt;&lt;strong&gt;Removed APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;TabAlignmentType was moved into Aspose.Pdf.Text namespace.
+TabLeaderType was moved into Aspose.Pdf.Text namespace.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.6 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-6-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-6-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.6.0&#34;&gt;Aspose.PDF for .NET 18.6&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We have honored to announce June Release of Aspose.PDF for .NET. Bug fixes and new features has been listed in the below table of Improvements and Changes. However, we have also introduced new features as part of work on 508 compliance (WCAG):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF/UA validation feature was added.&lt;/li&gt;
+&lt;li&gt;Tagged PDF support was added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above listed features are under further development and currently they are available in Aspose.PDF for .NET 18.6, as beta version.&lt;/p&gt;
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44773&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add feature &amp;ldquo;Extract Highlighted Text from HighlightTextMarkUpAnnotations&amp;rdquo; &lt;br&gt;to the TextFragmentAbsorber class&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42862&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add support of OTF font when embedding in PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38828&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text Extraction - Spaces are improperly embedded inside words&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39178&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TableAbsorber throws exception while trying to access any &lt;br&gt;row other than first row of first table or any other table than first&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39432&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Image - Some contents are overlapping&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40080&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Incorrect output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41666&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TableAbsorber: incorrect table count in PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42492&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is overlapped when saving particular document as image or HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43190&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Object reference not set to an instance of an object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43259&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conversion HTML to PDF produces incorrect output &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43353&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA - Comments are broken in resultant document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43417&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Flattening Fields is not flattening the Print button inside PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43677&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The output is too big after conversion to PDFA_1B format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44078&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After conversion PDF-to-PDFA the output contains corrupted diagram&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44102&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The document loaded from HMTL file looks different then original&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44163&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44164&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44172&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Blue gradient is darker in the JPG compared to the PPT slide PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44173&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Objects fading to transparent&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44174&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - transparent turns to white&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44175&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Objects fading to transparent causes image differences&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44176&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Objects fading to transparent causes image differences&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44195&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yellow background not same after converting PDF to PDF/A &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44201&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPEG output loses the fade effect on the source document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44202&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The document image loses fading to transparent in PDF output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44235&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Blank pages added after HTML to PDF rendition&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44238&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-2b - the chart labels are rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44239&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-2b - some labels get blurred&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44377&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Duplicated evaluation watermarks when saving EPUB document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44432&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Output image or html is filled with black color &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44597&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - exception thrown&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44601&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Flattening Fields is not flattening the buttons inside PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44631&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multi byte characters not displayed in PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44670&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Header added but footer is missing (HTML-&amp;gt;PDF) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44672&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The header and the footer exist only on the first page. &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44703&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Missing table after adding to Footer&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44671&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-2b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41112&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to load OTF Font from a resource stream&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-186&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.6&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+All descendants of Aspose.Pdf.Operator were moved into namespace Aspose.Pdf.Operators. Thus new Aspose.Pdf.Operators.GSave()&amp;rsquo; should be used, instead of &amp;lsquo;new Aspose.Pdf.Operator.GSave()&amp;rsquo;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Property Aspose.Pdf.Document.IsPdfUaCompliant
+Property Aspose.Pdf.Document.IsPdfTaggedMarked
+Property Aspose.Pdf.Document.TaggedPdfContent
+Method Aspose.Pdf.Document.RemovePdfUaCompliance
+Method Aspose.Pdf.Annotations.TextMarkupAnnotation.GetMarkedText
+Method Aspose.Pdf.Annotations.TextMarkupAnnotation.GetMarkedTextFragments
+Property Aspose.Pdf.Page.TaggedPdfContent
+Enumeration member Aspose.Pdf.PdfFormat.PDF_UA_1
+Property Aspose.Pdf.Forms.Form.FlattenSettings.HideButton
+Class Aspose.Pdf.TaggedPdf.TaggedPdfChildElements 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfChildElements.Add(Aspose.Pdf.TaggedPdf.TaggedPdfElement) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfContent 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfContent.Add(Aspose.Pdf.TaggedPdf.TaggedPdfTextElement) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfDocumentElement 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfDocumentElement.Add(Aspose.Pdf.Page,Aspose.Pdf.TaggedPdf.TaggedPdfTextElement) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfElement 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfElement.Page 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfElement.Parent 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfElement.ChildElements 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfElement.Add(Aspose.Pdf.Page,Aspose.Pdf.TaggedPdf.TaggedPdfElement) 
+Class Aspose.Pdf.TaggedPdf.TaggedPdfTextElement 
+Method Aspose.Pdf.TaggedPdf.TaggedPdfTextElement.#ctor(Aspose.Pdf.Document,System.String,System.String) 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfTextElement.Page 
+Property Aspose.Pdf.TaggedPdf.TaggedPdfTextElement.Tag&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.5 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-5-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-5-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.5.0&#34;&gt;Aspose.PDF for .NET 18.5&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44405&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DefaultFontName setting when saving Pdf as Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44576&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement functionality to get all fonts from document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38034&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support HTML tags inside table element&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40200&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HtmlFragment Performance issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44492&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-3A - resultant PDF is not showing correct version&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44418&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Import XFDF to PDF - the line element is not being recognized&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44415&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem adding image on layers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44348&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with Fonts while Optimizing a PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44406&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DefaultFontName setting not working when value is changed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44419&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect text color when saving PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44383&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Evaluation watermark is not visible when saving PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44382&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Evaluation watermar is missing when saving LaTeX and PostScript documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44482&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception is thrown while accepting TextFragmentAbsorbed object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to search Arabic text using TextFragmentAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36510&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not all TextFragments are being replaced inside PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36518&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not all instances of text are being replaced&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36582&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Regular expression is not searching second occurrence on same line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44363&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose Pdf 18.3 Exception throws when saving password protected signed files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44214&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GDI+ Exception when generating PDF with images loaded from HTML file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44165&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GDI+ exception when adding Image inside PDF in WPF application&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42860&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Conversion process takes too much time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37248&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GetNextImage produces black rectangle on the image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44484&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The footer content is flipped after adding HtmlFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44341&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Output PDF - Incorrect rendering of the Header HTML on the second page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44487&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;FloatingBox columns placed incorrectly when ColumnSpacing property is unset&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38438&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formatting issues when placing large HTML contents inside table cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38861&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Using IsInLineParagraph with TextFragment and HtmlFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44090&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Redacting a PDF throws exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43949&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Field not redacted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44428&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The input PDF throws an error on retrieving color type of the Page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44450&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An error occurred on removing JavaScript from PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44079&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF To HTML: some text is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-185&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.5&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Method Aspose.Pdf.Rectangle.Contains(Aspose.Pdf.Point)&lt;br&gt;
+Method Aspose.Pdf.Rectangle.Center&lt;br&gt;
+Method Aspose.Pdf.Document.IDocumentFontUtilities.GetAllFonts&lt;br&gt;
+Method Aspose.Pdf.Heading.CloneWithSegments&lt;br&gt;
+Enumeration member Aspose.Pdf.ImageFileType.Base64&lt;br&gt;
+Property Aspose.Pdf.PdfSaveOptions.DefaultFontName&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.4 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-4-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-4-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.4.0&#34;&gt;Aspose.PDF for .NET 18.4&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37251&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Determine the line break scenario&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44339&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text shadow indent is different when saving as HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40048&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Update TextFragment clone procedure for segments formatting support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-34399&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is aligned to left instead of being aligned to right (Convert Hebrew PDF to HTML)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36415&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text position issue: API returns LLX and URX values same for vertical text.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36416&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text position issue: API returns incorrect position values (LLX,LLY,URX,URY)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36436&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Drawing box around text content is not correct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37471&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When using htmlOptions.FixedLayout = false, images/svg files are missing.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38015&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: text formatting issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40092&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA2a: Converting PDF, generated from Aspose.Cells, to PDFA2a fails the compliance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40270&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is not auto wrapped to subsequent lines when reaching right page margin&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41998&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Excel: special characters &amp;ldquo;&amp;gt;, &amp;lt;&amp;rdquo; encoding issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42420&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When specific PDF is converted to DOCX, System.ArgumentException occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43024&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Content is missing when saving PDF as HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43225&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XLS export produces an invalid XML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43237&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some images omitted while converting PDF document to HTML output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43702&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RedactArea corrupts the PDF if with SetLicense method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44015&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException while generating jpg image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44105&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while loading document from HTML file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44157&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to image - Aspose.Pdf export shows error in Docker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44184&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Latex fragments consume too much memory&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44223&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TOC heading is missing when adding HtmlFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44225&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TOC headings get mixed when generating PDF output.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44226&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while saving PDF with TOC headings&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44286&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML import - fails to import the document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44362&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Link with external url in pdf document is not rendered as hyperlink when saving page by page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44367&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StackOverflow error occurs when retrieving content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44409&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;In some headings a part of the text is formatted with noticeable smaller font size.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44410&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unexpected headings appear in the generated output PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44411&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The heading is missing in the generated PDF output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40160&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragmentAbsorber out of memory issue &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFEXTNET-40111&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while loading document from HTML file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-184&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.4&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Property Aspose.Pdf.HtmlLoadOptions.HtmlMediaType&lt;br&gt;
+Enumeration Aspose.Pdf.HtmlMediaType&lt;br&gt;
+Enumeration member Aspose.Pdf.HtmlMediaType.Print&lt;br&gt;
+Enumeration member Aspose.Pdf.HtmlMediaType.Screen&lt;br&gt;
+Method Aspose.Pdf.Page.GetNotifications&lt;br&gt;
+Property Aspose.Pdf.Text.MarkupParagraph.Text&lt;br&gt;
+Method Aspose.Pdf.Text.TextFragmentAbsorber.Reset&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.3 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-3-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-3-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://www.nuget.org/packages/Aspose.Pdf/18.3.0&#34;&gt;Aspose.PDF for .NET 18.3&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44151&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support embedding SVG into HTML when saving PDF with images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44211&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding support for repeating columns in Aspose.Pdf.Table&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37340&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;High memory utilization when trying to extract text from PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38631&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding Vector image in Aspose.Pdf.Cell throws exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38750&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA2a: Converting PDF, generated from Aspose.Cells,&lt;br&gt; to PDFA2a fails the compliance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38973&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Resultant file is not correct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39319&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Image to PDF - Memory is not release even process is completed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39345&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PNG to PDF - Application hangs during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39471&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Local hyperlinks are ignored when converted to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39720&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove Unused Fonts from PDF File Very Slow&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40112&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Pie Charts are not appearing properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40138&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF with hieroglyphs is converted to the HTML with corrupted symbols&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41133&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: Character spacing is increased&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41988&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Checkboxes in pdf document are not rendered correctly &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41996&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Link with external url in pdf document is not rendered as hyperlink&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42343&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: resultant PDFA is not claiming PDFA standard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42344&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: resultant PDFA does not claim PDFA standard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42345&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: resultant PDFA does not claim PDFA1b standard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42346&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: resultant PDFA1b does not claim PDFA1b standard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42931&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table column rendering issues when using TableBroken.Vertical&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43346&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - the hyperlink is missing on an image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43499&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF document does not pass compliance test after signing it&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43913&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect column splits with the TableBroken property&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44077&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: text and lines are misplaced&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44162&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44168&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1b - the output PDF does not pass compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44196&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Underlines are moved to the bottom when the text is spread to more lines.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44209&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The TextFragment throws an exception while editing the text property&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44219&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception raises while visiting document with Absorber object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-183&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.3&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Method Aspose.Pdf.DestinationCollection.GetExplicitDestination(System.String,System.Boolean) 
+Method Aspose.Pdf.Text.TextFragment.IsolateTextSegments(System.Int32,System.Int32) 
+Property Aspose.Pdf.Text.TextFragmentAbsorber.Text 
+Method Aspose.Pdf.Text.TextFragmentAbsorber.ApplyForAllFragments(Aspose.Pdf.Text.Font) 
+Method Aspose.Pdf.Text.TextFragmentAbsorber.ApplyForAllFragments(System.Single) 
+Method Aspose.Pdf.Text.TextFragmentAbsorber.ApplyForAllFragments(Aspose.Pdf.Text.Font,System.Single)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.2 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-2-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-2-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;release-notes-of-asposepdf-for-net-182&#34;&gt;&lt;strong&gt;Release Notes of Aspose.PDF for .NET 18.2&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40515&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding support for repeating columns in Aspose.Pdf.Table&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44065&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support for DSA while signing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42833&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get rotation angle of Text Character&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40240&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get text rotate angle information&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37189&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Creating NamedDestination in existing PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38589&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of Text RotatingAngle property in new generator&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43695&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception(&amp;ldquo;A generic error occurred in GDI+.&amp;quot;) &lt;br&gt;raises when the image data is passed in byte[] format &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42801&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance issue on printing a PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41071&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;How to set default font name in PDF to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38589&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of Text RotatingAngle property in new generator&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43940&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF 17.12: Opening particular XPS cause null reference exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38799&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: conversion loses background color &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43853&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text with characters spacing not recognized by TextFragmentAbsorber Regex &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36779&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA conversions fails &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43255&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF 17.08 Incorrect digital signing with DSA certificate &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42602&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to normalise secured pdf &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43415&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Encrypt and Sign PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40127&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF security issues - signing an encrypted PDF document &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43762&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf/a conversion creates subsections in Xref table &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41678&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Signature becomes corrupted when signing the PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44032&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sign a password protected PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38480&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Signature is corrupted when added to Encrypted PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43892&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf generation fails with HTMLFragment content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44074&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Document.GetObjectById() returns null&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43955&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - Output images are not correct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43232&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some text at the top of the page is corrupted after conversion to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44017&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Heading appears twice in TOC &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43836&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Generated PDF output do not pass &amp;lsquo;Report PDF syntax issues&amp;rsquo; check.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44087&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Could not load file or assembly &amp;lsquo;Aspose.JavaScript, Version=17.4.0.0 &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42972&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect characters when saving as HTML or image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38501&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Exception during conversion &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43772&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Font is not embedded correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41155&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: Vertical text renders in different order&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39213&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: Some Chinese characters are not rendered correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-182&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.2&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Constructor Aspose.Pdf.Annotations.GoToAction(Aspose.Pdf.Document,System.String)
+Constructor Aspose.Pdf.Annotations.NamedDestination(Aspose.Pdf.Document,System.String)
+Property Aspose.Pdf.Document.NamedDestinations
+Property Aspose.Pdf.HtmlSaveOptions.DefaultFontName
+Interface Aspose.Pdf.INamedDestinationCollection
+Property Aspose.Pdf.INamedDestinationCollection.ItemSystem.String
+Property Aspose.Pdf.INamedDestinationCollection.Count
+Property Aspose.Pdf.INamedDestinationCollection.Names
+Method Aspose.Pdf.INamedDestinationCollection.Remove(System.String)
+Method Aspose.Pdf.INamedDestinationCollection.Add(System.String,Aspose.Pdf.Annotations.IAppointment)
+Class Aspose.Pdf.NamedDestinationCollection
+Property Aspose.Pdf.NamedDestinationCollection.ItemSystem.String
+Property Aspose.Pdf.NamedDestinationCollection.Count
+Property Aspose.Pdf.NamedDestinationCollection.Names
+Method Aspose.Pdf.NamedDestinationCollection.Remove(System.String)
+Method Aspose.Pdf.NamedDestinationCollection.Add(System.String,Aspose.Pdf.Annotations.IAppointment)
+Property Aspose.Pdf.PdfFormatConversionOptions.NotAccessibleFonts
+Property Aspose.Pdf.RenderingOptions.MaxFontsCacheSize
+Property Aspose.Pdf.RenderingOptions.MaxSymbolsCacheSize
+Property Aspose.Pdf.Table.RepeatingColumnsCount&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 18.1 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-1-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-18-1-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;release-notes-of-asposepdf-for-net-181&#34;&gt;&lt;strong&gt;Release Notes of Aspose.PDF for .NET 18.1&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-20110&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Postscript to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-33429&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extract Paragraph from PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38512&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support TextBorder property in TextFragment class&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39249&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;EPS to PDF conversion support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43776&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SubsequentLinesIndent support with page.Paragraphs.Add method &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set image path from code while generating PDF from XML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37131&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fill Stroke text support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38974&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Incorrect resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40340&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text replacement issue: Characters are missing in replaced text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40763&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Text is garbled in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41224&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF: PCL Line Space sequences do not work&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41407&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Converting XFA form to standard adds two extra pages&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41478&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG - Text becomes black boxes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42075&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Text starts appearing overlapped&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42272&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink in HtmlFragment is not working&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42311&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Loading font from stream throws exception Parsing of table &amp;lsquo;GSUB&amp;rsquo; has failed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42340&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: Saving resultant HTML within project throws ArgumentException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42601&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Pdf 17.3 Different height of Text and Image objects with same size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42761&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Formatting issues in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42832&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The exception thrown when trying to add an SVG file into the table cell.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43333&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When converting PDF to TIFF the output is filled with blue color.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43349&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG - the missing text on the first page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43352&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA - Pages Orientation is changing after conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43372&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG - Contents are missing in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43449&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1B - a null pointer error occurred&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43747&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1a - Output does not pass the compliance test&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43799&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XSLFO to PDF - the link is not working in output PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38820&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF conversion: contents are moving off the page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43445&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF - PDF/A-1 - the characters are overlapping with Sharp printers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-net-181&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for .NET 18.1&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Method Aspose.Pdf.Facades.Stamp.BindTextState(Aspose.Pdf.Text.TextState)
+Enumeration member Aspose.Pdf.LoadFormat.PS
+Class Aspose.Pdf.PsLoadOptions
+Constructor Aspose.Pdf.PsLoadOptions
+Property Aspose.Pdf.PsLoadOptions.FontsFolders
+Class Aspose.Pdf.Text.MarkupParagraph
+Property Aspose.Pdf.Text.MarkupParagraph.Points
+Property Aspose.Pdf.Text.MarkupParagraph.Fragments
+Property Aspose.Pdf.Text.MarkupParagraph.Lines
+Class Aspose.Pdf.Text.MarkupSection
+Property Aspose.Pdf.Text.MarkupSection.Rectangle
+Property Aspose.Pdf.Text.MarkupSection.Fragments
+Property Aspose.Pdf.Text.MarkupSection.Paragraphs
+Class Aspose.Pdf.Text.PageMarkup
+Property Aspose.Pdf.Text.PageMarkup.Number
+Property Aspose.Pdf.Text.PageMarkup.Rectangle
+Property Aspose.Pdf.Text.PageMarkup.Sections
+Property Aspose.Pdf.Text.PageMarkup.Paragraphs
+Property Aspose.Pdf.Text.PageMarkup.TextFragments
+Class Aspose.Pdf.Text.ParagraphAbsorber
+Constructor Aspose.Pdf.Text.ParagraphAbsorber
+Constructor Aspose.Pdf.Text.ParagraphAbsorber(System.Int32)
+Property Aspose.Pdf.Text.ParagraphAbsorber.PageMarkups
+Property Aspose.Pdf.Text.ParagraphAbsorber.SectionsSearchDepth
+Method Aspose.Pdf.Text.ParagraphAbsorber.Visit(Aspose.Pdf.Document)
+Method Aspose.Pdf.Text.ParagraphAbsorber.Visit(Aspose.Pdf.Page)
+Property Aspose.Pdf.Text.TextFormattingOptions.SubsequentLinesIndent
+Property Aspose.Pdf.Text.TextFragmentState.RenderingMode
+Property Aspose.Pdf.Text.TextFragmentState.StrokingColor
+Property Aspose.Pdf.Text.TextFragmentState.DrawTextRectangleBorder
+Enumeration Aspose.Pdf.Text.TextRenderingMode
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.FillText
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.StrokeText
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.FillThenStrokeText
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.Invisible
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.FillTextAndAddPathToClipping
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.StrokeTextAndAddPathToClipping
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.FillThenStrokeTextAndAddPathToClipping
+Enumeration member Aspose.Pdf.Text.TextRenderingMode.AddPathToClipping
+Property Aspose.Pdf.Text.TextState.RenderingMode
+Property Aspose.Pdf.Text.TextState.StrokingColor
+Constructor Aspose.Pdf.TextStamp(System.String,Aspose.Pdf.Text.TextState)&lt;/p&gt;
+&lt;h3 id=&#34;removed-apis&#34;&gt;&lt;strong&gt;Removed APIs:&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Property Aspose.Pdf.HtmlFragment.HtmlLoadOptionsOfInstance&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

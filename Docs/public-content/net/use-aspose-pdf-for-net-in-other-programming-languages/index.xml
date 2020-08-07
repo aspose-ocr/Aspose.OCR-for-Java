@@ -1,0 +1,811 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Use Aspose.PDF for .NET in Other Programming Languages</title>
+    <link>https://docs.aspose.com/pdf/net/use-aspose-pdf-for-net-in-other-programming-languages/</link>
+    <description>Recent content in Use Aspose.PDF for .NET in Other Programming Languages on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/use-aspose-pdf-for-net-in-other-programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Choose the Platform and Interoperability Technology</title>
+      <link>https://docs.aspose.com/pdf/net/choose-the-platform-and-interoperability-technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/choose-the-platform-and-interoperability-technology/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; is a class library which provides the functionality to generate PDF documents from scratch as well as it provides the capability to edit/manipulate existing PDF documents. Aspose.PDF is available in two distinct products &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; and &lt;a href=&#34;https://docs-qa.aspose.com/display/pdfjava/Home&#34;&gt;Aspose.PDF for Java&lt;/a&gt;. We can say that Aspose.PDF “natively” supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The .NET Framework and all programming languages targeting the .NET platform, such as C# or VB.NET.&lt;/li&gt;
+&lt;li&gt;The Java platform and the Java programming language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please note that it is also possible to use &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; from many programming languages, including: ASP, C++, ColdFusion, Delphi, JavaScript, Perl, PHP, PowerBuilder, Python, VBScript etc.
+&lt;/div&gt;
+
+&lt;h5 id=&#34;support-for-other-languages&#34;&gt;&lt;strong&gt;Support for other languages&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;This section contains articles and examples that show how to use Aspose.PDF in different programming languages and covers the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to determine “either to use &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; or &lt;a href=&#34;https://docs-qa.aspose.com/display/pdfjava/Home&#34;&gt;Aspose.PDF for Java&lt;/a&gt;“ ?&lt;/li&gt;
+&lt;li&gt;How to create objects, call methods, access properties of the Aspose.PDF objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you follow the principles outlined in this section, you will be able to employ many of the features of Aspose.PDF in your projects.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;There are two versions of the Aspose.PDF class library:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; to use with any programming language targeting the .NET platform.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs-qa.aspose.com/display/pdfjava/Home&#34;&gt;Aspose.PDF for Java&lt;/a&gt; to use with the Java programming language.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using Aspose.PDF from any other programming language requires the use of some &lt;em&gt;interoperability technology&lt;/em&gt; . The interoperability technology must allow your programming language to call into a class library written for .NET or Java.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Following is the list of the suggested interoperability technologies to use for a variety of programming languages:
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Programming Language&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Aspose.PDF to Use&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Interoperability Technology&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ASP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Delphi&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Jscript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Perl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Inline::Java&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PHP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Java Bridge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PowerBuilder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Python&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPype&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;VBScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Visual Basic&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;.NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COM Interop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+From the above table you can see that for some programming languages it is possible to use either &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; or &lt;a href=&#34;https://docs-qa.aspose.com/display/pdfjava/Home&#34;&gt;Aspose.PDF for Java&lt;/a&gt;.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Use Aspose.PDF for .NET via COM Interop</title>
+      <link>https://docs.aspose.com/pdf/net/use-aspose-pdf-for-net-via-com-interop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/use-aspose-pdf-for-net-via-com-interop/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;The information in this topic applies to scenarios where you want to use &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; via COM Interop in any of the following programming languages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ASP&lt;/li&gt;
+&lt;li&gt;Delphi&lt;/li&gt;
+&lt;li&gt;JScript&lt;/li&gt;
+&lt;li&gt;Perl&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;PowerBuilder&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;VBScript&lt;/li&gt;
+&lt;li&gt;Visual Basic&lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;working-with-com-interop&#34;&gt;&lt;strong&gt;Working with COM Interop&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for .NET executes under the control of the .NET Framework and this is called managed code. Code written in all of the above languages runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.PDF occurs via the .NET facility called COM Interop.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF objects are .NET objects, but when used via COM Interop, they appear as COM objects in your programming language. Therefore, it is best to make sure you know how to create and use COM objects in your programming language, before you start using &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In COM world we distinguish COM server and COM client. COM server stored COM classes while COM client asks COM server for classes instances, i.e. COM objects.&lt;/li&gt;
+&lt;li&gt;COM client or simply client application can know about COM class contents something or be totally unaware about its methods and properties. Therefore client application can discover COM class structure on compiling/building or only during execution. Process of &amp;ldquo;discovery&amp;rdquo; is known as binding and so we have &lt;strong&gt;early binding&lt;/strong&gt; and &lt;strong&gt;late binding&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;in brief COM class is like black box and to work with it type library is needed, this binary file has description of COM class methods, properties and any high level language which supports working with COM objects often has syntax expression for adding type library, for instance this is &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/8etzzkb6.aspx&#34;&gt;&lt;strong&gt;#import&lt;/strong&gt;&lt;/a&gt; in C++.&lt;/li&gt;
+&lt;li&gt;type library is used for early binding.&lt;/li&gt;
+&lt;li&gt;a COM object can expose its methods and properties in two ways: by means of a &lt;strong&gt;dispatch interface&lt;/strong&gt; (dispinterface) and in its &lt;strong&gt;vtable&lt;/strong&gt; (virtual function table).&lt;/li&gt;
+&lt;li&gt;within the &lt;strong&gt;dispinterface&lt;/strong&gt;, each method and property is identified by a unique member; this member is the function&amp;rsquo;s dispatch identifier(or &lt;strong&gt;DispID&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vtable&lt;/strong&gt; is just a set of pointers to functions that the COM class interface supports.&lt;/li&gt;
+&lt;li&gt;an object that exposes its methods through both interfaces supports a &lt;strong&gt;dual interface&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;there are advantages to both types of binding. Early binding provides you with increased performance and compile-time syntax checking. Late binding is most advantageous when you are writing clients that you intend to be &lt;em&gt;&lt;strong&gt;compatible with future versions&lt;/strong&gt;&lt;/em&gt; of your COM class. With late binding, information from the type library is not &amp;ldquo;hard-wired&amp;rdquo; into your client, so you can have greater confidence that your client can work with future versions of COM class without code changes.&lt;/li&gt;
+&lt;li&gt;late binding mechanism has a big advantage: if the creator of the COM DLL decides to release a new version, with a different function interface layout, any code calling those methods won&amp;rsquo;t crash unless the methods are no longer available; even if the &lt;strong&gt;vtable&lt;/strong&gt; is different late binding manages to discover the new DISPIDs and call appropriate methods.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Here are the topics that you will eventually need to master:
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using COM objects in your programming language. See your programming language documentation and the language-specific topics further in this documentation.&lt;/li&gt;
+&lt;li&gt;Working with COM objects exposed by .NET COM Interop. See &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/sd10k43k.aspx&#34;&gt;Interoperating With Unmanaged Code&lt;/a&gt; and &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/zsfww439%28v=vs.110%29.aspx&#34;&gt;Exposing .NET Framework Components to COM&lt;/a&gt; in MSDN.&lt;/li&gt;
+&lt;li&gt;Aspose.PDF document object model. See &lt;a href=&#34;http://www.aspose.com/docs/display/pdfnet/Programmers+Guide&#34;&gt;Aspose.PDF Programmer’s Guide&lt;/a&gt; and &lt;a href=&#34;http://www.aspose.com/docs/display/pdfnet/Aspose.PDF+for+.NET+API+Reference&#34;&gt;API Reference&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;register-asposepdf-for-net-with-com-interop&#34;&gt;&lt;strong&gt;Register Aspose.PDF for .NET with COM Interop&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;You need to install Aspose.PDF for .NET and make sure it is registered with COM Interop (ensuring that it can be called from unmanaged code).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To register Aspose.PDF for .NET for COM Interop manually:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Start&lt;/strong&gt; menu, select &lt;strong&gt;All Programs&lt;/strong&gt;, then &lt;strong&gt;Microsoft Visual Studio&lt;/strong&gt;, &lt;strong&gt;Visual Studio Tools&lt;/strong&gt; and, finally, &lt;strong&gt;Visual Studio Command Prompt&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Enter the command to register the assembly:
+&lt;ol&gt;
+&lt;li&gt;.NET Framework 2.0
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net2.0\Aspose.PDF.dll&amp;rdquo; /codebase&lt;/li&gt;
+&lt;li&gt;.NET Framework 3.5
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net3.5\Aspose.PDF.dll&amp;rdquo; /codebase&lt;/li&gt;
+&lt;li&gt;.NET Framework 4.0
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net4.0\Aspose.PDF.dll&amp;rdquo; /codebase&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Pay attention that /codebase is necessary only if Aspose.PDF.dll is not in GAC, using this option makes regasm put path for assembly in registry.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+regasm.exe is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the &lt;em&gt;\Microsoft .NET\Framevork&amp;lt;FrameworkVersion&amp;gt;&lt;/em&gt; directory, for example &lt;em&gt;C:\Windows\Microsoft .NET\Framework\v4.0.30319&lt;/em&gt;. If you use Visual Studio .NET:
+From the &lt;strong&gt;Start&lt;/strong&gt; menu, select &lt;strong&gt;Programs&lt;/strong&gt;, followed by &lt;strong&gt;Microsoft Visual Studio .NET&lt;/strong&gt;, then &lt;strong&gt;Visual Studio .NET Tools&lt;/strong&gt; and, finally, &lt;strong&gt;Visual Studio .NET 2003 Command Prompt&lt;/strong&gt;.
+It runs a command prompt with all the necessary environment variables set.
+&lt;/div&gt;
+
+&lt;h4 id=&#34;progids&#34;&gt;&lt;strong&gt;ProgIDs&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;ProgID stands for “programmatic identifier”. It is the name of a COM class that used to create an object. ProgIDs consist of the library name &amp;ldquo;Aspose.PDF&amp;rdquo; and the class name.&lt;/p&gt;
+&lt;h4 id=&#34;type-library&#34;&gt;&lt;strong&gt;Type Library&lt;/strong&gt;&lt;/h4&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to Aspose.PDF.tlb and to see all Aspose.PDF for .NET classes, methods, properties and enumerations in your Object Browser.&lt;/p&gt;
+&lt;p&gt;To generate a TLB file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.NET Framework 2.0
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net2.0\Aspose.PDF.dll&amp;rdquo; /tlb: &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net2.0\Aspose.PDF.tlb&amp;rdquo; /codebase&lt;/li&gt;
+&lt;li&gt;.NET Framework 3.5
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net3.5\Aspose.PDF.dll&amp;rdquo; /tlb: &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net3.5\Aspose.PDF.tlb&amp;rdquo; /codebase&lt;/li&gt;
+&lt;li&gt;.NET Framework 4.0
+regasm &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net4.0\Aspose.PDF.dll&amp;rdquo; /tlb: &amp;ldquo;C:\Program Files\Aspose\Aspose.PDF for .NET\bin\net4.0\Aspose.PDF.tlb&amp;rdquo; /codebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;creating-com-objects&#34;&gt;&lt;strong&gt;Creating COM Objects&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The creation of a COM object is similar to creation of a normal .NET object:&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;strong&gt;VBScript&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instantiate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;calling&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;its&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;empty&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;constructor&lt;/span&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Generator.Pdf&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Once created, you are able to access the object’s methods and properties, as if it was a COM object:&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;strong&gt;VBScript&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, the Pdf.Save method overloads become Pdf.Save, Pdf.Save_2, and so on.&lt;/p&gt;
+&lt;p&gt;For more information, see the language-specific articles further in this documentation.&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-wrapper-assembly&#34;&gt;&lt;strong&gt;Creating a Wrapper Assembly&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;If you need to use many of Aspose.PDF for .NET classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language). Wrapper assemblies help help to avoid using Aspose.PDF for .NET directly from unmanaged code.&lt;/p&gt;
+&lt;p&gt;A good approach is to develop a .NET assembly that references Aspose.PDF for .NET and does all the work with it, and only exposes a minimal set of classes and methods to unmanaged code. Your application then should work just with your wrapper library.&lt;/p&gt;
+&lt;p&gt;Reducing the number of classes and methods that you need to invoke via COM Interop simplifies the project. Using .NET classes via COM Interop often requires advanced skills.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: ASP - VBScript via COM Interop</title>
+      <link>https://docs.aspose.com/pdf/net/asp-vbscript-via-com-interop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/asp-vbscript-via-com-interop/</guid>
+      <description>
+        
+        
+        &lt;h5 id=&#34;prerequisites&#34;&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please check the article named Use Aspose.pdf for .NET via COM Interop.
+&lt;/div&gt;
+
+&lt;h5 id=&#34;hello-world&#34;&gt;&lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This is a simple ASP application that shows you how to create a PDF file with sample text using &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; and VBScript via COM Interop.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;VBScript&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LANGUAGE&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBScript&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Option&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Explicit&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;classical&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;creation&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sample&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;classical&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBScript&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.License&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;D:\ASPOSE\Licences\Aspose.Total licenses\Aspose.Total.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instantiate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;calling&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;its&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;empty&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;constructor&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Generator.Pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Create&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Generator.Section&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Create&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Generator.Text&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Segment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Dim&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Set&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Generator.Segment&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Assign&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;some&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;content&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;segment&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Content&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;HelloWorld using ASP and VBScript&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;segment&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;red&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;paragraph&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Segments&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;paragraph&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;paragraphs&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;collection&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;section&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Paragraphs&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;d:\pdftest\HelloWorldinASP.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5 id=&#34;extracting-text&#34;&gt;&lt;strong&gt;Extracting Text&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;This VBScript sample extracts text from an existing PDF document via COM Interop.&lt;/p&gt;
+&lt;p&gt;Error rendering macro &amp;lsquo;code&amp;rsquo; : Invalid value specified for parameter lang&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: ASP - JScript via COM Interop</title>
+      <link>https://docs.aspose.com/pdf/net/asp-jscript-via-com-interop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/asp-jscript-via-com-interop/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This is a simple ASP application that shows you how to add simple text string to PDF file using &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; and JScript via COM Interop.
+&lt;/div&gt;
+
+&lt;h5 id=&#34;code-snippet&#34;&gt;&lt;strong&gt;Code Snippet&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;strong&gt;JScript&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LANGUAGE&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;JScript&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;classical&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;creation&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sample&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;classical&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;JScript&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// set license
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Server&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.License&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;D:\ASPOSE\Licences\Aspose.Total licenses\Aspose.Total.lic&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Instantiate Pdf instance by calling its empty constructor
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Server&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Generator.Pdf&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create a new section in the Pdf object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Server&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Generator.Section&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add section to Pdf object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create Text object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Server&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Generator.Text&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add Text Segment to text object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Server&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Generator.Segment&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Assign some content to the segment
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Content&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;HelloWorld using ASP and JScript&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add segment (with red text color) to the paragraph
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Segments&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add Text paragraph to paragraphs collection of a section
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Paragraphs&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Save the PDF document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;d:\pdftest\HelloWorldinASP.pdf&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: PHP via COM Interop</title>
+      <link>https://docs.aspose.com/pdf/net/php-via-com-interop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/php-via-com-interop/</guid>
+      <description>
+        
+        
+        &lt;h5 id=&#34;prerequisites&#34;&gt;&lt;em&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/em&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Configure your PHP to work with COM. See &lt;a href=&#34;http://www.php.net/manual/en/ref.com.php&#34;&gt;http://www.php.net/manual/en/ref.com.php&lt;/a&gt;. For more information, please check the article named &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/use-aspose-pdf-for-net-via-com-interop/&#34;&gt;Use Aspose.pdf for .NET via COM Interop&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&#34;hello-world&#34;&gt;&lt;em&gt;&lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/em&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This is a simple application that shows you how to create a new PDF file and add text to the PDF file using &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; in PHP via COM Interop.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;PHP&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;php&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;lt;h2&amp;gt;Calling Aspose.PDF for .NET from PHP using COM Interoperatibility&amp;lt;/h2&amp;gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;lt;h3&amp;gt;PDF to Excel Conversion&amp;lt;/h3&amp;gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//set license
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;COM&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.License&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:/temp/Aspose.Total.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Load Pdf Document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:/temp/HelloWorld.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;helper&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;COM&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.ComHelper&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;helper&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;OpenFile&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Save the PDF document  to desired file format by passing  SaveFormat enum value for the format in this case we pass 9 for excel.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;output&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:/temp/test_php.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save_4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;output&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: ASP.NET without using Visual Studio</title>
+      <link>https://docs.aspose.com/pdf/net/asp-net-without-using-visual-studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/asp-net-without-using-visual-studio/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; can be used to develop ASP.NET pages or applications without using Visual Studio. In this example, we’ll write HTML and the C# or VB.NET code in a single .aspx file; this is commonly known as Instant ASP.NET.
+&lt;/div&gt;
+
+&lt;h5 id=&#34;implementation-details&#34;&gt;&lt;strong&gt;Implementation details&lt;/strong&gt;&lt;/h5&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Create a sample web application and copy Aspose.PDF.dll into a directory named &amp;ldquo;Bin&amp;rdquo; in your website directory ( &lt;em&gt;if bin folder does not exist, create one&lt;/em&gt; ). Then create your .aspx page and copy the following code into it. 
+This example shows how to use &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/&#34;&gt;Aspose.PDF for .NET&lt;/a&gt; with inline code in an ASP.NET page in order to create a simple PDF document with some sample text inside it.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Language&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C#&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Namespace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;System&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Namespace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;System.IO&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Namespace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;System.Data&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Namespace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Inline&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;creation&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;simple&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose.PDF&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Inline&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ASP&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NET&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// set license
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;D:\\ASPOSE\\Licences\\Aspose.Total licenses\\Aspose.Total.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Instantiate Pdf instance by calling its empty constructor
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create a new section in the Pdf object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Section&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Section&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add section to Pdf object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create Text object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add Text Segment to text object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Segment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Generator&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Segment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Assign some content to the segment
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Content&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;HelloWorld using Aspose.PDF for .NET with Inline ASP.NET&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add segment (with red text color) to the paragraph
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Segments&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;seg1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Add Text paragraph to paragraphs collection of a section
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;pdfsection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Paragraphs&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SampleText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Save the PDF document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;d:\\pdftest\\HelloWorld_InlineASP.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: CPP via COM Interop</title>
+      <link>https://docs.aspose.com/pdf/net/cpp-via-com-interop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/cpp-via-com-interop/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;This section contains following topics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/using-early-binding-in-cpp/&#34;&gt;Using early binding in CPP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/using-late-binding-in-cpp/&#34;&gt;Using late binding in CPP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/using-wrapper-in-cpp/&#34;&gt;Using wrapper in CPP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Creating a Wrapper Assembly</title>
+      <link>https://docs.aspose.com/pdf/net/creating-a-wrapper-assembly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/creating-a-wrapper-assembly/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If you need to use many of Aspose.PDF for .NET classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language). Wrapper assemblies help to avoid using Aspose.PDF for .NET directly from unmanaged code.&lt;/p&gt;
+&lt;p&gt;A good approach is to develop a .NET assembly that references Aspose.PDF for .NET and does all the work with it, and only exposes a minimal set of classes and methods to unmanaged code. Your application then should work just with your wrapper library.&lt;/p&gt;
+&lt;p&gt;Reducing the number of classes and methods that you need to invoke via COM Interop simplifies the project. Using .NET classes via COM Interop often requires advanced skills.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;asposepdf-for-net-wrapper&#34;&gt;&lt;strong&gt;Aspose.PDF for .NET Wrapper&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Runtime.InteropServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfText&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;    [Guid(&amp;#34;FC969AC9-6591-46FB-A4AB-DB12A776F3BF&amp;#34;)]&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;    [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;interface&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IPetriever&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;        [DispId(1)]&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;        [DispId(2)]&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GetText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;    [Guid(&amp;#34;3D59100F-3CC5-463D-B509-58FA0520B436&amp;#34;)]&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;    [ClassInterface(ClassInterfaceType.None)]&lt;/span&gt;
+&lt;span style=&#34;color:#c4a000&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;    [ComSourceInterfaces(typeof(IPetriever))]&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Petriever&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IPetriever&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GetText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// open document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// create TextAbsorber object to extract text
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;TextAbsorber&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;absorber&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TextAbsorber&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// accept the absorber for all document&amp;#39;s pages
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Accept&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;absorber&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// get the extracted text
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;absorber&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: VBScript using wrapper</title>
+      <link>https://docs.aspose.com/pdf/net/vbscript-using-wrapper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/vbscript-using-wrapper/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;h5 id=&#34;prerequisites-please-register-asposepdf-for-net-with-com-interop-kindly-check-the-article-named&#34;&gt;&lt;strong&gt;Prerequisites Please register Aspose.PDF for .NET with COM Interop, kindly check the article named&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/use-aspose-pdf-for-net-via-com-interop/&#34;&gt;Use Aspose.pdf for .NET via COM Interop&lt;/a&gt;.
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;We will use &lt;a href=&#34;http://www.aspose.com/docs/display/pdfnet/Creating+a+Wrapper+Assembly&#34;&gt;wrapper&lt;/a&gt; to retrieve text from PDF document.&lt;/p&gt;
+&lt;p&gt;Error rendering macro &amp;lsquo;code&amp;rsquo; : Invalid value specified for parameter lang&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

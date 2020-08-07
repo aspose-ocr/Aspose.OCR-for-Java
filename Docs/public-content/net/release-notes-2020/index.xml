@@ -1,0 +1,1225 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2020</title>
+    <link>https://docs.aspose.com/pdf/net/release-notes-2020/</link>
+    <description>Recent content in Release Notes - 2020 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/release-notes-2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.7 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-7-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-7-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.7.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48474&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to CSV conversion support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48396&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Change XImage.Name results corrupted PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41385&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextSegment formatting issues&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44283&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception while creating JPEG image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45406&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF makes PDFA file 30 times bigger than Adobe does&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47029&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextSegments are ignoring specified styles when using a line break&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47223&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML-OutOfMemoryException occurs while converting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47443&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Collection was modified; enumeration operation may not execute&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47877&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;High memory consumption on generating PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47879&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;High CPU usage during PDF generation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47927&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;InvalidCastException on Annotation.get_Modified()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48011&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on converting PDF into DOC&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48040&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-2b conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48098&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on converting PDF to PPTX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48107&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on converting HTML text into PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48156&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML-RemoveEmptyAreasOnTopAndBottom property  is not making &lt;br/&gt; any difference when set true or false&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48232&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Concatenate PDF files - System.ArgumentException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48343&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink in HTML fragment is not working [Regression]&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48368&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Reading the large set of random data (masked as PDF document) lead to &lt;br/&gt; hangs on Aspose.PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48372&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragment overrides TextSegment.FontStlye when page breakline is used&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48384&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conversion to DOCX on the docker throws the NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48386&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is taking long time while concatenating large PDF files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48409&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;On conversion to HTML additional chars appear&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48438&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48439&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48440&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48441&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48442&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48475&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After extracting pages some content is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enumeration Aspose.Pdf.ConvertSoftMaskAction&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ConvertSoftMaskAction.Default&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ConvertSoftMaskAction.ConvertToStencilMask&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ImageDeleteAction.KeepContents&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.PdfFormatConversionOptions.ConvertSoftMaskAction&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.XImage.Rename(System.String)&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ExcelSaveOptions.ExcelFormat.CSV&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.6 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-6-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-6-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.6.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40179&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Causes bold text to blur on iOS (double text overlay offset)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid signature error on concatenating two PDFs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44265&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StackOverflow exception while retrieving contents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45008&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem converting XFA to Standard form&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46607&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After conversion to HTML, copy-paste to editor doesn&amp;rsquo;t look like in the output file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47569&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Concatenating Tagged PDF does not copy alternative text from the second PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47767&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abnormalities while generating PDF/X-1a documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48009&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Unable to change margins&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48047&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF file not properly converted to DOCX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48110&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Pdf 20.4: Exception is thrown when extracting document outlines&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48114&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to load shared library &amp;lsquo;gdi32.dll&amp;rsquo; or one of its dependencies when opening TEX file on Linux&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48122&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optimizing of extracted pages set text invisible&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48123&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optimizing of extracted pages losses images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48124&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optimizing of extracted pages losses background&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48125&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optimizing of extracted pages substitutes the font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48134&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DocumentInfo[&amp;ldquo;KeyName&amp;rdquo;] returns null when value is not string&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48194&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Pdf 20.5: object reference null exception in text absorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.5 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-5-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-5-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.5.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47969&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of binding expression in XFA form set/get value&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48055&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Keep actual field names when XFA form converted into standard form.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47678&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF file not properly converted to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42537&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text not getting displayed in browser when saving PDF document to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44879&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XFA Form to Standard AcroForm export is missing field values&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46297&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - API is taking time more than expectation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46408&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Converting dynamic xfa shifts text out of view&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46409&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Converting dynamic xfa saves with the text from page 2 on top of page 1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46632&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Memory leak while processing BeforePageGenerate delegate&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47097&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect result file while converting to HTML.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47339&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formating issue after import from XFDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47461&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Data is lost after flattening()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47536&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OOM while merging PDF documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47842&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rendering issue while converting PDF to XPS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47849&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When table.GetWidth(); is used the table is moved to the right&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-48020&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Javascript validation is not working after merging the PDF documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enumeration member: Aspose.Pdf.DocSaveOptions.RecognitionMode.EnhancedFlow&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.4 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-4-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-4-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.4.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47847&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add the ability to use an image file stream as the background of a table cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41517&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragment Rectangle must be rotated 90° when used as TextAbsorber Rectangle&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43320&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Resultant file cannot be opened in Microsoft Words Online&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45324&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArgumentOutOfRangeException with TextFragmentAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45718&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;System.IndexOutOfRangeException Exception occurred while extracting text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46550&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Field not found error occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47305&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX, the fonts overlap and the conversion effect is not very good&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47462&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Characters are missing when saving PDF into HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47694&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Vertical lines instead of spaces when viewing output HTML in IE&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47695&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Boxes instead of spaces when copying text from a browser&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47712&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Discrepancies in the output PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47713&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect page ordering in the output file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47714&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text missing and duplication in the output file.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47743&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text is hidden when saving PDF as HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47845&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;System.NullReferenceException while Flattening&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46414&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Table is missing in output PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47878&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on converting HTML to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44330&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReference exception on flattening fields&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Property Aspose.Pdf.Cell.BackgroundImage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;removed-apis&#34;&gt;&lt;strong&gt;Removed APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Class Aspose.Pdf.LatexLoadOptions is renamed to Aspose.Pdf.TeXLoadOptions (Aspose.Pdf.LatexLoadOptions is declared obsolete)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LaTeXSaveOptions is renamed to Aspose.Pdf.TeXSaveOptions (Aspose.Pdf.LaTeXSaveOptions is declared obsolete)&lt;/li&gt;
+&lt;li&gt;Class Aspose.Pdf.LatexFragment    is renamed to Aspose.Pdf.TeXFragment (Aspose.Pdf.LatexFragment is declared obsolete)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.3 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-3-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-3-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.3.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43280&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Track the &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/convert-pdf-to-powerpoint-pptx/#convertpdftopowerpointpptx-progressdetailofpptxconversion&#34;&gt;progress of converting a PDF&lt;/a&gt; to PowerPoint presentation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Link extraction issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47644&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF 20.1: TextState.Background property color is null&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47056&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Out of memory exception on conversion from HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47677&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The last row of a text fragment is lost when Table.GetWidth() method is called&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47629&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;System.OverflowException while converting webpage to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47080&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add and remove watermark into PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47335&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF never ends&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47053&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception is thrown while getting Contents of Page in Blank PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46020&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - missing content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47711&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Infinite loop and OOM exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Link extraction issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47314&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;High CPU usage during PDF generation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47670&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OptimizeResources NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47064&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adding TIFF to PDF never ends&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46677&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conversion from TIF to PDF doesn&amp;rsquo;t work when IsBlackWhite is set to true&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-30758&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conversion from Pdf to Jpg creates a blank file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47302&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Text is out of shapes in output HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43857&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Missing content in generated tiff&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39711&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF throws ArgumentNullException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43979&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect PDF to TIFF Conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38331&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Exception during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39461&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Exception during PDF generation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43113&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rotation of the TextFragment is not being returned correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43532&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cannot retrieve data from the non-header rows&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38094&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Conversion process does not complete&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37621&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF missing some form field data&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47295&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;High memory consumption on generating PDF documents.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46961&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF conversion Save As issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47468&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF conversion hangs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Class Aspose.Pdf.Annotations.CustomExplicitDestination&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.Annotations.CustomExplicitDestination.ToString&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.PclLoadOptions.BatchSize&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.PptxSaveOptions.CustomProgressHandler&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.2 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-2-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-2-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.2.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46152&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;VerticalAlignment is not working for TextBoxField&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47623&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose PDF 20.01 Venture license is not applied for digital signatures processing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-35529&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Line-Height property for li tags is not being honored&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-35848&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: Turkish alphabets (&amp;rsquo;?&amp;rsquo; and &amp;lsquo;?&#39;) are being rendered incorrect&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37196&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XPS to PDF: Issues with Glyphs in output PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37979&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - fonts are broken in the resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41214&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Static text appears as Hyperlink&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41625&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect Cell borders with Colspan and wide tables&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-41646&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to EPUB - Wrong position of &amp;ldquo;A&amp;rdquo; symbol&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42279&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After concatenate final PDF document opens in the middle&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42495&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF having float is messed up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43114&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OutOfMemoryException encountered converting PDF to DOCX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43760&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG to PDF - the image is being displaced&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44613&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - the page margin settings consume memory&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45685&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with hyperlinks while converting PDF to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45921&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text gets overlapped and changes it position after changing its color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46227&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with OptimizeResources and ImageCompress - PDF is unreadable&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46373&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem converting PDF to XPS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46398&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hebrew text fails to extract on alpine 3.8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46584&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with textboxes in presentation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46630&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Argument exception while working with annotations&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46703&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text inserted in the form field is shifted down&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46873&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem applying two page stamps on the same page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46969&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issues when rendering LaTeX (.tex) files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47210&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTM to PDF: line break issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47294&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;On generating PDF document from a simple HTML stream through &lt;br/&gt; iterations creates a memory leak&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47418&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when saving files in multiple threads&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47466&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF generation triggering an infinite loop of pages&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47471&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RedactionAnnotation over an image with transparent background changes &lt;br/&gt; transparency into black color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47529&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Convert XPS to PDF using Aspose.PDF for .NET - FileLoadException Occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47620&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving a page from a document throws NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;added-apis&#34;&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Property Aspose.Pdf.Annotations.Annotation.TextHorizontalAlignment&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.DocSaveOptions.BatchSize                       &lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Facades.PdfFileEditor.KeepActions              &lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Forms.TextBoxField.TextVerticalAlignment&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 20.1 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-1-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-1-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for .NET 20.1.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42062&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: inline SVG image is not rendering&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47419&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Clarification required on Image Delete Mechanism in the API&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43638&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extracting the text content from stamp annotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-33628&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unknown image type : Jpeg exception is occurring when trying to add 8 BPP JPG to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-34282&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OutOfMemoryException is occurring during HTML to PDF conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-35760&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF- contents are appearing twice&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-36509&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Formatting issues in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37123&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - ArgumentNullException is occurring&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37213&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Anchor tag is not being honored&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37505&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HML - NullReferenceException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-37697&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Resultant file is blank&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38093&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: Tables are incorrectly rendered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38202&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Html to PDF conversion throws OutOfMemoryException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-38482&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF conversion throws IndexOutOfRangeException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39625&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Image conversion throws NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-39941&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG to PDF:Base 64 image is not rendering in resultant PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40480&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG: conversion throws NullReferenceException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40508&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Exception during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40604&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA throws OutOfMemoryException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-40728&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specific page extraction throws NullReference Exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-42110&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to convert page to HTML and save it to stream.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44264&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReference exception on flattening annotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44934&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF - Program hangs keeps running without generating file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44958&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Colspan Column Text is being duplicated in case of wide table&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-44982&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XmlException on PDF to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45575&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is taking more time to fill form fields&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-45928&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception occurs when reading a document with redaction &lt;br/&gt; annotation and popup annotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46564&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;System.NullReferenceException occured after Hocr conversion in save method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46890&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An issue with conversion PDF into HTML with missing font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46933&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception CrossTableNotFoundException while getting the page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-46938&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException on parsing annotation with 3D content&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47091&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem converting PDF to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47181&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC font are saved incorrectly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47193&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML gives incorrect characters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47231&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF links issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47246&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when accessing page annotations of PDF document with 3D object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47340&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Import from XFDF issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47342&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when opening LaTeX file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47353&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when saving PDF into HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47355&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC - StackOverFlow Exception occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47378&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException Since 19.8 version&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47439&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to cast object exception when opening PCL file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-47444&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TOC pages order backward&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43324&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cannot add hyperlink to Non-keyboard special characters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFNET-43289&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XLS - Problem During Load&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Added APIs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enumeration Aspose.Pdf.ImageDeleteAction&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ImageDeleteAction.None&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ImageDeleteAction.ForceDelete&lt;/li&gt;
+&lt;li&gt;Enumeration member Aspose.Pdf.ImageDeleteAction.Check&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.XImageCollection.Delete(System.Int32,Aspose.Pdf.ImageDeleteAction)&lt;/li&gt;
+&lt;li&gt;Method Aspose.Pdf.XImageCollection.Delete(System.String,Aspose.Pdf.ImageDeleteAction)&lt;/li&gt;
+&lt;li&gt;Property Aspose.Pdf.Form.AutoRecalculate&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

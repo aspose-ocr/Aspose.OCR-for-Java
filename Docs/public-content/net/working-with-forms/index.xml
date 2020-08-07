@@ -1,0 +1,280 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Forms</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-forms/</link>
+    <description>Recent content in Working with Forms on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-forms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add, Delete and Modify Form Field</title>
+      <link>https://docs.aspose.com/pdf/net/add-delete-and-modify-form-field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-delete-and-modify-form-field/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Add Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://docs-qa.aspose.com/display/archived/Aspose.Pdf.Document+Class&#34;&gt;Document&lt;/a&gt; class provides a collection named &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/properties/form&#34;&gt;Form&lt;/a&gt; which helps you manage form fields in a PDF document.&lt;/p&gt;
+&lt;p&gt;To add a form field:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create the form field you want to add.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/properties/form&#34;&gt;Form&lt;/a&gt; collection&amp;rsquo;s Add method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;adding-textboxfield&#34;&gt;&lt;strong&gt;Adding TextBoxField&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Below example shows how to add a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.forms/textboxfield&#34;&gt;TextBoxField&lt;/a&gt;.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-TextBox-AddTextBoxField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-radiobuttonfield&#34;&gt;&lt;strong&gt;Adding RadioButtonField&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippets show how to add RadioButtonField in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-RadioButton-RadioButton.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The following code snippet shows the steps to add RadioButtonField with three options and place them inside Table cells.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-RadioButtonWithOptions-RadioButtonWithOptions.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-caption-to-radiobuttonfield&#34;&gt;&lt;strong&gt;Adding Caption to RadioButtonField&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Following code snippet shows how to add caption which will be associated with RadioButtonField:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SetRadioButtonCaption-1.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-combobox-field&#34;&gt;&lt;strong&gt;Adding ComboBox field&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippets show how to add ComboBox field in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-ComboBox-ComboBox.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-tooltip-to-form-field&#34;&gt;&lt;strong&gt;Add Tooltip to Form Field&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://docs-qa.aspose.com/display/archived/Aspose.Pdf.Document+Class&#34;&gt;Document&lt;/a&gt; class provides a collection named &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/properties/form&#34;&gt;Form&lt;/a&gt; which manages form fields in a PDF document. To add a tooltip to a form field, use the Field class AlternateName. Adobe Acrobat uses the &amp;lsquo;alternate name&amp;rsquo; as a field tooltip.&lt;/p&gt;
+&lt;p&gt;The code snippets that follow show how to add a tooltip to a form field, first using C# and then Visual Basic.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-AddTooltipToField-AddTooltipToField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;how-to-add-grouped-checkboxes&#34;&gt;&lt;strong&gt;How to add Grouped Checkboxes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Document&lt;/strong&gt; class provides a collection named &lt;strong&gt;Form&lt;/strong&gt; which helps you manage form fields in a PDF document. The &lt;strong&gt;RadioButtonField&lt;/strong&gt; provides the feature to add RadioButtons field to PDF document and in order to represent checkboxes, you may consider setting border style for RadioButtonField.&lt;/p&gt;
+&lt;p&gt;Once the RadioButtonField object is created, you need to add &lt;strong&gt;RadioButtonOptionField&lt;/strong&gt; instances to RadioButtonField object and in order to set border style, you need to use &lt;strong&gt;Style&lt;/strong&gt; property and set value from &lt;strong&gt;BoxStyle&lt;/strong&gt; enumeration. The &lt;strong&gt;BoxStyle&lt;/strong&gt; enumeration supports following values.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Sr. #&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;BoxStyle&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Circle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cross&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Diamond&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Square&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Star&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;The following code snippets show how to create grouped CheckBoxes to a PDF document.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GroupedCheckBoxes-GroupedCheckBoxes.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;determine-if-a-field-is-marked-as-required&#34;&gt;&lt;strong&gt;Determine if a Field is Marked as Required&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows you to retrieve information related to form fields in a document. It also allows you to get the information and properties associated with a particular form field. The following code snippet shows how to determine if a particular form field is marked as required or not.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-DetermineRequiredField-DetermineRequiredField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-a-particular-form-field-from-a-pdf-document&#34;&gt;&lt;strong&gt;Delete a Particular Form Field from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;All the form fields are contained in the &lt;a href=&#34;https://docs-qa.aspose.com/display/archived/Aspose.Pdf.Document+Class&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/properties/form&#34;&gt;Form&lt;/a&gt; collection. This collection provides different methods that manage form fields, including the Delete method. If you want to delete a particular field, pass the field name as a parameter to the Delete method and then save the updated PDF document. The following code snippet shows how to delete a particular field from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-DeleteFormField-DeleteFormField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;modify-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Modify Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To modify an existing form field, you can get the field from the Form collection and set its properties. Then save the updated PDF document. The following code snippet shows how to modify an existing form field in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-ModifyFormField-ModifyFormField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;fill-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Fill Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To fill a form field, get the field from the &lt;a href=&#34;https://docs-qa.aspose.com/display/archived/Aspose.Pdf.Document+Class&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s Form collection. then set the field value using the field&amp;rsquo;s Value property.&lt;/p&gt;
+&lt;p&gt;This example selects a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.forms/textboxfield&#34;&gt;TextBoxField&lt;/a&gt; and sets its value using the Value property.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-FillFormField-FillFormField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;support-arabic-text-filling-in-textboxfield&#34;&gt;&lt;strong&gt;Support Arabic text filling in Textboxfield&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Non-English languages including Arabic can be used to fill form fields. Please take a look over following code snippet to fill Form fields with Arabic text/contents.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-ArabicTextFilling-ArabicTextFilling.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;select-radiobutton-from-group&#34;&gt;&lt;strong&gt;Select RadioButton from group&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Radio buttons can be added in group and following code snippet can be used to select particular radio button from group.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SelectRadioButton-SelectRadioButton.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;move-form-field-to-a-new-location-in-a-pdf-file&#34;&gt;&lt;strong&gt;Move Form Field to a New Location in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to move a form field to a new location on a PDF page, first get the field oobject and then specify a new value for its Rect property. A &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/rectangle&#34;&gt;Rectangle&lt;/a&gt; object with new coordinates is assigned to the Rect property. Then save the updated PDF using &lt;a href=&#34;https://docs-qa.aspose.com/display/archived/Aspose.Pdf.Document+Class&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/methods/save&#34;&gt;Save&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to move a form field to a new location in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-MoveFormField-MoveFormField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;preserve-extended-rights-when-working-with-forms&#34;&gt;&lt;strong&gt;Preserve Extended Rights when Working with Forms&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;When manipulating a PDF form that has extended features enabled, there is a chance that these rights are lost. To preserve extended rights, it is recommended that you use the incremental approach when dealing with such documents: # Open the source file in a Stream object (with read/write file access).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Perform any required operation.&lt;/li&gt;
+&lt;li&gt;Call the Document.Save(..) method with no argument.
+This saves the updated document in the original Stream.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to access the PDF form and save it back on the system without losing the extended rights.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-PreserveRights-PreserveRights.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;preserving-rights-when-using-the-form-class&#34;&gt;&lt;strong&gt;Preserving Rights when Using the Form Class&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.facades/form&#34;&gt;Form&lt;/a&gt; class in the Aspose.PDF.Facades namespace to populate PDF forms, use the same output path or stream as the input path or stream.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-PreserveRights-PreserveRightsUsingFormClass.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get and Set Form Field</title>
+      <link>https://docs.aspose.com/pdf/net/get-and-set-form-field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/get-and-set-form-field/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;get-values-from-all-the-fields-of-pdf-document&#34;&gt;&lt;strong&gt;Get Values from all the Fields of PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To get values from all the fields IN a PDF document, you need to navigate through all the form fields and then get the value using the Value property. Get each field from the Form collection, in the base field type called Field and access its Value property.&lt;/p&gt;
+&lt;p&gt;The following code snippets show how to get the values of all the fields from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetValuesFromAllFields-GetValuesFromAllFields.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;getset-fieldlimit&#34;&gt;&lt;strong&gt;Get/Set FieldLimit&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The FormEditor class SetFieldLimit(&amp;ldquo;textbox1&amp;rdquo;, 20) method allows you to set a field limit, the maximum number of characters that can be entered into a field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SetFieldLimit-SetFieldLimit.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Similarly, Aspose.PDF has a method that gets the field limit using the DOM approach. The following code snippet shows the steps.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SetFieldLimit-GetMaxFieldLimit.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;You can also get the same value using the &lt;strong&gt;Aspose.PDF.Facades&lt;/strong&gt; namespace using the following code snippet.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SetFieldLimit-GetMaxFieldLimitUsingFacades.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-value-from-an-individual-field-of-pdf-document&#34;&gt;&lt;strong&gt;Get Value from an Individual Field of PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The form field&amp;rsquo;s Value property allows you to get the value of a particular field. To get the value, get the form field from the Document object&amp;rsquo;s Form collection. This example selects a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.forms/textboxfield&#34;&gt;TextBoxField&lt;/a&gt; and retrieves its value using the Value property.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetValueFromField-GetValueFromField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;To get the submit button&amp;rsquo;s URL, use the following lines of code.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetValueFromField-GetSubmitButtonURL.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-form-fields-from-a-specific-region-of-pdf-file&#34;&gt;&lt;strong&gt;Get Form Fields from a Specific Region of PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes, you might know where in a document a form field is, but not have it&amp;rsquo;s name. For example, if all you have to go from is a schematic of a printed form. With Aspose.PDF for .NET, this is not a problem. You can find out which fields are in a given region of a PDF file. To get form fields from a specific region of a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the PDF file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get the form from the document&amp;rsquo;s Forms collection.&lt;/li&gt;
+&lt;li&gt;Specify the rectangular region and pass it to the Form object&amp;rsquo;s GetFieldsInRect method.
+A Fields collection is returned.&lt;/li&gt;
+&lt;li&gt;Use this to manipulate the fields.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to get form fields in a specific rectangular region of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetFieldsFromRegion-GetFieldsFromRegion.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;set-form-field-font-other-than-the-14-core-pdf-fonts&#34;&gt;&lt;strong&gt;Set Form Field Font Other Than the 14 Core PDF Fonts&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Form fields in Adobe PDF files can be configured to use specific default fonts. In the early versions of Aspose.PDF, only the 14 default fonts were supported. Later releases allowed developers to apply any font. To set and update the default font used for form fields, use the &lt;a href=&#34;http://www.aspose.com/api/net/pdf/aspose.pdf.interactivefeatures/defaultappearance&#34;&gt;DefaultAppearance(Font font, double size, Color color)&lt;/a&gt; class. This class can be found under the Aspose.PDF.InteractiveFeatures namespace. To use this object, use the Field class DefaultAppearance property.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to set the default font for PDF form fields.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-FormFieldFont14-FormFieldFont14.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;retrieve-radiohoriz-property-for-radiobutton-field&#34;&gt;&lt;strong&gt;Retrieve RadioHoriz Property for RadioButton Field&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The RadioHoriz property is required to control how radio buttons are added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;if RadioHoriz is true, items are added horizontally,&lt;/li&gt;
+&lt;li&gt;if it is false they are added vertically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This property is specific to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.facades/formeditor&#34;&gt;FormEditor&lt;/a&gt; class and defines the most used scenarios for creating radio buttons. Usually it does not make any sense to read the RadioHoriz property for radio button field and you can access RadioButtonField sub-items and read their coordinates, instead of trying to read the RadioHoriz property.&lt;/p&gt;
+&lt;p&gt;The following example illustrates the RadioHoriz property&amp;rsquo;s behavior, shows how to create radio button items with arbitrary positions and how to read these positions.&lt;/p&gt;
+&lt;h3 id=&#34;create-a-new-document-and-add-radio-button-with-3-items-dom-approach&#34;&gt;&lt;strong&gt;Create a New Document and Add Radio Button with 3 Items (DOM Approach)&lt;/strong&gt;&lt;/h3&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-CreateDoc-CreateDoc.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-horizontally-and-vertically-laid-out-radio-buttons-with-formeditor&#34;&gt;&lt;strong&gt;Adding Horizontally and Vertically Laid-out Radio Buttons with FormEditor&lt;/strong&gt;&lt;/h3&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-HorizontallyAndVerticallyRadioButtons-HorizontallyAndVerticallyRadioButtons.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;how-to-get-radiobutton-item-coordinates&#34;&gt;&lt;strong&gt;How to Get RadioButton Item Coordinates&lt;/strong&gt;&lt;/h3&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetCoordinates-GetCoordinates.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;set-javascript-on-form-field&#34;&gt;&lt;strong&gt;Set JavaScript on Form Field&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows developers to restrict form fields so that only numeric values can be entered into them. To accomplish this requirement, the OnModifyCharacter and OnFormat properties have been added to Field.Actions.&lt;/p&gt;
+&lt;p&gt;To add validation of user entry, the AFNumber_Keystroke and AFNumber_Format JavaScript functions can be used. The following code snippets show how.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-SetJavaScript-SetJavaScript.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;retrieve-form-fields-in-tab-order&#34;&gt;&lt;strong&gt;Retrieve Form Fields in Tab Order&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes we need to change the order of form fields while proceeding with our PDF document. By default when you iterate through the form fields, the fields are returned in the order in which they were created. In order to retrieve form fields in tab orders, Aspose.PDF offers the following two properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Field.TabOrder&lt;/strong&gt; - the tab order of the field which allows to set or get tab order of the field on the page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page.FieldsInTabOrder&lt;/strong&gt; - returns a list of fields in the tab order&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to use this feature.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Forms-RetrieveFormFieldInTabOrder-RetrieveFormFieldInTabOrder.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with XFA Forms</title>
+      <link>https://docs.aspose.com/pdf/net/working-with-xfa-forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/working-with-xfa-forms/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Dynamic forms are based on an XML specification known as XFA, the “XML Forms Architecture”. It can also convert dynamic XFA form to standard Acroform. The information about the form (as far as PDF is concerned) is very vague – it specifies that fields exist, with properties, and JavaScript events, but does not specify any rendering. The objects of XFA form are drawn at the time loading the document.
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.PDF for .NET API lets you work with XFA and XFA Acroform fields in a PDF document. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.facades/form&#34;&gt;Aspose.PDF.Facades.Form&lt;/a&gt; class provides the capability to deal with static AcroForm and you can get a particular field instance using the Form class&amp;rsquo; GetFieldFacade(..) method. However, XFA fields cannot be accessed via the Form.GetFieldFacade(..) method. Instead, use Document.Form.XFA to get/set field values and manipulate XFA field template (set field properties).&lt;/p&gt;
+&lt;h2 id=&#34;fill-xfa-fields&#34;&gt;&lt;strong&gt;Fill XFA fields&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following code snippet shows you how to fill fields in XFA form.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-FillXFAFields-FillXFAFields.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-xfa-field-properties&#34;&gt;&lt;strong&gt;Get XFA field properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To access field properties, first use Document.Form.XFA.Teamplate to access the field template. The following code snippet shows the steps of getting X and Y coordinates of XFA a form field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-GetXFAProperties-GetXFAProperties.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;convert-dynamic-xfa-form-to-standard-acroform&#34;&gt;&lt;strong&gt;Convert Dynamic XFA Form to Standard AcroForm&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Try online&lt;/p&gt;
+&lt;p&gt;You can check the quality of Aspose.PDF conversion and view the results online at this link:
+&lt;a href=&#34;https://products.aspose.app/pdf/xfa/acroform&#34;&gt;products.aspose.app/pdf/xfa/acroform&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Dynamic forms are based on an XML specification known as XFA, the “XML Forms Architecture”. The information about the form (as far as a PDF is concerned) is very vague – it specifies that fields exist, with properties, and JavaScript events, but does not specify any rendering.&lt;/p&gt;
+&lt;p&gt;Currently, PDF supports two different methods for integrating data and PDF forms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AcroForms (also known as Acrobat forms), introduced and included in the PDF 1.2 format specification.&lt;/li&gt;
+&lt;li&gt;Adobe XML Forms Architecture (XFA) forms, introduced in the PDF 1.5 format specification as an optional feature (The XFA specification is not included in the PDF specification, it is only referenced.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We cannot extract or manipulate pages of XFA Forms, because the form content is generated at runtime (during XFA form viewing) within the application trying to display or render the XFA form. Aspose.PDF has a feature that allows developers to convert XFA forms to standard AcroForms.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Forms-DynamicXFAToAcroForm-DynamicXFAToAcroForm.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

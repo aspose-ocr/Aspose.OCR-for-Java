@@ -1,0 +1,1570 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2019</title>
+    <link>https://docs.aspose.com/pdf/java/release-notes-2019/</link>
+    <description>Recent content in Release Notes - 2019 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/release-notes-2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.12 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-12-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-12-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for Java 19.12.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38667&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlinks and cross-references support on converting PDF to DOCX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38483&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-delete-and-extract-images-from-the-pdf-file/#add-deleteandextractimagesfromthepdffile-supportfordicomimages&#34;&gt;DICOM image to PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-39017&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/redact-certain-page-region-with-redactionannotation/#redactcertainpageregionwithredactionannotation-redactpageregionwithredactionannotation&#34;&gt;Font Size of Overlay Text&lt;/a&gt; in Redaction Annotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-39063&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/optimize-pdf-document/#optimizepdfdocument-removeunnecessaryobjects&#34;&gt;Font subsets optimization&lt;/a&gt; method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38960&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when loading Latex&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36774&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF is converted to Word document, a hyperlink is lost&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38942&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML long conversion time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-39049&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Merging XFDF with the PDF template produces all checkboxes unchecked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34853&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: Table is not being rendered incorrectly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34865&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Text is not properly being rendered (character overwrite)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA throws OutOfMemory Exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34325&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XPS to PDF: Issues with Glyphs in output PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Setting Font Size of Overlay Text in Redaction Annotation&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;HelloWorld.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Rectangle&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rect&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Rectangle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;200&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;500&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;300&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;600&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;RedactionAnnotation&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RedactionAnnotation&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getPages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get_Item&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rect&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFillColor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Color&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getBlack&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;());&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setBorderColor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Color&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getYellow&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;());&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setColor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Color&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getBlue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;());&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontSize&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setOverlayText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;REDACTED&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setTextAlignment&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;HorizontalAlignment&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Center&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRepeat&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getPages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get_Item&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getAnnotations&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;annot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Redaction_out.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Adding Font Subsets Optimization Method&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;OptimizationOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;OptimizationOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAllowReusePageContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLinkDuplcateStreams&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRemoveUnusedObjects&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRemoveUnusedStreams&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setSubsetFonts&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;optimizeResources&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pdfDocument&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;result.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;New Methods Added&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.optimization.OptimizationOptions.&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.optimization/OptimizationOptions#getSubsetFonts--&#34;&gt;getSubsetFonts()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.optimization.OptimizationOptions.&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.optimization/OptimizationOptions#setSubsetFonts-boolean-&#34;&gt;setSubsetFonts(boolean)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RedactionAnnotation.&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/RedactionAnnotation#setFontSize-int-&#34;&gt;setFontSize(int)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.11 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-11-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-11-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for Java 19.11.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37568&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt; &lt;/code&gt;Support for WCAG 2.0 compliance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38671    &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF - Diagrams are missing in output TIFF images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38968&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Null pointer getting Image Raw Parameters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38906&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem detecting blank pages&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38931&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem converting PDF to PDF/A&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-39012&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect TextFragment.getSegments() behavior after TextFragmentAbsorber&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-39011&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullReferenceException on reading Artifact.getText()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38403&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;License is not set while converting Image To PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38959&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when loading Ps&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38992   &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF 19.10: Exception when saving PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38452&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Requested font type subsetting is not supported (Linux)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36828&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Long string replace does not format correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backwards Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;AdditionalMarginWidthInPoints methods are deprecated, please use field PageMarginIfAny instead.
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getAdditionalMarginWidthInPoints()
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setAdditionalMarginWidthInPoints(int)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added fields&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.PageMarginIfAny
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.LettersPositioningMethod
+com.aspose.pdf.&lt;strong&gt;SaveOptions&lt;/strong&gt;.MarginInfo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added classes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;IPageSetOptions&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;IPipelineOptions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added Methods&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getExplicitListOfSavedPages()
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setExplicitListOfSavedPages(int[])
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getBatchSize()
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setBatchSize(int)
+com.aspose.pdf.&lt;strong&gt;TextFragmentState&lt;/strong&gt;.getFontStyle()
+com.aspose.pdf.&lt;strong&gt;TextState&lt;/strong&gt;.getFontStyle()
+com.aspose.pdf.&lt;strong&gt;TocInfo&lt;/strong&gt;.getPageNumbersPrefix()
+com.aspose.pdf.&lt;strong&gt;TocInfo&lt;/strong&gt;.setPageNumbersPrefix(String)
+com.aspose.pdf.&lt;strong&gt;XpsLoadOptions&lt;/strong&gt;.getBatchSize()
+com.aspose.pdf.&lt;strong&gt;XpsLoadOptions&lt;/strong&gt;.setBatchSize(int)
+com.aspose.pdf.&lt;strong&gt;XpsSaveOptions&lt;/strong&gt;.getBatchSize()
+com.aspose.pdf.&lt;strong&gt;XpsSaveOptions&lt;/strong&gt;.setBatchSize(int)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Removed methods&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getProcessingBatchSize
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setProcessingBatchSize(int)
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.setMcName(String)
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.getMcId()
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.setMcId(int)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Removed fields&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.LettersPositioningMethod
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.ExplicitListOfSavedPages&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.10 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-10-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-10-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes information for Aspose.PDF for Java 19.10.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-33163&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Converting &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-other-formats/#convertpdftootherformats-keeptextselectableinoutputxps&#34;&gt;Searchable PDF to XPS&lt;/a&gt; (Keeping Text Selectable in resultant XPS) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34842&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support PDF/UA format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38309&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hide the &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-table-in-existing-pdf-document/#addtableinexistingpdfdocument-hidespannedcellborders&#34;&gt;spanned cell border&lt;/a&gt; if broken to another row Enhancements&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38884&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set export value of Checkbox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38943&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Footers are missing after adding headers/footers to a document with mixed orientation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38410&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Text is shifted upwards&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38411&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Text is shifted to left&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38916&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception on getModDate()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38823&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Initializing the licence takes 3-4 minutes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38824&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The java pdf license in Google Append Engine (GAE Flex) is very slow&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38361&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when saving PCL into HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38437&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text substitution doesn&amp;rsquo;t work correctly.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38338&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The contact field in the signature rectangle is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38736&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF no longer supports images embedded in HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36865&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Memory consumption issues when&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37810&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The HTML fragment looks different regarding the original HTML file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37909 &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Merging PDF Documents - issue with radio buttons in output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38911&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IllegalStateException while extracting text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38739&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArrayIndexOutOfBoundsException during PDF to DOCX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38398&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The margins are not preserved in DOCX output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38740&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Very slow license loading&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;public-api-and-backward-incompatible-changes&#34;&gt;&lt;strong&gt;Public API and Backward Incompatible Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Removed Methods&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.HtmlLoadOptions.isPdfUaConverting()&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.HtmlLoadOptions.setPdfUaConverting(boolean)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New Methods&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.License.isInternalFIPSSecurity()&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.License.setInternalFIPSSecurity(boolean)&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.MhtLoadOptions.getPageInfo()&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.getOptimizeDimensions()&lt;/li&gt;
+&lt;li&gt;com.aspose.pdf.RenderingOptions.setOptimizeDimensions(boolean)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New constructors for class TextFragmentAbsorber&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;com.aspose.pdf.TextFragmentAbsorber:TextFragmentAbsorber(java.util.regex.Pattern)&lt;/li&gt;
+&lt;li&gt;TextFragmentAbsorber(java.util.regex.Pattern,TextSearchOptions)&lt;/li&gt;
+&lt;li&gt;TextFragmentAbsorber(java.util.regex.Pattern,TextEditOptions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Added new option in class com.aspose.pdf.SvgSaveOptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public boolean ScaleToPixels = true;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.9 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-9-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-9-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://downloads.aspose.com/pdf/java/new-releases/aspose.pdf-for-java-19.9/&#34;&gt;Aspose.PDF for Java 19.9&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;improvements-and-changes&#34;&gt;&lt;strong&gt;Improvements and Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38882&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/adding-stamp-in-a-pdf-file/#addingstampinapdffile-addimagestampasbackgroundinfloatingbox&#34;&gt;ImageStamp as a background&lt;/a&gt; in FloatingBox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38883&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unsupported Latex tags: &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/advanced-features/#advancedfeatures-supportforlatextags&#34;&gt;\begin \end \qedhere&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36860&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is taking too long for HTML to PDF Conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38810&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Part of the content is missing after conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38582&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Form data is not being imported correctly from XFDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37688&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XPS - an empty argument error occurred&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38733&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;hOCR text alignment issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38826&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception while getting annotation modification date&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38734&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The stamping performance issue - Fix locks in font process&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38853&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XPS to PDF - API is throwing an exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java199&#34;&gt;&lt;strong&gt;Public API changes in Aspose.PDF for Java19.9&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.PDF for Java. If you have concerns about any change listed, please raise it on the &lt;a href=&#34;https://forum.aspose.com/c/pdf&#34;&gt;Aspose.PDF support forum&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;new-methods&#34;&gt;&lt;strong&gt;New Methods&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;CheckboxField&lt;/strong&gt;.getExportValue()
+com.aspose.pdf.&lt;strong&gt;CheckboxField&lt;/strong&gt;.setExportValue(String)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;Document&lt;/strong&gt;.isManualDisposeEnabled()
+com.aspose.pdf.&lt;strong&gt;Document&lt;/strong&gt;.setManualDisposeEnabled(boolean)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;FloatingBox&lt;/strong&gt;.getBackgroundImage()
+com.aspose.pdf.&lt;strong&gt;FloatingBox&lt;/strong&gt;.setBackgroundImage(Image)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;FreeTextAnnotation&lt;/strong&gt;.getTextRectangle()
+com.aspose.pdf.&lt;strong&gt;FreeTextAnnotation&lt;/strong&gt;.setTextRectangle(Rectangle)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;Rectangle&lt;/strong&gt;.isInclude(Rectangle,double)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;TextEditOptions&lt;/strong&gt;.getClippingPathsProcessing()
+com.aspose.pdf.&lt;strong&gt;TextEditOptions&lt;/strong&gt;.setClippingPathsProcessing(int)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;IDocument&lt;/strong&gt;.isManualDisposeEnabled()
+com.aspose.pdf.&lt;strong&gt;IDocument&lt;/strong&gt;.setManualDisposeEnabled(boolean)&lt;/p&gt;
+&lt;p&gt;By default any method &amp;ldquo;save&amp;rdquo; in the Document class will close internal streams and free up memory resources. We can do some operations and continue work with the document instance after execute method &amp;ldquo;save&amp;rdquo; if this ManualDispose parameter is enabled. But it is strongly recommended to call the &amp;ldquo;dispose&amp;rdquo; method when the Document instance is no longer needed.&lt;/p&gt;
+&lt;h3 id=&#34;new-fields&#34;&gt;&lt;strong&gt;New Fields&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;ExcelSaveOptions&lt;/strong&gt;.ConversionEngine()&lt;/p&gt;
+&lt;h3 id=&#34;new-classes&#34;&gt;&lt;strong&gt;New Classes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;class com.aspose.pdf.&lt;strong&gt;ImportDataAction&lt;/strong&gt; with methods:
+FileSpecification getData()
+setData(FileSpecification)&lt;/p&gt;
+&lt;p&gt;class com.aspose.pdf.ExcelSaveOptions.&lt;strong&gt;ConversionEngines&lt;/strong&gt; with field:
+int LegacyEngine = 0;
+int NewEngine = 1;&lt;/p&gt;
+&lt;p&gt;class com.aspose.pdf.TextEditOptions.&lt;strong&gt;ClippingPathsProcessingMode&lt;/strong&gt; with field:
+int KeepIntact = 0;
+int Expand = 1;
+int Remove = 2;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.8 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-8-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-8-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.8/&#34;&gt;Aspose.PDF for Java 19.8&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38770&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-html-to-pdf/#converthtmltopdf-renderingcontenttosinglepage&#34;&gt;Render all contents in a single page&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38814&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA: Implement &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-table-in-tagged-pdfs/&#34;&gt;Table support&lt;/a&gt; in Tagged PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38771&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-html-to-pdf/#converthtmltopdf-renderhtmlwithsvgdata&#34;&gt;Rendering HTML with SVG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38551&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX results in java.lang.IndexOutOfBoundsException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38325&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG to PDF - Text is not rendering with correct font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38791&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;File handling issues&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38527&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Failed to parse URL Exception thrown&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38784&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The code is throwing the NullPointException on saving&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38555&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Failed to parse URL exception occurs if image tag has no value&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36943&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Spacing issue in the page numbering&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37360&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When an image is inserted to PDF, the page is blank&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;pdfua-implement-table-support-in-tagged-pdf&#34;&gt;&lt;strong&gt;PDF/UA: Implement Table support in Tagged PDF&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Table support was added to Tagged PDF. Use &lt;strong&gt;createTableElement&lt;/strong&gt;() method of &lt;strong&gt;ITaggedContent&lt;/strong&gt; interface to create table. For creating Head, Body and Foot for table use &lt;strong&gt;createTHead&lt;/strong&gt;(), &lt;strong&gt;createTBody&lt;/strong&gt;() and &lt;strong&gt;createTFoot&lt;/strong&gt;() methods of &lt;strong&gt;TableElement&lt;/strong&gt; object. Abstract class &lt;strong&gt;TableRowCollectionElement&lt;/strong&gt; is base for &lt;strong&gt;TableTHeadElement&lt;/strong&gt;, &lt;strong&gt;TableTBodyElement&lt;/strong&gt; and &lt;strong&gt;TableTFootElement&lt;/strong&gt; classes.Method &lt;strong&gt;TableRowCollectionElement.createTR&lt;/strong&gt;() creates the row for corresponded object. Table row object belong to TableTRElement calss. Methods &lt;strong&gt;TableTRElement.createTH&lt;/strong&gt;() and &lt;strong&gt;TableTRElement.createTD&lt;/strong&gt;() creates the row&amp;rsquo;s cell for corresponded row. You can also verify &lt;strong&gt;PDF/UA&lt;/strong&gt; compliance of the created document. Code snippet below show how to use this functionality.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;ITaggedContent&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;taggedContent&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTaggedContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;taggedContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setTitle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Table example - THead, TBody, TFoot; Summary&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;taggedContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLanguage&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;en-US&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;StructureElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rootElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;taggedContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getRootElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;taggedContent&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;rootElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;appendChild&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableTHeadElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTHeadElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTHead&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableTBodyElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTBodyElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTBody&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableTFootElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTFootElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTFoot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rowCount&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;7&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colCount&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableTRElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;headTrElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTHeadElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;headTrElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAlternativeText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Head Row&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colCount&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;TableTHElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;thElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;headTrElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;thElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Head Cell [head row, &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;  ]&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rowCount&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;TableTRElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;trElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTBodyElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;trElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAlternativeText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Row &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colCount&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+
+    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000&#34;&gt;TableTDElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tdElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;trElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTD&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000&#34;&gt;tdElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Cell [&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rowIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;, &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;]&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TableTRElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;footTrElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableTFootElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;footTrElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAlternativeText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Foot Row&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colCount&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;TableTDElement&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tdElement&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;footTrElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createTD&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;tdElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Foot Cell [foot row, &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;colIndex&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;]&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;StructureAttributes&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableAttributes&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tableElement&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getAttributes&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getAttributes&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;AttributeOwnerStandard&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Table&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;StructureAttribute&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;summaryAttribute&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;StructureAttribute&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;AttributeKey&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Summary&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;summaryAttribute&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setStringValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;The summary text for table&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tableAttributes&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAttribute&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;summaryAttribute&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Save document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dataDir&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;TaggedTable_&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;boolean&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;isPdfUaCompliance&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;validate&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ByteArrayOutputStream&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(),&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfFormat&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;PDF_UA_1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;println&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;PDF/UA compliance: &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;isPdfUaCompliance&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.7 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-7-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-7-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.7/&#34;&gt;Aspose.PDF for Java 19.7&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38602&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML consumes much time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38665&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Excel: Recognize text in superscript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38633&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception replacing text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36683&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose PDF adding white-space&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36690&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - compliance failure: Form field has multiple appearances&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35184&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34654&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML:output HTML is approx 14 times larger than source PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38362&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The stamping performance issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added new fields:&lt;/strong&gt; 
+com.aspose.pdf.facades.&lt;strong&gt;FieldType&lt;/strong&gt;.Numeric
+com.aspose.pdf.facades.&lt;strong&gt;FieldType&lt;/strong&gt;.DateTime
+com.aspose.pdf.TextEditOptions.&lt;strong&gt;NoCharacterAction&lt;/strong&gt;.UseCustomReplacementFont
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.ExcludeFontNameList&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new methods:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;Form&lt;/strong&gt;.getSignaturesExist()
+com.aspose.pdf.&lt;strong&gt;Form&lt;/strong&gt;.setSignaturesExist(boolean)
+com.aspose.pdf.&lt;strong&gt;Form&lt;/strong&gt;.getSignaturesAppendOnly()
+com.aspose.pdf.&lt;strong&gt;Form&lt;/strong&gt;.setSignaturesAppendOnly(boolean)
+com.aspose.pdf.&lt;strong&gt;HtmlLoadOptions&lt;/strong&gt;.isRenderToSinglePage()
+com.aspose.pdf.&lt;strong&gt;HtmlLoadOptions&lt;/strong&gt;.setRenderToSinglePage(boolean)
+com.aspose.pdf.&lt;strong&gt;HtmlLoadOptions&lt;/strong&gt;.isEmbedFonts()
+com.aspose.pdf.&lt;strong&gt;HtmlLoadOptions&lt;/strong&gt;.setEmbedFonts(boolean)
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getProcessingBatchSize()
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setProcessingBatchSize(int)
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.getSimpleTextboxModeGrouping()
+com.aspose.pdf.&lt;strong&gt;HtmlSaveOptions&lt;/strong&gt;.setSimpleTextboxModeGrouping(boolean)
+com.aspose.pdf.&lt;strong&gt;PptxSaveOptions&lt;/strong&gt;.getImageResolution()
+com.aspose.pdf.&lt;strong&gt;PptxSaveOptions&lt;/strong&gt;.setImageResolution(int)
+com.aspose.pdf.&lt;strong&gt;TextEditOptions&lt;/strong&gt;.getReplacementFont()
+com.aspose.pdf.&lt;strong&gt;TextEditOptions&lt;/strong&gt;.setReplacementFont(Font)
+com.aspose.pdf.&lt;strong&gt;XFA&lt;/strong&gt;.getXfaField(String)
+com.aspose.pdf.&lt;strong&gt;XmpValue&lt;/strong&gt;.toStructure()
+com.aspose.pdf.&lt;strong&gt;XmpValue&lt;/strong&gt;.toField()
+com.aspose.pdf.&lt;strong&gt;XmpValue&lt;/strong&gt;.toNamedValue()
+com.aspose.pdf.&lt;strong&gt;XmpValue&lt;/strong&gt;.toNamedValues()&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new classes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;XmpField&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;XmpFieldType&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.6 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-6-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-6-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.6/&#34;&gt;Aspose.PDF for Java 19.6&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37121&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use of Latex script to add mathematical expressions/formulas in the table cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38431&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The text fragment is improperly aligned after the text replacement&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38607 &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF Java - PdfFileEditor leaking file handles during concatenation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38627&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Retain TextSegmentCollection after clearing text of TextFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38313&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Critical Performance Issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38579&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some digits missing when the pdf file is converted to an image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38384&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table with Checkboxes leads to Nullpointer at the page break&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38389&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OutOfMemory exception when saving PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37192&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - some elements are absent when using Linux&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38587&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX: Fix issues with nested getters and setters when compiling to Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37283&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: Hung up after migration to new version of Aspose.HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37501&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException if add LatexFragment in Linux&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37274&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SVG to PDF - the gradient color of the shape is changed to the solid color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38363&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error message when saving PCL file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38107&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;BadPaddingException while setting a license&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Renamed methods:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationFromXfdf&lt;/strong&gt;(String) -&amp;raquo; com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationsFromXfdf&lt;/strong&gt;(String)
+com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationFromXfdf&lt;/strong&gt;(InputStream,int[]) -&amp;raquo; com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationsFromXfdf&lt;/strong&gt;(InputStream,int[])
+com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationFromXfdf&lt;/strong&gt;(InputStream) -&amp;raquo; com.aspose.pdf.facades.PdfAnnotationEditor.&lt;strong&gt;importAnnotationsFromXfdf&lt;/strong&gt;(InputStream)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new methods:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;CheckboxField&lt;/strong&gt;.deepClone()
+com.aspose.pdf.&lt;strong&gt;EpubLoadOptions&lt;/strong&gt;.setMargin(MarginInfo)
+com.aspose.pdf.facades.&lt;strong&gt;PdfAnnotationEditor&lt;/strong&gt;.exportAnnotationsToXfdf(java.io.OutputStream)
+com.aspose.pdf.&lt;strong&gt;FreeTextAnnotation&lt;/strong&gt;.getCallout()
+com.aspose.pdf.&lt;strong&gt;FreeTextAnnotation&lt;/strong&gt;.setCallout(Point[])
+com.aspose.pdf.&lt;strong&gt;Image&lt;/strong&gt;.convertToJpeg(InputStream)
+com.aspose.pdf.&lt;strong&gt;Image&lt;/strong&gt;.#ctor
+com.aspose.pdf.&lt;strong&gt;PdfFormatConversionOptions&lt;/strong&gt;.getTransparencyResolution()
+com.aspose.pdf.&lt;strong&gt;PdfFormatConversionOptions&lt;/strong&gt;.setTransparencyResolution(int)
+com.aspose.pdf.&lt;strong&gt;RenderingOptions&lt;/strong&gt;.getDefaultFontName()
+com.aspose.pdf.&lt;strong&gt;RenderingOptions&lt;/strong&gt;.setDefaultFontName(String)
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.setMcName(String)
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.getMcId()
+com.aspose.pdf.&lt;strong&gt;Table&lt;/strong&gt;.setMcId(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getTable()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getBackgroundColor()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setBackgroundColor(Color)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getBorder()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setBorder(BorderInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getAlignment()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setAlignment(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getCornerStyle()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setCornerStyle(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getBroken()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setBroken(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getColumnAdjustment()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setColumnAdjustment(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getColumnWidths()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setColumnWidths(String)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getDefaultCellBorder()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setDefaultCellBorder(BorderInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getDefaultCellPadding()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setDefaultCellPadding(MarginInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getDefaultCellTextState()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setDefaultCellTextState(TextState)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getDefaultColumnWidth()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setDefaultColumnWidth(String)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.isBroken()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setBroken(boolean)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.isBordersIncluded()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setBordersIncluded(boolean)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getLeft()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setLeft(float)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getTop()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setTop(float)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getRepeatingColumnsCount()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setRepeatingColumnsCount(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getRepeatingRowsCount()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setRepeatingRowsCount(int)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.getRepeatingRowsStyle()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableElement&lt;/strong&gt;.setRepeatingRowsStyle(TextState)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getBackgroundColor()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setBackgroundColor(Color)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getBorder()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setBorder(BorderInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getDefaultCellBorder()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setDefaultCellBorder(BorderInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getMinRowHeight()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setMinRowHeight(double)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getFixedRowHeight()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setFixedRowHeight(double)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.isInNewPage()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setInNewPage(boolean)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.isRowBroken()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setRowBroken(boolean)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getDefaultCellTextState()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setDefaultCellTextState(TextState)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getDefaultCellPadding()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setDefaultCellPadding(MarginInfo)
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.getVerticalAlignment()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableTRElement&lt;/strong&gt;.setVerticalAlignment(int)
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.getDefaultAttributeOwner()
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.getS()
+com.aspose.pdf.tagged.logicalstructure.&lt;strong&gt;StructureAttributes&lt;/strong&gt;.hasAttribute(AttributeKey)
+com.aspose.pdf.tagged.&lt;strong&gt;TaggedContext&lt;/strong&gt;.getNextMCID()
+com.aspose.pdf.tagged.&lt;strong&gt;TaggedContext&lt;/strong&gt;.pageRegisterTableElement(Page,TableElement)
+com.aspose.pdf.&lt;strong&gt;TextSegment&lt;/strong&gt;.setTextSuppressedUpdate(String)
+com.aspose.pdf.&lt;strong&gt;TextState&lt;/strong&gt;.setFontSizeSuppressedUpdate(float)
+com.aspose.pdf.&lt;strong&gt;TextState&lt;/strong&gt;.setFontSuppressedUpdate(Font)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new class:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;TableCellElement&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.5 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-5-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-5-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.5/&#34;&gt;Aspose.PDF for Java 19.5&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38366&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Is Aspose.PDF FIPS 186-4 compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38541&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The imported HTML content isn&amp;rsquo;t properly wrapped in PDF output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38475&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiline parsing of PDF through TextFragmentAbsorber with regex not working&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38460&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is taking long time to convert HTML into PDF when images are from external URL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38457&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;License is not working in Azure VM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36436&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An issue with aspose-pdf when running inside a web container&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36957&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Different images in the document gets merged into a single image in the output file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37912&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception while converting HTML to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37833&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem rendering HTML to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37774&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException during HTML to PDF conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36341&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF optimization generates an exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36001&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIF to PDF: resultant PDF is empty&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36473&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: Resultant PDFA does not pass PDFA conformance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Renamed methods:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.Document.getHideToolBar() -&amp;gt; com.aspose.pdf.Document.isHideToolBar()
+com.aspose.pdf.Document.getHideMenubar() -&amp;gt; com.aspose.pdf.Document.isHideMenubar()
+com.aspose.pdf.Document.getHideWindowUI() -&amp;gt; com.aspose.pdf.Document.isHideWindowUI()
+com.aspose.pdf.Document.getFitWindow() -&amp;gt; com.aspose.pdf.Document.isFitWindow()
+com.aspose.pdf.Document.getCenterWindow() -&amp;gt; com.aspose.pdf.Document.isCenterWindow()
+com.aspose.pdf.Document.getDisplayDocTitle() -&amp;gt; com.aspose.pdf.Document.isDisplayDocTitle()&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new methods:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.HtmlFragment.isBreakWords()
+com.aspose.pdf.HtmlFragment.setBreakWords(boolean)&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.ITaggedContent.createTableTHeadElement()
+com.aspose.pdf.tagged.ITaggedContent.createTableTBodyElement()
+com.aspose.pdf.tagged.ITaggedContent.createTableTFootElement()
+com.aspose.pdf.tagged.ITaggedContent.createTableTRElement()
+com.aspose.pdf.tagged.ITaggedContent.createTableTHElement()
+com.aspose.pdf.tagged.ITaggedContent.createTableTDElement()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.bls.TableElement.createTHead()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.TableElement.createTBody()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.TableElement.createTFoot()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.bls.TableTRElement.createTH()
+com.aspose.pdf.tagged.logicalstructure.elements.bls.TableTRElement.createTD()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.TaggedContent.createTableTHeadElement()
+com.aspose.pdf.tagged.TaggedContent.createTableTBodyElement()
+com.aspose.pdf.tagged.TaggedContent.createTableTFootElement()
+com.aspose.pdf.tagged.TaggedContent.createTableTRElement()
+com.aspose.pdf.tagged.TaggedContent.createTableTHElement()
+com.aspose.pdf.tagged.TaggedContent.createTableTDElement()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.TextFragmentState.getBackgroundColor()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.TextSearchOptions.setDotallMode(boolean)
+com.aspose.pdf.TextSearchOptions.isDotallMode()&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.XmpPdfAExtensionSchema.getProperty(String)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new class:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.bls.TableRowCollectionElement&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Obsoleted:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please use TextSearchOptions.get/setSearchForTextRelatedGraphics instead those:
+com.aspose.pdf.TextEditOptions.getToAttemptGetUnderlineFromSource
+com.aspose.pdf.TextEditOptions.setToAttemptGetUnderlineFromSource(boolean)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.4 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-4-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-4-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.4/&#34;&gt;Aspose.PDF for Java 19.4&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38533&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use of Latex script to add mathematical expressions/formulas in the table cell.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38534&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Title of Annotation gets renamed after concatenation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38535&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text is incorrectly being extracted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38536&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Removing last outline in OutlineCollection throws Invalid index exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added new classes:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.exceptions.SanitizationException&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.exceptions.TaggedPdfExceptionCode&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.Outlines&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.ils.AnnotationElement&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new methods:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.Hyperlink.setLinkElement(LinkElement)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.OutlineCollection.hasNext&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.OutlineCollection.next&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.OutlineCollection.getVisibleCount&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.OutlineItemCollection.next&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.OutlineItemCollection.getVisibleCount&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.Annotation.setStructParent(int)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.Annotation.getPage&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.ils.LinkElement.getHyperlink&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.ils.LinkElement.setHyperlink(Hyperlink)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.ils.LinkElement.getStructureTextState&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.ils.LinkElement.setText(String)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.MCRElement.setHyperlink(Hyperlink)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.StructureElement.changeParentElement(StructureElement)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.StructTreeRootElement.registrationObjectInParentTree(IPdfObject)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.TextSearchOptions.getSearchForTextRelatedGraphics&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.TextSearchOptions.setSearchForTextRelatedGraphics(boolean)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.XpsSaveOptions.getSaveTransparentTexts&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.XpsSaveOptions.setSaveTransparentTexts(boolean)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.ElementList.removeElement(Element)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.ElementListImplementation.removeElement(Element)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.Element.findElements(Class)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &lt;/code&gt;com.aspose.pdf.tagged.logicalstructure.elements.Element.findElements(Class,boolean)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new field:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.PredefinedAction.Print&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deleted beta API classes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.DocumentElement&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.AnnotElement&lt;/p&gt;
+&lt;p&gt;and all classes from package: com.aspose.pdf.taggedpdf.*&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.3 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-3-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-3-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.3/&#34;&gt;Aspose.PDF for Java 19.3&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38453&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add a field to the ScreenAnnotation class that provides access to the annotation resource&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38446&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException occurred while adding text stamp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38445&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException occurred while adding text stamp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37369&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sign a password protected PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38403&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;License is not set while converting Image To PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38155&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The footer shifts down and disappear for multiple page&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added the following methods:&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;ExplicitDestination&lt;/strong&gt;.toString()
+com.aspose.pdf.&lt;strong&gt;FontRepository&lt;/strong&gt;.clear()
+com.aspose.pdf.&lt;strong&gt;IAppointment&lt;/strong&gt;.toString()
+com.aspose.pdf.&lt;strong&gt;RenditionAction&lt;/strong&gt;.getRendition()
+com.aspose.pdf.&lt;strong&gt;RenditionAction&lt;/strong&gt;.getRenditionOperation()
+com.aspose.pdf.&lt;strong&gt;RenditionAction&lt;/strong&gt;.setRenditionOperation(int)
+com.aspose.pdf.&lt;strong&gt;RenditionAction&lt;/strong&gt;.getJavaScript()
+com.aspose.pdf.&lt;strong&gt;RenditionAction&lt;/strong&gt;.setJavaScript(String)
+com.aspose.pdf.&lt;strong&gt;Signature&lt;/strong&gt;.getCustomAppearance()
+com.aspose.pdf.&lt;strong&gt;Signature&lt;/strong&gt;.setCustomAppearance(SignatureCustomAppearance)
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.getID()
+com.aspose.pdf.&lt;strong&gt;OutlineItemCollection&lt;/strong&gt;.hasNext()
+com.aspose.pdf.&lt;strong&gt;PdfAction&lt;/strong&gt;.toString()
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.generateId()
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.setId(String)
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;StructureElement&lt;/strong&gt;.clearId()
+com.aspose.pdf.tagged.logicalstructure.&lt;strong&gt;StructTreeRootElement&lt;/strong&gt;.getIDTree()
+com.aspose.pdf.&lt;strong&gt;TextFormattingOptions&lt;/strong&gt;.getFirstLineIndent()
+com.aspose.pdf.&lt;strong&gt;TextFormattingOptions&lt;/strong&gt;.setFirstLineIndent(float)
+com.aspose.pdf.&lt;strong&gt;TextParagraph&lt;/strong&gt;.getFirstLineIndent()
+com.aspose.pdf.&lt;strong&gt;TextParagraph&lt;/strong&gt;.setFirstLineIndent(float)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added the following fields:&lt;/strong&gt; 
+com.aspose.pdf.taggedpdf.&lt;strong&gt;TaggedPdfExceptionCode&lt;/strong&gt;.StructureElement_StructureElementWithIdAlreadyExists
+com.aspose.pdf.taggedpdf.&lt;strong&gt;TaggedPdfExceptionCode&lt;/strong&gt;.StructureElement_StructureElementIdCanNotBeNullOrEmpty&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added the following classes:&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;MediaClip&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;MediaClipData&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;MediaClipSection&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;MediaRendition&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;Rendition&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;RenditionOperation&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;RenditionType&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;SelectorRendition&lt;/strong&gt; 
+com.aspose.pdf.&lt;strong&gt;SignatureCustomAppearance&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.2 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-2-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-2-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.2/&#34;&gt;Aspose.PDF for Java 19.2&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38332&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use addLocalFontPath and setLocalFontPaths at Global level  &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38244&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create tagged element for footnotes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38255&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Thread lock occurs during execution&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38382&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX: Implement image comparison for visual tests&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38354&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XLSX: Create a new API&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;added-new-classes&#34;&gt;&lt;strong&gt;Added new classes:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.ExternalSignature&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.AttributeKey&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.AttributeName&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.StructureAttribute&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.taggedpdf.TaggedPdfInlineTextElement&lt;/p&gt;
+&lt;h4 id=&#34;added-new-methods&#34;&gt;&lt;strong&gt;Added new methods:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.FontRepository.isThreadStaticConfigEnabled
+com.aspose.pdf.FontRepository.setThreadStaticConfigEnabled(boolean)
+com.aspose.pdf.HtmlLoadOptions.isPdfUaConverting
+com.aspose.pdf.HtmlLoadOptions.setPdfUaConverting(boolean)
+com.aspose.pdf.LatexLoadOptions.getUseTempFile
+com.aspose.pdf.LatexLoadOptions.setUseTempFile(boolean)
+com.aspose.pdf.MovieAnnotation.getPoster
+com.aspose.pdf.MovieAnnotation.getPoster
+com.aspose.pdf.MovieAnnotation.setPoster(boolean)
+com.aspose.pdf.MovieAnnotation.getRotate
+com.aspose.pdf.MovieAnnotation.setRotate(int)
+com.aspose.pdf.tagged.logicalstructure.AttributeOwnerStandard.getOwner
+com.aspose.pdf.tagged.logicalstructure.elements.IllustrationElement.setImage(String,double)
+com.aspose.pdf.tagged.logicalstructure.elements.IllustrationElement.setImage(String,double,double)
+com.aspose.pdf.tagged.logicalstructure.StructureAttributeCollection.createAttributes(AttributeOwnerStandard)
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.getOwner
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.getAttribute(AttributeKey)
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.setAttribute(StructureAttribute)
+com.aspose.pdf.taggedpdf.TaggedPdfBlockLevelTextElement.#ctor(IDocument,String,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfElement.setPage(Page)
+com.aspose.pdf.taggedpdf.TaggedPdfH1Element.#ctor(Document,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfH2Element.#ctor(Document,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfH3Element.#ctor(Document,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfH4Element.#ctor(Document,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfH5Element.#ctor(Document,String,TextState,boolean)
+com.aspose.pdf.taggedpdf.TaggedPdfH6Element.#ctor(Document,String,TextState,boolean)&lt;/p&gt;
+&lt;h4 id=&#34;added-feilds&#34;&gt;&lt;strong&gt;Added feilds:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.taggedpdf.TaggedPdfContent.isConverting
+com.aspose.pdf.taggedpdf.TaggedPdfExceptionCode.StructureAttribute_AttributeCollectionIsAbsent
+com.aspose.pdf.taggedpdf.TaggedPdfExceptionCode.StructureAttribute_AttributeOwnerMustBe
+com.aspose.pdf.taggedpdf.TaggedPdfExceptionCode.StructureAttribute_DoesntAllowValue
+com.aspose.pdf.taggedpdf.TaggedPdfExceptionCode.StructureAttribute_ArrayMustContainXElements
+com.aspose.pdf.taggedpdf.TaggedPdfExceptionCode.StructureAttribute_ValueWasNotInitialized&lt;/p&gt;
+&lt;h4 id=&#34;removed-methods&#34;&gt;&lt;strong&gt;Removed methods:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.Form.copyTo(Array,int)
+com.aspose.pdf.Page.getTaggedPdfContent
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.updateNumber(String,double)
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.updateString(String,String)
+com.aspose.pdf.tagged.logicalstructure.StructureAttributes.updateRectangle(String,Rectangle)&lt;/p&gt;
+&lt;h4 id=&#34;changed-methods-parameters&#34;&gt;&lt;strong&gt;Changed method&amp;rsquo;s parameters:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;class com.aspose.pdf.AppearanceDictionary:copyTo(Array,int) -&amp;gt; copyTo(XForm[],int)
+class com.aspose.pdf.tagged.helpers.StructureElementUtil:setImageToMCRElement(StructureElement,String) -&amp;gt; setImageToMCRElement(StructureElement,String,Double[],Double[],Double[])&lt;/p&gt;
+&lt;h4 id=&#34;added-new-exception-class&#34;&gt;&lt;strong&gt;Added new exception class:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.exceptions.NotImplementedException
+com.aspose.pdf.exceptions.TaggedException&lt;/p&gt;
+&lt;h4 id=&#34;extract-class&#34;&gt;&lt;strong&gt;Extract class:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;com.aspose.pdf.UnifiedSaveOptions.ProgressEventType -&amp;gt; com.aspose.pdf.ProgressEventType&lt;/p&gt;
+&lt;h4 id=&#34;changes-in-class-structuretextstate&#34;&gt;&lt;strong&gt;Changes in Class StructureTextState:&lt;/strong&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;removed-methods-1&#34;&gt;&lt;strong&gt;Removed methods:&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;initDefault&lt;/p&gt;
+&lt;h5 id=&#34;removed-fields&#34;&gt;&lt;strong&gt;Removed fields:&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;Font
+FontSize
+FontStyle
+ForegroundColor
+MarginInfo&lt;/p&gt;
+&lt;h5 id=&#34;added-methods&#34;&gt;&lt;strong&gt;Added methods:&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;getFont
+setFont(Font)
+getFontSize
+setFontSize(Float)
+getFontStyle
+setFontStyle(Integer)
+getForegroundColor
+setForegroundColor(Color)
+getBackgroundColor
+setBackgroundColor(Color)
+getStrikeOut
+setStrikeOut(Boolean)
+getSuperscript
+setSuperscript(Boolean)&lt;/p&gt;
+&lt;h4 id=&#34;methods-moved-from-class-document-to-classfontrepository&#34;&gt;&lt;strong&gt;Methods moved from Class Document to Class FontRepository:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;addLocalFontPath
+getLocalFontPaths
+setLocalFontPaths
+restoreLocalFontPath&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Java 19.1 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-1-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-19-1-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;https://repository.aspose.com/repo/com/aspose/aspose-pdf/19.1/&#34;&gt;Aspose.PDF for Java 19.1&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37807&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF - The content is shifting to right side on subsequent pages  &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38257&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support for JDK 1.6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38247&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullpointerException on HTML to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-38246&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;closing File Stream after concatenation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API Changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added new classes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;com.aspose.pdf.tagged.logicalstructure.elements.StructureTextState&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added new methods:&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.&lt;strong&gt;ImagePlacementAbsorber&lt;/strong&gt;.isReadOnlyMode()
+com.aspose.pdf.&lt;strong&gt;ImagePlacementAbsorber&lt;/strong&gt;.setReadOnlyMode(boolean)
+com.aspose.pdf.tagged.&lt;strong&gt;ITaggedContent&lt;/strong&gt;.getStructureTextState()
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;Element&lt;/strong&gt;.getTaggedContent()
+com.aspose.pdf.tagged.logicalstructure.elements.&lt;strong&gt;ITextElement&lt;/strong&gt;.getStructureTextState()
+com.aspose.pdf.tagged.logicalstructure.&lt;strong&gt;StructureTypeStandard&lt;/strong&gt;.getCategory()
+com.aspose.pdf.tagged.&lt;strong&gt;TaggedContent&lt;/strong&gt;.getStructureTextState()
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.getLastEmcOpIndex()
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.setLastEmcOpIndex(int)
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.getMcName()
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.setMcName(String)
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.getMcId()
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.setMcId(int)
+com.aspose.pdf.text.&lt;strong&gt;TextProcessingContext&lt;/strong&gt;.initializeMcProperties()&lt;/p&gt;
+&lt;p&gt;Renamed methods:&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.tagged.logicalstructure.elements.bls.&lt;strong&gt;BLSTextElement&lt;/strong&gt;.getTextState() -&amp;gt; getStructureTextState()
+com.aspose.pdf.tagged.logicalstructure.elements.ils.&lt;strong&gt;ILSTextElement&lt;/strong&gt;.getTextState() -&amp;gt; getStructureTextState()&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

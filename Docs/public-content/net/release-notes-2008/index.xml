@@ -1,0 +1,184 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2008</title>
+    <link>https://docs.aspose.com/pdf/net/release-notes-2008/</link>
+    <description>Recent content in Release Notes - 2008 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/release-notes-2008/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 3.8.0.0 New Release Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-8-0-0-new-release-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-8-0-0-new-release-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-3.8.0.0-new-release/&#34;&gt;Aspose.PDF for .Net 3.8.0.0 New Release&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;In this release, the feature &amp;lsquo;PDF/A-1b&amp;rsquo; (Beta version) is supported. The PDF/A formats specified in the ISO 19005 standard strive to provide a consistent and robust subset of PDF which can safely be archived over a long period of time, or used for reliable data exchange in enterprise and government environments. PDF/A-1b (formally ISO 19005-1 Level B) ensures that the visual appearance of a document is preservable over the long term.&lt;/p&gt;
+&lt;p&gt;In addition, hyphenation according to customize hyphenation dictionary is supported. It allows users define hyphenate rules in a customize dictionary. Besides, some bugs are fixed. We have also optimized the performance in some specific cases.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports &amp;lsquo;PDF/A-1b&amp;rsquo;(Beta version). 
+Supports hyphenation base on customize dictionary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5593 - Support root operator (~) in ImageInfo.File
+4992 - Multiple text issues 
+5357 - Page number issue 
+5070 - IsTrueTypeFontItalic not works  
+5504 - High memory consumption when adding images as stream 
+5343 - Problem with HTML table alignment in PDF&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .Net 3.7.0.0 New Release Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-7-0-0-new-release-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-7-0-0-new-release-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-3.7.0.0-new-release/&#34;&gt;Aspose.PDF for .Net 3.7.0.0 New Release&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;We have not published new release of this product for half a year. During this time, we pay our main attention on improving the quality of the product. In this new release, the quality is greatly improved and many bugs are fixed.&lt;/p&gt;
+&lt;p&gt;Some New features are added in this release. Bookmark at specific points is supported. Custom action for bookmark and link is supported. In XSL-FO2PDF, EMF and WMF image is supported. Security setting is also supported in XSL-FO2PDF.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5009 - Bookmarks at specific points
+5174 - Custom action for bookmark 
+5010 - Custom action for link 
+4743 - EMF and WMF support in FO2PDF 
+4730 - security setting in xsl-fo 
+Multi-Line Text Field is supported 
+Canvas is supported&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5301 - Images not rendering in PDF when using memory stream
+5218 - Icons not properly aligned in table cell 
+5240 - Using bullets in Right-to-Left lauguages 
+4902 - PNG transparency problem 
+4588 - IsKeptWithNext does not work 
+4923 - non-breaking-space is broken 
+4645 - Web Image in XML document does not work  
+4792 - TIFF to PDF Conversion Issue 
+4840 - The footnote wraps over into the middle of the page 
+4623 - Objects within drawing canvas Overlaps text while converting from DOC to PDF 
+4549 - Problem converting from XLS to PDF 
+4434 - Arabic text not getting displayed 
+4846 - Unwanted footer and rotation text 
+4507 - Cannot convert excel spreadsheet to PDF 
+4018 - Support timeout setting for Url image  
+4516 - PDF conversion into stream taking a very long time 
+4177 - Support ParagraphRelative position type for cells&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Pdf for .Net 3.6.2.0 Hot Fix Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-6-2-0-hot-fix-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-3-6-2-0-hot-fix-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-3.6.2.0-hot-fix/&#34;&gt;Aspose.PDF for .Net 3.6.2.0 Hot Fix&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Introduction?&lt;/p&gt;
+&lt;p&gt;We have spent more than 3 months to publish this new version because we want to 
+make the product more stable. We have created new QA framework to make the 
+quality of the product better. The main new features and bugs fixed are listed 
+below.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4085 - Support 
+BindFO(Stream, Stream)&lt;/li&gt;
+&lt;li&gt;4229 - Support 
+Authentication in HTML&lt;/li&gt;
+&lt;li&gt;3920 - Supports 
+IsKeptWithNext in row level&lt;/li&gt;
+&lt;li&gt;4175 - Support 
+local hyperlink for table cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4032 - 
+Support data 
+format in ImportDataTable and ImportDataView&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4238 - DefaultCellTextInfo 
+does not work&lt;/li&gt;
+&lt;li&gt;4340 - Table 
+with images and rowspan when spanning for multiple pages gets misaligned&lt;/li&gt;
+&lt;li&gt;4406 - Header 
+picture justification error when converting from RTF to PDF&lt;/li&gt;
+&lt;li&gt;4378 - bindxml 
+exception Expression must evaluate to a node-set&lt;/li&gt;
+&lt;li&gt;4339 - Word 
+to pdf problem, text is put into page header&lt;/li&gt;
+&lt;li&gt;4183 - Right-aligned 
+tabstop with line breaks bug&lt;/li&gt;
+&lt;li&gt;4255 - 
+Incorrect 
+indentation of some rows in table &lt;/li&gt;
+&lt;li&gt;4226 - Cell 
+alignment in a table inside a page Footer does not work&lt;/li&gt;
+&lt;li&gt;4142 - PDF 
+watermarks no showing up after conversion from Aspose.Words&lt;/li&gt;
+&lt;li&gt;4062 - VerticalAlignment 
+on a table cell is messed up when an image stretches the row height&lt;/li&gt;
+&lt;li&gt;3910 - PNG 
+image error in xslfo2pdf&lt;/li&gt;
+&lt;li&gt;3972 - Footer 
+location too high after merging to Excel, conversion to PDF&lt;/li&gt;
+&lt;li&gt;4031 - NonBreakingSpace 
+Layout Problem&lt;/li&gt;
+&lt;li&gt;4064 - Word 
+2 PDF image placement problem&lt;/li&gt;
+&lt;li&gt;4051 - Justify 
+problem for the first line&lt;/li&gt;
+&lt;li&gt;4137 - Pdf.CreateObjFromXml 
+method throws NullReferenceException&lt;/li&gt;
+&lt;li&gt;4163 - Text.GetTextHeight 
+takes a long time to complete&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

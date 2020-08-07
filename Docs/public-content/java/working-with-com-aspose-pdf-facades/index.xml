@@ -1,0 +1,440 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with com.aspose.pdf.facades</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf-facades/</link>
+    <description>Recent content in Working with com.aspose.pdf.facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Working with Document - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insget-pdf-file-information---facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get PDF file information - facades&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get information specific to PDF file, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo&#34;&gt;PdfFileInfo&lt;/a&gt; class. After that, you can get values of the individual properties like Subject, Title, Keywords and Creator etc.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to get PDF file information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-GetPDFFilenformation-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-pdf-file-information---facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set PDF file information - facades&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo&#34;&gt;PdfFileInfo&lt;/a&gt; class allows you to set file specific information of a PDF document. You need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo&#34;&gt;PdfFileInfo&lt;/a&gt; class and then set different file specific properties like Author, Title, Keyword, and Creator etc. Finally, save the updated PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo#saveNewInfo-java.io.OutputStream-&#34;&gt;saveNewInfo(..)&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo&#34;&gt;PdfFileInfo&lt;/a&gt; object.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to set PDF file information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-SetPDFFileInformation-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insget-xmp-metadata-of-an-existing-pdf-file---facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get XMP Metadata of an existing PDF File - facades&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get XMP metadata from a PDF file, you need to create &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfXmpMetadata&#34;&gt;PdfXmpMetadata&lt;/a&gt; object and bind the PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Facade#bindPdf-com.aspose.pdf.IDocument-&#34;&gt;bindPdf(..)&lt;/a&gt; method. You can pass specific XMP metadata properties to the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfXmpMetadata&#34;&gt;PdfXmpMetadata&lt;/a&gt; object to get their values.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to get XMP metadata from a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-GetXMPMetadataOfAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-xmp-metadata-of-an-existing-pdf---facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set XMP Metadata of an existing PDF - facades&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set XMP metadata in a PDF file, you need to create &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfXmpMetadata&#34;&gt;PdfXmpMetadata&lt;/a&gt; object and bind the PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Facade#bindPdf-com.aspose.pdf.IDocument-&#34;&gt;bindPdf(..)&lt;/a&gt; method. You can use setByDefaultMetadataProperties(..) method of the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/PdfXmpMetadata&#34;&gt;PdfXmpMetadata&lt;/a&gt; class to add different properties. Finally, call the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/SaveableFacade#save-java.io.OutputStream-&#34;&gt;save(&amp;hellip;)&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfXmpMetadata&#34;&gt;PdfXmpMetadata&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add XMP metadata in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-SetXMPMetadataOfAnExistingPDF-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-viewer-preference-of-an-existing-pdf-file---facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set Viewer Preference of an existing PDF File - facades&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/ViewerPreference&#34;&gt;ViewerPreference&lt;/a&gt; class represents display modes of PDF files; for example, positioning the document window in the center of the screen, hiding viewer application’s menu bar etc. &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#changeViewerPreference-int-&#34;&gt;changeViewerPreference(..)&lt;/a&gt; method in &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;PdfContentEditor&lt;/a&gt; class allows you to change the viewer preference. In order to do that, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;PdfContentEditor&lt;/a&gt; class and bind the input PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Facade#bindPdf-com.aspose.pdf.IDocument-&#34;&gt;bindPdf(..)&lt;/a&gt; method. Ater that, you can call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#changeViewerPreference-int-&#34;&gt;changeViewerPreference(..)&lt;/a&gt; method to set any preferences. Finally, you have to save the updated PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/SaveableFacade#save-java.io.OutputStream-&#34;&gt;save(..)&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to change viewer preference in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-SetViewerPreferenceOfAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insadding-javascript-actions-to-existing-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Adding Javascript actions to existing PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;PdfContentEditor&lt;/a&gt; class present under com.aspose.pdf.facades package provides the flexibility to add Javascript actions to a PDF file. You can create a link with the serial actions corresponding to execute a menu item in the PDF viewer. This class also provides the feature to create additional actions for document events.&lt;/p&gt;
+&lt;p&gt;The following sample code shows you how to add Javascript actions in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-AddingJavascriptActionsToExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with PDF printing - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pdf-printing-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pdf-printing-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insprint-pdf-file-to-default-printer-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Print PDF file to default printer (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfViewer&#34;&gt;PdfViewer&lt;/a&gt; class allows you to print a PDF file to the default printer. Therefore you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfViewer&#34;&gt;PdfViewer&lt;/a&gt; object and open the PDF using the openPdfFile(..) method.&lt;/p&gt;
+&lt;p&gt;Call the printDocument(..) method to print the PDF to the default printer.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to print PDF to the default printer with printer and page Settings.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-PDFPrinting-PrintPDFFileToDefaultPrinter-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Text - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-text-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-text-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadd-text-in-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Text in an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use addText method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileMend&#34;&gt;PdfFileMend&lt;/a&gt; class to add text in an existing PDF file. Before that, you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileMend&#34;&gt;PdfFileMend&lt;/a&gt; object and bind an input file using bindPdf mehtod. After this create a &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/FormattedText&#34;&gt;FormattedText&lt;/a&gt; object, which contains the text and the formatting information. Then you need to save the updated PDF file using save method after adding formatted text to PDF file using addText method. The following code snippet shows you how to add text in the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-AddTextInAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insreplace-text-in-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Replace Text in an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to replace text in an existing PDF file, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;pdfContentEditor&lt;/a&gt; class, and bind an input PDF file using bindPdf method. After that, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceText-java.lang.String-int-java.lang.String-&#34;&gt;replaceText&lt;/a&gt; method. This overload of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceText-java.lang.String-int-java.lang.String-&#34;&gt;replaceText&lt;/a&gt; method takes two arguments: source string (the string to replace) and destination string (the string to be replaced). You need to save the updated PDF file using save method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;pdfContentEditor&lt;/a&gt; class. The following code snippet shows you how to replace text in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-ReplaceTextInAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insreplace-text-on-a-particular-page-in-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Replace Text on a Particular Page in an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;pdfContentEditor&lt;/a&gt; allows you to replace text on a particular page as well. In order to replace text on a particular page in an existing PDF file, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;pdfContentEditor&lt;/a&gt; class, and bind an input PDF file using bindPdf method. After that, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceText-java.lang.String-int-java.lang.String-&#34;&gt;replaceText&lt;/a&gt; method. This overload of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceText-java.lang.String-int-java.lang.String-&#34;&gt;replaceText&lt;/a&gt; method takes three arguments: source string (the string to replace), page number (the page at which text needs to be replaced), and destination string (the string to be replaced). You need to save the updated PDF file using save method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;pdfContentEditor&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to replace text on a particular page in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-ReplaceTextOnAParticularPageInAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insextract-text-from-the-whole-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Text from the Whole PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; class allows you to extract text from the whole PDF file. You need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; class and bind the input PDF file using &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/pdfextractor/methods/bindPdf(java.lang.String)/&#34;&gt;&lt;strong&gt;bindPdf&lt;/strong&gt;&lt;/a&gt; method. &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor#extractText--&#34;&gt;extractText&lt;/a&gt; method helps you extract all the text into the memory. However, in order to get the text, you need to use getText method. The following code snippet shows you how to extract text from the whole PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-ExtractTextFromTheWholePDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insextract-text-from-a-range-of-pages-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Text from a Range of Pages (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; class to extract text from a range of pages. First of all, you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; object and bind the PDF file using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Facade#bindPdf-com.aspose.pdf.IDocument-&#34;&gt;&lt;strong&gt;bindPdf&lt;/strong&gt;&lt;/a&gt; method. After that, you need to set setStartPage and setEndPage properties to specify the range from which the text needs to be extracted. Finally, you need to extract all the text into memory using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor#extractText-java.nio.charset.Charset-&#34;&gt;extractText&lt;/a&gt; method and then get the extracted text using getText method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to extract text from a range of pages of a PDF file&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-ExtractTextFromARangeOfPages-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insextract-text-from-individual-pages-of-a-pdf-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Text from Individual Pages of a PDF (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to extract text from individual pages, you can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; class. This class provides two methods hasNextPageText and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor#getNextPageText-java.io.OutputStream-&#34;&gt;getNextPageText&lt;/a&gt; which help retrieve the text from individual pages. First, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;pdfExtractor&lt;/a&gt; class and bind input PDF file using method. After that, you need to extract the text into memory using extractText method. Finally, you have to navigate through all the pages using HasNextPageText method and get the text of individual pages using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor#getNextPageText-java.io.OutputStream-&#34;&gt;getNextPageText&lt;/a&gt; method. The following code snippet shows you how to extract text from individual pages of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Text-ExtractTextFromIndividualPagesOfAPDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Images - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-images-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-images-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insconvert-pdf-pages-to-different-image-formats-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Convert PDF Pages to Different Image Formats (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to convert PDF pages to different image formats, you need to create &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfConverter&#34;&gt;PdfConverter&lt;/a&gt; object and open the PDF file using bindPdf method. After that, you need to call doConvert method for initialization tasks. Then, you can loop through all the pages using hasNextImage and getNextImage methods. The getNextImage method allows you to create image of a particular page. You also need to pass ImageType to this method in order to create an image of specific type i.e. JPEG, GIF or PNG etc. Finally, call the close method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfConverter&#34;&gt;PdfConverter&lt;/a&gt; class. 
+The following code snippet shows you how to convert PDF pages to images.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Images-ConvertPDFPagesToDifferentImageFormats-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insconvert-particular-page-region-to-image-format&#34;&gt;&lt;ins&gt;&lt;strong&gt;Convert particular page region to Image format&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We know that &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfConverter&#34;&gt;PdfConverter&lt;/a&gt; class offers doConvert(..) method which provides the capability to convert the whole PDF pages into Image format. However sometimes there is a requirement to convert particular page region into Image format, so in order to fulfill this requirement, we may consider using movePosition(..) method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfPageEditor&#34;&gt;PdfPageEditor&lt;/a&gt; class which provides the capability to move the origin from (0, 0) to the specified point. The origin is left-bottom and the unit is point.&lt;/p&gt;
+&lt;p&gt;We are also aware that &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfPageEditor&#34;&gt;PdfPageEditor&lt;/a&gt; class also contains methods which provide the capability to loop through all the pages using hasNextImage(..) and getNextImage(..) methods. The getNextImage(..) method allows you to create image of a particular page. You also need to pass ImageFormat to this method in order to create an image of specific type i.e. JPEG, GIF or PNG etc. Finally, call the Close method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfConverter&#34;&gt;PdfConverter&lt;/a&gt; class.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+1 inch = 72 points and 1 cm = 1/2.54 inch = 0.3937 inch = 28.3 points.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to convert PDF pages to images.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Images-ConvertParticularPageRegionToImageFormat-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insextract-images-from-the-whole-pdf-to-files-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Images from the Whole PDF to Files (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor&#34;&gt;PdfExtractor&lt;/a&gt; class allows you to extract images from a PDF file. First off, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfExtractor#extractImage--&#34;&gt;PdfExtractor&lt;/a&gt; class and bind input PDF file using bindPdf method. After that, call &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/pdfextractor/methods/extractImage()/&#34;&gt;extractImage&lt;/a&gt; method to extract all the images into memory. Once the images are extracted, you can get those images with the help of hasNextImage and getNextImage methods. You need to loop through all the extracted images using a while loop. In order to save the images to disk, you can call the overload of the getNextImage method which takes file path as argument. The following code snippet shows you how to extract images from the whole PDF to files.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Images-ExtractImagesFromTheWholePDFToFiles-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insextract-chart-objects-from-pdf-document-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Extract Chart objects from PDF document (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PDF allow to group page content into elements named as &lt;strong&gt;Marked Content&lt;/strong&gt;. Adobe Acrobat shows them as &amp;ldquo;containers&amp;rdquo;. The Chart objects are placed in such objects. We have introduced a new method extractMarkedContentAsImages() in PdfExtractor class to extract these object. This method render every &lt;strong&gt;Marked Content&lt;/strong&gt; into a separate image. Please note all the charts are not fully placed into one container. Because of this some charts will be saved into separate images by parts.&lt;/p&gt;
+&lt;p&gt;Please note that the correct grouping of content into containers is the responsibility of a PDF document designer. If you want to get charts with header or other objects you should either edit/create the PDF document where whole chart is placed in one container.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Open document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sample.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//instantiate PdfExtractor
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PdfExtractor&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pdfExtractor&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfExtractor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Extract Chart objects as image in a folder
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pdfExtractor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;extractMarkedContentAsImages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getPages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get_Item&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:/Temp/Charts_page_1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;close&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;insreplace-image-in-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Replace Image in an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceText-java.lang.String-int-java.lang.String-&#34;&gt;PdfContentEditor&lt;/a&gt; class allows you to replace image in an existing PDF file. The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceImage-int-int-java.lang.String-&#34;&gt;replaceImage&lt;/a&gt; method helps you achieve this goal. You need to create an object of &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/PdfContentEditor&#34;&gt;PdfContentEditor&lt;/a&gt; class and bind the input PDF file using bindPdf method. After that, you need to call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#replaceImage-int-int-java.lang.String-&#34;&gt;replaceImage&lt;/a&gt; method with three parameters: a page number, index of the image to replace, and path of the image to be replaced. 
+The following code snippet shows you how to replace an image in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Images-ReplaceImageInAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Stamps and Watermarks - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-stamps-and-watermarks-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadd-page-number-in-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Page Number in a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileStamp&#34;&gt;PdfFileStamp&lt;/a&gt; class allows you to add page numbers in a PDF file. In order to add page numbers, you first need to create object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileStamp&#34;&gt;PdfFileStamp&lt;/a&gt; class. If you want to show page number like “Page X of N” while X being the current page number and N the total number of pages in the PDF file then you first need to get the page count using getNumberOfpages property of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileInfo&#34;&gt;PdfFileInfo&lt;/a&gt; class. In order to get the current page number you can use &lt;strong&gt;#&lt;/strong&gt; sign in your text anywhere you like. You can format the page number text using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/FormattedText&#34;&gt;FormattedText&lt;/a&gt; class. If you want to start the page numbering from a specific number then you can set setStartingNumber property. Once you’re ready to add page number in the file, you need to call addPageNumber method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileStamp&#34;&gt;PdfFileStamp&lt;/a&gt; class. Finally, save the output PDF file using Save method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileStamp&#34;&gt;PdfFileStamp&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to add page number in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-StampsAndWatermarks-AddPageNumberInAPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Forms - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-forms-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-forms-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insflatten-all-fields-in-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Flatten all Fields in existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;flattenAllFields(..) method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; class allows you to flatten all the fields of the PDF form. You first need to create &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; object, bind source PDF file and then call the flattenAllFields(&amp;hellip;) method and finally save the updated PDF using save(..) method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to flatten all the fields of the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Forms-FlattenAllFieldsInExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insexport-data-to-xml-from-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Export Data to XML from a PDF File (Facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; class allows you to export data to an XML file from the PDF file using exportXml method. In order to export data to XML, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; class, open source PDF form using bindPDF mehtod and then call the exportXml method using the OutputStream object. Finally, you can close OutputStream object and dispose Form object. The following code snippet shows you how to export data to XML file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Forms-ExportDataToXMLFromAPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insexport-data-to-fdf-from-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Export Data to FDF from a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; class allows you to export data to an FDF file from the PDF file using exportFdf method. In order to export data to FDF, you need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/Form&#34;&gt;Form&lt;/a&gt; class and open the PDF using bindPDF method, then call the exportFdf method using the OutputStream object. Finally, you can close the stream and PDF document. The following code snippet shows you how to export data to FDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Forms-ExportDataToFDFFromAPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Bookmarks - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-bookmarks-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-bookmarks-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;inscreate-bookmarks-of-all-pages-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Create Bookmarks of All Pages (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+In order to create bookmarks of all the pages, you need to use createBookmarks method without any parameters . PdfBookmarEditor class allows you to create bookmarks of all the pages of a PDF file. First, you need to create an object of PdfBookmarkEditor class and bind the input PDF using bindPdf method. Then, you have to call createBookmarks method and save the output PDF file using save method.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-CreateBookmarksOfAllPages-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;inscreate-bookmarks-of-all-pages-with-properties-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Create Bookmarks of All Pages with Properties (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+PdfBookmarEditor class allows you to create bookmarks of all the pages of a PDF file and specify the properties (Color, Bold, Italic). You can do that with the help of createBookmarks method. First, you need to create an object of PdfBookmarkEditor class and bind the input PDF using bindPdf method. Then, you have to call createBookmarks method and save the output PDF file using save method.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to create bookmarks of all the pages with properties.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-CreateBookmarksOfAllPagesWithProperties-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insexport-bookmarks-to-xml-from-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Export Bookmarks to XML from an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The exportBookmarksToXml method allows you to export bookmarks from a PDF file to an XML file.
+&lt;/div&gt;
+
+&lt;p&gt;To export bookmarks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a PdfBookmarkEditor object and bind the PDF file using the bindPdf method.&lt;/li&gt;
+&lt;li&gt;Call the exportBookmarksToXml method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to export bookmarks to an XML file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-ExportBookmarksToXMLFromAnExistingPDFFile-ToExportBookmarks.java&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;From Aspose.PDF for Java 9.0.0, the PdfBookmarkEditor class implements the exportBookmarksToXML and importBookmarksWithXML methods with Stream arguments. As a result, extracted bookmarks can be saved to a stream object.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-ExportBookmarksToXMLFromAnExistingPDFFile-ExportBookmarksToXML.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insimport-bookmarks-from-xml-to-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Import Bookmarks from XML to an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The importBookmarksWithXml method allows you to import bookmarks into a PDF file from an XML file.
+&lt;/div&gt;
+
+&lt;p&gt;To import bookmarks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a PdfBookmarkEditor object and bind the PDF file using the bindPdf method.&lt;/li&gt;
+&lt;li&gt;Call the importBookmarksWithXml method.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF file using the save method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to import bookmarks from an XML file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-ImportBookmarksFromXMLToAnExistingPDFFile-ToImportBookmarks.java&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;From Aspose.PDF for Java 9.0.0, the PdfBookmarkEditor class implements the exportBookmarksToXML and importBookmarksWithXML methods with Stream arguments. As a result, extracted bookmarks can be imported from a stream object.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Bookmarks-ImportBookmarksFromXMLToAnExistingPDFFile-ImportBookmarksWithXML.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Security and Signatures - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-security-and-signatures-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-security-and-signatures-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadd-digital-signature-in-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Digital Signature in a PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;&lt;strong&gt;PdfFileSignature&lt;/strong&gt;&lt;/a&gt; class allows you to add signature in a PDF file. You need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;&lt;strong&gt;PdfFileSignature&lt;/strong&gt;&lt;/a&gt; class using input and output PDF files. You also need to create a Rectangle object at which you want to add the signature and in order to set appearance you can specify an image using setSignatureAppearance property of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;&lt;strong&gt;PdfFileSignature&lt;/strong&gt;&lt;/a&gt; object.
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.Pdf.Facades also provides different kinds of signatures like PKCS#1, PKCS#7, and PKCS#7Detached. In order to create a signature of a specific type, you need to create an object of the particular class like PKCS1 , PKCS7 or PKCS7Detached using the certificate file and the password.&lt;/p&gt;
+&lt;p&gt;Once the object of a particular signature type is created, you can use the sign method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;&lt;strong&gt;PdfFileSignature&lt;/strong&gt;&lt;/a&gt; class to sign the PDF and pass the particular signature object to this class. You can also specify other attributes for this method. Finally, you need to save the signed PDF using save method of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;&lt;strong&gt;PdfFileSignature&lt;/strong&gt;&lt;/a&gt; class. The following code snippet shows you how to add signature in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-SecurityAndSignatures-AddDigitalSignatureInAPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-privileges-on-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set Privileges on an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To set a PDF file&amp;rsquo;s privileges, create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSecurity&#34;&gt;PdfFileSecurity&lt;/a&gt; class object and bind the input PDF using binPdf method. Then you have to call the setPrivilege method to set privileges. You can specify the privileges using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/DocumentPrivilege&#34;&gt;DocumentPrivilege&lt;/a&gt; object and then pass this object to the setPrivilege method and save the output PDF using save method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to set the privileges of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-SecurityAndSignatures-SetPrivilegesOnAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;inssuppress-location-and-reason&#34;&gt;&lt;ins&gt;&lt;strong&gt;Suppress Location and Reason&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF functionality allows flexible configuration for digital sign instance. &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileSignature&#34;&gt;PdfFileSignature &lt;/a&gt;class provides ability sign PDF file. Sign method implementation allows to sign the PDF and pass the particular signature object to this class. Sign method contains set of attributes for the customization of output digital sing. In case if you need to suppress some text attributes from result sing you can leave them empty. The following code snippet demonstrate how to suppress Location and Reason two rows from signature block:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfFacades-SecurityAndSignatures-SuppressLocationAndReason-SuppressLocationAndReason.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Annotations - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-annotations-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-annotations-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insadd-annotation-in-an-existing-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Annotation in an Existing PDF File (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;&lt;strong&gt;PdfContentEditor&lt;/strong&gt;&lt;/a&gt; allows you to add annotations of different types in an existing PDF file. You can use the respective method to add a particular annotation. For example, in the following code snippet, we have used &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#createFreeText-java.awt.Rectangle-java.lang.String-int-&#34;&gt;&lt;strong&gt;createFreeText&lt;/strong&gt;&lt;/a&gt; method to add FreeText type annotation. Any type of annotations can be added to the PDF file in the same way. First of all, you need to create an object of type &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor&#34;&gt;&lt;strong&gt;PdfContentEditor&lt;/strong&gt;&lt;/a&gt; and bind input PDF file using bindPdf method. Secondly, you have to create a Rectangle object to specify the area of the annotation. After that, you can call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfContentEditor#createFreeText-java.awt.Rectangle-java.lang.String-int-&#34;&gt;&lt;strong&gt;createFreeText&lt;/strong&gt;&lt;/a&gt; method to add FreeText annotation, and then use save method to save the updated PDF file.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;add-freetext-annotation&#34;&gt;&lt;strong&gt;Add FreeText Annotation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippet shows you how to add an annotation in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Annotations-AddAnnotationInAnExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insdelete-all-annotations-by-specified-type-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Delete All Annotations by Specified Type (facades)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfAnnotationEditor&#34;&gt;&lt;strong&gt;PdfAnnotationEditor&lt;/strong&gt;&lt;/a&gt; class to delete all the annotations, by a specified annotation type, from the existing PDF file. In order to do that you need to create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfAnnotationEditor&#34;&gt;&lt;strong&gt;PdfAnnotationEditor&lt;/strong&gt;&lt;/a&gt; object and bind input PDF file using bindPdf method. After that, call &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfAnnotationEditor#deleteAnnotation-java.lang.String-&#34;&gt;&lt;strong&gt;deleteAnnotations&lt;/strong&gt;&lt;/a&gt; method, with the string parameter, to delete all the annotations from the file; the string parameter represents the annotation type to be deleted. Finally, use save method to save the updated PDF file.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to delete all annotations by specified annotation type.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Annotations-DeleteAllAnnotationsBySpecifiedType-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insexport-annotations-from-pdf-file-to-xfdf-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Export Annotations from PDF File to XFDF (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The exportAnnotationXfdf method allows you to export annotations from a PDF file. In order to export annotations, you need to create &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfAnnotationEditor&#34;&gt;&lt;strong&gt;PdfAnnotationEditor&lt;/strong&gt;&lt;/a&gt; object and bind PDF file using bindPdf method. After that, you need to create an int[] array of annotation types which you want to export from PDF file. You can then use exportAnnotationXfdf method to import the annotations. And finally, close the objects.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to export annotations to XFDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Annotations-ExportAnnotationsFromPDFFileToXFDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Pages - facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pages-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pages-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insresize-pdf-page-contents&#34;&gt;&lt;ins&gt;&lt;strong&gt;Resize PDF page contents&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileEditor&#34;&gt;&lt;strong&gt;PdfFileEditor&lt;/strong&gt;&lt;/a&gt; class provides the feature to Concatenate, Insert, Append, makeBooklet, makeNUp, Extract, SplittoBulk and other PDF file manipulation features including re-size page contents..
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows the steps to Resize page contents to new dimensions.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Document-ResizePDFPageContents-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insresize-page-contents-of-specific-pages-in-a-pdf-file-facades&#34;&gt;&lt;ins&gt;&lt;strong&gt;Resize Page Contents of Specific Pages in a PDF file (facades)&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+ResizeContents method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf.facades/PdfFileEditor&#34;&gt;&lt;strong&gt;PdfFileEditor&lt;/strong&gt;&lt;/a&gt; class allows you to resize the page contents in a PDF file. ContentsResizeParameters class is used to specify the parameters to be used to resize the page(s) e.g. margins in percentage or units etc. You can resize all the pages or specify an array of pages to be resized using the ResizeContents method.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows how to resize the contents of some specific pages of PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Pages-ResizePageContentsOfSpecificPagesInAPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insconcatenate-pdf-documents&#34;&gt;&lt;ins&gt;&lt;strong&gt;Concatenate PDF documents&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;concatenate-pdf-files-using-file-paths-facades&#34;&gt;&lt;strong&gt;Concatenate PDF Files Using File Paths (Facades)&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+concatenate method of &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf.facades/classes/PdfFileEditor&#34;&gt;&lt;strong&gt;PdfFileEditor&lt;/strong&gt;&lt;/a&gt; class can be used to concatenate two PDF files. The concatenate method allows you to pass three parameters: first input PDF, second input PDF, and output PDF. The final output PDF contains both the input PDF files.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to concatenate PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Pages-ConcatenatePDFFilesUsingFilePaths-.java&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;In some cases, when there are a lot of outlines, users may disable them with setting &lt;strong&gt;CopyOutlines&lt;/strong&gt; to false and improve performance of concatenation.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Pages-ConcatenatePDFFilesUsingFilePaths-SettingCopyOutlines.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;concatenate-array-of-pdf-files-using-file-paths-facades&#34;&gt;&lt;strong&gt;Concatenate Array of PDF Files Using File Paths (Facades)&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+If you want to concatenate multiple PDF files, you can use the overload of the concatenate method, which allows you to pass an array of PDF files path. The final output is saved as a merged file created from all the files in the array.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to concatenate array of PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Pages-ConcatenateArrayOfPDFFilesUsingFilePaths-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;concatenate-array-of-pdf-files-using-streams-facades&#34;&gt;&lt;strong&gt;Concatenate Array of PDF Files Using Streams (Facades)&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Concatenating an array of PDF files is not limited to only files residing on the disk. You can also concatenate an array of PDF files from streams. If you want to concatenate multiple PDF files, you can use the appropriate overload of the Concatenate method. First, you need to create an array of input streams and one stream for output PDF and then call the Concatenate method. The output will be saved in the output stream.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to concatenate array of PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-facades-Pages-ConcatenateArrayOfPDFFilesUsingStreams-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes</title>
+    <link>https://docs.aspose.com/pdf/java/release-notes/</link>
+    <description>Recent content in Release Notes on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/release-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.PDF for Java</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/release-notes-2020/&#34;&gt;Release Notes - 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/release-notes-2019/&#34;&gt;Release Notes - 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/release-notes-2018/&#34;&gt;Release Notes - 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/release-notes-2017/&#34;&gt;Release Notes - 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/release-notes-2016/&#34;&gt;Release Notes - 2016&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.PDF for Android via Java</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/android-via-java-release-notes-2019/&#34;&gt;Android via Java Release Notes - 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/android-via-java-release-notes-2018/&#34;&gt;Android via Java Release Notes - 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/android-via-java-release-notes-2017/&#34;&gt;Android via Java Release Notes - 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/android-via-java-release-notes-2016/&#34;&gt;Android via Java Release Notes - 2016&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

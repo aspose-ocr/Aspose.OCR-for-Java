@@ -1,0 +1,880 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Pdf for Reporting Services Documentation</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-documentation/</link>
+    <description>Recent content in Aspose.Pdf for Reporting Services Documentation on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/aspose-pdf-for-reporting-services-documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Product Overview</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/product-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/product-overview/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;img src=&#34;product-overview_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;welcome-to-asposepdf-for-reporting-services&#34;&gt;&lt;strong&gt;Welcome to Aspose.PDF for Reporting Services!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Microsoft SQL Server Reporting Services fulfills a need that many organizations have: the need to build business intelligence and reporting solutions. Until now, developers were required to embed reports into their applications, or organizations were required to buy expensive and sometimes problematic third-party reporting solutions. Now, Microsoft SQL Server Reporting Services offers a complete solution for distributing reports across the enterprise; enabling businesses to make decisions better and faster.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;product-description&#34;&gt;&lt;strong&gt;Product Description&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for Reporting Services is a unique solution from Aspose that makes it possible to export PDF reports in Microsoft SQL Server 2000, 2005,2008, 2012 and 2016 Reporting Services. All RDL report features, including tables, matrices, charts and images are converted with the highest degree of precision to PDF.&lt;/p&gt;
+&lt;p&gt;Microsoft SQL Server Reporting Services have built-in abilities to export reports as PDF documents, but doesn&amp;rsquo;t provide necessary technical support for its end users. Aspose.PDF provides efficient technical support.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Reporting Services creates documents on the server without the Adobe.Pdf SDK. Aspose.PDF for Reporting Services uses Aspose.PDF for .NET – the world-class component for server-side document processing and conversions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF for Reporting Services makes it possible to export any report in PDF format&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;product-overview_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF for Reporting Services exported a report as a PDF file&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;product-overview_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Supported File Formats</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/supported-file-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/supported-file-formats/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;supported-load-formats&#34;&gt;&lt;strong&gt;Supported Load Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats that Aspose.PDF for Reporting Services can load.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RDL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Report Definition Language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/web/html/&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hypertext Markup Language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;supported-save-formats&#34;&gt;&lt;strong&gt;Supported Save Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats in which the document can be saved by using Aspose.PDF for Reporting Services. &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document is PDF format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/a/&#34;&gt;PDF/A&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in PDF/A format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/specification/page-description-language/xps/&#34;&gt;XPS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in XML Paper Specification format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;EPUB&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in E-Book File Format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Features</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/features/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/comprehensive-rdl-support-html/&#34;&gt;Comprehensive RDL Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/parameterized-report-support-html/&#34;&gt;Parameterized Report Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/custom-report-item-support-html/&#34;&gt;Custom Report Item Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/easy-and-lightweight-deployment-html/&#34;&gt;Easy and Lightweight Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/world-class-free-technical-support-html/&#34;&gt;World Class Free Technical Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Sample Reports Gallery</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/sample-reports-gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/sample-reports-gallery/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This gallery demonstrates PDF reports exported by Aspose.PDF for Reporting Services.
+&lt;/div&gt;
+
+&lt;p&gt;Most of the reports shown here come from the Adventure Works database. Adventure Works is a sample database for Microsoft SQL Server, available for download from Microsoft &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?familyid=E719ECF7-9F46-4312-AF89-6AD8702E4E6E&amp;amp;displaylang=en&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h5 id=&#34;company-sales-todoimage_alt_textsample-reports-gallery_1png&#34;&gt;&lt;strong&gt;Company Sales &lt;img src=&#34;sample-reports-gallery_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;employee-sales-summary-todoimage_alt_textsample-reports-gallery_2png&#34;&gt;&lt;strong&gt;Employee Sales Summary &lt;img src=&#34;sample-reports-gallery_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;product-catalog-todoimage_alt_textsample-reports-gallery_3png&#34;&gt;&lt;strong&gt;Product Catalog &lt;img src=&#34;sample-reports-gallery_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;product-line-sales-todoimage_alt_textsample-reports-gallery_4png&#34;&gt;&lt;strong&gt;Product Line Sales &lt;img src=&#34;sample-reports-gallery_4.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;sales-order-detail-todoimage_alt_textsample-reports-gallery_5png&#34;&gt;&lt;strong&gt;Sales Order Detail &lt;img src=&#34;sample-reports-gallery_5.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/h5&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Install Aspose.Pdf for Reporting Services</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/install-aspose-pdf-for-reporting-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/install-aspose-pdf-for-reporting-services/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/install-with-msi-installer-html/&#34;&gt;Install with MSI Installer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/install-manually-html/&#34;&gt;Install Manually&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/install-with-configuring-tool-html/&#34;&gt;Install with Configuring Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Integration with Microsoft Report Viewer in local mode</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/integration-with-microsoft-report-viewer-in-local-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/integration-with-microsoft-report-viewer-in-local-mode/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Microsoft Report Viewer is a powerful .NET control allowing the use of RDL and RDLC reports in WinForms and ASP.NET applications. It enables users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2005 and 2008, and is also available as a free download from Microsoft.
+&lt;/div&gt;
+
+&lt;p&gt;Report Viewer can generate reports independently using a built-in engine (&lt;strong&gt;local mode&lt;/strong&gt;), or it can display reports that are generated on a Microsoft SQL Server Reporting Services Report Server (&lt;strong&gt;remote mode&lt;/strong&gt;).
+When working in the &lt;strong&gt;remote mode&lt;/strong&gt;, Report Viewer can export reports to all formats installed on the Report Server to which it is connected. Therefore, to export reports to PDF format you only need to install Aspose.Pdf for Reporting Services on the server.&lt;/p&gt;
+&lt;p&gt;When working in the &lt;strong&gt;local mode&lt;/strong&gt; however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only a few built-in formats.&lt;/p&gt;
+&lt;p&gt;By installing Aspose.Pdf for Reporting Services on a development machine and following the steps below, you will be able to add the ability to export to PDF format from Report Viewer working in the &lt;strong&gt;local mode&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1. Add a Reference to Aspose.Pdf.ReportingServices.dll to your project.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Open your project in Visual Studio, right click on the &lt;strong&gt;References&lt;/strong&gt; folder and select &lt;strong&gt;Add Reference&lt;/strong&gt;. Click the &lt;strong&gt;Browse&lt;/strong&gt; tab and browse to the following assembly:&lt;/p&gt;
+&lt;p&gt;If using Microsoft Report Viewer 2005 &lt;strong&gt;-&lt;/strong&gt; browse to &lt;em&gt;&lt;InstallDir&gt;/Bin/ReportViewer2005/Aspose.Pdf.ReportingServices.dll&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If using Microsoft Report Viewer 2008 - browse &lt;em&gt;&lt;InstallDir&gt;/Bin/ReportViewer2008/Aspose.Pdf.ReportingServices.dll&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where &lt;em&gt;&lt;InstallDir&gt;&lt;/em&gt; is the directory, where you installed or unpacked Aspose.Pdf for Reporting Services.&lt;/p&gt;
+&lt;h5 id=&#34;adding-a-reference-to-asposepdfreportingservicesdll-to-your-project&#34;&gt;&lt;strong&gt;Adding a Reference to Aspose.PDF.ReportingServices.dll to your project.&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;integration-with-microsoft-report-viewer-in-local-mode_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;**Step 2. Copy and paste the following AddExtension method into your project.**This method adds the specified rendering extension to the list of supported extensions in Microsoft Report Viewer using private reflection.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Collections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Reflection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.ReportingServices.ReportRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Use one of the two namespaces below depending on whether you are developing
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// a WinForms or WebForms application.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.Reporting.WinForms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// -- or --
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// using Microsoft.Reporting.WebForms;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Adds the specified rendering extension to the specified ReportViewer instance.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;viewer&amp;#34;&amp;gt;A ReportViewer control instance.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;name&amp;#34;&amp;gt;The name of the export format.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;localizedName&amp;#34;&amp;gt;The localized name of the export format that appears on the dropdown list.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;extensionType&amp;#34;&amp;gt;The class of the rendering extension to add.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AddExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localizedName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensionType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Public&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// CommonService.ListRenderingExtension is an internal method that returns a list of supported
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// rendering extensions. This list is also stored in a class field so we can simply get this list
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// and add Aspose.PDF for Reporting Services rendering extensions to make Pdf export formats
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// appear on the dropdown.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the service type.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;FieldInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_previewService&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the ListRenderingExtensions method info.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;MethodInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;listRenderingExtensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FieldType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetMethod&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ListRenderingExtensions&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Obtan a list of existing rendering extensions.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;listRenderingExtensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// LocalRenderingExtensionInfo is a class that holds information about a rendering extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// We should create an instance of this class to add the info about the specified extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Since the IRenderingExtension interface is defined in the Microsoft.ReportViewer.Common
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// assembly, use this trick to obtain the corresponding Assembly instance. This will work for
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// both Report Viewer 2005 (8.0) and 2008 (9.0).
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Assembly&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;commonAssembly&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IRenderingExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Assembly&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Now, get the LocalRenderingExtensionInfo type as it is defined in the same assembly.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localRenderingExtensionInfoType&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;commonAssembly&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Microsoft.Reporting.LocalRenderingExtensionInfo&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the LocalRenderingExtensionInfo constructor info.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;ConstructorInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ctor&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localRenderingExtensionInfoType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetConstructor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create an instance of LocalRenderingExtensionInfo.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ctor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localizedName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensionType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Finally, add the info about our rendering extension to the list.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;**Step 3. Invoke the AddExtension method from your code.**You can call &lt;strong&gt;AddExtension&lt;/strong&gt; (shown in the previous step) whenever you need to add Aspose.Pdf for Reporting Services export formats to a Report Viewer control instance. Consider calling from the &lt;strong&gt;Form_Load&lt;/strong&gt; or &lt;strong&gt;Page_Load&lt;/strong&gt; event handler of a WinForms or ASP .NET application. Note calling the &lt;strong&gt;ReportViewer.Reset&lt;/strong&gt; method will reset export formats to initial state, so if you need to use this method in your application, you have to add new export format each times after the method is invoked.You can add the Aspose.Pdf for Reporting Services export format. You can specify any display name for the format to appear in Report Viewer.&lt;/p&gt;
+&lt;p&gt;To add Aspose.Pdf for Reporting Services export format to Microsoft Report Viewer in local mode, use the following code:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;AddExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;APPDF&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;PDF via Aspose.PDF&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;**Step 4. Test the new export formats.**Run your application and you should notice the Aspose.PDF for Reporting Services export format available in the Export dropdown list in Report Viewer. Select it and run export. Verify the PDF document is created the way you expected.&lt;/p&gt;
+&lt;h5 id=&#34;new-export-format-appear-in-report-viewer-running-in-local-mode&#34;&gt;&lt;strong&gt;New export format appear in Report Viewer running in local mode.&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;integration-with-microsoft-report-viewer-in-local-mode_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: License Aspose.Pdf for Reporting Services</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/license-aspose-pdf-for-reporting-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/license-aspose-pdf-for-reporting-services/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Aspose.PDF for Reporting Services&amp;rsquo; evaluation version provides the same set of features as the fully licensed version, with the exception that the evaluation version adds an evaluation watermark to output PDFs.
+&lt;/div&gt;
+
+&lt;p&gt;When you are happy with your evaluation, &lt;a href=&#34;http://www.aspose.com/purchase/default.aspx&#34;&gt;buy a license&lt;/a&gt;. Before purchasing, make sure you understand and agree to the license subscription terms.&lt;/p&gt;
+&lt;p&gt;The license is emailed to you when the order has been paid. The license is a clear text, digitally signed XML file and contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file as it will invalidate the license.&lt;/p&gt;
+&lt;h3 id=&#34;licensing-a-server&#34;&gt;&lt;strong&gt;Licensing a Server&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&amp;lt;Instance&amp;gt;\Reporting Services\ReportServer\bin folder on the server(the same folder where Aspose.PDF.ReportingServices.dll is installed).
+Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The default instance directory for Microsoft SQL Server 2000 is MSSQL.&lt;/li&gt;
+&lt;li&gt;The default instance directory for Microsoft SQL Server 2005 is MSSQL.x, where “x” is the instance identifier.&lt;/li&gt;
+&lt;li&gt;The default instance directory for Microsoft SQL Server 2008 is MSRS10.MSSQLSERVER.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;licensing-application-development&#34;&gt;&lt;strong&gt;Licensing Application Development&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Add a reference to Aspose.PDF for Reporting Services to your project and Aspose.PDF.ReportingServices.dll will be automatically copied to the Bin (binary output) folder of your application.&lt;/p&gt;
+&lt;p&gt;The license can be loaded from a file, stream or an embedded resource. Aspose.PDF for Reporting Services will try to find the license in the following locations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explicit path.&lt;/li&gt;
+&lt;li&gt;The folder that contains Aspose.PDF.ReportingServices.dll.&lt;/li&gt;
+&lt;li&gt;The folder that contains the assembly that called Aspose.PDF.ReportingServices.dll.&lt;/li&gt;
+&lt;li&gt;The folder that contains the entry assembly (your.exe).&lt;/li&gt;
+&lt;li&gt;An embedded resource in the assembly that called Aspose.PDF.ReportingServices.dll.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When using a Visual Studio solution, you see the License.SetLicense method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.PDF.ReportingServices.dll and specify just the file name without a path as shown in the following example:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Reporting.Services.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The following example shows how to set a license from a Stream object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;mystream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;deploying-a-license-with-your-application&#34;&gt;&lt;strong&gt;Deploying a License with your application&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Distribute the license file in the same folder as Aspose.PDF.ReportingServices.dll.&lt;/p&gt;
+&lt;h4 id=&#34;license-generation-of-reports-at-design-time&#34;&gt;&lt;strong&gt;License Generation of Reports at Design Time&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Download the license file and copy it to C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies, where &lt;Version&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008.&lt;/p&gt;
+&lt;h5 id=&#34;testing-a-license&#34;&gt;&lt;strong&gt;Testing a License&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;To test that a license has been installed correctly, export any report as a Portable Format Document (PDF). If the document contains no watermark at the top, the license is activated successfully.&lt;/p&gt;
+&lt;p&gt;When a valid Aspose.PDF.ReportingServices.lic is present in the ReportServer\bin folder, there will be no evaluation watermark.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PDF generated using “Territory sales drilldown” report&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;license-aspose-pdf-for-reporting-services_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PDF generated using “Sales Order details” report&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;license-aspose-pdf-for-reporting-services_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If there is a problem while initializing the license, an evaluation watermark is displayed in the resultant PDF document as specified below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PDF document generated using “Territory Sales Drilldown” with watermark&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;license-aspose-pdf-for-reporting-services_3.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Please note that that supported license file names are Aspose.PDF.ReportingServices.lic, Aspose.Total.ReportingServices.lic and Aspose.Total.Product.Family.lic. If the file has any other name, please rename it.&lt;/p&gt;
+&lt;h4 id=&#34;temporary-license&#34;&gt;&lt;strong&gt;Temporary License&lt;/strong&gt;&lt;/h4&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+You may also request a 30 days temporary license to test the product. Please visit the following link for more information on how to get Temporary license. &lt;a href=&#34;http://www.aspose.com/corporate/purchase/temporary-license.aspx&#34;&gt;Get a Temporary License&lt;/a&gt;.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Configure Aspose.Pdf for Reporting Services</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/configure-aspose-pdf-for-reporting-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/configure-aspose-pdf-for-reporting-services/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/setting-parameters-html/&#34;&gt;Setting Parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/supported-parameters-html/&#34;&gt;Supported Parameters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Expand Report Items Properties</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/expand-report-items-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/expand-report-items-properties/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/adding-custom-properties-html/&#34;&gt;Adding Custom Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/custom-properties-supported-html/&#34;&gt;Custom Properties Supported&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Integration with MS ReportViewer 2010 and 2012</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/integration-with-ms-reportviewer-2010-and-2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/integration-with-ms-reportviewer-2010-and-2012/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page demonstrates how to export report from ReportViewer 2010 or ReportViewer 2012 to PDF format using Aspose.PDF for Reporting Services.
+&lt;/div&gt;
+
+&lt;p&gt;RplRenderer class renders &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ee301773.aspx&#34;&gt;Report Page Layout (RPL) Binary Stream Format&lt;/a&gt; to PDF format. Whereas RplRenderer internally uses &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/dd255244.aspx&#34;&gt;soft page breaks&lt;/a&gt; to control page size while using InteractiveHeight and InteractiveWidth RDL tags.&lt;/p&gt;
+&lt;p&gt;The following code shows how to export report from ReportViewer 2010 to PDF format using using RplRenderer. Execute RenderToPpt method to render current report to PDF.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.IO&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Reflection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Collections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.ReportingServices.ReportRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Use one of the two namespaces below depending on whether you are developing
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// a WinForms or WebForms application.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.Reporting.WinForms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AsposeTest&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfExportHelper&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Renders current report to PDF
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer object.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;format&amp;#34;&amp;gt;The output presentation format.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;filename&amp;#34;&amp;gt;The output filename.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderWithAsposePdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;filename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Enable Export to RPL feature
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;EnableRplRenderExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//create file for our PDF
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pptSteam&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;filename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileMode&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Create&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RplRenderer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RplRenderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//start rendering process
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//here we are choosing to export in PDF format and providing outputStream
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StartRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//this cycle iterates through all pages of report
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateRplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//if rplStream is empty then we reached end of report
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Length&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//add report page to the document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                        &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RenderPage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;++;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//call finish method to flush our newly created PDF to output stream
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FinishRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pptSteam&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Enables the RPL rendering extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Be careful because this method alters internal state of ReportViewer class instance
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// and there is no guarantee that this method will work with future version of ReportViewer
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt;  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;EnableRplRenderExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;
+
+                   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_previewService&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetMethod&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ListRenderingExtensions&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderingExtensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;foreach&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderingExtensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetProperty&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;RPL&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_isVisible&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_isExposedExternally&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(!&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;throw&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Exception&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Can&amp;#39;t enable RPL export. Please, make sure that you are using ReportViewer 2010.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Renders specific page to RPL
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;page&amp;#34;&amp;gt;The page.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateRplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;warnings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Render&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;RPL&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;@&amp;#34;&amp;lt;DeviceInfo&amp;gt;&amp;lt;StartPage&amp;gt;{0}&amp;lt;/StartPage&amp;gt;&amp;lt;EndPage&amp;gt;{0}&amp;lt;/EndPage&amp;gt;&amp;lt;SecondaryStreams&amp;gt;Embedded&amp;lt;/SecondaryStreams&amp;gt;&amp;lt;/DeviceInfo&amp;gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt;
+
+                                                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateStreamCallback&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;delegate&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+
+                                                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;out&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;warnings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Optionally you may consider adding export buttons to TollStripPanel of ReportViewer by adding next code to Form&amp;rsquo;s constructor:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Windows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Forms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToolStrip&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;toolStrip&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Windows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Forms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToolStrip&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Controls&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Find&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;toolStrip1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// add the button with specific caption
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Windows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Forms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToolStripItem&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exportButton&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;toolStrip&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Items&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Export to PDF&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;exportButton&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Click&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;EventHandler&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;((&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;s&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;PdfExportHelper&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RenderWithAsposePdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Output.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;integration-with-ms-reportviewer-2010-and-2012_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WinForm showing Export to PDF button&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;integration-with-reportviewer-2012&#34;&gt;&lt;strong&gt;Integration with ReportViewer 2012&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;In order to support ReportViewer 2012, please try using following code snippet for integration&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfExportHelper&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Renders current report to PDF
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer object.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;format&amp;#34;&amp;gt;The output presentation format.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;filename&amp;#34;&amp;gt;The output filename.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderWithAsposePdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;filename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Enable Export to RPL feature
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;EnableRplRenderExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//create file for our PDF
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pptSteam&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;filename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileMode&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Create&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RplRenderer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportingServices&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RplRenderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//start rendering process
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//here we are choosing to export in PDF format and providing outputStream
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StartRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//this cycle iterates through all pages of report
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateRplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//if rplStream is empty then we reached end of report
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Length&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//add report page to the document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                        &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RenderPage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;++;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+                &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//call finish method to flush our newly created PDF to output stream
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000&#34;&gt;renderer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FinishRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pptSteam&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Enables the RPL rendering extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Be careful because this method alters internal state of ReportViewer class instance
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// and there is no guarantee that this method will work with future version of ReportViewer
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;EnableRplRenderExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ProductVersion&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StartsWith&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;11&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_processingHost&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_previewService&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetMethod&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ListRenderingExtensions&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;service&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderingExtensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;foreach&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;RenderingExtensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetProperty&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;RPL&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;                   
+
+                    &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_isExposedExternally&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(!&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rplExportEnabled&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;throw&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Exception&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Can&amp;#39;t enable RPL export. Please, make sure that you are using ReportViewer 2010 or 2012.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Renders specific page to RPL
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;reportViewer&amp;#34;&amp;gt;The report viewer.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;page&amp;#34;&amp;gt;The page.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateRplStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;warnings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MemoryStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+            &lt;span style=&#34;color:#000&#34;&gt;reportViewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Render&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;RPL&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;@&amp;#34;&amp;lt;DeviceInfo&amp;gt;&amp;lt;StartPage&amp;gt;{0}&amp;lt;/StartPage&amp;gt;&amp;lt;EndPage&amp;gt;{0}&amp;lt;/EndPage&amp;gt;&amp;lt;SecondaryStreams&amp;gt;Embedded&amp;lt;/SecondaryStreams&amp;gt;&amp;lt;/DeviceInfo&amp;gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt;
+
+                                                    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateStreamCallback&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;delegate&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+
+                                                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;out&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;warnings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Evaluate Aspose.Pdf for Reporting Services</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/evaluate-aspose-pdf-for-reporting-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/evaluate-aspose-pdf-for-reporting-services/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page states the difference between licensed and evaluation version of Aspose.PDF for Reporting Services
+&lt;/div&gt;
+
+&lt;p&gt;You can easily download &lt;a href=&#34;http://www.aspose.com/community/files/52/ssrs-rendering-extensions/aspose.pdf-for-reporting-services/default.aspx&#34;&gt;Aspose.PDF for Reporting Services&lt;/a&gt; for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you place the license file in folder containing Aspose.PDF.ReportingServices.dll or few lines of code to initialize the license when using the component with Report Viewer in local mode. The evaluation version of Aspose.PDF for Reporting Services (without a license specified) provides full product functionality, but it inserts an evaluation watermark at the top of the document when rendering the .RDL file to PDF format. You may visit the following page for further instructions on &lt;a href=&#34;http://www.aspose.com/docs/display/pdfreportingservices/License+Aspose.PDF+for+Reporting+Services&#34;&gt;how to License Aspose.PDF for Reporting Services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;evaluate-aspose-pdf-for-reporting-services_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you want to test Aspose.PDF for Reporting Services without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to &lt;a href=&#34;http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx&#34;&gt;How to get a Temporary License?&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

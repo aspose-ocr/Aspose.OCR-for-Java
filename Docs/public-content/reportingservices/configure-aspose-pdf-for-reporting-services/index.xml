@@ -1,0 +1,97 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Configure Aspose.Pdf for Reporting Services</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/configure-aspose-pdf-for-reporting-services/</link>
+    <description>Recent content in Configure Aspose.Pdf for Reporting Services on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/configure-aspose-pdf-for-reporting-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Setting Parameters</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/setting-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/setting-parameters/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+You can specify certain configuration parameters that affect how Aspose.Pdf for Reporting Services generates documents. This section describes this process.
+&lt;/div&gt;
+
+&lt;p&gt;To configure Aspose.Pdf for Reporting Services, you need to edit the C:\Program Files\Microsoft SQL Server&amp;lt;Instance&amp;gt;\Reporting Services\ReportServer\rsreportserver.config file. This is an XML file and the renderer configuration is inside the &lt;Extension&gt; element corresponding to the Aspose.PDF renderer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Render&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;...&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Extension&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;APPDF&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34; Aspose.PDF.ReportingServices.Renderer,Aspose.PDF.ReportingServices &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;!--&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Insert&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;configuration&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;elements&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exporting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PDF&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;here&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;The&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;following&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;an&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;example&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;For&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PageOrientation&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;--&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Configuration&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsLandscape&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsLandscape&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Configuration&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Extension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Render&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to make the parameters for specific report file but not for all the reports, you can add report parameter for the specific report by the report builder as the following steps (for the &amp;lsquo;IsLandscape&amp;rsquo; example):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the report in Report Designer and then open the menu &amp;lsquo;Report&amp;rsquo;, select the menu item &amp;lsquo;report parameters&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;In the report parameter dialog, click button &amp;lsquo;Add&amp;rsquo; to add the parameter named &amp;lsquo;IsLandscape&amp;rsquo;, with the type of Boolean and the value should be True.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;setting-parameters_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure for Report Builder Designer 2005.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;setting-parameters_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure for Report Builder Designer 2008.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Supported Parameters</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/supported-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/supported-parameters/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/page-orientation-html/&#34;&gt;Page Orientation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/html-formatting-html/&#34;&gt;HTML Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/security-setting-html/&#34;&gt;Security Setting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/row-across-pages-html/&#34;&gt;Row Across Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/isfontembedded-html/&#34;&gt;IsFontEmbedded&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/pagesize-html/&#34;&gt;PageSize&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/page-margin-size-html/&#34;&gt;Page margin size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/xmp-metadata-html/&#34;&gt;XMP Metadata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/debug-information-html/&#34;&gt;Debug Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/pdf_a-conformance-html/&#34;&gt;PDF_A Conformance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/list-section-html/&#34;&gt;List Section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/page-rotating-angle-html/&#34;&gt;Page Rotating Angle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/compression-html/&#34;&gt;Compression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

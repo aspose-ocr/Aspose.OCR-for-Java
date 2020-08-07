@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Headings - DOM</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-headings-dom/</link>
+    <description>Recent content in Working with Headings - DOM on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-headings-dom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Apply Numbering Style in Heading</title>
+      <link>https://docs.aspose.com/pdf/java/apply-numbering-style-in-heading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/apply-numbering-style-in-heading/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Headings are the important parts of any document. Writers always try to make headings more prominent and meaningful to its readers. If there are more than one headings in a document, a writer has several options to organize these headings. One of the most common approach to organize headings is to write headings in Numbering Style.
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.PDF for Java offers many pre-defined numbering styles. These pre-defined numbering styles are stored in an enumeration, NumberingStyle. The pre-defined values of NumberingStyle enumeration and their descriptions are given below:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Heading Types&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;NumeralsArabic&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Arab type,for example, 1,1.1,&amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;NumeralsRomanUppercase&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Roman upper type, for example, I,I.II, &amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;NumeralsRomanLowercase&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Roman lower type, for example, i,i.ii, &amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LettersUppercase&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;English upper type, for example, A,A.B, &amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LettersLowercase&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;English lower type, for example, a,a.b, &amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;The &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/heading/methods/setStyle(int)/&#34;&gt;setStyle&lt;/a&gt; property of &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Heading&#34;&gt;com.aspose.pdf.Heading&lt;/a&gt; class is used to set the numbering styles of the headings.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The source code, to obtain the output shown in the above figure, is given below in the example.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-headings-ApplyNumberingStyleInHeading-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

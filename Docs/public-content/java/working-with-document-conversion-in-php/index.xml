@@ -1,0 +1,147 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Document Conversion in PHP</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-document-conversion-in-php/</link>
+    <description>Recent content in Working with Document Conversion in PHP on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-document-conversion-in-php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Convert PDF to DOC or DOCX format in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/convert-pdf-to-doc-or-docx-format-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/convert-pdf-to-doc-or-docx-format-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---convert-pdf-to-doc-or-docx&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Convert PDF to DOC or DOCX&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To convert PDF document to DOC or DOCX format using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;PdfToDoc&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open the target document
+$pdf = new Document($dataDir . &#39;input1.pdf&#39;);
+
+# Save the concatenated output file (the target document)
+$pdf-&amp;gt;save($dataDir . &amp;quot;output.doc&amp;quot;);
+
+print &amp;quot;Document has been converted successfully&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Convert PDF to DOC or DOCX (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentConversion/PdfToDoc.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert PDF to Excel Workbook in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/convert-pdf-to-excel-workbook-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/convert-pdf-to-excel-workbook-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---convert-pdf-to-excel-workbook&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Convert PDF to Excel Workbook&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To convert PDF document to Excel Workbook using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;PdfToExcel&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Open the target document
+$pdf = new Document($dataDir . &#39;input1.pdf&#39;);
+
+# Instantiate ExcelSave Option object
+$excelsave = new ExcelSaveOptions();
+
+# Save the output to XLS format
+$pdf-&amp;gt;save($dataDir . &amp;quot;Converted_Excel.xls&amp;quot;, $excelsave);
+
+print &amp;quot;Document has been converted successfully&amp;quot; . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Convert PDF to Excel Workbook (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentConversion/PdfToExcel.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert PDF to SVG Format in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/convert-pdf-to-svg-format-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/convert-pdf-to-svg-format-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---convert-pdf-to-svg&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Convert PDF to SVG&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To convert PDF to SVG format using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;PdfToSvg&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Open the target document
+$pdf = new Document($dataDir . &#39;input1.pdf&#39;);
+
+# instantiate an object of SvgSaveOptions
+$save_options = new SvgSaveOptions();
+
+# do not compress SVG image to Zip archive
+$save_options-&amp;gt;CompressOutputToZipArchive = false;
+
+# Save the output to XLS format
+$pdf-&amp;gt;save($dataDir . &amp;quot;Output.svg&amp;quot;, $save_options);
+
+print &amp;quot;Document has been converted successfully&amp;quot; . PHP_EOL;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Convert PDF to SVG Format (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentConversion/PdfToSvg.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert SVG file to PDF format in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/convert-svg-file-to-pdf-format-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/convert-svg-file-to-pdf-format-in-php/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---convert-svg-to-pdf&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Convert SVG to PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;ins&gt;To convert SVG file to PDF format using &lt;strong&gt;Aspose.PDF Java for PHP&lt;/strong&gt;, simply invoke &lt;strong&gt;SvgToPdf&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PHP Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Instantiate LoadOption object using SVG load option
+$options = new SvgLoadOptions();
+
+# Create document object
+$pdf = new Document($dataDir . &#39;Example.svg&#39;, $options);
+
+# Save the output to XLS format
+$pdf-&amp;gt;save($dataDir . &amp;quot;SVG.pdf&amp;quot;);
+
+print &amp;quot;Document has been converted successfully&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Convert SVG to PDF (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/blob/master/Plugins/Aspose_Pdf_Java_for_PHP/src/Aspose/Pdf/WorkingWithDocumentConversion/SvgToPdf.php&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

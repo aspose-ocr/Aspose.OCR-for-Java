@@ -1,0 +1,2057 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2017</title>
+    <link>https://docs.aspose.com/pdf/java/release-notes-2017/</link>
+    <description>Recent content in Release Notes - 2017 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/release-notes-2017/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.12 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-12-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-12-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36627&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF Incremental updates when load pdf document from binary&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34590&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Missing text in output JPG&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35855&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: text misplaced in resultant HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35728&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Conversion process hangs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36681&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Text changes its position&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37105&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text absorber retrieves the garbled text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36157&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Doc: Text in the word document are wrapped one on another&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35678&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XPS: colored images changes to greyscale&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36375&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Text starts appearing overlapped&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35030&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text replacement issue: Characters are missing in replaced text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36293&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - text is overlapping in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36290&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: text shifted to left side&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36966&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Excel - Blank File is Generated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35284&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove text underline in a PDF document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36629&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Open PDF file from stream add annotation invalidates the signature&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35106&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG - invisible objects become visible&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Annotation&lt;/strong&gt; 
+new method:
+com.aspose.pdf.Annotation.getPdfActions()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.BaseParagraph&lt;/strong&gt; 
+new method:
+com.aspose.pdf.BaseParagraph.getVerticalAlignment()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Document&lt;/strong&gt; 
+new method:
+com.aspose.pdf.Document.saveIncrementally(OutputStream)&lt;/p&gt;
+&lt;p&gt;Changes in interface &lt;strong&gt;com.aspose.pdf.IDocument&lt;/strong&gt; 
+new method:
+com.aspose.pdf.IDocument.saveIncrementally(OutputStream)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Font&lt;/strong&gt; 
+new method:
+com.aspose.pdf.Font.getDecodedFontName()&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.FormattedFragment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.HideAction&lt;/strong&gt; 
+constructors:
+com.aspose.pdf.HideAction.#ctor(Annotation)
+com.aspose.pdf.HideAction.#ctor(Annotation,boolean)
+com.aspose.pdf.HideAction.#ctor(String)
+com.aspose.pdf.HideAction.#ctor(String,boolean)
+com.aspose.pdf.HideAction.#ctor(Annotation[])
+com.aspose.pdf.HideAction.#ctor(Annotation[],boolean)
+com.aspose.pdf.HideAction.#ctor(String[])
+com.aspose.pdf.HideAction.#ctor(String[],boolean)
+methods:
+com.aspose.pdf.HideAction.isHidden()
+com.aspose.pdf.HideAction.setHidden(boolean)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.HtmlFragment&lt;/strong&gt; 
+renamed methods:
+com.aspose.pdf.HtmlFragment.getHtmlLoadOptionsOfInstance() -&amp;gt; com.aspose.pdf.HtmlFragment.getHtmlLoadOptions()
+com.aspose.pdf.HtmlFragment.setHtmlLoadOptionsOfInstance(HtmlLoadOptions) -&amp;gt; com.aspose.pdf.HtmlFragment.setHtmlLoadOptions(HtmlLoadOptions)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.WidgetAnnotation&lt;/strong&gt; 
+renamed methods:
+com.aspose.pdf.WidgetAnnotation.getActions -&amp;gt; com.aspose.pdf.WidgetAnnotation.getAnnotationActions&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.LatexFragment&lt;/strong&gt; 
+constructors:
+com.aspose.pdf.LatexFragment.#ctor(String)
+com.aspose.pdf.LatexFragment.#ctor(String,boolean)
+methods:
+com.aspose.pdf.LatexFragment.getLatexLoadOptionsOfInstance()
+com.aspose.pdf.LatexFragment.setLatexLoadOptionsOfInstance(LatexLoadOptions)
+com.aspose.pdf.LatexFragment.deepClone&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.LightweightOperatorCollection&lt;/strong&gt; 
+new method:
+com.aspose.pdf.LightweightOperatorCollection.addRange(LightweightOperatorCollection)&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.PdfActionCollection&lt;/strong&gt; 
+methods:
+com.aspose.pdf.PdfActionCollection.getCount()
+com.aspose.pdf.PdfActionCollection.get_Item(int)
+com.aspose.pdf.PdfActionCollection.delete(int)
+com.aspose.pdf.PdfActionCollection.add(PdfAction)
+com.aspose.pdf.PdfActionCollection.iterator()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Point&lt;/strong&gt; 
+new method:
+com.aspose.pdf.Point.toString()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.SignatureField&lt;/strong&gt; 
+new method:
+com.aspose.pdf.SignatureField.extractImage(ImageType)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextAbsorber&lt;/strong&gt; 
+new methods:
+com.aspose.pdf.TextAbsorber.hasErrors()
+com.aspose.pdf.TextAbsorber.getErrors()&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.TextExtractionError&lt;/strong&gt; 
+methods:
+com.aspose.pdf.TextExtractionError.getSummary()
+com.aspose.pdf.TextExtractionError.getDescription()
+com.aspose.pdf.TextExtractionError.getLocation()
+com.aspose.pdf.TextExtractionError.getFontKey()
+com.aspose.pdf.TextExtractionError.getFontName()
+com.aspose.pdf.TextExtractionError.getExtractedText()
+com.aspose.pdf.TextExtractionError.toString()&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.TextExtractionErrorLocation&lt;/strong&gt; 
+methods:
+com.aspose.pdf.TextExtractionErrorLocation.getPath()
+com.aspose.pdf.TextExtractionErrorLocation.getPageNumber()
+com.aspose.pdf.TextExtractionErrorLocation.getObjectType()
+com.aspose.pdf.TextExtractionErrorLocation.getFormKey()
+com.aspose.pdf.TextExtractionErrorLocation.getOperatorIndex()
+com.aspose.pdf.TextExtractionErrorLocation.getOperatorString()
+com.aspose.pdf.TextExtractionErrorLocation.getFontUsedKey()
+com.aspose.pdf.TextExtractionErrorLocation.getTextStartPoint()
+com.aspose.pdf.TextExtractionErrorLocation.toString()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextFormattingOptions&lt;/strong&gt; 
+new constructor:
+com.aspose.pdf.TextFormattingOptions.#ctor()
+new field:
+com.aspose.pdf.TextFormattingOptions.WordWrapMode.Undefined&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextFragmentAbsorber&lt;/strong&gt; 
+new methods:
+com.aspose.pdf.TextFragmentAbsorber.hasErrors_Fragment()
+com.aspose.pdf.TextFragmentAbsorber.getErrors()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextReplaceOptions&lt;/strong&gt; 
+new methods:
+com.aspose.pdf.TextReplaceOptions.getAdjustmentNewLineSpacing()
+com.aspose.pdf.TextReplaceOptions.setAdjustmentNewLineSpacing(double)
+com.aspose.pdf.TextReplaceOptions.#ctor()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextReplaceOptions&lt;/strong&gt; 
+new methods:
+com.aspose.pdf.TextSearchOptions.getLogTextExtractionErrors()
+com.aspose.pdf.TextSearchOptions.setLogTextExtractionErrors(boolean)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextReplaceOptions&lt;/strong&gt; 
+new methods:
+com.aspose.pdf.TocInfo.isShowPageNumbers()
+com.aspose.pdf.TocInfo.setShowPageNumbers(boolean)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XFA&lt;/strong&gt; 
+new method:
+com.aspose.pdf.XFA.tryGetTemplateString(String)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.11 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-11-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-11-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37154&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception has thrown in a multi-threaded environment.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37137&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Named destinations are lost when processing bookmarks.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37250&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF cropping problem.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37135&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-2U - does not highlight target phrase after search.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35181&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text Replace - Underline property does not work in text replace functionality.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36227&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Replacing Text Causes Text to Go Off-screen.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35491&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG - Conversion is slow.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37138&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Null pointer exception occurs when calling flatten.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37078&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A null pointer error occurred on getting form fields.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.BaseParagraph&lt;/strong&gt; 
+Added method:
+public /* VerticalAlignment */int getVerticalAlignment()&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.DefaultDirectory&lt;/strong&gt; 
+methods:
+public static String getDefaultDirectory()
+public static void setDefaultDirectory(String value)&lt;/p&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.HideAction&lt;/strong&gt; 
+constructors:
+public HideAction(Annotation annotation)
+public HideAction(Annotation annotation, boolean isHidden)
+public HideAction(String fieldName)
+public HideAction(String fieldName, boolean isHidden)
+public HideAction(Annotation[] annotations)
+public HideAction(Annotation[] annotations, boolean isHidden)
+public HideAction(String[] names)
+public HideAction(String[] names, boolean isHidden)
+methods:
+public boolean isHidden()
+public void setHidden(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.MemoryExtender&lt;/strong&gt; 
+Added methods:
+public static boolean isSkipHeavyContentEnabled()
+public static void setSkipHeavyContentEnabled(boolean value)
+public static CallBackPageImage getCallBackPageImage()
+public static void setCallBackPageImage(CallBackPageImage callBackPageImage)
+public static boolean isEnabledMultiPageImageCache()
+public static void setEnableMultiPageCache(boolean enableMultiPageImageCache)
+Added internal interface:
+public interface &lt;strong&gt;CallBackPageImage&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.SignatureField&lt;/strong&gt; 
+Added method:
+public InputStream extractImage(ImageType format)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextFormattingOptions&lt;/strong&gt; 
+added constructor:
+public TextFormattingOptions()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextFormattingOptions.WordWrapMode&lt;/strong&gt; 
+added field:
+public static final int Undefined = 3;&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextReplaceOptions&lt;/strong&gt; 
+added constructor:
+public TextReplaceOptions()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TocInfo&lt;/strong&gt; 
+Added methods:
+public boolean isShowPageNumbers()
+public void setShowPageNumbers(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XFA&lt;/strong&gt; 
+Added method:
+public String tryGetTemplateString(String value)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.10 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-10-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-10-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34776&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Image conversion is very slow&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36570&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF TO PPTX - spacing issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36260&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A_1b - Text is garbled in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36435&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to pptx (java) conversion issues&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37099&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Too much memory usage when calling delegate CallBackGetHocr&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37154&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception has thrown in a multithreaded environment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36847&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Foreign Language Characters get mangled while Text Extraction using HOCR&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37068&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to supply the license outside of the callable&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36819&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Content is missing in the resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes&#34;&gt;&lt;strong&gt;Public API changes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.ViewerPreference&lt;/strong&gt; 
+Added field:
+public static final int SIMPLEX = 4194304;
+public static final int DUPLEX_FLIP_SHORT_EDGE = 8388608;
+public static final int DUPLEX_FLIP_LONG_EDGE = 16777216;&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Form&lt;/strong&gt; 
+Added method:
+public void setCalculatedFields( java.util.List&lt;Field&gt; value)&lt;/p&gt;
+&lt;p&gt;Changes in interface &lt;strong&gt;com.aspose.pdf.IDocument&lt;/strong&gt; 
+Added method:
+public /* PrintDuplex */int getDuplex();
+public void setDuplex(/* PrintDuplex */int value);
+public boolean convert(Document.CallBackGetHocr callback, boolean isTestVisible, boolean isOriginalImage);&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Document&lt;/strong&gt; 
+Added method:
+public /* PrintDuplex */int getDuplex()
+public void setDuplex(/* PrintDuplex */int value)
+public boolean convert(Document.CallBackGetHocr callback, boolean isTestVisible, boolean isOriginalImage)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Image&lt;/strong&gt; 
+Added method:
+public boolean isApplyResolution()
+public void setApplyResolution(boolean value)&lt;/p&gt;
+&lt;p&gt;Added new enum class &lt;strong&gt;com.aspose.pdf.PrintDuplex&lt;/strong&gt; with the following fields:
+public static final int Simplex = 0;
+public static final int DuplexFlipShortEdge = 1;
+public static final int DuplexFlipLongEdge = 2;&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XFA&lt;/strong&gt; 
+Added method:
+public String tryGetTemplateString(String value)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.9 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-9-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-9-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36564&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JPG to PDF increased PDF file size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37076&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Significant performance decrease issue regarding memory usage and time consumption.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35731&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XPS to PDF: performance issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35944&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: some text become smaller&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36840&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Using CallBackGetHocr results with blank image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36821&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API is throwing java.awt.HeadlessException Exception at Document load&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37106&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - incorrect rendering of the Hebrew text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37084&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Evaluation mark is being added in output while using valid license&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36710&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - compliance error: Real value out of range&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36268&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF to PDF - Image is darker in shade&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-179&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.9&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Collection&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public String getDefaultEntry()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Document&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public boolean check(boolean doRepair)&lt;/p&gt;
+&lt;p&gt;Changes in interface &lt;strong&gt;com.aspose.pdf.IDocument&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public boolean check(boolean doRepair);&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.DocumentFactory&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public Document createDocument()
+public Document createDocument(InputStream input)
+public Document createDocument(InputStream input, String password)
+public Document createDocument(String fileName)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.EmbeddedFileCollection&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public void add(String key, FileSpecification file)
+public void deleteByKey(String key)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.HtmlSaveOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public int getImageResolution()
+public void setImageResolution(int value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.PdfFormatConversionOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public String getIccProfileFileName()
+public void setIccProfileFileName(String value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.PptxSaveOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public boolean getSlidesAsImages()
+public void setSlidesAsImages(boolean value)
+public boolean getSeparateImages()
+public void setSeparateImages(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.RenderingOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public boolean getScaleImagesToFitPageWidth()
+public void setScaleImagesToFitPageWidth(boolean value)
+public boolean getInterpolationHighQuality()
+public void setInterpolationHighQuality(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Table&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Removed internal methods from public api:
+com.aspose.pdf.Table.getParentTable
+com.aspose.pdf.Table.setParentTable(Table)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.8 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-8-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-8-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36518&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DropDown value is cropped when form is flatten&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36517&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DropDown value is rendered incorrectly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37015&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;One text line is misplaced after PDF-to-HTML conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36807&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Epub to PDF: java.awt.HeadlessException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-37025&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF converted to PDF_A_1B, a blue color on image is different&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36809&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Image PDF to Searchable PDF - Search in output file doesn&amp;rsquo;t work&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36448&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PNG to PDF conversion issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-178&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.8&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.DocumentFactory&lt;/strong&gt; with the following method:&lt;/p&gt;
+&lt;p&gt;public Document createDocument(InputStream input, LoadOptions options)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.EmbeddedFileCollection&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public void add(String key, FileSpecification file)
+public void deleteByKey(String key)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.PdfFormatConversionOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public String getIccProfileFileName()
+public void setIccProfileFileName(String value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.RenderingOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public boolean getScaleImagesToFitPageWidth()
+public void setScaleImagesToFitPageWidth(boolean value)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.7 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-7-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-7-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34031&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get hyperlink associated with image file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34729&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC: the lines on a first page are shifted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34817&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: Chinese characters are not rendered correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34867&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Contents overlap table border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34965&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Images colors are lost in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35177&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: characters are being replaced with boxes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36110&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF_A_1B validation result is incorrect&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36444&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC: Text trimmed from top&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36537&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX superscript texts are not aligned properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36538&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - side notes are missing from the power point&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36539&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX: letters shifted to a new line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36540&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX: the word has split and part of it is in a new line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36569&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Tabular data alignment issues&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36528&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Flatten Calculated Fields displays 0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36529&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Flatten Calculated Fields lost their formatting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36699&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;After flattenAllFields() method is used, an output file converts 60% to 0.6%&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36734&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA Conversion Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36824&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Image Colors are lost in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36826&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Image Colors are lost in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36854&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A: Compliant error: Text cannot be mapped to Unicode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36895&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Include HTML file(s) in API Package with link to online sites&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36781&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Exception when converting on Oracle Linux 6.5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36738&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Load HTML shows an error in Headless Mode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36737&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF conversion shows an error in Headless Mode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35997&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Field width is not preserved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-177&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.7&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Added new class &lt;strong&gt;com.aspose.pdf.FontEmbeddingOptions&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public FontEmbeddingOptions()
+public boolean getUseDefaultSubstitution()
+public void setUseDefaultSubstitution(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Page&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public byte[] convertToPNGMemoryStream()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.PdfFormatConversionOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public FontEmbeddingOptions getFontEmbeddingOptions()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Table&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Renamed method:
+public double getWidth_() -&amp;gt; public double getWidth()&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextEncodingInternal&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public String getString(byte[] value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextSegment&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public int getEndCharIndex()&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.6 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-6-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-6-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34858&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get height of table in existing PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36326&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineAnnotation and PolyLineAnnotation measurement recalculation upon resize&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36469&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not able to create bulleted list in heading&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36709&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF is converted to PDF_A_1B, output file is still classic PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34305&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hindi text replacement results into incorrect text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35749&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35750&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35751&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35752&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35753&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35759&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35756&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35755&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35754&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35757&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35758&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - StringIndexOutOfBoundsException during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35970&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Default padding for HtmlFragment in Table cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35275&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Formatting issues in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36668&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Ambiguous match found&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34412&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF: Some text is absent&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-176&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.6&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Added new class com.aspose.pdf.&lt;strong&gt;ToUnicodeProcessingRules&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public ToUnicodeProcessingRules()
+public ToUnicodeProcessingRules(boolean removeSpaces)
+public ToUnicodeProcessingRules(boolean removeSpaces, boolean mapNonLinkedUnicodesOnSpace)
+public boolean getRemoveSpacesFromCMapNames()
+public void setRemoveSpacesFromCMapNames(boolean value)
+public boolean getMapNonLinkedSymbolsOnSpace()
+public void setMapNonLinkedSymbolsOnSpace(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;PdfFormatConversionOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public ToUnicodeProcessingRules getUnicodeProcessingRules()
+public void setUnicodeProcessingRules(ToUnicodeProcessingRules value)&lt;/p&gt;
+&lt;p&gt;Added new enum class com.aspose.pdf.TextFormattingOptions.&lt;strong&gt;LineSpacingMode&lt;/strong&gt; with the following constants:&lt;/p&gt;
+&lt;p&gt;public static final int FontSize = 0;
+public static final int FullSize = 1;&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;TextFormattingOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public /* LineSpacingMode */int getLineSpacing()
+public void setLineSpacing(/* LineSpacingMode */int value)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.5 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-5-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-5-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36696&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support RichMediaAnnotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34399&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check compatibility of Aspose.PDF for Java with Grails&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34733&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multi-page tiff to PDF with portrait orientation loses fidelity&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34819&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Space and positioning issues&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34860&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML conversion loses the text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34862&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML: TOC links are lost in output HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34926&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of Docker platform&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34933&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support of Oracle Agile Product Lifecycle Management application&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35416&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;License not working with Apache server&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35562&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Image to PDF - Image output is not correct in PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35579&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML results into incorrect text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35607&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF creation process keeps running and never stops&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35748&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1B: compliance failure due to transparency in the document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35788&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35814&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Image conversion loses the text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36325&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HighlightAnnotation background color issue with QuadPoint array&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36578&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to Image hangs for ever&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36669&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text appearing on wrong location after placing inside PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36685&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Highlight Annotation background color Problem&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36708&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDFA gets corrupted when setOptimizeFileSize is used&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36727&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.PDF 17.4 exception throws when getting character by index&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36728&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Ambiguous mismatch exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36785&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;getMeasure() method is missing in PolyAnnotation class&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36621&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF is converted to PDFA, the word in text is messed up.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36387&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: decrease in quality of transparent images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-175&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.5&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Added new class com.aspose.pdf.Document.&lt;strong&gt;FontSubsetStrategy&lt;/strong&gt; with the following fields:&lt;/p&gt;
+&lt;p&gt;public static final byte SubsetEmbeddedFontsOnly = 0;
+public static final byte SubsetAllFonts = 1;&lt;/p&gt;
+&lt;p&gt;Added new interface com.aspose.pdf.Document.&lt;strong&gt;IDocumentFontUtilities&lt;/strong&gt; with the following method:&lt;/p&gt;
+&lt;p&gt;public void subsetFonts(/* FontSubsetStrategy */byte subsetStrategy);&lt;/p&gt;
+&lt;p&gt;Added new exception class com.aspose.pdf.exceptions.&lt;strong&gt;IncorrectCMapUsageException&lt;/strong&gt; with the following constructor:&lt;/p&gt;
+&lt;p&gt;M:com.aspose.pdf.exceptions.IncorrectCMapUsageException.#ctor(String)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.exceptions.&lt;strong&gt;PdfException&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added constructor:
+public PdfException(String message, java.lang.Throwable innerException)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.facades.&lt;strong&gt;PdfViewer&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added methods:&lt;/strong&gt; 
+public boolean getPrintAsGrayscale()
+public void setPrintAsGrayscale(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;Font&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added method:&lt;/strong&gt; 
+public String getType()&lt;/p&gt;
+&lt;p&gt;Added new class com.aspose.pdf.&lt;strong&gt;Opi&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public Opi(XForm xform)
+public String getFileSpecification()
+public double[] getPosition()
+public String getVersion()&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;Page&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;**Added method:
+**public boolean isBlank(double fillThresholdFactor)&lt;/p&gt;
+&lt;p&gt;Added new class com.aspose.pdf.&lt;strong&gt;PdfASymbolicFontEncodingStrategy&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public PdfASymbolicFontEncodingStrategy()
+public PdfASymbolicFontEncodingStrategy(/* CMapEncodingTableType */short preferredEncodingTable)
+public/* CMapEncodingTableType */short getPreferredCmapEncodingTable()
+public void setCmapEncodingTablesPriorityQueue(Queue&lt;QueueItem&gt; value)
+public void setPreferredCmapEncodingTable(/* CMapEncodingTableType */short value)&lt;/p&gt;
+&lt;p&gt;Added new class com.aspose.pdf.PdfASymbolicFontEncodingStrategy.&lt;strong&gt;QueueItem&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public QueueItem()
+public QueueItem(int platformID, int platformSpecificID)
+public QueueItem(/* CMapEncodingTableType */short cmapTable)
+public /* CMapEncodingTableType */ short getCMapEncodingTable()
+public void setCMapEncodingTable(/* MapEncodingTableType */short value)
+public int getPlatformID()
+public void setPlatformID(int value)
+public int getPlatformSpecificID()
+public void setPlatformSpecificID(int value)&lt;/p&gt;
+&lt;p&gt;Added new enum class com.aspose.pdf.PdfASymbolicFontEncodingStrategy.QueueItem.&lt;strong&gt;CMapEncodingTableType&lt;/strong&gt; with the following fields:&lt;/p&gt;
+&lt;p&gt;public static final short WindowsUnicodeTable = 0;
+public static final short WindowsSymbolicTable = 1;
+public static final short MacTable = 2;
+public static final short UnicodeTable = 3;&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;PolyAnnotation&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;**Added methods:
+**public Measure getMeasure()
+public void setMeasure(Measure value)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;Rectangle&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;**Added method:
+**public Rectangle join(Rectangle otherRect)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;TextFragmentState&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;**Added methods:
+**public TextFormattingOptions getFormattingOptions()
+public void setFormattingOptions(TextFormattingOptions value)
+public double getRotation()
+public void setRotation(double value)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;TextParagraph&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;**Added methods:
+**public double getRotation()
+public void setRotation(double value)&lt;/p&gt;
+&lt;p&gt;Changes in class com.aspose.pdf.&lt;strong&gt;XForm&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added method:
+public Opi getOpi()&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.4 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-4-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-4-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36644&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception throws when using Pdf Digital signature&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34001&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API reference is not upto date&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34533&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: compliance failure error messages details&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34651&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF: output image is jumbled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35178&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file size is significantly increased&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35356&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect output when Importing XML Data into XFA Document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35405&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Corrupted watermark when using API in trial mode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35417&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPEG - Resultant image is not correct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35421&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect results while Importing multiline annotation via XFDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35427&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1a: Background color is missing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35856&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35876&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HtmlFragment is not honoring hyperlink tag&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35977&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect ColorType information is being returned&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35998&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG: data is missing in resultant image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36616&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Forms.PKCS1 locks certificate file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35675&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-174&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.4&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.ColorType:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added method:&lt;/strong&gt; 
+public static String getName(int value)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Added new exception class:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;com.aspose.pdf.exceptions.&lt;strong&gt;FontEmbeddingException&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added new interface &lt;strong&gt;com.aspose.pdf.IFontOptions&lt;/strong&gt; with the following methods&lt;/p&gt;
+&lt;p&gt;public boolean getNotifyAboutFontEmbeddingError()
+public void setNotifyAboutFontEmbeddingError(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Font&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:
+public IFontOptions getFontOptions()
+public String getLastFontEmbeddingError()&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.3.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-3-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-3-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36477&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF Merge Gives NullPointerException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36486&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception thrown when using Pdf Digital signature&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36557&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Annotation import throws exception An element with the same key already exists in the dictionary&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36167&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ImportXml throw internal exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-33814&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to JPG: text missing in output image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34551&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Form filled information changes after merge&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34584&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A-1B: document is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34746&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA1b: compliance failure due to CMYK error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34888&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX - Exception during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34900&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF: incorrect output is generated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34990&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG conversion results into a blurred image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35021&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to convert XFA form to Standard AcroForm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35022&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to convert XFA form to Standard AcroForm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35097&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to validate PDF/A_1b compliance of document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35460&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Latex to PDF: rendering is incorrect&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35726&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect color information is being retrieved for TextFragment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35823&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Contents get garbled and file is not PDF/A compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35824&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Contents get truncated in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35825&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Page contents are messed up&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36000&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PNG: some images are missing on resultant image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36002&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - Resultant file is not compliant&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36057&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX: Russian text is being added in resultant DOCX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36320&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Regression: 16.10.0 generates invalid PDFA document&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36442&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When PDF is saved as DOCX, some additional new lines are added.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36446&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF to PDF: corrupt PDF is being generated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36468&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TextFragmentCollection breaks Iterable interface&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36560&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PdfFileSignature does not retain image given width&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36406&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink is not working in PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35331&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XFA form is not being converted to Standard Acro Form.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-1730&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.3.0&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Added APIs:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.AnnotationSelector.visit(RichMediaAnnotation)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.AnnotationSelector.visit(PDF3DAnnotation)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.AnnotationType.PDF3D&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.ApsUsingConverter.ImportResourceLoader&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.ApsUsingConverter.ImportResourceLoader.ImportResourceLoader()&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.BlendMode.Compatible&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Cell.getWidth&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Form.getIgnoreNeedsRendering&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Form.setIgnoreNeedsRendering(boolean)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.HtmlFragment.getTextState&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.HtmlFragment.setTextState(TextState)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &lt;strong&gt;&amp;ldquo;com.aspose.pdf.LightingSchemeType&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Artwork&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.None&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.White&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Day&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Night&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Hard&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Primary&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Blue&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Red&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Cube&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.CAD&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.LightingSchemeType.Headlamp&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix.getElements&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.Matrix3D&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getA&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setA(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getB&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setB(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getC&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setC(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getD&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setD(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getE&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setE(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getF&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setF(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getG&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setG(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getH&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setH(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getI&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setI(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getTx&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setTx(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getTy&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setTy(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getTz&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.setTz(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.toString&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.equals(Object)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.getAngle(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.add(Matrix3D)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.hashCode&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.Matrix3D&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.Matrix3D(double[])&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.Matrix3D(Matrix3D)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Matrix3D.Matrix3D(double,double,double,double,double,double,double,double,double,double,double,double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Note.getTextState&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Note.setTextState(TextState)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DActivation&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DActivation.activeWhenOpen&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DActivation.activeWhenVisible&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DActivation.activatedUserOrScriptAction&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DAnnotation&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getPdf3DArtwork&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getLightingScheme&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getContent&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.setContent(PDF3DContent)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getRenderMode&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.setDefaultViewIndex(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getViewArray&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getAnnotationType&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.accept(AnnotationSelector)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.setImagePreview(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.setImagePreview(InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.clearImagePreview&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.getImagePreview&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.PDF3DAnnotation(Page,Rectangle,PDF3DArtwork)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DAnnotation.PDF3DAnnotation(Page,Rectangle,PDF3DArtwork,int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DArtwork&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.getLightingScheme&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.setLightingScheme(PDF3DLightingScheme)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.getRenderMode&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.setRenderMode(PDF3DRenderMode)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.getViewArray&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.getViewsList&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.getViewsArray&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.PDF3DArtwork(Document,PDF3DContent,PDF3DLightingScheme,PDF3DRenderMode)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DArtwork.PDF3DArtwork(Document,PDF3DContent)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &lt;strong&gt;&amp;ldquo;com.aspose.pdf.PDF3DContent&amp;rdquo;:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.getExtension&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.load(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsPRC(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsU3D(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsPRC(InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsU3D(InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsPRC(byte[])&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.loadAsU3D(byte[])&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.saveToFile(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.getAsStream&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.getAsByteArray&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.PDF3DContent&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DContent.PDF3DContent(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DCrossSection&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getCenter&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setCenter(Point3D)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getCuttingPlaneOpacity&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setCuttingPlaneOpacity(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getCuttingPlaneOrientation&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setCuttingPlaneOrientation(PDF3DCuttingPlaneOrientation)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getCuttingPlaneColor&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setCuttingPlaneColor(Color)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getCuttingPlanesIntersectionColor&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setCuttingPlanesIntersectionColor(Color)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.getVisibility&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.setVisibility(boolean)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSection.PDF3DCrossSection(Document)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DCrossSectionArray&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.getCount&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.add(PDF3DCrossSection)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.removeAt(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.removeAll&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.get_Item(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.set_Item(int,PDF3DCrossSection)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCrossSectionArray.PDF3DCrossSectionArray(IDocument)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DCuttingPlaneOrientation&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.getAngleX&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.setAngleX(Double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.getAngleY&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.setAngleY(Double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.getAngleZ&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.setAngleZ(Double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.toString&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.PDF3DCuttingPlaneOrientation&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DCuttingPlaneOrientation.PDF3DCuttingPlaneOrientation(Double,Double,Double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DLightingScheme&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.getType&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.PDF3DLightingScheme(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.PDF3DLightingScheme(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Artwork&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.None&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.White&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Day&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Night&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Hard&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Primary&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Blue&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Red&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Cube&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.CAD&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DLightingScheme.Headlamp&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &lt;strong&gt;&amp;ldquo;com.aspose.pdf.PDF3DRenderMode&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.getAuxiliaryColour&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.setAuxiliaryColour(Color)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.getFaceColor&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.setFaceColor(Color)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.getOpacity&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.setOpacity(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.setCreaseValue(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.getCreaseValue&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.getType&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.PDF3DRenderMode(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.PDF3DRenderMode(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.Solid&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.SolidWireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.Transparent&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.TransparentWareFrame&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.BoundingBox&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.TransparentBoundingBox&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.TransparentBoundingBoxOutline&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.Wireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.ShadedWireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.Vertices&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.ShadedVertices&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.Illustration&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.SolidOutline&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.PDF3DRenderMode.ShadedIllustration&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DStream&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DStream.getContent&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DStream.setContent(PDF3DContent)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DStream.PDF3DStream(IDocument,PDF3DArtwork)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DView&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getLightingScheme&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setLightingScheme(PDF3DLightingScheme)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getRenderMode&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setRenderMode(PDF3DRenderMode)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getCrossSectionsArray&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getViewName&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setViewName(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getCameraPosition&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setCameraPosition(Matrix3D)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getCameraOrbit&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setCameraOrbit(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.getBackGroundColor&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.setBackGroundColor(Color)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.PDF3DView(IDocument,Matrix3D,double,String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DView.PDF3DView(IDocument,PDF3DView,String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.PDF3DViewArray&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.getCount&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.add(PDF3DView)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.removeAt(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.removeAll&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.get_Item(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PDF3DViewArray.set_Item(int,PDF3DView)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.PdfFormatConversionOptions.getNonSpecificationCases&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.Point3D&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.getX&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.setX(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.getY&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.setY(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.getZ&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.setZ(double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.getTrivial&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Point3D.Point3D(double,double,double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.printing.DuplexKind&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.toString(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.getNames&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.Default&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.Horizontal&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.Simplex&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.printing.DuplexKind.Vertical&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Rectangle.nearEquals(Rectangle,double)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RenderingOptions.getUseFontHinting&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RenderingOptions.setUseFontHinting(boolean)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.RenderModeType&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.Solid&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.SolidWireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.Transparent&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.TransparentWareFrame&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.BoundingBox&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.TransparentBoundingBox&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.TransparentBoundingBoxOutline&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.Wireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.ShadedWireframe&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.Vertices&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.ShadedVertices&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.Illustration&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.SolidOutline&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RenderModeType.ShadedIllustration&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.RichMediaAnnotation&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getAnnotationType&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.accept(AnnotationSelector)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getCustomPlayer&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setCustomPlayer(InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getCustomFlashVariables&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setCustomFlashVariables(String)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.addCustomData(String,InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setContent(String,InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getContent_Rename_Namesake&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getType&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setType(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.getActivateOn&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setActivateOn(int)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.setPoster(InputStream)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.update&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.RichMediaAnnotation(Page,Rectangle)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.RichMediaAnnotation.ContentType&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ContentType.Audio&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ContentType.Video&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ContentType.Unknown&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;&lt;strong&gt;com.aspose.pdf.RichMediaAnnotation.ActivationEvent&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ActivationEvent.Click&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ActivationEvent.PageOpen&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;field: &amp;ldquo;com.aspose.pdf.RichMediaAnnotation.ActivationEvent.PageVisible&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.Table.getWidth_&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.UnifiedSaveOptions.isExtractOcrSublayerOnly&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.UnifiedSaveOptions.setExtractOcrSublayerOnly(boolean)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Removed internal classes from public API:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;com.aspose.pdf.text.languages.LanguageTransformation&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;class: &amp;ldquo;com.aspose.pdf.text.languages.RTLTransformation&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Changed&lt;/strong&gt; &lt;strong&gt;public API:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.OperatorCollection.replace(Iterable)&amp;rdquo; -&amp;gt; method: &amp;ldquo;com.aspose.pdf.OperatorCollection.replace(Iterable&lt;Operator&gt;)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.OperatorCollection.insert(int,Iterable)&amp;rdquo; -&amp;gt; method: &amp;ldquo;com.aspose.pdf.OperatorCollection.insert(int,Iterable&lt;Operator&gt;)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;method: &amp;ldquo;com.aspose.pdf.OperatorCollection.add(Iterable)&amp;rdquo; -&amp;gt; method: &amp;ldquo;com.aspose.pdf.OperatorCollection.add(Iterable&lt;Operator&gt;)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://saltov.dynabic.com/wiki/display/PDFJAVA/Public+API+Changes+for+version+17.2.0&#34; title=&#34;Add Labels ( Type &#39;l&#39; )&#34;&gt;Add Labels&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.2.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-2-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-2-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34604&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support PDF/A_3U format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35730&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get graph chart from PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35208&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF - Formatting issues in resultant file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36447&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: some text is overlapped in resultant PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34556&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF: multiple pages are overlaping in output PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35803&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PCL to PDF: contents(table columns) are not expanding as per page layour&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36445&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formatting Issue when converting pdf to ppt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35644&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when trying to extract table from PDF file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36323&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF to PDF - Exception during conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35609&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA problem with transparent images after conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36115&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDF/A - illegible text on page 9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35662&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA conversion generates a very large file in size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36365&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text to PDF is not working in multithreading&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36232&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: conversion was working fine in 11.2.0 but 12.0.0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35681&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to TIFF conversion loses the image quality&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36209&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC: data alignment issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36203&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC: Table headers are disappeared&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35193&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table header not being grouped with first row&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36391&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;When FormType is changed to Standard, the NullPointerException occurs.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36497&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF TO PDF/A Conversion Shows incorrect output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36114&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DropDown value is not preserved when calling flatten() method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35968&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PdfFileInfo hangs forever for a large TIFF image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-1720&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.2.0&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.devices.TiffSettings:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added methods:
+public void setIndexedConversionType(/* IndexedConversionType */int value)
+public /* IndexedConversionType */int getIndexedConversionType()&lt;/p&gt;
+&lt;p&gt;Implemented new enum class &lt;strong&gt;com.aspose.pdf.devices.TiffSettings.IndexedConversionType&lt;/strong&gt; with two fields:&lt;/p&gt;
+&lt;p&gt;public static final int Simple = 0;
+public static final int Pixelated = 1;&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Document:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added method:
+public boolean convert(PdfFormatConversionOptions options)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.facades.PdfExtractor:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added method:
+public void extractMarkedContentAsImages(Page page, String path)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Form:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added methods:
+public boolean getRemovePermission()
+public void setRemovePermission(boolean value)
+public boolean getEmulateRequierdGroups()
+public void setEmulateRequierdGroups(boolean value)&lt;/p&gt;
+&lt;p&gt;Implemented new class &lt;strong&gt;com.aspose.pdf.devices.PdfFileInfo&lt;/strong&gt; with the following methods:&lt;/p&gt;
+&lt;p&gt;public boolean getUpdateAppearances()
+public void setUpdateAppearances(boolean value)
+public boolean getCallEvents()
+public void setCallEvents(boolean value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.LevelFormat:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added method:
+public /* TabLeaderType */int getLineDash()
+public void setLineDash(/* TabLeaderType */int value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.WatermarkAnnotation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added method:
+public double getOpacity()
+public void setOpacity(double value)&lt;/p&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XfaParserOptions:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added method:
+public boolean getEmulateRequierdGroups()
+public void setEmulateRequierdGroups(boolean value)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://saltov.dynabic.com/wiki/display/PDFJAVA/Public+API+Changes+for+version+17.2.0&#34; title=&#34;Add Labels ( Type &#39;l&#39; )&#34;&gt;Add Labels&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Pdf for Java 17.1.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-1-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-for-java-17-1-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34502&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LaTeX to PDF support&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35949&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PDFA: distorted image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36338&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to PPTX - Some text is absent&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34864&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to HTML - Text is not properly being rendered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35352&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Latex to PDF throws internal exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35551&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to PDF: incorrect alignment of the page contents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35007&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOCX throws StringIndexOutOfBoundsException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-34445&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to DOC: formatting of half table is lost&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-33152&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problems in PCL to PDF conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36261&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF to PDF - Conversion takes too much time&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36266&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF to XPS: Transparent rectangle rendering issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-35619&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException when encrypting documents from different threads&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJAVA-36371&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;While converting PDF to docx TOO MANY OPEN FILES error occurs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-in-asposepdf-for-java-1710&#34;&gt;&lt;strong&gt;Public API Changes in Aspose.PDF for Java 17.1.0&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.drawing.Shape&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public TextFragment getText()&lt;/li&gt;
+&lt;li&gt;public void setText(TextFragment value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.HtmlSaveOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public boolean getDisableImageSelection()&lt;/li&gt;
+&lt;li&gt;public void setDisableImageSelection(boolean value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.LevelFormat&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public /* TabLeaderType */int getLineDash()&lt;/li&gt;
+&lt;li&gt;public void setLineDash(/* TabLeaderType */int value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.RenderingOptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public boolean getConvertFontsToUnicodeTTF()&lt;/li&gt;
+&lt;li&gt;public void setConvertFontsToUnicodeTTF(boolean value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.Table&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public TextFragment getBreakText()&lt;/li&gt;
+&lt;li&gt;public void setBreakText(TextFragment value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.TextStamp&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public double getMaxRowWidth()&lt;/li&gt;
+&lt;li&gt;public void setMaxRowWidth(double value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XImage&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public boolean isTheSameObject(XImage image)&lt;/li&gt;
+&lt;li&gt;public String getNameInCollection()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in class &lt;strong&gt;com.aspose.pdf.XImageCollection&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Added methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;public String add(XImage image)&lt;/li&gt;
+&lt;li&gt;public String getImageName(XImage image)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

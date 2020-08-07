@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2018</title>
+    <link>https://docs.aspose.com/pdf/jasperreports/release-notes-2018/</link>
+    <description>Recent content in Release Notes - 2018 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/jasperreports/release-notes-2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Jasperreports: Aspose.PDF for JasperReports 18.9</title>
+      <link>https://docs.aspose.com/pdf/jasperreports/aspose-pdf-for-jasperreports-18-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/jasperreports/aspose-pdf-for-jasperreports-18-9/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for Aspose.PDF for JasperReports 18.9
+&lt;/div&gt;
+
+&lt;h3 id=&#34;features-and-improvements&#34;&gt;&lt;strong&gt;Features and Improvements&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJR-33192&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implemented conversion to pptx format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJR-33186&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Synchronize with latest JasperReports version 6.7.0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJR-33187&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Update the JasperReports with Aspose.PDF version 18.8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PDFJR-33185&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Export filled and compiled jasper report to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;public-api-changes-for-version-189&#34;&gt;&lt;strong&gt;Public API Changes for version 18.9&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;PDFJR-33192 Implemented conversion to pptx format&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Add pdf -&amp;gt; ppts conversion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Public API changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Added field in the class &lt;strong&gt;com.aspose.pdf.jr.SavingFormatType&lt;/strong&gt;: 
+public static final int PPTX = 14;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;usage:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;JrPdfExporter&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exporter&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;JrPdfExporter&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;exporter&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setSavingFormat&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SavingFormatType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;PPTX&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

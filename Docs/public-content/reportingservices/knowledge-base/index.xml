@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Knowledge Base</title>
+    <link>https://docs.aspose.com/pdf/reportingservices/knowledge-base/</link>
+    <description>Recent content in Knowledge Base on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/reportingservices/knowledge-base/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Migration from SQL Reporting Services to Aspose.Pdf for Reporting Services</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/migration-from-sql-reporting-services-to-aspose-pdf-for-reporting-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/migration-from-sql-reporting-services-to-aspose-pdf-for-reporting-services/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/why-choose-aspose-pdf-for-reporting-services-html/&#34;&gt;Why choose Aspose.PDF for Reporting Services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: SQL Reporting Services Integration with MS SharePoint</title>
+      <link>https://docs.aspose.com/pdf/reportingservices/sql-reporting-services-integration-with-ms-sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/reportingservices/sql-reporting-services-integration-with-ms-sharepoint/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/introduction-html/&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/setting-up-reporting-services-html/&#34;&gt;Setting up Reporting Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/setting-up-sharepoint-on-reporting-services-server-html/&#34;&gt;Setting up SharePoint on Reporting Services Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/reportingservices/reporting-services-and-sharepoint-configuration-html/&#34;&gt;Reporting Services and SharePoint configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

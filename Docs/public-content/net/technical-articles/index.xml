@@ -1,0 +1,155 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Technical Articles</title>
+    <link>https://docs.aspose.com/pdf/net/technical-articles/</link>
+    <description>Recent content in Technical Articles on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/technical-articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.Pdf.Facades Articles</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-facades-articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-facades-articles/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;articles-in-this-section&#34;&gt;&lt;strong&gt;Articles in this section&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/how-to-concatenate-pdf-files-in-different-ways/&#34;&gt;How to Concatenate PDF Files in different Ways&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/whats-the-difference-between-xml-fdf-and-xfdf/&#34;&gt;Whats the Difference Between XML, FDF and XFDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/using-aspose-pdf-for-net-with-coldfusion/&#34;&gt;Using Aspose.Pdf for .NET with Coldfusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/exploring-features-of-pdffileeditor-class/&#34;&gt;Exploring features of PdfFileEditor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/working-with-extensible-metadata-platform-xmp/&#34;&gt;Working with Extensible Metadata Platform - XMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/editing-a-pdf-s-individual-pages-using-pdfpageeditor-class/&#34;&gt;Editing a PDF&amp;rsquo;s individual pages using PdfPageEditor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/adding-multi-line-watermark-to-existing-pdf/&#34;&gt;Adding multi line watermark to existing PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/concatenating-all-pdf-files-in-particular-folder/&#34;&gt;Concatenating all Pdf files in Particular folder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/concatenate-pdf-forms-and-keep-fields-names-unique/&#34;&gt;Concatenate PDF Forms and keep fields names unique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/find-whether-pdf-file-contains-images-or-text-only/&#34;&gt;Find whether PDF file contains images or text only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/changing-page-sizes-in-a-pdf-file/&#34;&gt;Changing page sizes in a PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/storing-and-retrieving-custom-properties-using-meta-info/&#34;&gt;Storing and retrieving custom properties using Meta info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/working-with-page-rotation/&#34;&gt;Working with Page Rotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/posting-acroform-data-to-an-external-web-page/&#34;&gt;Posting AcroForm data to an external web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/changing-field-appearance-and-attributes/&#34;&gt;Changing field appearance and attributes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/how-to-create-nested-bookmarks/&#34;&gt;How to create Nested Bookmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/export-excel-worksheet-data-to-fill-pdf-form/&#34;&gt;Export Excel worksheet data to fill PDF form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/converting-an-fdf-to-xml-format/&#34;&gt;Converting an FDF to XML format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/importing-and-exporting-annotations-to-xfdf/&#34;&gt;Importing and Exporting Annotations to XFDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/rotating-stamp-about-the-center-point/&#34;&gt;Rotating stamp about the center point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/exploring-features-of-pdfannotationeditor-class/&#34;&gt;Exploring features of PdfAnnotationEditor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/concatenate-multiple-pdf-files-using-memorystreams/&#34;&gt;Concatenate multiple PDF files using MemoryStreams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/exploring-features-of-formeditor-class/&#34;&gt;Exploring features of FormEditor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/adding-images-and-text-using-pdffilemend-class/&#34;&gt;Adding Images and Text using PdfFileMend class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/working-with-features-of-pdfextractor-class/&#34;&gt;Working with features of PdfExtractor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/manipulating-images-in-an-existing-pdf-file/&#34;&gt;Manipulating Images in an Existing PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/improved-and-flexible-pdf-signing-mechanism/&#34;&gt;Improved and Flexible PDF Signing Mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/working-with-the-pdfcontenteditor-class/&#34;&gt;Working with the PdfContentEditor class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/performance-improvement-during-pdf-to-tiff-conversion/&#34;&gt;Performance Improvement during PDF to TIFF Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/identifying-form-fields-names/&#34;&gt;Identifying form fields names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/concatenate-pdf-files-and-create-table-of-contents/&#34;&gt;Concatenate PDF files and create Table Of Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/justify-text-in-a-textbox-field/&#34;&gt;Justify Text in a Textbox Field&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/converting-an-xml-to-fdf-format/&#34;&gt;Converting an XML to FDF format&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF Articles</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-articles/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;introduction-to-the-dom-api&#34;&gt;&lt;strong&gt;Introduction to the DOM API&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Document Object Model (DOM) is a form of representation of structured documents as an object-oriented model. DOM is the official World Wide Web Consortium (W3C) standard for representing structured document s in a platform and language-neutral manner.&lt;/p&gt;
+&lt;p&gt;In simple words, DOM is a tree of objects that represent the structure of some document. Aspose.PDF for .NET also uses the idea of DOM to represent the structure of a PDF document in terms of objects. However, the aspects of the DOM (such as its Elements) are manipulated within the syntax of the programming language in use. The public interface of a DOM is specified in its application programming interface (API).&lt;/p&gt;
+&lt;h3 id=&#34;introduction-to-pdf-document&#34;&gt;&lt;strong&gt;Introduction to PDF Document&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Portable Document Format (PDF) is an open standard for document exchange. A PDF document is a combination of text and binary data. If you open it in a text editor, you will see the raw objects that define the structure and contents of the document.&lt;/p&gt;
+&lt;p&gt;The logical structure of a PDF file is hierarchical and determines the sequence by which a viewing application draws the document’s pages and their contents. A PDF is composed of four components: objects, file structure, document structure and content streams.&lt;/p&gt;
+&lt;h3 id=&#34;pdf-document-structure&#34;&gt;&lt;strong&gt;PDF Document Structure&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;As the structure of a PDF file is hierarchical, Aspose.PDF for .NET also accesses the elements in the same way. The following hierarchy shows you how the PDF document is logically structured and how Aspose.PDF for .NET DOM API constructs it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;aspose-pdf-articles_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;accessing-pdf-document-elements&#34;&gt;&lt;strong&gt;Accessing PDF Document Elements&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Document object is at the root level of the object model. The Aspose.PDF for .NET DOM API allows you to create a Document object and then access all other objects in the hierarchy. You can either access any of the collections like Pages or individual element like Page etc. The DOM API provides single entry and exit points to manipulate the PDF document as shown below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open PDF document&lt;/li&gt;
+&lt;li&gt;Access PDF document structure in DOM style&lt;/li&gt;
+&lt;li&gt;Update data in the PDF document&lt;/li&gt;
+&lt;li&gt;Validate PDF document&lt;/li&gt;
+&lt;li&gt;Export PDF document into different formats&lt;/li&gt;
+&lt;li&gt;Finally, save the updated PDF document&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-to-use-new-asposepdf-for-net-api&#34;&gt;&lt;strong&gt;How to Use New Aspose.PDF for .NET API&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic will explain the new Aspose.PDF for .NET API and guide you to get started quickly and easily. Please note that the details regarding the use of the particular features are not the part of this article. You will find details, examples and code snippets in the &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/developer-guide/&#34;&gt;Developer Guide&lt;/a&gt; and &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/technical-articles/&#34;&gt;Technical Articles&lt;/a&gt; sections.&lt;/p&gt;
+&lt;p&gt;The new Aspose.PDF for .NET is composed of three parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.PDF for .NET DOM API&lt;/li&gt;
+&lt;li&gt;Aspose.PDF.Generator (old Aspose.PDF for .NET &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/aspose-pdf-articles/&#34;&gt;pre-6.x&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Aspose.PDF.Facades (old Aspose.PDF.Kit for .NET)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You&amp;rsquo;ll find the details of each of these areas below.&lt;/p&gt;
+&lt;h3 id=&#34;asposepdf-for-net-dom-api&#34;&gt;&lt;strong&gt;Aspose.PDF for .NET DOM API&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The new API of Aspose.PDF for .NET is DOM based. You can find more details about the DOM API and PDF document structure in the article [Introduction to DOM API|Introduction to DOM API. In this section, we&amp;rsquo;ll elaborate the use of the new DOM API.&lt;/p&gt;
+&lt;p&gt;The new Aspose.PDF for .NET DOM API corresponds to the PDF document structure, which helps you to work with the PDF documents not only at the file and document level, but also at the object level. We have provided more flexibility to the developers to access all of the elements and objects of the PDF document. Using the Aspose.PDF DOM API&amp;rsquo;s classes, you can gain programmatic access to document elements and formatting. This new DOM API is comprised of various namespaces as given below:&lt;/p&gt;
+&lt;h4 id=&#34;asposepdf&#34;&gt;&lt;strong&gt;Aspose.PDF&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This namespace provides the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class which allows you to open and save a PDF document. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/license&#34;&gt;License&lt;/a&gt; class is also a part of this namespace. It also provides classes related to PDF pages, attachments, and bookmarks like &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/filespecification&#34;&gt;FileSpecification&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/embeddedfilecollection&#34;&gt;EmbeddedFileCollection&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt;, and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; etc.&lt;/p&gt;
+&lt;h4 id=&#34;asposetext&#34;&gt;&lt;strong&gt;Aspose.Text&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This namespace provides classes which help you work with the text and its various aspects, for example Font, FontCollection, FontRepository, FontStyles, TextAbsorber, TextFragment, TextFragmentAbsorber, TextFragmentCollection, TextFragmentState, TextSegment and TextSegmentCollection etc.&lt;/p&gt;
+&lt;h4 id=&#34;asposetexttextoptions&#34;&gt;&lt;strong&gt;Aspose.Text.TextOptions&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This namespace provides classes that allow you to set different options for searching, editing or replacing text, for example TextEditOptions, TextReplaceOptions and TextSearchOptions.&lt;/p&gt;
+&lt;h4 id=&#34;asposeinteractivefeatures&#34;&gt;&lt;strong&gt;Aspose.InteractiveFeatures&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This namespace contains classes that help you work with the interactive features of the PDF document, for example working with the document and other actions. This namespace contains classes like GoToAction, GoToRemoteAction and GoToURIAction etc.&lt;/p&gt;
+&lt;h4 id=&#34;asposeinteractivefeaturesannotations&#34;&gt;&lt;strong&gt;Aspose.InteractiveFeatures.Annotations&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Annotations are a part of a PDF document&amp;rsquo;s interactive features. We have dedicated a namespace for annotations. This namespace contains classes that help you work with the annotations, for example, Annotation, AnnotationCollection, CircleAnnotation and LinkAnnotation etc.&lt;/p&gt;
+&lt;h4 id=&#34;asposeinteractivefeaturesforms&#34;&gt;&lt;strong&gt;Aspose.InteractiveFeatures.Forms&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This namespace contains classes that help you work with PDF forms and form fields, for example Form, Field, TextBoxField and OptionCollection etc.&lt;/p&gt;
+&lt;h4 id=&#34;asposepdfdevices&#34;&gt;&lt;strong&gt;Aspose.PDF.Devices&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;We can perform various operations on the PDF documents such as converting PDF document to various image formats. However, such operations do not belong to the Document object and we cannot extend the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class for such operations. That&amp;rsquo;s why we have introduced the concept of the Device in the new DOM API.&lt;/p&gt;
+&lt;h4 id=&#34;asposepdfgenerator&#34;&gt;&lt;strong&gt;Aspose.PDF.Generator&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The old Aspose.PDF for.NET (pre-6.0) provided the features to create new PDF file from scratch. As we have merged old Aspose.PDF and Aspose.PDF.Kit, all the classes previously available in old Aspose.PDF for .NET have been moved under the Aspose.PDF.Generator namespace. So, if you want to execute the old Aspose.PDF code using the new product, use this namespace.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This namespace is obsolete and starting Aspose.PDF for .NET 17.5, it is removed from API.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;asposepdffacades&#34;&gt;&lt;strong&gt;Aspose.PDF.Facades&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Previous to Aspose.PDF for .NET t.o.o, you needed Aspose.PDF.Kit for .NET to manipulate existing PDF files. To execute old Aspose.PDF.Kit code, can use &lt;a href=&#34;https://docs-qa.aspose.com/display/pdftemp/Aspose.Pdf.Facades+namespace&#34;&gt;Aspose.PDF.Facades&lt;/a&gt; namespace.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-use-new-documentation&#34;&gt;&lt;strong&gt;How to Use New Documentation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic describes programming essentials you need to build applications using Aspose.PDF for .NET. It provides information about key programming concepts, as well as code samples and explanations. We have added this article to explain how you can effectively use this documentation to learn the Aspose.PDF for .NET easily and understand the concepts quickly. 
+As the new Aspose.PDF for .NET (6.x and above) is not only a merged product of Aspose.PDF for .NET (pre-6.x) and Aspose.PDF.Kit, but also introduces a completely new DOM API to work with PDF files. So, this documentation contains sections for new DOM API, old Aspose.PDF for .NET (pre-6.x) and Aspose.PDF.Kit. With this new version, you can either work with the new DOM API or the legacy code using a single component; and this article will guide you through the whole process.&lt;/p&gt;
+&lt;h3 id=&#34;product-features&#34;&gt;&lt;strong&gt;Product Features&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This documentation contains three main sections: Product Information, Programmer’s Guide, and Knowledge Base. In Product Information section, you’ll find a Features sub-section, under Getting Started section: Product Information -&amp;gt; Getting Started -&amp;gt; Features. In the Features section, we have provided three pages. Each page provides a list of the features of a particular section of the new Aspose.PDF for.NET. The details of these three features pages are given below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF Features:&lt;/strong&gt; This page lists all the features supported in new Aspose.PDF DOM API.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF&lt;/strong&gt; &lt;strong&gt;.Facades&lt;/strong&gt; &lt;strong&gt;Features:&lt;/strong&gt; This page lists all the features supported by old Aspose.PDF.Kit for .NET. All the classes which were previously available in old Aspose.PDF.Kit can be found under Aspose.PDF.Facades namespace. That’s why we have listed all the related features on this page.&lt;/p&gt;
+&lt;h3 id=&#34;programmers-guide&#34;&gt;&lt;strong&gt;Programmer’s Guide&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Programmer’s Guide is also divided into three sections. Each Programmer’s Guide section corresponds to a particular section of the new Aspose.PDF for .NET. The details of these three sections are given below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Working with Aspose.PDF:&lt;/strong&gt; If you want to work with new Aspose.PDF for .NET, please see this section for help. This section is further divided into sub-sections according to the features supported by new DOM API.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Working with Aspose.PDF&lt;/strong&gt; &lt;strong&gt;.Facades&lt;/strong&gt; &lt;strong&gt;:&lt;/strong&gt; If you want to work with old Aspose.PDF.Kit for .NET, please see this section. This section is further divided into sub-sections according to the features supported by Aspose.PDF.Facades namespace (old Aspose.PDF.Kit for .NET).&lt;/p&gt;
+&lt;h3 id=&#34;technical-articles&#34;&gt;&lt;strong&gt;Technical Articles&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Technical Articles section under Knowledge Base is divided into sub-sections for clarity. At the root level of the Technical Articles section, you will find some articles which can help you understand the new DOM API and get started with the product and the documentation. However, the technical articles specific to a particular area of the product are placed under a separate section. There are three sub-sections under Technical Articles section as given below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF Articles:&lt;/strong&gt; This section contains articles related to new Aspose.PDF for .NET DOM API.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF&lt;/strong&gt; &lt;strong&gt;.Facades&lt;/strong&gt; &lt;strong&gt;Articles:&lt;/strong&gt; This section contains articles related to Aspose.PDF.Facades (old Aspose.PDF.Kit for .NET)&lt;/p&gt;
+&lt;h3 id=&#34;migration-to-asposepdf-for-net-6x&#34;&gt;&lt;strong&gt;Migration to Aspose.PDF for .NET 6.x&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We have also added a sub-section named &lt;strong&gt;Migration to Aspose.PDF for .NET 6.x&lt;/strong&gt;. This section guides you how to migrate from old Aspose.PDF for .NET and old Aspose.PDF.Kit for.NET to new Aspose.PDF for .NET. We have further divided this section into two subsections as given below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Migration from Aspose.PDF for .NET Pre-6.x:&lt;/strong&gt; This section contains the help topics which guide you to migrate from old Aspose.PDF for .NET (pre-6.x) to new Aspose.PDF for .NET.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Migration from Aspose.PDF.Kit&lt;/strong&gt; &lt;strong&gt;for .NET:&lt;/strong&gt; This section contains the help topics which guide you to migrate from old Aspose.PDF.Kit for .NET to new Aspose.PDF for .NET.&lt;/p&gt;
+&lt;p&gt;This documentation is not static; we’ll keep adding more help topics, articles and tutorials in this documentation. If you want to see some specific topics in the documentation or have some suggestions, please do let us know.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

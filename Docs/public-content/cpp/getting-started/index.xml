@@ -1,0 +1,432 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Getting Started</title>
+    <link>https://docs.aspose.com/pdf/cpp/getting-started/</link>
+    <description>Recent content in Getting Started on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/cpp/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Product Overview</title>
+      <link>https://docs.aspose.com/pdf/cpp/product-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/product-overview/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;img src=&#34;product-overview_1&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Welcome to the Aspose.PDF for C++ documentation section&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for C++ is a native C++ library that enable developers to create and manipulate PDF documents without using Adobe Acrobat. Aspose.PDF for C++ allows developers to create forms, add/edit text, manipulate PDF pages, add annotations, handle custom fonts and much more. Here in documentation section of Aspose.PDF for C++, you can explore all the features of the API along with the basic examples to demonstrate the implementation of those features in your C++ application.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;benefits&#34;&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Using Aspose.PDF for C++ in your applications gives you the following benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rich features&lt;/li&gt;
+&lt;li&gt;Platform independence&lt;/li&gt;
+&lt;li&gt;Performance and scalability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rich-features&#34;&gt;&lt;strong&gt;Rich Features&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for C++ offers a wide arrange of features for creating, converting and manipulating PDF documents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read, write and manipulate existing PDF documents without using Adobe Acrobat.&lt;/li&gt;
+&lt;li&gt;Create forms and manage form fields embedded in a PDF document.&lt;/li&gt;
+&lt;li&gt;Add, replace or remove text and images.&lt;/li&gt;
+&lt;li&gt;Set page margin, size, orientation, transition type, zoom factor and appearance of PDF document.&lt;/li&gt;
+&lt;li&gt;Custom font handling.&lt;/li&gt;
+&lt;li&gt;Add, update, delete attachments and annotations.&lt;/li&gt;
+&lt;li&gt;Add and remove watermarks from PDF document.&lt;/li&gt;
+&lt;li&gt;Add or remove bookmarks.&lt;/li&gt;
+&lt;li&gt;Split, concatenate, extract or insert pages.&lt;/li&gt;
+&lt;li&gt;Transform pages to image.&lt;/li&gt;
+&lt;li&gt;Determine and set metadata of PDF documents.&lt;/li&gt;
+&lt;li&gt;Set document’s information e.g Author, Subject, Title etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;platform-independence&#34;&gt;&lt;strong&gt;Platform Independence&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for C++ can be used to build any type of 32-bit and 64-bit C++ application.&lt;/p&gt;
+&lt;h3 id=&#34;performance-and-scalability&#34;&gt;&lt;strong&gt;Performance and Scalability&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for C++ is designed to perform equally well, both on server and client-side. Aspose.PDF for C++ is a native assembly that can be deployed by simply copying it. You do not have to worry about other services or modules.&lt;/p&gt;
+&lt;h2 id=&#34;technical-support&#34;&gt;&lt;strong&gt;Technical Support&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.&lt;/p&gt;
+&lt;p&gt;If you need any assistance regarding Aspose.PDF for C++, please visit our &lt;a href=&#34;https://forum.aspose.com/c/pdf&#34;&gt;Aspose.Forums&lt;/a&gt;. You can create a new topic over Aspose.PDF for C++ forums and your post will be answered within a few hours. All the inquiries over forums are replied directly by Aspose.PDF for C++ support team.&lt;/p&gt;
+&lt;p&gt;When expecting a reply in the forums, please allow for time zone differences.&lt;/p&gt;
+&lt;p&gt;If you have an issue with Aspose.PDF for C++, follow these simple steps to make sure it is resolved in the most efficient way:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you use the latest version of Aspose.PDF for C++ before reporting the issue.&lt;/li&gt;
+&lt;li&gt;When reporting an issue, please include the original document and possibly a code snippet that is able to reproduce the issue. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums in a private post, as only you and Aspose Staff will have access to attached files.&lt;/li&gt;
+&lt;li&gt;In case your files are of larger size, which exceed the upload limit of the forums, you can upload it to some public file hosting service and share the URL in your post.&lt;/li&gt;
+&lt;li&gt;Please try to report one issue per thread. If you have another issue, report it in a separate thread.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose does not provide technical support over the phone. Phone support is only available for sales and purchase questions.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This table lists important Aspose.PDF for C++ technical resources.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Resource&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.aspose.com/products/pdf/cpp&#34;&gt;Aspose.PDF for C++ Home Page&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Product home page.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://blog.aspose.com/category/aspose-products/aspose-pdf-product-family/&#34;&gt;Aspose.PDF Blog&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check this often for information about new releases and useful tips about Aspose.PDF.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://downloads.aspose.com/pdf/cpp&#34;&gt;Aspose.PDF for C++ Download&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Download the latest version of Aspose.PDF from here. We release often.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://forum.aspose.com/c/pdf&#34;&gt;Aspose.PDF for C++ Support Forum&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Post your questions and issues here for a speedy resolution.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Supported File Formats</title>
+      <link>https://docs.aspose.com/pdf/cpp/supported-file-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/supported-file-formats/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;supported-file-formats&#34;&gt;&lt;strong&gt;Supported File Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats that Aspose.PDF for C++ can load and Save.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Load&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Save&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Remarks&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/a/&#34;&gt;PDF/A&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/jpeg/&#34;&gt;JPEG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Renders a page of the document and saves it as a JPEG file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/png/&#34;&gt;PNG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Renders a page of the document and saves it as a PNG file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/bmp/&#34;&gt;BMP&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Renders a page of the document and saves it as a BMP file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/word-processing/doc/&#34;&gt;DOC&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in the DOC format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/word-processing/docx/&#34;&gt;DOCX&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in the DOCX format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/page-description-language/svg/&#34;&gt;SVG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in SVG Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: System Requirements</title>
+      <link>https://docs.aspose.com/pdf/cpp/system-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/system-requirements/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;operating-systems&#34;&gt;&lt;strong&gt;Operating Systems&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for C++ is a native library and supports 32-bit operating systems.&lt;/p&gt;
+&lt;p&gt;Supported Operating Systems include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Windows desktop (7, 8, 10)&lt;/li&gt;
+&lt;li&gt;Server operating systems (2008, 2012), etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Operating Systems which are not supported:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Old versions of OS (XP, Vista and Server 2003)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;development-environments&#34;&gt;&lt;strong&gt;Development Environments&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can use Aspose.PDF for C++ to develop applications in any development environment that support C++, but the following environments are explicitly supported:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Visual Studio 2015 or later.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Installation</title>
+      <link>https://docs.aspose.com/pdf/cpp/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/installation/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;installing-asposepdf-for-c&#34;&gt;&lt;strong&gt;Installing Aspose.PDF for C++&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;manual-installation&#34;&gt;&lt;strong&gt;Manual Installation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can download &lt;a href=&#34;https://www.nuget.org/packages/Aspose.PDF.Cpp/&#34;&gt;Aspose.PDF for C++&lt;/a&gt; from NuGet Gallery, by clicking the &amp;ldquo;Manual download&amp;rdquo; link in the Info Section. Offline API Documentation can also be found in downloaded ZIP package.&lt;/p&gt;
+&lt;p&gt;Please perform following steps in order to use Aspose.PDF for C++ in your applications:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nuget.org/packages/Aspose.PDF.Cpp/&#34;&gt;Download&lt;/a&gt; the latest files.&lt;/li&gt;
+&lt;li&gt;Unzip the folder to the production environment.&lt;/li&gt;
+&lt;li&gt;To use Aspose.PDF for C++, reference Include and lib folders in your project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-nuget-package-manager&#34;&gt;&lt;strong&gt;Using Nuget Package Manager&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;In NuGet Package Manager, search for Aspose.PDF&lt;/li&gt;
+&lt;li&gt;Select Aspose.PDF.Cpp package in search results&lt;/li&gt;
+&lt;li&gt;Press the Add button to install the package&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Licensing</title>
+      <link>https://docs.aspose.com/pdf/cpp/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/licensing/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;evaluation-version-limitations&#34;&gt;&lt;strong&gt;Evaluation Version Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We want our customers to test our components thoroughly before buying, so the evaluation version allows you to use it as you would normally. However there would be following limitations while using an evaluation version of the API:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PDF created with an evaluation watermark&lt;/strong&gt; 
+The evaluation version of Aspose.PDF for C++ provides full product functionality, but all the pages in the generated PDF documents are watermarked with &amp;ldquo;Evaluation Only. Created with Aspose.PDF. Copyright 2002-2017 Aspose Pty Ltd&amp;rdquo; at the top.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Limit of the Number of Collection Items that can be Processed&lt;/strong&gt; 
+In the evaluation version, only four items can be processed from any collection (for example, only four pages, four form fields, etc.).&lt;/p&gt;
+&lt;h2 id=&#34;apply-license-using-file-or-stream-object&#34;&gt;&lt;strong&gt;Apply License using File or Stream Object&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The license can be loaded from a file or stream object. Aspose.PDF for C++ will try to find the license in the following locations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Explicit path.&lt;/li&gt;
+&lt;li&gt;The folder that contains Aspose.PDF.dll.&lt;/li&gt;
+&lt;li&gt;The folder that contains the assembly that called Aspose.PDF.dll.&lt;/li&gt;
+&lt;li&gt;The folder that contains the entry assembly (your .exe).&lt;/li&gt;
+&lt;li&gt;An embedded resource in the assembly that called Aspose.PDF.dll.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The easiest way to set a license is to put the license file in the same folder as the Aspose.PDF.dll file and specify the file name, without a path, as shown in the example below.&lt;/p&gt;
+&lt;h3 id=&#34;loading-a-license-from-file&#34;&gt;&lt;strong&gt;Loading a License from File&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The easiest way to apply a license is to put the license file in the same folder as the Aspose.PDF.dll file and specify just the file name without a path.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+When you call the SetLicense method, the license name that you pass should be that of the license file. For example, if you change the license file name to &amp;ldquo;Aspose.PDF.lic.xml&amp;rdquo; pass that file name to the Pdf-&amp;gt;SetLicense(…) method.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;C++&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MakeObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;lic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;L&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;loading-a-license-from-a-stream-object&#34;&gt;&lt;strong&gt;Loading a License from a Stream Object&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following example shows how to load a license from a stream.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C++&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;intrusive_ptr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;intrusive_ptr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myStream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp.lic&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileMode_Open&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: How to Run the Examples</title>
+      <link>https://docs.aspose.com/pdf/cpp/how-to-run-the-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/how-to-run-the-examples/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;software-requirements&#34;&gt;&lt;strong&gt;Software Requirements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Please make sure you meet the following requirements before downloading and running the examples.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Visual Studio 2013 or higher&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;download-from-github&#34;&gt;&lt;strong&gt;Download from GitHub&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;All examples of Aspose.PDF for C++ are hosted on GitHub.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can either clone the repository using your favorite GitHub client or download the ZIP file from &lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-C&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Extract the contents of ZIP file to any folder on your computer. All the examples are located in the &lt;strong&gt;Examples&lt;/strong&gt; folder.&lt;/li&gt;
+&lt;li&gt;Open the solution file in Visual Studio and build the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data&lt;/strong&gt; folder at the root folder of &lt;strong&gt;Examples&lt;/strong&gt; contains input files. It is mandatory that you download the &lt;strong&gt;Data&lt;/strong&gt; folder along with the examples project.&lt;/li&gt;
+&lt;li&gt;Open main.cpp, all the examples are called from here.&lt;/li&gt;
+&lt;li&gt;Uncomment the examples you want to run from within the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please feel free to reach out using our &lt;a href=&#34;https://forum.aspose.com/c/pdf&#34;&gt;Forums&lt;/a&gt;, if you have any issues setting up or running the examples.&lt;/p&gt;
+&lt;h2 id=&#34;contribute&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.&lt;/p&gt;
+&lt;p&gt;To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Work with PDF Documents in Qt</title>
+      <link>https://docs.aspose.com/pdf/cpp/work-with-pdf-documents-in-qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/work-with-pdf-documents-in-qt/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Qt is a cross-platform application development framework that allows creating a variety of desktop, mobile, web, and embedded system applications. In this article, we will see how you can integrate our C++ PDF library to work with PDF documents in your Qt applications.&lt;/p&gt;
+&lt;h2 id=&#34;using-asposepdf-for-c-within-qt&#34;&gt;&lt;strong&gt;Using Aspose.PDF for C++ within Qt&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to use Aspose.PDF for C++ in your Qt application on Windows Operating System, download the latest version of the API from the &lt;a href=&#34;https://downloads.aspose.com/pdf/cpp&#34;&gt;downloads&lt;/a&gt; section. Once the API is downloaded, you can use either of the following options to use it with Qt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Qt Creator&lt;/li&gt;
+&lt;li&gt;Using Visual Studio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here, we will demonstrate how to integrate and use Aspose.PDF for C++ within a Qt console application using Qt Creator.&lt;/p&gt;
+&lt;h3 id=&#34;create-qt-console-application&#34;&gt;&lt;strong&gt;Create Qt Console Application&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This article assumes that you have properly installed Qt development environment and Qt Creator.
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open Qt Creator and create a new &lt;em&gt;Qt Console Application&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the QMake option from the &lt;em&gt;Build System&lt;/em&gt; dropdown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application-QMake.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the appropriate kit and finish the wizard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this point, you should have a workable executing Qt Console Application that should compile without issues.&lt;/p&gt;
+&lt;h3 id=&#34;integrate-asposepdf-for-c-api-with-qt&#34;&gt;&lt;strong&gt;Integrate Aspose.PDF for C++ API with Qt&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract the Aspose.PDF for C++ archive that you have downloaded earlier&lt;/li&gt;
+&lt;li&gt;Copy &lt;em&gt;Aspose.Pdf.Cpp&lt;/em&gt; and &lt;em&gt;CodePorting.Native.Cs2Cpp_vc14_20.4&lt;/em&gt; folders from the extracted package of Aspose.PDF for C++ into the root of the project. Your project should like as shown in the following image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;work-with-pdf-documents-in-qt_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In order to add paths to lib and include folders, right-click on the project in LHS panel and select &lt;em&gt;Add Library&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the External Library option and browse paths to include and lib folders one by one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once done, your .pro project file will contain the following entries:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;work-with-pdf-documents-in-qt_2.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Build the application and you are done with the integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;create-pdf-document-in-qt&#34;&gt;&lt;strong&gt;Create PDF Document in Qt&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Now that Aspose.PDF for C++ has been integrated with Qt, we are ready to create a PDF document with some text and save it to disc. To do this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Include the following headers in main.cpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#a40000&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp/Document.h&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp/Page_.h&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp/PageCollection.h&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp/Generator/Paragraphs.h&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#a40000&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.PDF.Cpp/Text/TextFragment.h&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert the following code in main function to generate a PDF document and save to disc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;QString&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MakeObject&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_Pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;idx_get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;paragraps&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_Paragraphs&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;paragraps&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MakeObject&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TextFragment&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;toStdU16String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;c_str&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()));&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;toStdU16String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;c_str&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;());&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

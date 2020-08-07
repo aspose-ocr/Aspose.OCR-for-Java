@@ -1,0 +1,372 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Pages - Facades</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-pages-facades/</link>
+    <description>Recent content in Working with Pages - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-pages-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Append PDF files</title>
+      <link>https://docs.aspose.com/pdf/net/append-pdf-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/append-pdf-files/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;append-pdf-files-using-file-paths&#34;&gt;&lt;strong&gt;Append PDF Files Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can append pages of one PDF file to the end of the other PDF file. In order to do that, you need to use &lt;strong&gt;Append&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class. One of the overloads of &lt;strong&gt;Append&lt;/strong&gt; method allows you to append the PDF file using file paths. You need to pass the input PDF, port file, and output file as file paths. You also need to specify the start and end pages which need to be appended. The pages will be retrieved from port file and appended to the input file. The merged file will be saved as output file. The following code snippet shows you how to append PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-Append-AppendFiles-AppendFiles.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;append-array-of-pdf-files-using-file-paths&#34;&gt;&lt;strong&gt;Append Array of PDF Files Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to append pages from multiple PDF files to an input file using &lt;strong&gt;Append&lt;/strong&gt; method as well. For example, you have two port files, each with 6 pages, and you want to port first 7 pages to the end of the input PDF file. You can create an array of port files and specify the range as start and end page parameters. In this case, the range would be 1 to 7. This means, six pages will be appened from the first file, while one page from the second file. Finally, the output file will be saved as merged file. The following code snippet shows you how to append array of PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-Append-AppendArrayOfFiles-AppendArrayOfFiles.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;append-pdf-files-using-streams&#34;&gt;&lt;strong&gt;Append PDF Files Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;PDF pages can also be appended to another PDF using streams. In order to do that, you need to use &lt;strong&gt;Append&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class. One of the overloads of &lt;strong&gt;Append&lt;/strong&gt; method allows you to append the PDF file using streams. You need to pass the input PDF, port file, and output file as streams. You also need to specify the start and end pages which need to be appended. The pages will be retrieved from port file and appended to the input file. The merged file will be saved as output stream. The following code snippet shows you append PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-Append-AppendFilesUsingStreams-AppendFilesUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;append-array-of-pdf-files-using-streams&#34;&gt;&lt;strong&gt;Append Array Of PDF Files Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;An array of PDF files can be appened to the input PDF using streams. &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to append pages from multiple PDF streams to an input file stream using &lt;strong&gt;Append&lt;/strong&gt; method. For example, you have two port files, each with 6 pages, and you want to port first 7 pages to the end of the input PDF file. You can create an array of port files and specify the range as start and end page parameters. In this case, the range would be 1 to 7. This means, six pages will be appened from the first file, while one page from the second file. Finally, the output file will be saved as merged stream. The following code snippet shows you how to append array of PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-Append-AppendArrayOfFilesUsingStream-AppendArrayOfFilesUsingStream.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Concatenate PDF documents</title>
+      <link>https://docs.aspose.com/pdf/net/concatenate-pdf-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/concatenate-pdf-documents/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;concatenate-pdf-files-using-file-paths&#34;&gt;&lt;strong&gt;Concatenate PDF Files Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Concatenate&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class can be used to concatenate two PDF files. The &lt;strong&gt;Concatenate&lt;/strong&gt; method allows you to pass three parameters: first input PDF, second input PDF, and output PDF. The final output PDF contains both the input PDF files. The following code snippet shows you how to concatenate PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateUsingPath-ConcatenateUsingPath.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;In some cases, when there are a lot of outlines, users may disable them with setting CopyOutlines to false and improve performance of concatenation.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateUsingPath-CopyOutline.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;concatenate-pdf-files-with-blank-pdf-using-file-paths&#34;&gt;&lt;strong&gt;Concatenate PDF Files with Blank PDF Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;One of the overloads of &lt;strong&gt;Concatenate&lt;/strong&gt; method allows you to merge two PDF documents into a new PDF document with pages in alternate ways and fill the blank places with blank pages; for example, document 1 has 5 pages ( p1, p2, p3, p4, p5 ) and document 2 has 3 page s ( p1&amp;rsquo;, p2&amp;rsquo;, p3&amp;rsquo; ). Merging the two PDF document s will produce the outupt document with pages in the following order: p1, p1&amp;rsquo;, p2, p2&amp;rsquo;, p3, p3&amp;rsquo;, p4, blank page, p5, blank page.The following code snippet shows you how to concatenate PDF files with blank PDF using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateWithBlankPdf-ConcatenateWithBlankPdf.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;concatenate-array-of-pdf-files-using-file-paths&#34;&gt;&lt;strong&gt;Concatenate Array of PDF Files Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to concatenate multiple PDF files, you can use the overload of the &lt;strong&gt;Concatenate&lt;/strong&gt; method, which allows you to pass an array of PDF files. The final output is saved as a merged file created from all the files in the array.The following code snippet shows you how to concatenate array of PDF files using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateArrayOfFilesWithPath-ConcatenateArrayOfFilesWithPath.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;render-the-resultant-pdf-in-browser-window&#34;&gt;&lt;strong&gt;Render the resultant PDF in Browser window&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When using PdfFileEditor class to concatenate PDF files in web application, there can be a requirement to display the resultant PDF file in web browser, rather than saving it over the system. In order to accomplish this requirement, PdfFileEditor class provides an overloaded Concatenate method which takes HttpResponse object as an argument. Please take a look over the following code snippet to accomplish this requirement.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateArrayOfFilesWithPath-RenderInBrowser.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;ignore-corrupted-pdf-files-during-concatenation&#34;&gt;&lt;strong&gt;Ignore corrupted PDF files during concatenation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for .NET supports the feature to ignore Corrupted PDF documents during PDF concatenation process. Please note that following properties/methods are introduced in PdfFileEditor:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A new Enumeration &lt;strong&gt;CorruptedFileActions&lt;/strong&gt; (StopWithError, ConcatenateIgnoringCorrupted) is added.&lt;/li&gt;
+&lt;li&gt;Property &lt;strong&gt;CorruptedFileAction&lt;/strong&gt; of CorruptedFileActions type is added. This property defines behavior of PDfFileEditor.Concatenate and Append functions when some of files to concatenate/append was corrupted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;If CorruptedFileAction is &amp;ldquo;&lt;strong&gt;StopWithError&lt;/strong&gt;&amp;rdquo; then process will be stopped and exception thrown or false returned as result of unsuccessful operation (in depend of AllowConcatenateExceptions state)&lt;/li&gt;
+&lt;li&gt;If CorruptFileAction is &amp;ldquo;&lt;strong&gt;ConcatenateIgnoringCorrupted&lt;/strong&gt;&amp;rdquo; then only valid files will be concatenated, so the resultant file will be correct too.
+Information about corrupted files will be collected and accessible in CorruptedItems property.
+No exceptions are thrown in this case (operation is succeeded anyway)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;CorruptedItem&lt;/strong&gt; class is introduced.
+This class has two properties:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;int Index - index of corrupted file in parameters array&lt;/li&gt;
+&lt;li&gt;Exception exception - exception which was encountered for this file to check the reason of failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;CorruptedItem[] CorruptedItems - property which contains information about all corrupted files which were ignored. Please note this array contains information only for corrupted files. If operation was successful, this array will be empty. Corrupted files are not included into resultant files.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateArrayOfFilesWithPath-CorruptedFiles.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;concatenate-pdf-files-using-streams&#34;&gt;&lt;strong&gt;Concatenate PDF files using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;PDF files can also be concatenated using streams instead of file paths. In order to do that, you need to create two input streams and one output stream. You need to pass these three parameters to the appropriate overload of the &lt;strong&gt;Concatenate&lt;/strong&gt; method. The final concatenated PDF will be saved in the output stream. The following code snippet shows you how to concatenate PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateUsingStreams-ConcatenateUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;concatenating-tagged-pdf-files&#34;&gt;&lt;strong&gt;Concatenating Tagged PDF files&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In order to concatenate PDF files, a property &lt;strong&gt;CopyLogicalStructure&lt;/strong&gt; is added. This property should be set to false in order to turn off logical structure concatenation. The following code snippet shows how to perform concatenation while copying the logical structure:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateUsingStreams-ConcatenateTaggedFiles.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;concatenate-pdf-files-with-blank-pdf-using-streams&#34;&gt;&lt;strong&gt;Concatenate PDF Files with Blank PDF Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you’re interested to concatenate PDF files with a blank page using streams then one of the overloads of &lt;strong&gt;Concatenate&lt;/strong&gt; method allows you to do just that. This overload merges two PDF documents into a new PDF document with pages in alternate ways and fill the blank places with blank pages; for example, document 1 has 5 pages ( p1, p2, p3, p4, p5 ) and document 2 has 3 page s ( p1&amp;rsquo;, p2&amp;rsquo;, p3&amp;rsquo; ). Merging the two PDF documents will produce the outupt document with pages in the following order: p1, p1&amp;rsquo;, p2, p2&amp;rsquo;, p3, p3&amp;rsquo;, p4, blank page, p5, blank page .In this case, you need to create four streams: two input streams, one stream with blank PDF page, and one output stream. The input streams will be merged according to the above plan and output will be saved in the output stream. The following code snippet shows you how to concatenate PDF files with blank PDF using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateBlankPdfUsingStreams-ConcatenateBlankPdfUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;concatenate-array-of-pdf-files-using-streams&#34;&gt;&lt;strong&gt;Concatenate Array of PDF Files Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Concatenating an array of PDF files is not limited to only files residing on the disk. You can also concatenate an array of PDF files from streams. If you want to concatenate multiple PDF files, you can use the appropriate overload of the &lt;strong&gt;Concatenate&lt;/strong&gt; method. First, you need to create an array of input streams and one stream for output PDF and then call the &lt;strong&gt;Concatenate&lt;/strong&gt; method. The output will be saved in the output stream.The following code snippet shows you how to concatenate array of PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ConcatenateDocuments-ConcatenateArrayOfPdfUsingStreams-ConcatenateArrayOfPdfUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Delete PDF pages</title>
+      <link>https://docs.aspose.com/pdf/net/delete-pdf-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/delete-pdf-pages/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;delete-pdf-pages-using-file-paths&#34;&gt;&lt;strong&gt;Delete PDF Pages Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to delete a number of pages from the PDF file which is residing on the disk then you can use the overload of the &lt;strong&gt;Delete&lt;/strong&gt; method which takes following three parameters: intput file path, array of page numbers to be deleted, and output PDF file path. The second parameter is an integer array representing all of the pages which need to be deleted. The specified pages are removed from the intput file and the result is saved as output file. The following code snippet shows you how to delete PDF pages using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-DeletePages-DeletePagesUsingFilePath-DeletePagesUsingFilePath.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-pdf-pages-using-streams&#34;&gt;&lt;strong&gt;Delete PDF Pages Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Delete&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class also provides an overload which allows you to delete the pages from the input PDF file, while both the input and output files are in the streams. This overload takes following three parameters: intput stream, integer array of PDF pages to be deleted, and output stream.The following code snippet shows you how to delete PDF pages using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-DeletePages-DeletePagesUsingStream-DeletePagesUsingStream.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract PDF pages</title>
+      <link>https://docs.aspose.com/pdf/net/extract-pdf-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/extract-pdf-pages/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;extract-pdf-pages-between-two-numbers-using-file-paths&#34;&gt;&lt;strong&gt;Extract PDF Pages between Two Numbers Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Extract&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to extract specified range of pages from a PDF file. This overload allows you to extract pages while manipulating the PDF files from the disk. This overload requires following parameters: intput file path, start page, end page, and output file path. The pages from the start page to end page will be extracted and output will be saved on the disk.The following code snippet shows you how to extract PDF pages between two numbers using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ExtractPages-ExtractPagesBetweenNumbers-ExtractPagesBetweenNumbers.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-array-of-pdf-pages-using-file-paths&#34;&gt;&lt;strong&gt;Extract Array of PDF Pages Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you do not want to extract a range of pages, rather a set of particular pages, &lt;strong&gt;Extract&lt;/strong&gt; method allows you to do that as well. You first need to create an integer array with all the page numbers which need to be extracted. This overload of &lt;strong&gt;Extract&lt;/strong&gt; method takes following parameters: input PDF file, integer array of pages to be extracted, and output PDF file. The following code snippet shows you how to extract PDF pages using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ExtractPages-ExtractArrayOfPages-ExtractArrayOfPages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-pdf-pages-between-two-numbers-using-streams&#34;&gt;&lt;strong&gt;Extract PDF Pages between Two Numbers Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Extract&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to extract a range of pages using streams. You need to pass the following paramteres to this overload: intput stream, start page, end page, and output stream. The pages specified by the range between start page and end page will be extracted from the intput stream and saved to the output stream.The following code snippet shows you how to extract PDF pages between two numbers using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ExtractPages-ExtractPagesBetweenTwoNumbersUsingStreams-ExtractPagesBetweenTwoNumbersUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-array-of-pdf-pages-using-streams&#34;&gt;&lt;strong&gt;Extract Array of PDF Pages Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;An array of pages can be extracted from the PDF stream and saved in the output stream using appropriate overload of &lt;strong&gt;Extract&lt;/strong&gt; method. If you do not want to extract a range of pages, rather a set of particular pages, &lt;strong&gt;Extract&lt;/strong&gt; method allows you to do that as well. You first need to create an integer array with all the page numbers which need to be extracted. This overload of &lt;strong&gt;Extract&lt;/strong&gt; method takes following parameters: input stream, integer array of pages to be extracted and output stream. 
+The following code snippet shows you how to extract PDF pages using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ExtractPages-ExtractArrayOfPagesUsingStreams-ExtractArrayOfPagesUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Insert PDF pages</title>
+      <link>https://docs.aspose.com/pdf/net/insert-pdf-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/insert-pdf-pages/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insert-pdf-pages-between-two-numbers-using-file-paths&#34;&gt;&lt;strong&gt;Insert PDF Pages Between Two Numbers Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A particular range of pages can be inserted from one PDF into another using &lt;strong&gt;Insert&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class. In order to do that, you need an input PDF file in which you want to insert the pages, a port file from which the pages need to be taken for insertion, a location where the pages are to be inserted, and a range of pages of the port file which have to be inserted in the input PDF file. This range is specified with start page and end page parameters. Finally, the output PDF file is saved with the specified range of pages inserted in the input file. The following code snippet shows you how to insert PDF pages between two numbers using file streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-InsertPages-InsertPagesBetweenNumbers-InsertPagesBetweenNumbers.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insert-array-of-pdf-pages-using-file-paths&#34;&gt;&lt;strong&gt;Insert Array of PDF Pages Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to insert some specified pages into another PDF file, then you can use an overload of the &lt;strong&gt;Insert&lt;/strong&gt; method which requires an integer array of pages. In this array, you can specify which particular pages you want to insert in the input PDF file. In order to do that, you need an input PDF file in which you want to insert the pages, a port file from which the pages need to be taken for insertion, a location where the pages are to be inserted, and integer array of the pages from port file which have to be inserted in the input PDF file. This array contains a list of particular pages which you’re interested to insert in the input PDF file. Finally, the output PDF file is saved with the specified array of pages inserted in the input file. 
+The following code snippet shows you how to insert array of PDF pages using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-InsertPages-InsertArrayOfPages-InsertArrayOfPages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insert-pdf-pages-between-two-numbers-using-streams&#34;&gt;&lt;strong&gt;Insert PDF Pages between Two Numbers Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to insert the range of pages using streams, you only need to use the appropriate overload of the &lt;strong&gt;Insert&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class. In order to do that, you need an input PDF stream in which you want to insert the pages, a port stream from which the pages need to be taken for insertion, a location where the pages are to be inserted, and a range of pages of the port stream which have to be inserted in the input PDF stream. This range is specified with start page and end page parameters. Finally, the output PDF stream is saved with the specified range of pages inserted in the input stream. The following code snippet shows you how to insert PDF pages between two numbers using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-InsertPages-InsertPagesBetweenNumbersUsingStreams-InsertPagesBetweenNumbersUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insert-array-of-pdf-pages-using-streams&#34;&gt;&lt;strong&gt;Insert Array of PDF Pages Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can also insert an array of pages into another PDF file using streams with the helps of appropriate overload of the Insert method which requires an integer array of pages. In this array, you can specify which particular pages you want to insert in the input PDF stream. In order to do that, you need an input PDF stream in which you want to insert the pages, a port stream from which the pages need to be taken for insertion, a location where the pages are to be inserted, and integer array of the pages from port stream which have to be inserted in the input PDF file. This array contains a list of particular pages which you’re interested to insert in the input PDF stream. Finally, the output PDF stream is saved with the specified array of pages inserted in the input file.The following code snippet shows you how to insert array of PDF pages using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-InsertPages-InsertPagesUsingStreams-InsertPagesUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Make Booklet of PDF</title>
+      <link>https://docs.aspose.com/pdf/net/make-booklet-of-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/make-booklet-of-pdf/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;make-booklet-of-pdf-using-file-paths&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF file and save it to the output PDF file. This overload allows you to make booklet using file paths. The following code snippet shows you how to make booklet using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingPaths-MakeBookletUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-page-size-and-file-paths&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Page Size and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF file and save it to the output PDF file. This overload allows you to make booklet using file paths. You can also set the page size of the output PDF file with this overlaod. The following code snippet shows you how to make booklet using page size and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingPageSizeAndPaths-MakeBookletUsingPageSizeAndPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-page-size-specified-left-and-right-pages-and-file-paths&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Page Size, Specified Left and Right Pages, and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF file and save it to the output PDF file. This overload allows you to make booklet using file paths. You can also set the page size of the output PDF file and specify particular pages for the left and right sides of the output PDF file with this overlaod. The following code snippet shows you how to make booklet using page size, specified left and right pages and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingLeftRightPagesAndPaths-MakeBookletUsingLeftRightPagesAndPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-specified-left-and-right-pages-and-file-paths&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Specified Left and Right Pages, and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF file and save it to the output PDF file. This overload allows you to make booklet using file paths. You can also specify particular pages for the left and right sides of the output PDF file with this overlaod.color:#000000}The following code snippet shows you how to make booklet using specified left and right pages and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingLeftRightPagesAndPaths-MakeBookletUsingLeftRightPagesAndPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-streams&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF stream and save it to the output PDF streams. This overload allows you to make booklet using streams instead of file paths. The following code snippet shows you how to make booklet using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingStreams-MakeBookletUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-page-size-and-streams&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Page Size and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF stream and save it to the output PDF stream. This overload allows you to make booklet using streams instead of file paths. You can also set the page size of the output PDF stream with this overload. The following code snippet shows you how to make booklet using page size and streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingPageSizeAndStreams-MakeBookletUsingPageSizeAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-page-size-sepcified-left-and-right-pages-and-streams&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Page Size, Sepcified Left and Right Pages, and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF stream and save it to the output PDF stream. This overload allows you to make booklet using streams instead of file paths. You can also set the page size of the output PDF file and specify particular pages for the left and right sides of the output PDF stream with this overload. The following code snippet shows you how to make booklet using page size, specified left and right pages, and streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingPageSizeLeftRightPagesAndStreams-MakeBookletUsingPageSizeLeftRightPagesAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-booklet-of-pdf-using-specified-left-and-right-pages-and-streams&#34;&gt;&lt;strong&gt;Make Booklet of PDF Using Specified Left and Right Pages, and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeBooklet&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make booklet of the input PDF stream and save it to the output PDF stream. This overload allows you to make booklet using streams instead of file paths. You can also specify particular pages for the left and right sides of the output PDF stream with this overlaod. The following code snippet shows you how to make booklet using specified left and right pages and streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeBooklet-MakeBookletUsingLeftRightPagesAndStreams-MakeBookletUsingLeftRightPagesAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Make NUp of PDF files</title>
+      <link>https://docs.aspose.com/pdf/net/make-nup-of-pdf-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/make-nup-of-pdf-files/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;make-nup-of-pdf-using-file-paths&#34;&gt;&lt;strong&gt;Make NUp of PDF Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF file and save it to the output PDF file. This overload allows you to make NUp using file paths.The following code snippet shows you how to make NUP using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-MakeNUpUsingPaths-MakeNUpUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-using-page-size-and-file-paths&#34;&gt;&lt;strong&gt;Make NUp Using Page Size and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF file and save it to the output PDF file. This overload allows you to make NUp using file paths. You can also set the page size of the output PDF file using this overload.The following code snippet shows you how to make NUp using page size and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-MakeNUpUsingPageSizeAndPaths-MakeNUpUsingPageSizeAndPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-page-size-horizontal-and-vertical-values-and-file-paths&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Page Size, Horizontal and Vertical Values, and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF file and save it to the output PDF file. This overload allows you to make NUp using file paths. You can also set the page size of the output PDF file and horizontal and vertical number of pages on each output page using this overload. The following code snippet shows you how to make NUp using page size, horizontal and vertical values, and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-UsingPageSizeHorizontalAndVerticalValues-UsingPageSizeHorizontalAndVerticalValues.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-array-of-pdf-files-and-file-paths&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Array Of PDF Files and File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of an array of input PDF files and save them to a single output PDF file. This overload allows you to make NUp using file paths.The following code snippet shows you hot make NUp using array of PDF files and file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-UsingArrayOfFilesAndPaths-UsingArrayOfFilesAndPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-streams&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF stream and save it to the output PDF stream. This overload allows you to make NUp using streams instead of file paths. The following code snippet shows you how to make NUp using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-MakeNUpUsingStreams-MakeNUpUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-page-size-and-streams&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Page Size and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF stream and save it to the output PDF stream. This overload allows you to make NUp using streams instead of file paths. You can also set the page size of the output PDF stream using this overload. The following code snippet shows you how to make NUp using page size and streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-MakeNUpUsingPageSizeAndStreams-MakeNUpUsingPageSizeAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-page-size-horizontal-and-vertical-values-and-streams&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Page Size, Horizontal and Vertical Values, and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of the input PDF stream and save it to the output PDF stream. This overload allows you to make NUp using streams instead of file paths. You can also set the page size of the output PDF stream and horizontal and vertical number of pages on each output page using this overload. The following code snippet shows you how to make NUp using page size, horizontal and vertical values, and streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-UsingPageSizeHorizontalVerticalValuesAndStreams-UsingPageSizeHorizontalVerticalValuesAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;make-nup-of-pdf-using-array-of-pdf-files-and-streams&#34;&gt;&lt;strong&gt;Make NUp of PDF Using Array Of PDF Files and Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MakeNUp&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to make NUp of an array of input PDF streams and save them to a single output PDF stream. This overload allows you to make NUp using streams instead of file paths. The following code snippet shows you how to make NUp using array of PDF files using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-MakeNUp-UsingArrayOfFilesAndStreams-UsingArrayOfFilesAndStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manipulate Page Properties</title>
+      <link>https://docs.aspose.com/pdf/net/manipulate-page-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/manipulate-page-properties/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;get-pdf-page-properties-from-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Get PDF Page Properties from an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfPageEditor&lt;/strong&gt; allows you work with individual pages of the PDF file. It helps you get the individual page’s properties like different page box sizes, page rotation, page zoom etc. In order to get those properties, you need to create &lt;strong&gt;PdfpageEditor&lt;/strong&gt; object and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you can use different methods to get the page properties like &lt;strong&gt;GetPageRotation&lt;/strong&gt;, &lt;strong&gt;GetPages&lt;/strong&gt;, &lt;strong&gt;GetPageBoxSize&lt;/strong&gt; etc.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to get PDF page properties from existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ManipulatePageProperties-GetPageProperties-GetPageProperties.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;set-pdf-page-properties-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Set PDF Page Properties in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set page properties like page rotation, zoom or origin point you need to use &lt;strong&gt;PdfPageEditor&lt;/strong&gt; class. This class provides different methods and properties to set these page properties. First of all, you need to create an object of &lt;strong&gt;PdfPageEditor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, you can use these methods and properties to set the page properties. Finally, save the updated PDF file using &lt;strong&gt;Save&lt;/strong&gt; method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to set PDF page properties in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ManipulatePageProperties-SetPageProperties-SetPageProperties.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;resize-page-contents-of-specific-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Resize Page Contents of Specific Pages in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ResizeContents&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to resize the page contents in a PDF file. &lt;strong&gt;ContentsResizeParameters&lt;/strong&gt; class is used to specify the parameters to be used to resize the page(s) e.g. margins in percentage or units etc. You can resize all the pages or specify an array of pages to be resized using the ResizeContents method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to resize the contents of some specific pages of PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-ManipulatePageProperties-ResizePageContents-ResizePageContents.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Split PDF pages</title>
+      <link>https://docs.aspose.com/pdf/net/split-pdf-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/split-pdf-pages/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;split-pdf-pages-from-first-using-file-paths&#34;&gt;&lt;strong&gt;Split PDF Pages from First Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitFromFirst&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF file starting from the first page and ending at the specified page number. If you want to manipulate the PDF files from the disk, you can pass the file paths of the intput and output PDF files to this method. The following code snippet shows you how to split PDF pages from first using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesUsingPaths-SplitPagesUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-pages-from-first-using-file-streams&#34;&gt;&lt;strong&gt;Split PDF Pages from First Using File Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitFromFirst&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF file starting from the first page and ending at the specified page number. If you want to manipulate the PDF files from the streams, you can pass the input and output PDF streams to this method. The following code snippet shows you how to split PDF pages from first using file streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesUsingStreams-SplitPagesUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-pages-to-bulk-using-file-paths&#34;&gt;&lt;strong&gt;Split PDF Pages to Bulk Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitToBulks&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF file into multiple sets of pages. In this example, we require two sets of pages (1, 2) and (5, 6). If you want to access the PDF file from the disk, you need to pass the input PDF as file path. This method returns an array of MemoryStream. You can loop through this array and save the individual sets of pages as separate files. The following code snippet shows you how to split PDF pages to bulk using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesToBulkUsingPaths-SplitPagesToBulkUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-pages-to-bulk-using-streams&#34;&gt;&lt;strong&gt;Split PDF Pages to Bulk Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitToBulks&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF file into multiple sets of pages. In this example, we require two sets of pages (1, 2) and (5, 6). You can pass a stream to this method instead of accessing the file from the disk. This method returns an array of MemoryStream. You can loop through this array and save the individual sets of pages as separate files. The following code snippet shows you how to split PDF pages to bulk using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesToBulkUsingStreams-SplitPagesToBulkUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-pages-to-end-using-file-paths&#34;&gt;&lt;strong&gt;Split PDF Pages to End Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitToEnd&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF from the specified page number to the end of the PDF file and save it as a new PDF. In order to do this, using file paths, you need to pass input and output file paths and the page number from where the split needs to be started. The output PDF will be saved to the disk. The following code snippet shows you how to split PDF pages to end using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesToEndUsingPaths-SplitPagesToEndUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-pages-to-end-using-streams&#34;&gt;&lt;strong&gt;Split PDF Pages to End Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SplitToEnd&lt;/strong&gt; method of &lt;strong&gt;PdfFileEditor&lt;/strong&gt; class allows you to split the PDF from the specified page number to the end of the PDF file and save it as a new PDF. In order to do this, using streams, you need to pass input and output streams and the page number from where the split needs to be started. The output PDF will be saved to the output stream. The following code snippet shows you how to split PDF pages to end using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitPagesToEndUsingStreams-SplitPagesToEndUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-to-individual-pages-using-file-paths&#34;&gt;&lt;strong&gt;Split PDF to Individual Pages Using File Paths&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;You can try to split PDF document and view the results online at this link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://products.aspose.app/pdf/splitter&#34;&gt;products.aspose.app/pdf/splitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In order to split PDF file to individual pages, you need to pass the PDF as file path to the &lt;strong&gt;SplitToPages&lt;/strong&gt; method. This method will return an array of MemoryStream containing individual pages of the PDF file. You can loop through this array of MemoryStream and save individual pages as individual PDF files on the disk. The following code snippet shows you how to split PDF to individual pages using file paths.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitToIndividualPagesUsingPaths-SplitToIndividualPagesUsingPaths.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-to-individual-pages-using-streams&#34;&gt;&lt;strong&gt;Split PDF to Individual Pages Using Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to split PDF file to individual pages, you need to pass the PDF as stream to the &lt;strong&gt;SplitToPages&lt;/strong&gt; method. This method will return an array of MemoryStream containing individual pages of the PDF file. You can loop through this array of MemoryStream and save individual pages as individual PDF files on the disk, or you can keep these individual pages in the memory stream for later use in your application. The following code snippet shows you how to split PDF to individual pages using streams.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Pages-SplitPages-SplitToIndividualPagesUsingStreams-SplitToIndividualPagesUsingStreams.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

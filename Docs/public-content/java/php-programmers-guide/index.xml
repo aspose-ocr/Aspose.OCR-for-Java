@@ -1,0 +1,106 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – PHP Programmers Guide</title>
+    <link>https://docs.aspose.com/pdf/java/php-programmers-guide/</link>
+    <description>Recent content in PHP Programmers Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/php-programmers-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Working with Document Conversion in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-conversion-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-conversion-in-php/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-doc-or-docx-format-in-php/&#34;&gt;Convert PDF to DOC or DOCX format in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-excel-workbook-in-php/&#34;&gt;Convert PDF to Excel Workbook in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-pdf-to-svg-format-in-php/&#34;&gt;Convert PDF to SVG Format in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/convert-svg-file-to-pdf-format-in-php/&#34;&gt;Convert SVG file to PDF format in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Document Object in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-document-object-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-document-object-in-php/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/adding-javascript-in-php/&#34;&gt;Adding JavaScript in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-toc-to-existing-pdf-in-php/&#34;&gt;Add TOC to Existing PDF in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-document-window-and-page-display-properties-in-php/&#34;&gt;Get Document Window and Page Display Properties in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-pdf-file-information-in-php/&#34;&gt;Get PDF File Information in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-xmp-metadata-from-pdf-file-in-php/&#34;&gt;Get XMP Metadata from PDF File in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/optimize-pdf-document-for-the-web-in-php/&#34;&gt;Optimize PDF Document for the Web in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/remove-metadata-from-pdf-in-php/&#34;&gt;Remove Metadata from PDF in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-pdf-expiration-in-php/&#34;&gt;Set PDF Expiration in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/set-pdf-file-information-in-php/&#34;&gt;Set PDF File Information in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Pages in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-pages-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-pages-in-php/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/concatenate-pdf-files-in-php/&#34;&gt;Concatenate PDF Files in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/delete-a-particular-page-from-the-pdf-file-in-php/&#34;&gt;Delete a Particular Page from the PDF File In PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-a-particular-page-in-a-pdf-file-in-php/&#34;&gt;Get a Particular Page in a PDF File in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-page-count-of-pdf-in-php/&#34;&gt;Get Page Count of PDF in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/get-page-properties-in-php/&#34;&gt;Get Page Properties in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/insert-an-empty-page-at-end-of-pdf-file-in-php/&#34;&gt;Insert an Empty Page at End of PDF File in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/insert-an-empty-page-into-a-pdf-file-in-php/&#34;&gt;Insert an Empty Page into a PDF File in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/split-pdf-file-into-individual-pages-in-php/&#34;&gt;Split PDF File into Individual Pages in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/update-page-dimensions-in-php/&#34;&gt;Update Page Dimensions in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Text in PHP</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-text-in-php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-text-in-php/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-html-string-using-dom-in-php/&#34;&gt;Add HTML String using DOM in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/add-text-to-an-existing-pdf-file-in-php/&#34;&gt;Add Text to an existing PDF file in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/extract-text-from-all-the-pages-of-a-pdf-document-in-php/&#34;&gt;Extract Text From All the Pages of a PDF Document in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

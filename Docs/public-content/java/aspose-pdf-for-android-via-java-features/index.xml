@@ -1,0 +1,807 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.PDF for Android via Java Features</title>
+    <link>https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-features/</link>
+    <description>Recent content in Aspose.PDF for Android via Java Features on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: aspose.pdf Package Features</title>
+      <link>https://docs.aspose.com/pdf/java/aspose-pdf-package-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/aspose-pdf-package-features/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains a list of the features offered by the aspose.pdf package.
+&lt;/div&gt;
+
+&lt;h4 id=&#34;general&#34;&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Written completely in Java, works with J2SE 5.0, J2SE 6.0 and J2SE 7.0.&lt;/li&gt;
+&lt;li&gt;Supports all Java applications.&lt;/li&gt;
+&lt;li&gt;API Reference in JavaDoc format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pdf-document-features&#34;&gt;&lt;strong&gt;PDF Document Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Set document information like author, creator, and so on.&lt;/li&gt;
+&lt;li&gt;Specify page properties such as width, height, cropbox, bleedbox, artbox, trimbox, and page transition.&lt;/li&gt;
+&lt;li&gt;Set page numbering.&lt;/li&gt;
+&lt;li&gt;Configure heading bookmark levels.&lt;/li&gt;
+&lt;li&gt;Set document open action to fit page or fit box.&lt;/li&gt;
+&lt;li&gt;Set document open mode or appearance to thumbnails, bookmarks etc.&lt;/li&gt;
+&lt;li&gt;Set page transition effects like dissolve, box and many others.&lt;/li&gt;
+&lt;li&gt;Add different page sizes in the same document.&lt;/li&gt;
+&lt;li&gt;Add JavaScript to PDF.&lt;/li&gt;
+&lt;li&gt;Bound XML to PDF document&lt;/li&gt;
+&lt;li&gt;Create PDF documents via XML, API or XML and API combined.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;section-features&#34;&gt;&lt;strong&gt;Section Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Define page size and margins for each section.&lt;/li&gt;
+&lt;li&gt;Define page background image for each section.&lt;/li&gt;
+&lt;li&gt;Define page header and footer for each section.&lt;/li&gt;
+&lt;li&gt;Assign a unique ID to each section.&lt;/li&gt;
+&lt;li&gt;Add multiple paragraphs to a section.&lt;/li&gt;
+&lt;li&gt;Specify page orientation, for ecample portrait and landscape.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;file-format&#34;&gt;&lt;strong&gt;File format&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe Pdf 1.2, 1.3 and 1.4.&lt;/li&gt;
+&lt;li&gt;Adobe Acrobat Reader 3, 4, 5 through version 10 are can be used to view output files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;paragraph-features&#34;&gt;&lt;strong&gt;Paragraph Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Define margins for each paragraph.&lt;/li&gt;
+&lt;li&gt;Assign a unique ID to each paragraph.&lt;/li&gt;
+&lt;li&gt;Render each paragraph to a new page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;text-features&#34;&gt;&lt;strong&gt;Text Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Align text to the right, left, center, justify or full justify.&lt;/li&gt;
+&lt;li&gt;Use single and multiple segments.&lt;/li&gt;
+&lt;li&gt;Create left hanging paragraphs.&lt;/li&gt;
+&lt;li&gt;Preserve Whitespace.&lt;/li&gt;
+&lt;li&gt;Specify first line indent.&lt;/li&gt;
+&lt;li&gt;Set text formats and let child nodes inherite styles.&lt;/li&gt;
+&lt;li&gt;Change text format for all segments.&lt;/li&gt;
+&lt;li&gt;Underline, overline, and strikeout text.&lt;/li&gt;
+&lt;li&gt;Define the character spacing and line spacing in a paragraph.&lt;/li&gt;
+&lt;li&gt;Rotate text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;render-text&#34;&gt;&lt;strong&gt;Render Text&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Set the text rendering mode: FillStrokeText, FillText, InvisibleText and StrokeText.&lt;/li&gt;
+&lt;li&gt;Vertically align text segments to baseline or topline.&lt;/li&gt;
+&lt;li&gt;Change the text background color.&lt;/li&gt;
+&lt;li&gt;PostScript Type1, TrueType and the 14 PDF core fonts are supported.&lt;/li&gt;
+&lt;li&gt;Embed font information embedding in PDF file.&lt;/li&gt;
+&lt;li&gt;Use replaceable symbols to change the text content at runtime.&lt;/li&gt;
+&lt;li&gt;Set JavaScript to execute when text is clicked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;graph-features&#34;&gt;&lt;strong&gt;Graph Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with a range of graph types, such as line, circle, arc, and curve.&lt;/li&gt;
+&lt;li&gt;Draw graphs at any page location, specified with coordinates.&lt;/li&gt;
+&lt;li&gt;Rotate, scale, and fill graphs, and degine dash and poly dash line styles.&lt;/li&gt;
+&lt;li&gt;Graphs are drawn have obsolete position rather than relative.&lt;/li&gt;
+&lt;li&gt;Work with CMYK and gray color spaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;imaging-features&#34;&gt;&lt;strong&gt;Imaging Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add images to documents from local disk or memory.&lt;/li&gt;
+&lt;li&gt;Added images from the web to documents by providing a URL.&lt;/li&gt;
+&lt;li&gt;Save to multi-page TIFF.&lt;/li&gt;
+&lt;li&gt;Save GIF and TIFF images with transparency.&lt;/li&gt;
+&lt;li&gt;Use the default image feature.&lt;/li&gt;
+&lt;li&gt;Add fixed withd mages to table cells.&lt;/li&gt;
+&lt;li&gt;Work with images with relative paths.&lt;/li&gt;
+&lt;li&gt;Set an image as watermark or page background.&lt;/li&gt;
+&lt;li&gt;Define image scale, rotation, and opacity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;heading-features&#34;&gt;&lt;strong&gt;Heading Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use numbereod of bulleted headings.&lt;/li&gt;
+&lt;li&gt;Configure heading levels and auto sequencing.&lt;/li&gt;
+&lt;li&gt;Use system, user defined or custom bullets for headings.&lt;/li&gt;
+&lt;li&gt;Define rich formatting list labels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;table-features&#34;&gt;&lt;strong&gt;Table Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Set table border style, margin and padding and background color.&lt;/li&gt;
+&lt;li&gt;Control column width and span.&lt;/li&gt;
+&lt;li&gt;Control how rows are split.&lt;/li&gt;
+&lt;li&gt;Apply default cell formatting.&lt;/li&gt;
+&lt;li&gt;Format rows and columns.&lt;/li&gt;
+&lt;li&gt;Specify repeating rows&lt;/li&gt;
+&lt;li&gt;Work with nested tables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;hyperlink-features&#34;&gt;&lt;strong&gt;Hyperlink Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add links to pages in the same document.&lt;/li&gt;
+&lt;li&gt;Add links to pages in another document.&lt;/li&gt;
+&lt;li&gt;Add links to files of a different format.&lt;/li&gt;
+&lt;li&gt;Add links to web locations by specifying a target URL.&lt;/li&gt;
+&lt;li&gt;Add links from images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;attachment-features&#34;&gt;&lt;strong&gt;Attachment Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Attach files of any type to a PDF document.&lt;/li&gt;
+&lt;li&gt;Attached notes to a PDF.&lt;/li&gt;
+&lt;li&gt;Specify the size of a note&amp;rsquo;s popup window.&lt;/li&gt;
+&lt;li&gt;Specify icons for attachments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;security-features&#34;&gt;&lt;strong&gt;Security Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Encrypts PDFs up to 128 bits.&lt;/li&gt;
+&lt;li&gt;Set master and user passwords for PDF encryption.&lt;/li&gt;
+&lt;li&gt;Restrict modification of content.&lt;/li&gt;
+&lt;li&gt;Restrict copying of content.&lt;/li&gt;
+&lt;li&gt;Restrict printing.&lt;/li&gt;
+&lt;li&gt;Restrict form filling.&lt;/li&gt;
+&lt;li&gt;Restrict degraded printing.&lt;/li&gt;
+&lt;li&gt;restrict modification of annotations.&lt;/li&gt;
+&lt;li&gt;Restrict PDF document assembly.&lt;/li&gt;
+&lt;li&gt;Restrict screen readers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;conversion-features&#34;&gt;&lt;strong&gt;Conversion Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert an existing XML file (.xml) to a new PDF document or a PDF file stream.&lt;/li&gt;
+&lt;li&gt;Convert an existing XML document to a new PDF document or a PDF file stream.&lt;/li&gt;
+&lt;li&gt;Convert conventional Image format to PDF.&lt;/li&gt;
+&lt;li&gt;Convert PCL files to PDF.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;advances-features&#34;&gt;&lt;strong&gt;Advances Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create page borders.&lt;/li&gt;
+&lt;li&gt;Add bookmarks.&lt;/li&gt;
+&lt;li&gt;Write PDF files directly.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: com.aspose.pdf Package Features</title>
+      <link>https://docs.aspose.com/pdf/java/com-aspose-pdf-package-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/com-aspose-pdf-package-features/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The following table summarizes the features available in hte com.aspose.pdf package (DOM API).
+&lt;/div&gt;
+
+&lt;h4 id=&#34;general-features&#34;&gt;&lt;strong&gt;General Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Written completely in Java, works with J2SE 5.0, J2SE 6.0 and J2SE 7.0.&lt;/li&gt;
+&lt;li&gt;Supports all Java applications.&lt;/li&gt;
+&lt;li&gt;API Reference in JavaDoc format.&lt;/li&gt;
+&lt;li&gt;32-bit OS support.&lt;/li&gt;
+&lt;li&gt;64-bit OS support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;supported-pdf-versions&#34;&gt;&lt;strong&gt;Supported PDF versions&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Aspose.PDF for Java supports PDF versions 1.2, 1.3, 1.4, 1.5, 1.6 and 1.7.&lt;/p&gt;
+&lt;h4 id=&#34;fonts&#34;&gt;&lt;strong&gt;Fonts&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;14 core fonts.&lt;/li&gt;
+&lt;li&gt;Type 1 fonts.&lt;/li&gt;
+&lt;li&gt;TrueType fonts.&lt;/li&gt;
+&lt;li&gt;Type 3 fonts.&lt;/li&gt;
+&lt;li&gt;CJK fonts.&lt;/li&gt;
+&lt;li&gt;Unicode support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;text&#34;&gt;&lt;strong&gt;Text&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract text from pages.&lt;/li&gt;
+&lt;li&gt;Search text.&lt;/li&gt;
+&lt;li&gt;Get text segments.&lt;/li&gt;
+&lt;li&gt;Search text using regular expressions.&lt;/li&gt;
+&lt;li&gt;Replace text.&lt;/li&gt;
+&lt;li&gt;Replace text using regular expressions.&lt;/li&gt;
+&lt;li&gt;Replace the first or a particular occurrence of a phrase.&lt;/li&gt;
+&lt;li&gt;Add text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;images&#34;&gt;&lt;strong&gt;Images&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add images to PDF files.&lt;/li&gt;
+&lt;li&gt;Delete images.&lt;/li&gt;
+&lt;li&gt;Replace images.&lt;/li&gt;
+&lt;li&gt;Extract images.&lt;/li&gt;
+&lt;li&gt;PDF to JPEG conversion (on a particular page or all pages).&lt;/li&gt;
+&lt;li&gt;PDF to PNG conversion (on a particular page or all pages).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;attachments&#34;&gt;&lt;strong&gt;Attachments&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add attachment.&lt;/li&gt;
+&lt;li&gt;Get attachments.&lt;/li&gt;
+&lt;li&gt;Delete attachments.&lt;/li&gt;
+&lt;li&gt;Get attachment information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;page&#34;&gt;&lt;strong&gt;Page&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Get page count.&lt;/li&gt;
+&lt;li&gt;Get page properties.&lt;/li&gt;
+&lt;li&gt;Concatenate PDF files.&lt;/li&gt;
+&lt;li&gt;Insert empty page in a PDF file.&lt;/li&gt;
+&lt;li&gt;Insert PDF pages.&lt;/li&gt;
+&lt;li&gt;Delete PDF pages.&lt;/li&gt;
+&lt;li&gt;Split PDF to individual pages.&lt;/li&gt;
+&lt;li&gt;Get a particular page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;document&#34;&gt;&lt;strong&gt;Document&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Get and set document viewer properties.&lt;/li&gt;
+&lt;li&gt;Get and set page display properties.&lt;/li&gt;
+&lt;li&gt;Get and set PDF file information.&lt;/li&gt;
+&lt;li&gt;Linearization (optimization for the web).&lt;/li&gt;
+&lt;li&gt;Validation (PDF/A-1a, PDF/A-1b).&lt;/li&gt;
+&lt;li&gt;Get and set XMP metadata.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bookmarks&#34;&gt;&lt;strong&gt;Bookmarks&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add and delete bookmarks.&lt;/li&gt;
+&lt;li&gt;Add child bookmarks.&lt;/li&gt;
+&lt;li&gt;Get bookmarks.&lt;/li&gt;
+&lt;li&gt;Get child bookmarks.&lt;/li&gt;
+&lt;li&gt;Modify bookmarks.&lt;/li&gt;
+&lt;li&gt;Modify child bookmarks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;annotations&#34;&gt;&lt;strong&gt;Annotations&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add annotations.&lt;/li&gt;
+&lt;li&gt;Get annotations.&lt;/li&gt;
+&lt;li&gt;Delete annotations.&lt;/li&gt;
+&lt;li&gt;Modify annotations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;forms&#34;&gt;&lt;strong&gt;Forms&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add fields.&lt;/li&gt;
+&lt;li&gt;Delete fields.&lt;/li&gt;
+&lt;li&gt;Modify fields.&lt;/li&gt;
+&lt;li&gt;Fill fields.&lt;/li&gt;
+&lt;li&gt;Get field values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;operators&#34;&gt;&lt;strong&gt;Operators&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add operators in PDF file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;stamp-and-watermark&#34;&gt;&lt;strong&gt;Stamp and Watermark&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add text stamp.&lt;/li&gt;
+&lt;li&gt;Add image stamp.&lt;/li&gt;
+&lt;li&gt;Add PDF page stamp.&lt;/li&gt;
+&lt;li&gt;Add page number stamp.&lt;/li&gt;
+&lt;li&gt;Add text in the header.&lt;/li&gt;
+&lt;li&gt;Add image in the header.&lt;/li&gt;
+&lt;li&gt;Add text in the footer.&lt;/li&gt;
+&lt;li&gt;Add image in the footer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links-and-actions&#34;&gt;&lt;strong&gt;Links and Actions&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create application link.&lt;/li&gt;
+&lt;li&gt;Create JavaScript link.&lt;/li&gt;
+&lt;li&gt;Remove document open action.&lt;/li&gt;
+&lt;li&gt;Extract links.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;security-and-signatures&#34;&gt;&lt;strong&gt;Security and Signatures&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Encrypt PDF.&lt;/li&gt;
+&lt;li&gt;Decrypt PDF.&lt;/li&gt;
+&lt;li&gt;Modify password.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;miscellaneous&#34;&gt;&lt;strong&gt;Miscellaneous&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Get build version information.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: com.aspose.pdf.facades Package Features</title>
+      <link>https://docs.aspose.com/pdf/java/com-aspose-pdf-facades-package-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/com-aspose-pdf-facades-package-features/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Specified below are the features available in the com.aspose.pdf.facades package.
+&lt;/div&gt;
+
+&lt;h4 id=&#34;general-features&#34;&gt;&lt;strong&gt;General Features&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Written completely in Java, works with J2SE 5.0, J2SE 6.0 and J2SE 7.0.&lt;/li&gt;
+&lt;li&gt;Supports all Java applications.&lt;/li&gt;
+&lt;li&gt;API Reference in JavaDoc format.&lt;/li&gt;
+&lt;li&gt;32-bit OS support.&lt;/li&gt;
+&lt;li&gt;64-bit OS support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fonts&#34;&gt;&lt;strong&gt;Fonts&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;14 core fonts.&lt;/li&gt;
+&lt;li&gt;Type 1 fonts.&lt;/li&gt;
+&lt;li&gt;TrueType fonts.&lt;/li&gt;
+&lt;li&gt;Type 3 fonts.&lt;/li&gt;
+&lt;li&gt;CJK fonts.&lt;/li&gt;
+&lt;li&gt;Unicode support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;text&#34;&gt;&lt;strong&gt;Text&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Replace text.&lt;/li&gt;
+&lt;li&gt;Extract text (from the whole PDF, a particular page, or a range of pages).&lt;/li&gt;
+&lt;li&gt;Add text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;images&#34;&gt;&lt;strong&gt;Images&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add image.&lt;/li&gt;
+&lt;li&gt;Replace images.&lt;/li&gt;
+&lt;li&gt;Extract images (from the whole PDF, a particular page, or a range of pages).&lt;/li&gt;
+&lt;li&gt;Delete images.&lt;/li&gt;
+&lt;li&gt;Convert PDF pages to images (JPEG, GIF, PNG, TIFF, BMP etc.).&lt;/li&gt;
+&lt;li&gt;Convert PDF to single TIFF images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;attachments&#34;&gt;&lt;strong&gt;Attachments&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add attachments.&lt;/li&gt;
+&lt;li&gt;Delete attachments.&lt;/li&gt;
+&lt;li&gt;Extract attachments.&lt;/li&gt;
+&lt;li&gt;Get attachments names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pages&#34;&gt;&lt;strong&gt;Pages&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Get and set page properties.&lt;/li&gt;
+&lt;li&gt;Concatenate PDF files.&lt;/li&gt;
+&lt;li&gt;Insert or append PDF pages.&lt;/li&gt;
+&lt;li&gt;Extract PDF pages&lt;/li&gt;
+&lt;li&gt;Insert or delete PDF pages.&lt;/li&gt;
+&lt;li&gt;Make n-up PDF.&lt;/li&gt;
+&lt;li&gt;Make booklet.&lt;/li&gt;
+&lt;li&gt;Split PDF pages (from first, to end, to bulk, to individual pages).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;document&#34;&gt;&lt;strong&gt;Document&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Set Viewer preference.&lt;/li&gt;
+&lt;li&gt;Get and set PDF document information.&lt;/li&gt;
+&lt;li&gt;Get and set XMP metadata.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bookmarks&#34;&gt;&lt;strong&gt;Bookmarks&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create bookmarks.&lt;/li&gt;
+&lt;li&gt;Add bookmarks.&lt;/li&gt;
+&lt;li&gt;Modify bookmarks.&lt;/li&gt;
+&lt;li&gt;Delete bookmarks.&lt;/li&gt;
+&lt;li&gt;Add child bookmarks.&lt;/li&gt;
+&lt;li&gt;Import bookmarks.&lt;/li&gt;
+&lt;li&gt;Export bookmarks.&lt;/li&gt;
+&lt;li&gt;Extract bookmarks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;annotations&#34;&gt;&lt;strong&gt;Annotations&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add Annotations&lt;/li&gt;
+&lt;li&gt;Update annotations.&lt;/li&gt;
+&lt;li&gt;Delete annotations.&lt;/li&gt;
+&lt;li&gt;Import annotations.&lt;/li&gt;
+&lt;li&gt;Export annotations.&lt;/li&gt;
+&lt;li&gt;Extract annotations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;forms&#34;&gt;&lt;strong&gt;Forms&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add fields.&lt;/li&gt;
+&lt;li&gt;Fill fields.&lt;/li&gt;
+&lt;li&gt;Get option button values.&lt;/li&gt;
+&lt;li&gt;Get option button current value.&lt;/li&gt;
+&lt;li&gt;Get form field facade (a field’s visual attributes).&lt;/li&gt;
+&lt;li&gt;Delete field.&lt;/li&gt;
+&lt;li&gt;Move field.&lt;/li&gt;
+&lt;li&gt;Flatten fields (a particular field or all fields).&lt;/li&gt;
+&lt;li&gt;Decorate fields (a particular field or all fields of a particular type).&lt;/li&gt;
+&lt;li&gt;Copy inner or outer field.&lt;/li&gt;
+&lt;li&gt;Add list item.&lt;/li&gt;
+&lt;li&gt;Delete list item.&lt;/li&gt;
+&lt;li&gt;Set submit URL.&lt;/li&gt;
+&lt;li&gt;Set button script.&lt;/li&gt;
+&lt;li&gt;Import and export XML.&lt;/li&gt;
+&lt;li&gt;Import and export FDF.&lt;/li&gt;
+&lt;li&gt;Import and export XFDF.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;stamps-and-watermarks&#34;&gt;&lt;strong&gt;Stamps and Watermarks&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add text stamp (to all pages, or just to particular pages).&lt;/li&gt;
+&lt;li&gt;Add image stamp (to all pages, or just to particular pages).&lt;/li&gt;
+&lt;li&gt;Add PDF page stamp (to all pages, or just to particular pages).&lt;/li&gt;
+&lt;li&gt;Add page number.&lt;/li&gt;
+&lt;li&gt;Add text in header.&lt;/li&gt;
+&lt;li&gt;Add text in footer.&lt;/li&gt;
+&lt;li&gt;Add image in header.&lt;/li&gt;
+&lt;li&gt;Add image in footer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links-and-actions&#34;&gt;&lt;strong&gt;Links and Actions&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create application link.&lt;/li&gt;
+&lt;li&gt;Create local link.&lt;/li&gt;
+&lt;li&gt;Create JavaScript link.&lt;/li&gt;
+&lt;li&gt;Create additional document action.&lt;/li&gt;
+&lt;li&gt;Remove document open action.&lt;/li&gt;
+&lt;li&gt;Create PDF Document link.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;security-and-signatures&#34;&gt;&lt;strong&gt;Security and Signatures&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Encrypt PDF.&lt;/li&gt;
+&lt;li&gt;Decrypt PDF.&lt;/li&gt;
+&lt;li&gt;Set document privileges.&lt;/li&gt;
+&lt;li&gt;Modify passwords.&lt;/li&gt;
+&lt;li&gt;Add digital signature.&lt;/li&gt;
+&lt;li&gt;Remove digital signature.&lt;/li&gt;
+&lt;li&gt;Verify PDF is signed.&lt;/li&gt;
+&lt;li&gt;Verify signature is valid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;printing&#34;&gt;&lt;strong&gt;Printing&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Print PDF to default printer.&lt;/li&gt;
+&lt;li&gt;Print PDF to a specified printer.&lt;/li&gt;
+&lt;li&gt;Print PDF to physical or virtual printer.&lt;/li&gt;
+&lt;li&gt;Print PDF to XPS printer.&lt;/li&gt;
+&lt;li&gt;Print PDF to XPS file.&lt;/li&gt;
+&lt;li&gt;Hide print dialog while printing PDF.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Product Overview</title>
+      <link>https://docs.aspose.com/pdf/java/product-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/product-overview/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;&lt;img src=&#34;product-overview_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Welcome to Aspose.PDF for Android via Java&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Android via Java is a component that allows developers to create and manipulate PDF documents programmatically, whether simple or complex. Aspose.PDF for Android via Java allows developers to insert tables, graphs, images, hyperlinks, custom fonts - and more - into PDF documents. It can also be used to compress PDF documents. Aspose.PDF for Android via Java provides excellent security features for developing secure PDFs. Aspose.PDF for Android via Java&amp;rsquo;s most distinctive feature is that it supports PDF creation through both an API and from XML templates.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;product-description&#34;&gt;&lt;strong&gt;Product Description&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for Android via Java is a robust Java component that lets developers create PDF documents from scratch without using Adobe Acrobat. Aspose.PDF for Android via Java provides a simple Application Programming Interface (API) that is easy to learn and use.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Android via Java is implemented using Java and it works with J2SE 1.4.1, J2SE 5.0, J2SE 6.0 and J2SE 7.0. Aspose.PDF for Android via Java can be integrated with any android application running on Android OS 2.0 or higher.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Android via Java is fast and light-weight. It creates PDF documents efficiently and helps your application perform better. Aspose.PDF for Android via Java is our customers&amp;rsquo; first choice when creating PDF documents because of its price, performance and great support.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Supported File Formats</title>
+      <link>https://docs.aspose.com/pdf/java/supported-file-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/supported-file-formats/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;supported-file-formats&#34;&gt;&lt;strong&gt;Supported File Formats&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The following table indicates the file formats that Aspose.PDF for Android via Java can load and save.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Load&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Save&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Remarks&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/ebook/epub/&#34;&gt;EPUB&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ebook file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/web/html/&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/web/xml/&#34;&gt;XML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XML Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/view/pdf/a/&#34;&gt;PDF/A&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Document Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/spreadsheet/xls/&#34;&gt;XLS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Excel Binary SpreadSheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/word-processing/doc/&#34;&gt;DOC&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Word Binary Document format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/page-description-language/tex/&#34;&gt;TeX&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LaTex typesetting file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/web/xml/&#34;&gt;XML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XML Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/page-description-language/svg/&#34;&gt;SVG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Scalable Vector Graphics (An XML-based vector image format)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/jpeg/&#34;&gt;JPEG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saves the document in JPEG Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/png/&#34;&gt;PNG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portable Network Graphics Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/bmp/&#34;&gt;BMP&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bitmap Format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/image/tiff/&#34;&gt;TIFF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Single or Multi-Page TIFF Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://wiki.fileformat.com/page-description-language/xps/&#34;&gt;XPS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XPS Documents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;i class=&#34;fas fa-check-square emoticon-tick&#34;&gt;&lt;/i&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Install Aspose.PDF for Android via Java</title>
+      <link>https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The machine that runs Aspose.PDF for Android via Java does not need to have &lt;a href=&#34;http://www.adobe.com/products/acrobatpro/main.html&#34;&gt;Adobe Acrobat&lt;/a&gt; installed to produce PDF documents. Aspose.PDF for Android via Java is a PDF document creation engine. However, to view PDF documents produced by Aspose.PDF for Android via Java, the machine does need at least an &lt;a href=&#34;http://www.adobe.com/products/acrobat/readermain.html&#34;&gt;Adobe Acrobat Reader&lt;/a&gt;. It can be &lt;a href=&#34;http://www.adobe.com/products/acrobat/readermain.html&#34;&gt;downloaded&lt;/a&gt; for free.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;supported-android-os-versions&#34;&gt;&lt;strong&gt;Supported Android OS versions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF for Android via Java is platform independent and can be used on any platform where Android Runtime environment is installed and will run on Android systems running Android OS 2.0 or higher. At present, the component has been tested with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android 4.2 v 17&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;&lt;strong&gt;Installation&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the latest version of Aspose.PDF for Android via Java from &lt;a href=&#34;https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf-android-via-java&#34;&gt;Aspose Repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Unzip the installation package and copy the aspose.pdf.android-4.0.jar file to your Java application.&lt;/li&gt;
+&lt;li&gt;Provide a reference to the aspose.pdf.android-4.0.jar file so the compiler can find it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;install-asposepdf-for-android-via-java-from-aspose-repository&#34;&gt;&lt;strong&gt;Install Aspose.PDF for Android via Java from Aspose Repository&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add maven repository into your build.gradle &lt;/li&gt;
+&lt;li&gt;Add &amp;lsquo;Aspose.PDF for Android via Java&amp;rsquo; JAR as a dependency&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// 1. Add maven repository into your build.gradle 
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;repositories&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;mavenCentral&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;maven&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;url&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://repository.aspose.com/repo/&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// 2. Add &amp;#39;Aspose.PDF for Android via Java&amp;#39; JAR as a dependency
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;dependencies&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;...&lt;/span&gt;
+
+    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;...&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;compile&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;group&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;18&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;6&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;classifier&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;android&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;via&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;java&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Licensing</title>
+      <link>https://docs.aspose.com/pdf/java/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/licensing/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Once you are happy with your evaluation of Aspose.PDF for Android via Java, &lt;a href=&#34;https://purchase.aspose.com/&#34;&gt;purchase a license&lt;/a&gt; at the Aspose website. Make yourself familiar with the different &lt;a href=&#34;https://purchase.aspose.com/policies/license-types/&#34;&gt;license types&lt;/a&gt; offered. If you have any questions, do not hesitate to &lt;a href=&#34;https://company.aspose.com/contact&#34;&gt;contact the Aspose sales team&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.&lt;/p&gt;
+&lt;p&gt;The license is a plain text XML file that contains details such as the product name, number of licensed developers, subscription expiry date and so on. The file is digitally signed, so do not modify the file: even adding an extra line break into the file will invalidate it.&lt;/p&gt;
+&lt;p&gt;You need to set a license before performing any operations with documents. Make sure you do this before creating a Document object. You are only required to set a license once per application or process.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;h3 id=&#34;loading-the-license-file&#34;&gt;&lt;strong&gt;Loading the License file&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In Aspose.PDF for Android via Java, the license can be embedded as a resource, or loaded from a stream:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Put the license file at any location on &lt;strong&gt;/mnt/sdcard/&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Create a stream that references file.&lt;/li&gt;
+&lt;li&gt;Pass the stream (containing the license file) into the SetLicense method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataDir&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Environment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getExternalStorageDirectory&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getPath&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create a stream object containing the license file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;FileInputStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fstream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FileInputStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dataDir&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;quot;Aspose.PDF.Android.lic&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Instantiate the License class
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Set the license through the stream object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;fstream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h4 id=&#34;applying-a-license-from-an-embedded-resource&#34;&gt;&lt;strong&gt;Applying a License from an Embedded Resource&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To access the license as a resource by name from an Android package file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the license file as a resource to your application&amp;rsquo;s &lt;strong&gt;res/raw&lt;/strong&gt; folder.
+The license file should be visible in the &lt;strong&gt;res/raw&lt;/strong&gt; folder.&lt;/li&gt;
+&lt;li&gt;Access/load the license from the resource with the following code sample.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;License&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;InputStream&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;inputStream&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;getResources&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;openRawResource&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;R&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;raw&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#000&#34;&gt;license&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setLicense&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;inputStream&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to use the Examples</title>
+      <link>https://docs.aspose.com/pdf/java/how-to-use-the-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/how-to-use-the-examples/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Firstly make sure that you have the ADT bundle installed and that you have downloaded and extracted the latest version of &lt;a href=&#34;https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf-android-via-java&#34;&gt;Aspose.PDF for Android via Java&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract the &lt;strong&gt;aspose-pdf-X.X.X.jar&lt;/strong&gt; from the latest release archive and add it to a new folder under the example you want to run. Add the file under a folder called &lt;strong&gt;libs&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Open the project in your workspace using Eclipse with ADT.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Run&lt;/strong&gt; to start and choose the appropriate emulator to run the package on.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Evaluate Aspose.Pdf for Android via Java</title>
+      <link>https://docs.aspose.com/pdf/java/evaluate-aspose-pdf-for-android-via-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/evaluate-aspose-pdf-for-android-via-java/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+You can download Aspose.PDF for Android via Java for evaluation from &lt;a href=&#34;https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf-android-via-java&#34;&gt;Aspose Repository&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;The evaluation download is the same as the licensed download. The evaluation version simply becomes a licensed version when a license is applied. The evaluation version of Aspose.PDF for Android via Java provides full product functionality, but inserts an evaluation watermark at the top of output documents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An evaluation message on a page&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&#34;evaluate-aspose-pdf-for-android-via-java_1.png&#34; alt=&#34;todo:image_alt_text&#34;&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+If you want to test Aspose.PDF for Android via Java without the evaluation version limitations, you can &lt;a href=&#34;https://purchase.aspose.com/temporary-license&#34;&gt;request a 30-day temporary license&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

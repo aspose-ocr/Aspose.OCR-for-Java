@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working With Text - Facades</title>
+    <link>https://docs.aspose.com/pdf/cpp/working-with-text-facades/</link>
+    <description>Recent content in Working With Text - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/cpp/working-with-text-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Extract Text from PDF - Facades</title>
+      <link>https://docs.aspose.com/pdf/cpp/extract-text-from-pdf-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/extract-text-from-pdf-facades/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;extract-text-from-all-pages-of-the-document&#34;&gt;&lt;strong&gt;Extract Text from all Pages of the Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to extract text from all pages of the PDF document, &lt;strong&gt;Aspose.PDF for C++&lt;/strong&gt; offers PdfExtractor class under Facades namespace. You can extract all text from PDF document, save into MemoryStream object and get as a string, in case you want to use it for further manipulations. Following code snippet will show you, how to use PdfExtractor class to extract text from all pages of PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/e5fb9ddf5bd6460bb13d47fe5a83d86d.js?file=Examples-PdfCPP-Text-ExtractText-ExtractText.cpp&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

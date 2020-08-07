@@ -1,0 +1,116 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.PDF .NET for Umbraco</title>
+    <link>https://docs.aspose.com/pdf/net/aspose-pdf-net-for-umbraco/</link>
+    <description>Recent content in Aspose.PDF .NET for Umbraco on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/aspose-pdf-net-for-umbraco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Umbraco PDF Import Module</title>
+      <link>https://docs.aspose.com/pdf/net/umbraco-pdf-import-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/umbraco-pdf-import-module/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insintroductionins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF for .NET&lt;/strong&gt; is a PDF document creation and manipulation component that enables your .NET applications to read, write and manipulate existing PDF documents without using Adobe Acrobat. It also allows you to create forms and manage form fields embedded in a PDF document.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.PDF for .NET&lt;/strong&gt; is affordable and offers an incredible wealth of features including PDF compression options; table creation and manipulation; support for graph objects; extensive hyperlink functionality; extended security controls; custom font handling; integration with data sources; add or remove bookmarks; create table of contents; add, update, delete attachments and annotations; import or export PDF form data; add, replace or remove text and images; split, concatenate, extract or inset pages; transform pages to image; print PDF documents and much more&lt;/p&gt;
+&lt;h3 id=&#34;module-features&#34;&gt;&lt;strong&gt;Module Features&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Umbraco PDF Import is an open source add-on from &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; that allow developers to get/read contents of any PDF document without requiring any other software. This add-on demonstrates the powerful import feature provided by &lt;a href=&#34;http://www.aspose.com/pdf-component-suite.aspx&#34;&gt;Aspose.PDF&lt;/a&gt;. It adds a simple file browser control and &lt;strong&gt;Import from PDF&lt;/strong&gt; button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.&lt;/p&gt;
+&lt;h2 id=&#34;inssystem-requirements-and-supported-platformsins&#34;&gt;&lt;ins&gt;&lt;strong&gt;System Requirements and Supported Platforms&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;system-requirements&#34;&gt;&lt;strong&gt;System Requirements&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In order to setup Aspose .NET Pdf Import for Umbraco module you need to have the following requirements met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Umbraco 6.0 +&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please feel free to contact us if you wish to install this module on other versions of Umbraco.&lt;/p&gt;
+&lt;h3 id=&#34;supported-platforms&#34;&gt;&lt;strong&gt;Supported Platforms&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The module is supported on all versions of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Umbraco running on ASP.NET 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;insdownloadingins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Downloading&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;p&gt;You can download Aspose .NET Pdf Import for Umbraco from one of the following locations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposeumbraco.codeplex.com/releases&#34;&gt;CodePlex &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposemarketplace/Aspose_for_Umbraco/releases&#34;&gt;Github &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourceforge.net/projects/asposeumbraco/files/&#34;&gt;Sourceforge &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads&#34;&gt;Bitbucket &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://our.umbraco.org/projects/developer-tools/import-from-pdf-using-aspose-pdf&#34;&gt;Umbraco &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;insinstallingins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Installing&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;p&gt;Once downloaded, please follow these steps to install this package into your Umbraco website:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Log in to the Umbraco &lt;strong&gt;Developer&lt;/strong&gt; section, for example &lt;a href=&#34;http://www.myblog.com/umbraco/&#34;&gt;http://www.myblog.com/umbraco/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;From the tree, expand the &lt;strong&gt;Packages&lt;/strong&gt; folder.
+From here there are two ways to install a package: select &lt;strong&gt;Install local package&lt;/strong&gt; or browse the &lt;strong&gt;Umbraco Package Respository.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;If you install &lt;strong&gt;local package&lt;/strong&gt;, do not unzip the package but load the zip into Umbraco.&lt;/li&gt;
+&lt;li&gt;Follow the instructions on screen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;httpRuntime&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;requestValidationMode&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2.0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;enableVersionHeader&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;false&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;maxRequestLength&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;25000&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;insusingins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Using&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;p&gt;After you have installed the macro it is really simple to start using it on your website:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure you are logged in to the Umbraco &lt;strong&gt;Developer&lt;/strong&gt; section, for example &lt;a href=&#34;http://www.myblog.com/umbraco/&#34;&gt;http://www.myblog.com/umbraco/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Settings&lt;/strong&gt; in the list of sections at the bottom left of the screen.&lt;/li&gt;
+&lt;li&gt;Expand the &lt;strong&gt;Templates&lt;/strong&gt; node and select the template that you want to add macro to, for example Blog post.&lt;/li&gt;
+&lt;li&gt;Select the position in the selected template where you want to the button.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Insert Macro&lt;/strong&gt; on the top ribbon.&lt;/li&gt;
+&lt;li&gt;From &lt;strong&gt;Choose a macro&lt;/strong&gt;, select the installed macro and click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You have successfully added the template. A button titled &lt;strong&gt;Import from Pdf&lt;/strong&gt; now appears on all pages created using this template. Anyone can simply click the button and import the contents of a PDF document.&lt;/p&gt;
+&lt;h2 id=&#34;insvideo-demoins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Video Demo&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;p&gt;Please check &lt;a href=&#34;https://www.youtube.com/watch?v=zmZTJ86B25E&#34;&gt;the video&lt;/a&gt; below to see the module in action.&lt;/p&gt;
+&lt;h2 id=&#34;inssupport-extend-and-contributeins&#34;&gt;&lt;ins&gt;&lt;strong&gt;Support, Extend and Contribute&lt;/strong&gt;&lt;ins/&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;support&#34;&gt;&lt;strong&gt;Support&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We&amp;rsquo;re here to solve problems, not create them.&lt;/p&gt;
+&lt;p&gt;This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.&lt;/p&gt;
+&lt;p&gt;You can log any issues or suggestions related to Aspose.PDF .NET for Umbraco Modules using any of the following platforms&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposeumbraco.codeplex.com/workitem/list/basic&#34;&gt;CodePlex &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposemarketplace/Aspose_for_Umbraco/issues&#34;&gt;Github &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar&#34;&gt;Sourceforge &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&amp;amp;status=open&#34;&gt;Bitbucket &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Import from Pdf&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/Umbraco-Import-from-Pdf-d4659bc8/view/Discussions#content&#34;&gt;Microsoft Developer Network - Q and A &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;extend-and-contribute&#34;&gt;&lt;strong&gt;Extend and Contribute&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose .NET PDF Import for Umbraco is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.&lt;/p&gt;
+&lt;h4 id=&#34;source-code&#34;&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;You can get the latest source code from one of the following locations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposeumbraco.codeplex.com/SourceControl/latest&#34;&gt;CodePlex &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposemarketplace/Aspose_for_Umbraco&#34;&gt;Github &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/&#34;&gt;Sourceforge &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src&#34;&gt;Bitbucket &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;how-to-configure-the-source-code&#34;&gt;&lt;strong&gt;How to configure the source code&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;You need to have the following installed in order to open and extend the source code&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio 2010 or higher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please follow these simple steps to get started&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download/Clone the source code.&lt;/li&gt;
+&lt;li&gt;Open Visual Studio 2010 and Choose &lt;strong&gt;File&lt;/strong&gt; &amp;gt; &lt;strong&gt;Open Project&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Browse to the latest source code that you have downloaded and open &lt;strong&gt;Aspose.Import from PDF.sln&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

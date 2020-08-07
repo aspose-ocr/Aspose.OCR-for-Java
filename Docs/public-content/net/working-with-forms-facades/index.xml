@@ -1,0 +1,195 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Forms - Facades</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-forms-facades/</link>
+    <description>Recent content in Working with Forms - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-forms-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Working with Form Fields</title>
+      <link>https://docs.aspose.com/pdf/net/working-with-form-fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/working-with-form-fields/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;fill-form-fields-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Fill Form Fields in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to fill the form fields in an existing PDF file, you need to use &lt;strong&gt;Form&lt;/strong&gt; class. This class provides &lt;strong&gt;FillField&lt;/strong&gt; method which allows you to fill different fields. For example, you can either fill a text field using this method or set check box and combo box values. First of all, you need to create an object of Form class with input and output PDF file parameters, and then call the &lt;strong&gt;FillField&lt;/strong&gt; method. You can use &lt;strong&gt;FillImageField&lt;/strong&gt; method to fill image fields. After that, you need to call &lt;strong&gt;Save&lt;/strong&gt; method to save the output PDF file. The following code snippet shows you how to fill form fields in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-FillFormFieldF-FillFormFieldF.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-form-field-facade-values-from-existing-pdf-file&#34;&gt;&lt;strong&gt;Get Form Field Facade Values from Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;FormFieldFacade&lt;/strong&gt; represents a class to record visual attributes of a field, including the following information: border style, width, border color, background color, font, font size, caption, text color, text alignment, and text rotation. If you want to get the visual attributes of a field, you can use &lt;strong&gt;GetFieldFacade&lt;/strong&gt; method of &lt;strong&gt;Form&lt;/strong&gt; class. This method returns an object of &lt;strong&gt;FormFieldFacade&lt;/strong&gt; class. You can use this object to get all the visual attributes of the form field. The following code snippet shows you how to get form field facade values from existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-GetFormFieldValue-GetFormFieldValue.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-form-field-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Add Form Field in an Existing PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to add a form field in an existing PDF file, you need to use &lt;strong&gt;AddField&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. This method requires you to specify the type of the field you want to add along with the name and location of the field. You need to create an object of &lt;strong&gt;FormEditor&lt;/strong&gt; class, use &lt;strong&gt;AddField&lt;/strong&gt; method to add a new field in the PDF, and finally use &lt;strong&gt;Save&lt;/strong&gt; method to save the updated PDF file. The following code snippet shows you how to add form field in an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-AddFormField-AddFormField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-form-field-from-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Delete Form Field from an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to delete a form field from an existing PDF file, you can use &lt;strong&gt;RemoveField&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. This method takes only one argument: field name. You need to create an object of &lt;strong&gt;FormEditor&lt;/strong&gt; class, call &lt;strong&gt;RemoveField&lt;/strong&gt; method to remove a particular field from the PDF and then call the &lt;strong&gt;Save&lt;/strong&gt; method to save the updated PDF file. The following code snippet shows you how to delete form fields from an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-DeleteField-DeleteField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;move-form-field-to-a-new-location-in-existing-pdf-file&#34;&gt;&lt;strong&gt;Move Form Field to a New Location in Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to move a form field to a new location then you can use &lt;strong&gt;MoveField&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. You only need to provide the field name and new location of this field to the &lt;strong&gt;MoveField&lt;/strong&gt; method. You also need to save the updated PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to move a form field in a new location in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-MoveField-MoveField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-value-of-a-form-field-from-a-pdf-document&#34;&gt;&lt;strong&gt;Get Value of a Form Field from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get value of a form field, you need to create object of &lt;strong&gt;Form&lt;/strong&gt; class and call &lt;strong&gt;GetField&lt;/strong&gt; method. &lt;strong&gt;GetField&lt;/strong&gt; method takes field name as input and returns its value as string. 
+The following code snippet shows you how to get value of a form field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-GetFieldValue-GetFieldValue.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;flatten-all-fields-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Flatten All Fields in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;FlattenAllFields&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class allows you to flatten all the fields of the PDF form. You first need to create &lt;strong&gt;Form&lt;/strong&gt; object with input and output PDF files and then call the &lt;strong&gt;FlattenAllFields&lt;/strong&gt; method and finally save the updated PDF using &lt;strong&gt;Save&lt;/strong&gt; method. The following code snippet shows you how to flatten all the fields of the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-FlattenAllFields-FlattenAllFields.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;fill-form-fields-using-datatable&#34;&gt;&lt;strong&gt;Fill Form fields using DataTable&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET provides great capabilities for create/manipulating form fields inside PDF document. Using this API, you can programmatically fill form fields inside PDF file, fill form fields by &lt;a href=&#34;http://www.aspose.com/docs/display/pdfnet/Import+Data+from+FDF+into+a+PDF+File+%28Facades%29&#34;&gt;Import Data from FDF into a PDF File &lt;/a&gt;, &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/import-and-export-data/&#34;&gt;Import Data from XFDF into a PDF File&lt;/a&gt;, &lt;a href=&#34;http://www.aspose.com/docs/display/pdfnet/Import+Data+from+XML+into+a+PDF+File+%28Facades%29&#34;&gt;Import Data from XML into a PDF File&lt;/a&gt; or even you can import data from &lt;strong&gt;System.Data.DataTable&lt;/strong&gt; object. If we have a requirement to fill forms fields using data from database/data-source, we can export the data to DataTable and then use &lt;strong&gt;ImportDataTable(..)&lt;/strong&gt; method of &lt;strong&gt;Aspose.Pdf.Facades.AutoFiller&lt;/strong&gt; class.&lt;/p&gt;
+&lt;h2 id=&#34;decorate-a-particular-form-field-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Decorate a Particular Form Field in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DecorateField&lt;/strong&gt; method present in &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.facades/formeditor&#34;&gt;FormEditor&lt;/a&gt; class allows you to decorate a particular form field in a PDF file. If you want to decorate a particular field then you need to pass the field name to this method. However, before calling this method, you need to create objects of &lt;strong&gt;FormEditor&lt;/strong&gt; and &lt;strong&gt;FormFieldFacade&lt;/strong&gt; classes. You also need to assign the &lt;strong&gt;FormFieldFacade&lt;/strong&gt; object to &lt;strong&gt;Facade&lt;/strong&gt; property of the &lt;strong&gt;FormEditor&lt;/strong&gt; object. After that, you can set any attributes provided by &lt;strong&gt;FormFieldFacade&lt;/strong&gt; object. Once you have set the attributes, you can call the &lt;strong&gt;DecorateField&lt;/strong&gt; method and finally save the updated PDF using &lt;strong&gt;Save&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. 
+The following code snippet shows you how to decorate a particular form field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-DecorateParticularField-DecorateParticularField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;set-form-field-font-other-than-14-core-pdf-fonts&#34;&gt;&lt;strong&gt;Set Form Field Font other than 14 core PDF fonts&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In order to set the font, a new property &lt;strong&gt;CustomFont&lt;/strong&gt; is added in &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.facades/formfieldfacade&#34;&gt;FormFieldFacade&lt;/a&gt; class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-DecorateParticularField-SetFont.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;decorate-all-fields-of-a-particular-type-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Decorate All Fields of a Particular Type in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DecorateField&lt;/strong&gt; method allows you to decorate all the form fields of a particular type in a PDF file at once. If you want to decorate all fields of a particular type then you need to pass the field type to this method. However, before calling this method, you need to create objects of &lt;strong&gt;FormEditor&lt;/strong&gt; and &lt;strong&gt;FormFieldFacade&lt;/strong&gt; classes. You also need to assign the &lt;strong&gt;FormFieldFacade&lt;/strong&gt; object to &lt;strong&gt;Facade&lt;/strong&gt; property of the &lt;strong&gt;FormEditor&lt;/strong&gt; object. After that, you can set any attributes provided by &lt;strong&gt;FormFieldFacade&lt;/strong&gt; object. Once you have set the attributes, you can call the &lt;strong&gt;DecorateField&lt;/strong&gt; method and finally save the updated PDF using &lt;strong&gt;Save&lt;/strong&gt; method of &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to decorate all the fields of a particular type.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-DecorateFields-DecorateFields.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with List Item</title>
+      <link>https://docs.aspose.com/pdf/net/working-with-list-item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/working-with-list-item/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-list-item-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Add List Item in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;AddListItem&lt;/strong&gt; method allows you to add an item in a &lt;strong&gt;ListBox&lt;/strong&gt; field. The first argument is the field name and second argument in the field item. You can either pass a single field item or you can pass an array of string contains a list of items. This method is provided by &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to add list items in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-AddListItem-AddListItem.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-list-item-from-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Delete List Item from an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DelListItem&lt;/strong&gt; method allows you to delete a particular item from the &lt;strong&gt;ListBox&lt;/strong&gt;. The first parameter is the field name while second parameter is the item which you want to delete from the list. This method is provided by &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to delete a list item from the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-DeleteListItem-DeleteListItem.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Button Option Value</title>
+      <link>https://docs.aspose.com/pdf/net/get-button-option-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/get-button-option-value/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;get-button-option-values-from-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Get Button Option Values from an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The radion buttons provide a way to show different options. The &lt;strong&gt;From&lt;/strong&gt; class allows you to get all the button option values for a particular radio button. You can get these values using &lt;strong&gt;GetButtonOptionValues&lt;/strong&gt; method. This method requires the name of the radio button as input parameter and returns a Hashtable. You can iterate through this Hashtable to get the option values. The following code snippet shows you how to get button option values from existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-GetButtonOptionValue-GetButtonOptionValue.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-current-button-option-value-from-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Get Current Button Option Value from an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Radio buttons provide a way to set option values, however one of them can be selected at a time. If you want to get the currently selected option value then you can use &lt;strong&gt;GetButtonOptionCurrentValue&lt;/strong&gt; method. &lt;strong&gt;Form&lt;/strong&gt; class provides this method. The &lt;strong&gt;GetButtonOptionCurrentValue&lt;/strong&gt; method requires radio button name as input parameter and returns the value as string. The following code snippet shows you how to get current button option value from an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-GetButtonOptionValue-GetCurrentValue.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Submit Button URL and JavaScript for Push Button</title>
+      <link>https://docs.aspose.com/pdf/net/set-submit-button-url-and-javascript-for-push-button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/set-submit-button-url-and-javascript-for-push-button/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;set-submit-button-url-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Set Submit Button URL in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SetSubmitUrl&lt;/strong&gt; method allows you to set the submit button’s URL in a PDF file. This is the URL where the data is posted when the submit button is clicked. &lt;strong&gt;SetSubmitUrl&lt;/strong&gt; method required the name of the submit button field and the URL. This method is provided by &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to set submit button URL.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-SetSubmitButtonURL-SetSubmitButtonURL.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;set-javascript-for-push-button&#34;&gt;&lt;strong&gt;Set JavaScript for Push Button&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SetFieldScript&lt;/strong&gt; method allows you to set &lt;strong&gt;JavaScript&lt;/strong&gt; to a push button in a PDF file. This method requires the name of the push button and the &lt;strong&gt;JavaScript&lt;/strong&gt; . This method is provided by &lt;strong&gt;FormEditor&lt;/strong&gt; class. The following code snippet shows you how to set JavaScript to a push button.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-SetJSPushButton-SetJSPushButton.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy Inner and Outer Field</title>
+      <link>https://docs.aspose.com/pdf/net/copy-inner-and-outer-field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/copy-inner-and-outer-field/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;copy-inner-field-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Copy Inner Field in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CopyInnerField&lt;/strong&gt; method allows you to copy a field in the same file, at the same coordinates, on the specified page. This method requires the field name which you want to copy, the new field name, and the page number at which the field needs to be copied. &lt;strong&gt;FormEditor&lt;/strong&gt; class provides this method. The following code snippet shows you how to copy the field at the same location in the same file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-CopyInnerField-CopyInnerField.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;copy-outer-field-in-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Copy Outer Field in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CopyOuterField&lt;/strong&gt; method allows you to copy a form field from an external PDF file and then add it to the input PDF file at the same location and the specified page number. This method requires the PDF file from which the field needs to be copied, the field name, and the page number at which the field needs to be copied. This method is provided by &lt;strong&gt;FormEditor&lt;/strong&gt; class.The following code snippet shows you how to copy a field from an external PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-CopyOuterField-CopyOuterField.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Import and Export Data</title>
+      <link>https://docs.aspose.com/pdf/net/import-and-export-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/import-and-export-data/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;import-data-from-xml-into-a-pdf-file&#34;&gt;&lt;strong&gt;Import Data from XML into a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to import data from an XML file to the PDF file using &lt;strong&gt;ImportXml&lt;/strong&gt; method. In order to import data from XML, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ImportXml&lt;/strong&gt; method using the FileStream object. Finally, you can save the PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class.The following code snippet shows you how to import data from XML file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ImportDataFromXML-ImportDataFromXML.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;export-data-to-xml-from-a-pdf-file&#34;&gt;&lt;strong&gt;Export Data to XML from a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to export data to an XML file from the PDF file using &lt;strong&gt;ExportXml&lt;/strong&gt; method. In order to export data to XML, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ExportXml&lt;/strong&gt; method using the FileStream object. Finally, you can close FileStream object and dispose Form object. The following code snippet shows you how to export data to XML file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ExportDataToXML-ExportDataToXML.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;import-data-from-fdf-into-a-pdf-file&#34;&gt;&lt;strong&gt;Import Data from FDF into a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to import data from an FDF file to the PDF file using &lt;strong&gt;ImportFdf&lt;/strong&gt; method. In order to import data from FDF, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ImportFdf&lt;/strong&gt; method using the FileStream object. Finally, you can save the PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class.The following code snippet shows you how to import data from FDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ImportDataFromPdf-ImportDataFromPdf.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;export-data-to-fdf-from-a-pdf-file&#34;&gt;&lt;strong&gt;Export Data to FDF from a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to export data to an FDF file from the PDF file using &lt;strong&gt;ExportFdf&lt;/strong&gt; method. In order to export data to FDF, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ExportFdf&lt;/strong&gt; method using the FileStream object. Finally, you can save the PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class. The following code snippet shows you how to export data to FDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ExportDataToPdf-ExportDataToPdf.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;import-data-from-xfdf-into-a-pdf-file&#34;&gt;&lt;strong&gt;Import Data from XFDF into a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to import data from an XFDF file to the PDF file using &lt;strong&gt;ImportXfdf&lt;/strong&gt; method. In order to import data from XFDF, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ImportXfdf&lt;/strong&gt; method using the FileStream object. Finally, you can save the PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class. The following code snippet shows you how to import data from XFDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ImportDataFromXFDF-ImportDataFromXFDF.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;export-data-to-xfdf-from-a-pdf-file&#34;&gt;&lt;strong&gt;Export Data to XFDF from a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Form&lt;/strong&gt; class allows you to export data to an XFDF file from the PDF file using &lt;strong&gt;ExportXfdf&lt;/strong&gt; method. In order to export data to XFDF, you need to create an object of &lt;strong&gt;Form&lt;/strong&gt; class and then call the &lt;strong&gt;ExportXfdf&lt;/strong&gt; method using the FileStream object. Finally, you can save the PDF file using &lt;strong&gt;Save&lt;/strong&gt; method of the &lt;strong&gt;Form&lt;/strong&gt; class. The following code snippet shows you how to export data to XFDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Forms-ExportDataToXFDF-ExportDataToXFDF.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

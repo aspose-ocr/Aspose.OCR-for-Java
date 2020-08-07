@@ -1,0 +1,172 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Links and Actions</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-links-and-actions/</link>
+    <description>Recent content in Working with Links and Actions on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-links-and-actions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Create, Update and Extract Link</title>
+      <link>https://docs.aspose.com/pdf/net/create-update-and-extract-link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/create-update-and-extract-link/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;create-application-link-in-a-pdf-file&#34;&gt;&lt;strong&gt;Create Application Link in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;By adding a link to an application into a document, it is possible to link to applications from a document. This is useful when you want readers to take a certain action at a specific point in a tutorial, for example, or to create a feature-rich document. To create an application link:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; you want to add link to.&lt;/li&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; object using the Page and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/rectangle&#34;&gt;Rectangle&lt;/a&gt; objects.&lt;/li&gt;
+&lt;li&gt;Set the link attributes using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Also, set the to &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/launchaction&#34;&gt;LaunchAction&lt;/a&gt; object&amp;rsquo;s Action property.&lt;/li&gt;
+&lt;li&gt;When creating the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/launchaction&#34;&gt;LaunchAction&lt;/a&gt; object, specify the application you want to launch.&lt;/li&gt;
+&lt;li&gt;Add the link to the Page object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page/properties/annotations&#34;&gt;Annotations&lt;/a&gt; property.&lt;/li&gt;
+&lt;li&gt;Finally, save the updated PDF using the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/methods/save&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to create a link to an application in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-CreateApplicationLink-CreateApplicationLink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;create-pdf-document-link-in-a-pdf-file&#34;&gt;&lt;strong&gt;Create PDF Document Link in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows you to add a link to an external PDF file so that you can link several documents together. To create a PDF document link:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First, create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Then, get the particular &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; you want to add the link to.&lt;/li&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; object using the Page and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/rectangle&#34;&gt;Rectangle&lt;/a&gt; objects.&lt;/li&gt;
+&lt;li&gt;Set the link attributes using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Set the Action property to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/gotoremoteaction&#34;&gt;GoToRemoteAction&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;While creating the GoToRemoteAction object, specify the PDF file that should launch, as well as the page number it should open on.&lt;/li&gt;
+&lt;li&gt;Add the link to the Page object&amp;rsquo;s Annotations collection.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF using the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/methods/save&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to create PDF document link in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-CreateDocumentLink-CreateDocumentLink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;update-links-in-a-pdf-file&#34;&gt;&lt;strong&gt;Update Links in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;As discussed in &lt;a href=&#34;&#34;&gt;Add Hyperlink in a PDF File&lt;/a&gt;, the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; class makes it possible to add links in a PDF file. There&amp;rsquo;s also a similar class used to get existing links from inside PDF files. Use this if you need to update an existing link. To update an existing link:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Load a PDF file.&lt;/li&gt;
+&lt;li&gt;Go to a specific page in the PDF file.&lt;/li&gt;
+&lt;li&gt;Specify the link destination using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/gotoaction&#34;&gt;GoToAction&lt;/a&gt; object&amp;rsquo;s Destination property.&lt;/li&gt;
+&lt;li&gt;The destination page is specified using the &lt;a href=&#34;http://www.aspose.com/api/net/pdf/aspose.pdf.interactivefeatures/xyzexplicitdestination&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/xyzexplicitdestination&#34;&gt;XYZExplicitDestination&lt;/a&gt; constructor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;set-link-target-to-a-page-in-the-same-document&#34;&gt;&lt;strong&gt;Set Link Target to a Page in the Same Document&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippet shows you how to update a link in a PDF file and set its target to the second page of the document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-UpdateLinks-UpdateLinks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;set-link-destination-to-a-web-address&#34;&gt;&lt;strong&gt;Set Link Destination to a Web Address&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To update the hyperlink so that it points to a web address, instantiate the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/gotouriaction&#34;&gt;GoToURIAction&lt;/a&gt; object and pass it to the LinkAnnotation&amp;rsquo;s Action property. The following code snippet shows how to update a link in a PDF file and set its target to a web address.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-SetDestinationLink-SetDestinationLink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;set-link-target-to-another-pdf-file&#34;&gt;&lt;strong&gt;Set Link Target to Another PDF File&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippet shows how to update a link in a PDF file and set its target to another PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-SetTargetLink-SetTargetLink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;update-linkannotation-text-color&#34;&gt;&lt;strong&gt;Update LinkAnnotation Text Color&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The link annotation does not contain text. Instead, the text is placed in the contents of the page under the annotation. Therefore, to change the color of the text, replace the color of the page text instead of trying change color of the annotation. The following code snippet shows how to update the color of link annotation in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-UpdateLinkTextColor-UpdateLinkTextColor.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;extract-links-from-the-pdf-file&#34;&gt;&lt;strong&gt;Extract Links from the PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Links are represented as annotations in a PDF file, so to extract links, extract all the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; objects.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; you want to extract links from.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; class to extract all the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; objects from the specified page.&lt;/li&gt;
+&lt;li&gt;Pass the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; object to the Page object&amp;rsquo;s Accept method.&lt;/li&gt;
+&lt;li&gt;Get all the selected link annotations into an IList object using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; object&amp;rsquo;s Selected property.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to extract links from a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-ExtractLinks-ExtractLinks.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add and Get Hyperlink</title>
+      <link>https://docs.aspose.com/pdf/net/add-and-get-hyperlink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-and-get-hyperlink/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-hyperlink-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Hyperlink in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;It is possible to add hyperlinks to PDF files, either to allow readers to navigate to another part of the PDF, or to external content.&lt;/p&gt;
+&lt;p&gt;In order to add web hyperlinks to PDF documents:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; Class object.&lt;/li&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; Class you want to add the link to.&lt;/li&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; object using the Page and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/rectangle&#34;&gt;Rectangle&lt;/a&gt; objects.
+The rectangle object is used to specify the location on the page where the link should be added.&lt;/li&gt;
+&lt;li&gt;Set the Action property to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/gotouriaction&#34;&gt;GoToURIAction&lt;/a&gt; object which specifies the location of the remote URI.&lt;/li&gt;
+&lt;li&gt;To display a hyperlink text, add a text string on a location similar to where the LinkAnnotation object is placed.&lt;/li&gt;
+&lt;li&gt;To add a free text:
+&lt;ol&gt;
+&lt;li&gt;Instantiate an &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/freetextannotation&#34;&gt;FreeTextAnnotation&lt;/a&gt; object. It also accepts Page and Rectangle objects as argument, so it is possible to provide same values as specified against the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; constructor.&lt;/li&gt;
+&lt;li&gt;Using the FreeTextAnnotation object&amp;rsquo;s Contents property, specify the string that should be displayed in the output PDF.&lt;/li&gt;
+&lt;li&gt;Optionally, set the border width of both the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/freetextannotation&#34;&gt;FreeTextAnnotation&lt;/a&gt; objects to 0 so that they do not appear in the PDF document.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Once the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/freetextannotation&#34;&gt;FreeTextAnnotation&lt;/a&gt; objects have been defined, add these links to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; object&amp;rsquo;s Annotations collection.&lt;/li&gt;
+&lt;li&gt;Finally, save the updated PDF using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/methods/save&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to add a hyperlink to a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-AddHyperlink-AddHyperlink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;create-hyperlink-to-pages-in-same-pdf&#34;&gt;&lt;strong&gt;Create hyperlink to pages in same PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET provides a great feature to PDF creation as well as its manipulation. It also offers the feature to add links to PDF pages and a link can either direct to pages in another PDF file, a web URL, link to launch an Application or even link to pages in same PDF file. In order to add local hyperlinks (links to pages in same PDF file), a class named &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/localhyperlink&#34;&gt;LocalHyperlink&lt;/a&gt; is added to Aspose.PDF namespace and this class has a property named &lt;strong&gt;TargetPageNumber&lt;/strong&gt;, which is used to specify the target/destination page for hyperlink.&lt;/p&gt;
+&lt;p&gt;In order to add the local hyperlink, we need to create a TextFragment so that link can be associated with the TextFragment. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.text/textfragment&#34;&gt;TextFragment&lt;/a&gt; class has a property named &lt;strong&gt;Hyperlink&lt;/strong&gt; which is used to associate LocalHyperlink instance. The following code snippet shows the steps to accomplish this requirement.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-CreateLocalHyperlink-CreateLocalHyperlink.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-pdf-hyperlink-destination-url&#34;&gt;&lt;strong&gt;Get PDF Hyperlink Destination (URL)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Links are represented as annotations in a PDF file and they can be added, updated or deleted. Aspose.PDF for .NET also supports getting the destination (URL) of the hyperlink in PDF file.&lt;/p&gt;
+&lt;p&gt;To get a link&amp;rsquo;s URL:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; you want to extract links from.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; class to extract all the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/linkannotation&#34;&gt;LinkAnnotation&lt;/a&gt; objects from the specified page.&lt;/li&gt;
+&lt;li&gt;Pass the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; object to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; object&amp;rsquo;s Accept() method.&lt;/li&gt;
+&lt;li&gt;Get all the selected link annotations into an IList object using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotationselector&#34;&gt;AnnotationSelector&lt;/a&gt; object&amp;rsquo;s Selected property.&lt;/li&gt;
+&lt;li&gt;Finally, extract the LinkAnnotation Action as GoToURIAction.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to get hyperlink destinations (URL) from a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-GetHyperlinkDestinations-GetHyperlinkDestinations.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;get-hyperlink-text&#34;&gt;&lt;strong&gt;Get Hyperlink Text&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;A hyperlink has two parts: the text that shows in the document, and the destination URL. In some cases, it&amp;rsquo;s the text rather than the URL we need.&lt;/p&gt;
+&lt;p&gt;Text and annotations/actions in a PDF file are represented by different entities. Text on а page is just а set of words and characters, while annotations bring some interactivity such as that inherent in a hyperlink.&lt;/p&gt;
+&lt;p&gt;To find the URL content, you need to work with both annotation and text. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/annotation&#34;&gt;Annotation&lt;/a&gt; object does not have itself have the text but sits under the text on the page. So to get the text, the Annotation gives the URL&amp;rsquo;s bounds, while the &lt;strong&gt;Text&lt;/strong&gt; object gives the URL contents. Please see the following code snippet.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-GetHyperlinkText-GetHyperlinkText.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;remove-document-open-action-from-a-pdf-file&#34;&gt;&lt;strong&gt;Remove Document Open Action from a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;How to Specify PDF Page when Viewing Document&lt;/a&gt; explained how to tell a document to open on a different page than the first. When concatenating several documents, and one or more has a GoTo action set, you probably want to remove them. For example, if combining two documents and the second one has a GoTo action that takes you to the second page, the output document will open on the second page of the second document instead of the first page of the combined document. To avoid this behavior, remove the open action command.&lt;/p&gt;
+&lt;p&gt;To remove an open action:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/properties/openaction&#34;&gt;OpenAction&lt;/a&gt; property to null.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF using the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document/methods/save&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to remove a document open action from the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-RemoveOpenAction-RemoveOpenAction.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;how-to-specify-pdf-page-when-viewing-document&#34;&gt;&lt;strong&gt;How to Specify PDF Page when Viewing Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;When viewing PDF files in a PDF viewer such as Adobe Reader, the files usually open on the first page. However, it is possible to set the file to open on a different page.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.annotations/xyzexplicitdestination&#34;&gt;XYZExplicitDestination&lt;/a&gt; class allows you to specify a page in a PDF file that you want to open. When passing the GoToAction object value to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class OpenAction property, the document opens at the page specified against the XYZExplicitDestination object. The following code snippet shows how to specify a page as the document open action.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Links-Actions-SpecifyPageWhenViewing-SpecifyPageWhenViewing.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

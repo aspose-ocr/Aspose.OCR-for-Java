@@ -1,0 +1,625 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2015</title>
+    <link>https://docs.aspose.com/pdf/net/release-notes-2015/</link>
+    <description>Recent content in Release Notes - 2015 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/release-notes-2015/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 11.0.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-11-0-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-11-0-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-11.0.0/&#34;&gt;Aspose.PDF for .NET 11.0.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38769 Support UserLabel property for Heading instance&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39546 Move whole table to the next page when page breaks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-39265 Support of superscript in TextState&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37112 XPS to PDF throws ArgumentException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39031 PrintStatus throws exception after printing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39465 Unable to save document containing large tables with many inline images&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39500 API throws IndexOutOfRange Exception until all four margin of MarginInfo are set&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39579 font size of 9pt or smaller causing Invalid Index Error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-39497 Footnote layout issues&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39499 Regression in 10.9.0: Nested inner table to a table cell that spans multiple columns&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39608 Multiple TextFragments in cell not formatting correctly in 10.9 but 10.8&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39497 Footnote layout issues&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39407 Indenting Textfragments not working as expected&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38434 Annotations should also be imported when merging PDF files&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38256 PDF to PDF/A - Annotations lost after conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37511 Problem Setting/Getting Combobox value via FillField&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-22449 Unable to produce proper image from the sample PDF file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39578 Long Hyperlinks do not wrap properly in dual column layout&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39539 Footnotes are missing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39538 Missing Formatting - footnote text is not honoring formatting&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39537 Footnotes that are displayed, the footnote is not complete, text is missing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39536 FootNote Layout issue: multi-line footnotes are misaligned at the right margin&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39529 Unable to horizontally center an image within a cell&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39512 Highlighting text that spans multiple lines&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39511 Inline Annotations throws off formatting&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39482 Label drops to next line when heading text is too long&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39476 Typo error in TiffSettings.Shape Property&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39410 Hyperlinks in Footnote are not formatting properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39409 IsIineParagraph is not working as expected in table cell&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39408 RowSpan in a table cell is not working as expected&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39283 Aspose.PDF API throws NullReferenceException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39192 PDF to HTML conversion loses the local links&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39156 PDF to HTML: Text of multi-line is missing in resultant HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38893 API throws IndexOutOfRangeException on load a PDF document&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38140 PDF to XPS: PDF does not converts to XPS&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38250 PCL to PDF: words are overlapping&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.9.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-9-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-9-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.9.0/&#34;&gt;Aspose.PDF for .NET 10.9.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-39323 Support to add hyperlink to TextSegment&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34401 Underline words are saved in an outer image file instead of being saved as CSS.(Hebrew PDF to HTML conversion)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36388 PDF to HTML - Underline text information is not included in style.css
+Exceptions&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39201 NullReferenceException during files concatenation&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39437 API throws ArgumentOutOfRangeException when adding second TextFragment with starting with space using InlineParagraph&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37856 Exception when trying to call Optimize() method&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39417 ArgumentOutOfRangeException when adding TextFragment to PDF file
+Bugs&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39308 Performance issue in 9.1.0 and 10.7.0&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33616 PDF Alignment Issues with XSL-FO to PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35589 PDF to XPS - resultant file is not showing contents&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36336 Non-Egnlish characters are not appearing properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37925 PDF to JPEG - Image on first page is turned upside down&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37947 XML+XSLT to PDF: &amp;ldquo;-&amp;ldquo;character cause invalid PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38257 Attachment name is not being updated&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38425 Fonts are not being Optimized when concatenating PDF files&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38495 CallBackGetHocr is not working&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38737 PDF to PDFA1b: output is not PDFA1b compliant&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38775 EPUB to PDF - Conversion process hangs&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38819 PDF to HTML - Text is overlapped in Header section&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38852 PDF to PDFA1b compliance issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38887 Heading object with long text is not being wrapped but moves off the top&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38889 Heading with long text running off the page&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39060 Colspan and Rowspan properties together in a row are not working properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39115 PDF to HTML - Resultant file is not correct&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39258 PDF to HTML - The output HTML is messed up&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39262 Margin for image on subsequent page is not correct&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39305 Title in TOC is Cut and page number is not visible in TOC&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39322 Inline TextFragments with right alignment results wrong results&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39336 The inline paragraph is rendered wrong in the table cell&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39441 FormEditor.Facade.FontSize ignored with custom font&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38879 Application hangs when trying to place scaled image in Table cell&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38880 FloatingBox IsInNewPage not working as expected&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37782 Cells with HtmlFragment text formatting issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39123 Text is not wrapped to subsequent lines when using CharacterSpacing field&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38116 TextFragmentAbsorber has very slow performance&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.8.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-8-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-8-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.8.0/&#34;&gt;Aspose.PDF for .NET 10.8.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-34222 System.StackOverflowException during HTML to PDF conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38498 Exception while adding HTML contents inside table cell&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39191 Creation of TextFragment with Teligu/hindy texts throws NullReferenceException on absolutely &amp;ldquo;clean&amp;rdquo; test mahine (with only standard Windows fonts)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38853 XML to PDF conversion throws ArgumentException
+Bugs&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37829 PDF to PDFA1B: compliance failure&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36332 Incorectly converting international characters from text file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39259 Footnote does not reflect as expected when document expand to second page&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38890 Inline image rendering issues&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39089 FootNote does not render correctly when using LineSpacing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39221 Linespacing issue with multiple TextFragments containing hyperlinks&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39195 TextReplace moves page contents&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38642 PDF to APS : text is converted incorrectly(weird chars appear in result APS).&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39266 FloatingBox ignores the margin setting of TextFragment with IsInlineParagrapsh property set to true&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38963 PDF to HTML results incorrect output&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38819 PDF to HTML - Text is overlapped in Header section&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38896 Text wrapping in FreeTextAnnotation&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38522 Image to PDF - Evaluation watermark appears when setting IsBlackWhite as True&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39108 Auto font size of form field is not being honored after Aspose.PDF API fill&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38039 To replace attachments in PDF file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39198 TOC split while using the heading property IsInNewPage&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39254 Linespacing issue of first line with IsInlineParagraph property&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38728 HTML to PDF: HTML file with SVG image throws exception&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38912 HTML to PDF: HTML containing svg&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38516 PDF to DOCX - Images are flipped in resultant files&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38877 PDF to PDFA preflight verification failed&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39051 Repeating Header row of table has left Alignment, instead of Center&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38960 Table issue in FloatingBox&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38815 EPUB to PDF: PDF page is trimmed&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34223 Doc to PDF and then PDF to Image does not show Chinese Text&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34854 Form Fill: Fields associated with drop down are not appearing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39119 Words split across lines in table&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36083 XML to PDF: Tab stop issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39273 PDF to HTML: square characters are rendered in resultant HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38825 PDF to HTML conversion takes too much time&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39302 Exception when trying to convert XFA to Standard format&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38593 PDF to HTML: results encoding issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38976 XPS to PDF throws exception while using Aspose.PDF for .NET net4.0 dll&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36258 PCL to PDF conversion: Text postion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38934 HTML to PDF: Checkboxes are not visible&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.7.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-7-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-7-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.7.0/&#34;&gt;Aspose.PDF for .NET 10.7.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38556 Strikeout feature missing from TextState class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-39111 To know whether a PDF document is PDFA or not&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39036 PDF to HTML: to preserve local links&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38894 Implement tabstops for text system&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38614 DOM Footnote Enhancement&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-29902 Add HTML contents to existing PDF document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-39010 Adding header to TOC page throws NullReferenceException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39008 Multiple headings in TOC throws Null Reference Exception&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38545 PDF to PDF/A - Exception is occurring during conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36632 InvalidOperationException when loading PDF file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39009 Exception thrown creating a TextStamp in 10.1.0 version and onward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37995 Extracted image is broken&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39013 Pdf to APS : conversion reveals problem in loaded shadings&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34545 Problem in Embedding Font in PDF file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34370 Incorrectly interpreted foreground/text color?&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34333 Font Embedding does not work properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34175 PdfConverter.SaveAsTiff() replaces bullet characters with Sigma characters&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34157 File Attachments and Security Issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39025 IsInLineParagraph prperty for Image class it not working&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38987 PDF to HTML - Text is missing over some resultant HTML pages&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38975 Unable to resize PDF with Letter paper size&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38730 Annotation is not appearing inline&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36332 Incorectly converting international characters from text file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35905 PDF to HTML - Text is overlapping and some images appearing as black rectangle&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39075 Table Cell Missing text for mixed font sizes between cells &lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39067 Floating box does not expand to next page&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39007 TOC level formatting issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38995 multi-column text on a page followed by another text on same page&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38970 PDF to HTML throws exception &amp;ldquo;The process cannot access the file&amp;hellip;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38942 Difference in Page color detection results using API from download section and Nuget&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38930 Issue with concatenate() method of PdfFileEditor object&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38859 Hyperlink TextFragment with IsInLineParagraph results into overwriting&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37987 PDF to HTML: output HTML is upside down&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36995 PDF to PNG: Bullet list is being rendered incorrectly in output image&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36907 PDF to HTML: formatting of page title is lost&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35137 Pdf to Html conversion lost text formatting&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-39003 Validate method returns error in 10.5&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37854 Incremental save resulting corrupt PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33451 Convert HTML to PDF layout issue&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.6.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-6-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-6-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.6.0/&#34;&gt;Aspose.PDF for .NET 10.6.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;FeaturesPDFNEWNET-36686 Convert a pdf to PDF/A-3 with compliance-level (3a, 3b, 3u)PDFNEWNET-16222 Converting a PDF from RGB colorspace to GrayscalePDFNEWNET-36802 Read/manipulate tables in existing PDF documentEnhancementsPDFNEWNET-38500 XML to PDF: Working with individual objects in new generatorPDFNEWNET-38865 Support of IsVerticalBroken poperty in new generatorPDFNEWNET-38613 Clear() method in PageCollection in new generatorExceptionsPDFNEWNET-38203 Saving attached Pdf files throw InvalidOperations exceptionBugsPDFNEWNET-34344 Html5 supportPDFNEWNET-38035 Polyline Annotation background issue on export to imagePDFNEWNET-38176 PDF to PDF/A - Resultant file is not compliantPDFNEWNET-33759 Tables containing HTML Lists (OL/UL), Table-Cells overwrite footersPDFNEWNET-37925 PDF to JPEG - Image on first page is turned upside downPDFNEWNET-38605 PDF to HTML - No text layer in HTML produced from a PDFPDFNEWNET-38662 PDF to HTML - Text appears as ImagePDFNEWNET-37698 PDF to HTML - Text layer is not present in HTMLPDFNEWNET-38773 EPUB to PDF - Contents truncated from the right sidePDFNEWNET-38774 PDF to HTML - Images in resultant HTML are corruptedPDFNEWNET-38394 PDF to HTML - RTL words are broken into characters in HTMLPDFNEWNET-38395 PDF to TIFF - Data is lost in resultnat imagePDFNEWNET-38625 PDF to TIFF - Data is lost in resultant imagePDFNEWNET-37973 Unable to get Link destinationsPDFNEWNET-37130 HTML to PDF - Table border and title/caption are missingPDFNEWNET-38380 HTML to PDF - Issue with vertical line spacingPDFNEWNET-38639 PDF to HTML: TOC in HTML shifted IEPDFNEWNET-38822 Paragraph formatting issue in FloatingBoxPDFNEWNET-38356 Saving PDF results in data lostPDFNEWNET-38133 HTML to PDF conversion results blank PDFPDFNEWNET-38397 Combo box text is being rendering incorrectly while flattening the PDF formPDFNEWNET-38609 Footnote does note render correctly with Font settingsPDFNEWNET-38352 HTML to PDF does not preserve whitespace and word wrappingPDFNEWNET-36994 XML+XSLT to PDF: Hyphen causing wrapping issuesPDFNEWNET-38603 PDF to HTML: Text is being positioned incorrect in header part of HTMLPDFNEWNET-38601 PDF to HTML: Text is being positioned incorrect in header part of HTMLPDFNEWNET-38690 Incorrect Arabic text being extactedPDFNEWNET-38788 PDF to Doc: Extra lines in table&amp;rsquo;s captions&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.5.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-5-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-5-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.5.0/&#34;&gt;Aspose.PDF for .NET 10.5.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37422 HTML to PDF: support of absolute value of CSS position property&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37501 Support of DefaultFontName property in new generator&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38166 Adding Radio Button without page number parameter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38634 Exception while loading PDF document&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38682 Exception when trying to enable Fast web over PDF file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37948 PDF to HTML conversion takes too much time&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37395 PDF to PDFA: text is missing in output file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-31395 Some of the Form Fields disappear once XML data is imported&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33504 Convert HTML to PDF layout issues&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33829 Contents of table cell are missing when using IsHtmlTagSupported&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33886 Convert FO to PDF - System hangs&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34940 HTML to PDF: Formatting issues in resultant file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35278 While converting HTM to PDF, an empty PDF file is being generated.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35739 HTML to PDF: table formatting lost&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37066 HTML to PDF: Form fields are being rendered incorrectly.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38085 PDF to DOC: Table/fields renders incorreclty&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38127 PDF to PDF/A - Resultant file is not compliant&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38291 PDF to PDFA loses fields data&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38295 PDF to HTML: Arabic words are being broken(split)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38563 PDF to HTML conversion loses spaces between text in output HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38600 PDF to HTML: Text is being positioned incorrect in header part of HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38612 PDF to APS conversion of a bit invalid PDF throws exception.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38627 PDF to PDF/A - Data is lost in resultant file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38664 PDF to HTML - Black Rectangles instead of images&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.4.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-4-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-4-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.4.0/&#34;&gt;Aspose.PDF for .NET 10.4.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38453 PDFA to PDF conversion support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38004 Converting a failed PDFA to PDFA&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35476 Standard Font embedding in PDFA_1B&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38261 PDF to PDF/A - Exception during conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37638 Exception when re-saving the input file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38243 Multiple calls of ProcessParagraphs() throws excecption with HtmlFragment&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33460 An item with the same key has already been added. (Threading HTML2PDF)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38485 Exception while flattening the PDF file containing Line instances&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37105 StackOverflow when using Aspose.PDF.Facades.Viewer within COM Object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38530 Concatenating PDF MemoryStreams result into damaged PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38441 Saved document contains invalid xref table&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38326 Fill signature field with an image&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38009 PDF to PDF/A is not producing correct results&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38529 LineSpacing and InLineParagraph properties of TextState are not working together&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38557 isInlineParagraph property with multiple TextFragments is not working as expected&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38392 PDF to HTML - Black background appears for images in HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37377 Error while saving Aspose converted document using Adobe Professional&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38431 Flattening PDF file crops Circle edges&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38510 Adding LinkAnnotation results into incorrect text rendering&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38541 Line annotations are cropped after flattning&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38542 PDF to PDF/A_1b - Resultant file is not complaint&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38555 Inline Graph/Line rendering issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35880 PDF to HTML and back to PDF results in formatting loss.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34870 Table formatting issue, during conversion of HTML to PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38547 LocalHyperLink object is not working in Page Header&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38509 InLineParagraph does not work when using LineSpacing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38520 Link Annotation text color change issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35565 Unable to convert HTML to PDF&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38345 Text Replace is not working properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33657 HTML to PDF Conversion (Formatting Issue)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34557 HTML to PDF formatting issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37724 HTML to PDF form fields are squeezed&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35008 PDF to HTML Formatting issues in resultant file&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.3.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-3-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-3-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.3.0/&#34;&gt;Aspose.PDF for .NET 10.3.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37950 Support of multi-column PDF in new generator&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36751 PDF to PPTX conversion support&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35859 support of PDF/A with attachments&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-13267 Support OTF fonts
+Enhancements&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38427 Make FindFont(..) case insensitive&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38319 Generating multi column TOC in PDF document&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38192 Table breaking across page should not have bottom border on page 1 and top border on page 2
+Exceptions&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-30542 The Font &amp;lsquo;frutiger lt 45 light&amp;rsquo; is not found. This font is not supported. (Convert HTML2PDF)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38313 Exception in Aspose.Css.EnumHelper.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38080 PDF to PDFA conversion throws OOM exception&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37849 HTML to PDF: API throws XMLException
+Bugs&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38357 HtmlFragment throws ArgumentException against large HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38320 Parallel Processing consumes 100% CPU&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38292 PDF to HTML - Error in console when viewing resultant file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38247 HTML to PDF: HtmlFragment throws ArgumentException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38193 Text foreground color is not being applied&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38152 XPS to PDF conversion fails on 3.5 and 4.0 .NET platform&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38084 PDF to DOC: Header image and text is missing&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38082 PDF to DOC: Text renders incorrectly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38070 TextStamp changes position depending on if Draw is set True or False&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38069 Setting Draw property of TextStamp class to false changes view&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37954 PDF to HTML: Incorrect colors in output html&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37914 Incorrect page count&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37814 HTML to PDF - rgba background colors doesn&amp;rsquo;t work&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37809 PDF to TIFF - Output is not correct&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37772 Signature gets corrupted when removing page from PDF file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37746 PDF to HTML - Spaces between words are eliminated&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37516 PDF to HTML: Output HTML contains squares between lines&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37474 Setting zoom using PdfPageEditor class corrupt the output image&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37465 HTML to PDF: incorrect output&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37363 PDF to HTML: incorrect rendering of text in output HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37361 PDF to HTML- lots of errors loading HTML in Chorme/FireFox&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37132 HTML to PDF: footer overlaps the document as column&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37067 PDF to XPS: Words are being rendered incorrectly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36596 PDF to DOC/DOCX: Underlines rendered incorrectly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36543 TXT to PDFA - OutOfMemoryException is being generated&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36007 PDF to PNG results into distorted image&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33933 HTML to PDF is not honoring Table Columns width and rows are breaking at page end&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33756 HTML to PDF conversion issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33539 Convert HTML to PDF - Text layout issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-31349 PdfPageEditor removes data from PDF document&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36194 Problems with the replacement of several segments of text found in one fragment.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.2.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-2-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-2-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.2.0/&#34;&gt;Aspose.PDF for .NET 10.2.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;p&gt;PDFNEWNET-38089 Support for PDF contents Redaction is requiredPDFNEWNET-38224 Support LinkPageNumber property for TextFragment objectPDFNEWNET-33783 HTML to PDF conversion - Line break issuePDFNEWNET-33871 HTML to PDF conversion - Formatting IssuesEnhancements&lt;/p&gt;
+&lt;p&gt;PDFNEWNET-37589 Hyperlink feature in TextSegmentPDFNEWNET-35260 While converting TIFF to PDF, resultant file is much largerPDFNEWNET-34690 HTML to PDF: Suppress unsupported html tags exceptionPDFNEWNET-37779 Support of relative path in HTML to PDF conversionPDFNEWNET-38117 TextSegment should support hyperlink propertyPDFNEWNET-37422 HTML to PDF: support of absolute value of CSS position propertyPDFNEWNET-38195 To get rectangle of Cell TextExceptions&lt;/p&gt;
+&lt;p&gt;PDFNEWNET-36243 NotImplementedException during XFA to Standard Acro form conversionPDFNEWNET-37793 PDF to HTML - IndexOutOfRangeException during conversionPDFNEWNET-35674 PDF to PDFA_2B conversion issuePDFNEWNET-33639 Parameter is not valid exception is being generated during HTML to PDF conversionPDFNEWNET-37656 PDF to HTML - IndexOutOfRangeException during conversionPDFNEWNET-34063 PDF to JPEG Conversion: Corrupt content. Could not recognize illegal characters ExceptionBugs&lt;/p&gt;
+&lt;p&gt;PDFNEWNET-38053 Wrong Text Extraction from XPS DocumentPDFNEWNET-37836 PDF to PDF/A-2A compliance failsPDFNEWNET-38081 PDF to HTML - Text is Displaced in resultant HTMLPDFNEWNET-37556 PDF to DOC: text is misplacedPDFNEWNET-37559 PDF to HTML - text is overlapping in resultant filePDFNEWNET-38120 CircleAnnotation disappears when flattening the documentPDFNEWNET-38119 SquareAnnotation missing from flattened documentPDFNEWNET-38106 LineAnnotations missing from flattened documentPDFNEWNET-32407 hangs upPDFNEWNET-34782 Font embedded became true after savePDFNEWNET-33855 Multipage TIFF to PDF conversion - Images size issuePDFNEWNET-38073 Incorrect page count being returnedPDFNEWNET-35342 When using SetPageSize(..), the page gets croppedPDFNEWNET-34076 Text formatting is lost when converting HTML file to PDFPDFNEWNET-34109 HTML to PDF conversion formatting issues.PDFNEWNET-34178 Formatting issues during HTML to PDF conversionPDFNEWNET-34464 HTML to PDF conversion problemPDFNEWNET-34680 Problem loading/formatting pdf via html and css inlinePDFNEWNET-34691 HTML to PDF: Resultant PDF is 0KBPDFNEWNET-37994 PDF to HTML - Contents in resultant file are upside downPDFNEWNET-34954 HTML to PDF: Page contents go beyond right page marginPDFNEWNET-34111 Convert HTML to PDF not respecting CSS/ IsFitToPagePDFNEWNET-34684 HTML to PDF: Single table is split into multiple tablesPDFNEWNET-34685 HTML to PDF: Table cell data is splitting over two pagesPDFNEWNET-34682 HTML to PDF: Bottom border is missing in last row of tablePDFNEWNET-34683 HTML to PDF: Top border is missing in first row of table in subsequent pagesPDFNEWNET-35430 HTML to PDF - Dotted Underline in HTML not visible in PDFPDFNEWNET-35438 HTML to PDF rendering issue, text goes off the pagePDFNEWNET-32723 Text Fragments Not Being Fully ReplacedPDFNEWNET-36447 HTML to PDF - Some objects are not appearing on correct locationPDFNEWNET-35417 PDF Read Out Loud is not working properly when PDF is Creating with PdfConformance.PdfA1APDFNEWNET-35585 Text replace feature is not working when Regional settings are TurkishPDFNEWNET-38260 TextFragmentAbsorber gets wrong coordinates of seached TextPDFNEWNET-32136 Strange output when converting html to pdfPDFNEWNET-36466 Replace text changes space between charactersPDFNEWNET-38188 Text Replace is not workingPDFNEWNET-38168 CPU usage rises to 100% while using TextAbsorber in Multi-threaded envoirnmentPDFNEWNET-38278 Incorrect page count in TOCPDFNEWNET-30397 Printed output is not good qualityPDFNEWNET-38196 ProcessParagraphs() method does not update table cell contentsPDFNEWNET-38128 Unexpected behavior of GetHashCode() method of CommandParameterCache classPDFNEWNET-34572 Bug Converting PDF to PNG (Some Characters are missing)PDFNEWNET-32039 Thai text get lost and scrambbled when converting PDF pages as imagesPDFNEWNET-32318 Text replace and add image feature increases the PDF file sizePDFNEWNET-35507 Watermark not showing on resultant PDF&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.1.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-1-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-1-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.1.0/&#34;&gt;Aspose.PDF for .NET 10.1.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38025 Support a Method / Property to check if license is applied or not&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38095 Getting total number of pages in new Generator without saving Document&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34190 To Specify Character Spacing when adding Text in PDF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38102 The Rotation enumeration should support on45 degree angle&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35105 Support of Arabic text filling in Textboxfield&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37318 PDF to DOC/DOCX: Paragraph break is added at the end of each line instead Paragraph&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-38010 NullReferenceException when reading inReplyTo property&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37818 Encrypted names of exceptions&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38043 TextFragementAbsorber: throws ArgumentOutOfRangeException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35966 HTML to PDF: OutofMemory exception isuse&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34453 Stackoverflow Exception during PDF to image conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37776 PCL to PDF - Exception during conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33851 Convert HTML to PDF - Exception found&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33852 StackOverflowException is occurring during HTML to PDF conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33859 HTML to PDF conversion - Exception found&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;&lt;strong&gt;Bugs&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFNEWNET-37702 PDF to HTML - Links are converted into plain text&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38036 TextFragment Underline formatting is not working properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38086 PDF to HTML - Image is turned upside down in HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37551 SVG to PDF: Image won&amp;rsquo;t be inserted&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37056 TIFF to PDF - resultant PDF is 3 times the source&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37922 PDF to TIFF - Resultant image is not correct&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37725 PDF to PS - Resultant file size is too large&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37855 Text replace feature is not working with Cumulative update package 2 for SQL Server&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36181 PDF to HTML - Hyperlink is removed in resultant file&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35159 TextFragment properties malfunctioning in evaluation mode&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35202 Extract Text returns sometimes bad Y position&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35976 Sometimes corresponding charter rectangle does not give the correct position&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37636 HTML to PDF Characters rendering issue&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36935 PdfFileEditor keeps a reference to concatenated files&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37920 Optimizing a large PDF not releasing the memory&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38073 Incorrect page count being returned&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38029 Header/footer text is being added incorreclty&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36748 PDF to TIFF conversions throws StackOverflow Exception&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-38017 PDF to HTML - Image is Rotated in resultant HTML&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36921 HTML to PDF - CSS float does not seem to be supported&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37322 HTML to PDF : More than one tbody tags in a table are not being rendered&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37910 Unable to get PDF Initial View Page Number&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36458 SVG to PDF conversion:image renders off the page&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37777 PCL to PDF - Shrinks page contents to left side&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37848 HTML to PDF: HtmlFragment throws ArgumentException&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-33850 page-break style is not being honored during HTML to PDF conversion&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37225 Output generated with DOM is quite large as compared to Generator&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37351 ColorType property is returning wrong value&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34916 HTML to PDF: List Item not appearing properly&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-34920 HTML to PDF: Text is not properly formatted.&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-36005 PdfViewer: Printing problem with German font&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37752 PDF to EXCEL - Some contents are split into two cells&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-32524 Aspose.PDF Timeout Problem (v6.4.2)&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-37588 Image to PDF: output PDF file is approx 6 time larger than input image&lt;/li&gt;
+&lt;li&gt;PDFNEWNET-35970 Search and replace text issue in evaluation mode&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.PDF for .NET 10.0.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-0-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/aspose-pdf-for-net-10-0-0-release-notes/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/pdf/net/new-releases/aspose.pdf-for-.net-10.0.0/&#34;&gt;Aspose.PDF for .NET 10.0.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are pleased to share a new version of Aspose.PDF for .NET with following improvements.&lt;/p&gt;
+&lt;p&gt;New FeaturesPDFNEWNET-37103 Setting user-agent string supportPDFNEWNET-36160 Setting User agent stringPDFNEWNET-35645 Page Break in existing PDFPDFNEWNET-36338 Setting Header/Footer once for new PDF documentEnhancementsPDFNEWNET-37952 PDF to HTML: support of stream parameter in CustomeHtmlSavingStrategyPDFNEWNET-37374 Specify attachment file parameters in FileSpecification classPDFNEWNET-37305 XSL-FO to PDF conversion quality issuePDFNEWNET-37333 PCL to PDF: NullReferenceException is raisedPDFNEWNET-37236 TIFF to PDF - Resultant PDF is too largeExceptionsPDFNEWNET-37358 PDF to HTML conversion generates errorPDFNEWNET-37792 PDF to HTML - NullReferenceException is being generatedPDFNEWNET-33815 Unexpected Exception is being generated by PdfFileMendPDFNEWNET-37963 API throws NullRefeneceException on save()PDFNEWNET-37921 System.ArgumentException: The rectangle size can not be larger page sizePDFNEWNET-35492 Getting an error when using autofiller.ImportDataTable()BugsPDFNEWNET-37898 PDF file is not properly being converted to PDF/A_1a formatPDFNEWNET-37760 PDF to HTML - Impossible to convert multiple pages of the same document in multiple threads to HTMLPDFNEWNET-37706 HTML to PDF - Trouble with tables and text-wrappingPDFNEWNET-36216 HTML to PDF: Web Page to PDF conversion results ArgumentOutOfRangeExceptionPDFNEWNET-37712 PDF to HTML: Font caching is not working properlyPDFNEWNET-37744 PDF to HTML - Extra boxes appear in resultant filePDFNEWNET-37845 Incorrect TextSegment.Rectangle valuesPDFNEWNET-37844 When replacing text, contents overlap in resultant filePDFNEWNET-37915 Optimizing PDF document causes image to be removedPDFNEWNET-34452 Formatting Issues when converting HTML to PDFPDFNEWNET-37364 PDF to DOC: Space between text is increasedPDFNEWNET-34839 Pdf document Cutts off, while Converting HTML to PdfPDFNEWNET-33318 PdfFileMend is not producing correct resultsPDFNEWNET-34173 ExtractText() concatenate the letters in the extracted TextPDFNEWNET-34521 Only Extract Text from PDF which is &amp;lsquo;Marked for redaction&amp;quot;PDFNEWNET-37306 Watermark text is selectablePDFNEWNET-37718 Issue with radio buttons when index and value do not matchPDFNEWNET-37930 Ellipse.Bottom not being respectedPDFNEWNET-37824 HTML to PDF - Conversion process hangsPDFNEWNET-37877 HtmlFragment hangs the process with large htmlPDFNEWNET-36946 HTML to PDF - PDF is not being geneatedPDFNEWNET-35423 Title of PDF is not being set when setting conformance to PdfA1APDFNEWNET-35503 Autofiller throwing exception while saving to some strem or diskPDFNEWNET-37458 TIF to PDF - Memory consumption increases by 600MBPDFNEWNET-36392 PDF to HTML: OCR-Converted PDF text is not aligned/grouped to image.PDFNEWNET-37588 Image to PDF: output PDF file is approx 6 time larger than input image&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

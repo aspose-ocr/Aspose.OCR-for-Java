@@ -1,0 +1,84 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes</title>
+    <link>https://docs.aspose.com/pdf/sharepoint/release-notes/</link>
+    <description>Recent content in Release Notes on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/sharepoint/release-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: Aspose.Pdf for SharePoint 2.2.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-2-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-2-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for SharePoint has been updated to version 2.2.0 and we are pleased to announce this release..&lt;/p&gt;
+&lt;p&gt;Visit the documentation to learn how to get started with Aspose.PDF for SharePoint&lt;/p&gt;
+&lt;p&gt;Note this download contains a fully working version of the product, however without a license set it will run in evaluation mode with some limitations. To test Aspose.PDF for SharePoint without these evaluation limitations you can request a free 30-day temporary license.&lt;/p&gt;
+&lt;p&gt;The following is a list of changes in this version of Aspose.PDF for SharePoint.&lt;/p&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFSHP-33393 Concatenate/Merge multiple PDFs into a single PDF&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Aspose.Pdf for SharePoint 2.1.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-1-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-1-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for SharePoint has been updated to version 2.1.0 and we are pleased to announce this release..&lt;/p&gt;
+&lt;p&gt;Visit the documentation to learn how to get started with Aspose.PDF for SharePoint&lt;/p&gt;
+&lt;p&gt;Note this download contains a fully working version of the product, however without a license set it will run in evaluation mode with some limitations. To test Aspose.PDF for SharePoint without these evaluation limitations you can request a free 30-day temporary license.&lt;/p&gt;
+&lt;p&gt;The following is a list of changes in this version of Aspose.PDF for SharePoint&lt;/p&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFSHP-33389 PDF to HTML conversion support&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Aspose.Pdf for SharePoint 2.0.0 Release Notes</title>
+      <link>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-0-0-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/sharepoint/aspose-pdf-for-sharepoint-2-0-0-release-notes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for SharePoint has been updated to version 2.0.0 and we are pleased to announce this release..&lt;/p&gt;
+&lt;p&gt;Visit the documentation to learn how tog et started with Aspose.PDF for ShharePoint&lt;/p&gt;
+&lt;p&gt;Note this download contains a fully working version of the product, however without a license set it will run in evaluation mode with some limitations. To test Aspose.PDF for SharePoint without these evaluation limitations you can request a free 30-day temporary license.&lt;/p&gt;
+&lt;p&gt;The following is a list of changes in this version of Aspose.PDF for SharePoint&lt;/p&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFSHP-33310 Support of PDF to PDF/A compliant PDF document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;&lt;strong&gt;Bugs&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDFSHP-33398 Workflows are not working in Aspose.PDF for SharePoint 1.9.3&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

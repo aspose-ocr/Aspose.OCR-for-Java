@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Developer Guide</title>
+    <link>https://docs.aspose.com/pdf/cpp/developer-guide/</link>
+    <description>Recent content in Developer Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/cpp/developer-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Working with Aspose::Pdf (DOM)</title>
+      <link>https://docs.aspose.com/pdf/cpp/working-with-aspose-pdf-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/working-with-aspose-pdf-dom/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;articles-in-this-section&#34;&gt;&lt;strong&gt;Articles in this section&lt;/strong&gt;&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Working with Aspose::Pdf::Facades</title>
+      <link>https://docs.aspose.com/pdf/cpp/working-with-aspose-pdf-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/cpp/working-with-aspose-pdf-facades/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;articles-in-this-section&#34;&gt;&lt;strong&gt;Articles in this section&lt;/strong&gt;&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

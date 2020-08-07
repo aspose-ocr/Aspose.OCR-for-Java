@@ -1,0 +1,131 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Bookmarks</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-bookmarks/</link>
+    <description>Recent content in Working with Bookmarks on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-bookmarks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add and Delete a Bookmark</title>
+      <link>https://docs.aspose.com/pdf/net/add-and-delete-a-bookmark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-and-delete-a-bookmark/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-a-bookmark-to-a-pdf-document&#34;&gt;&lt;strong&gt;Add a Bookmark to a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bookmarks are held in the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt; collection, itself in the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection.&lt;/p&gt;
+&lt;p&gt;To add a bookmark to a PDF:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a PDF document using &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Create a bookmark and define its properties.&lt;/li&gt;
+&lt;li&gt;Add the OutlineItemCollection collection to the Outlines collection.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to add a bookmark in a PDF document.&lt;/p&gt;
+&lt;h4 id=&#34;c&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/h4&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-AddBookmark-AddBookmark.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-a-child-bookmark-to-the-pdf-document&#34;&gt;&lt;strong&gt;Add a Child Bookmark to the PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bookmarks can be nested, indicating a hierarchical relationship with parent and child bookmarks. This article explains how to add a child bookmark, that is, a second-level bookmark, to a PDF.&lt;/p&gt;
+&lt;p&gt;To add a child bookmark to a PDF file, first add a parent bookmark:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a document.&lt;/li&gt;
+&lt;li&gt;Add a bookmark to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt;, defining its properties.&lt;/li&gt;
+&lt;li&gt;Add the OutlineItemCollection to the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The child bookmark is created just like the parent bookmark, explained above, but is added to the parent bookmark&amp;rsquo;s Outlines collection&lt;/p&gt;
+&lt;p&gt;The following code snippets show how to add child bookmark to a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-AddChildBookmark-AddChildBookmark.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-all-bookmarks-from-a-pdf-document&#34;&gt;&lt;strong&gt;Delete all Bookmarks from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;All bookmarks in a PDF are held in the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection. This article explains how to delete all bookmarks from a PDF file.&lt;/p&gt;
+&lt;p&gt;To delete all bookmarks from a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection&amp;rsquo;s Delete method.&lt;/li&gt;
+&lt;li&gt;Save the modified file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippets show how to delete all bookmarks from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-DeleteAllBookmarks-DeleteAllBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-a-particular-bookmark-from-a-pdf-document&#34;&gt;&lt;strong&gt;Delete a Particular Bookmark from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Delete All Attachments from PDF document&lt;/a&gt; showed how to delete all attachments from a PDF file. It is also possible to only remove specific attachments.&lt;/p&gt;
+&lt;p&gt;To delete a particular bookmark from a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pass the bookmark&amp;rsquo;s title as parameter to the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection&amp;rsquo;s Delete method.&lt;/li&gt;
+&lt;li&gt;Then save the updated file with the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class&amp;rsquo; provides the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection. The Delete} method removes any bookmark with the title passed to the method.&lt;/p&gt;
+&lt;p&gt;The following code snippets show how to delete a particular bookmark from the PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-DeleteParticularBookmark-DeleteParticularBookmark.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get, Update and Expand a Bookmark</title>
+      <link>https://docs.aspose.com/pdf/net/get-update-and-expand-a-bookmark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/get-update-and-expand-a-bookmark/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;get-bookmarks-from-a-pdf-document&#34;&gt;&lt;strong&gt;Get Bookmarks from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection contains all a PDF file&amp;rsquo;s bookmarks. This article explains how to get bookmarks from a PDF file, and how to get which page a particular bookmark is on.&lt;/p&gt;
+&lt;p&gt;To get the bookmarks, loop through the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection and get each bookmark in the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt;. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt; provides access to all the bookmark&amp;rsquo;s attributes. The following code snippet shows you how to get bookmarks from the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-GetBookmarks-GetBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;getting-a-bookmarks-page-number&#34;&gt;&lt;strong&gt;Getting a Bookmark&amp;rsquo;s Page Number&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Once you have &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/add-and-delete-a-bookmark/&#34;&gt;added a bookmark&lt;/a&gt; you can find out what page it is on by getting the destination PageNumber associated with the Bookmark object.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-GetBookmarkPageNumber-GetBookmarkPageNumber.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-child-bookmarks-from-a-pdf-document&#34;&gt;&lt;strong&gt;Get Child Bookmarks from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bookmarks can be organized in a hierarchical structure, with parents and children. To get all bookmarks, loop through the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlines&#34;&gt;Outlines&lt;/a&gt; collections. However, to get child bookmarks as well, also loop through all the bookmarks in each &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt; object obtained in the first loop. The following code snippets show how to get child bookmarks from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-GetChildBookmarks-GetChildBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;update-bookmarks-in-a-pdf-document&#34;&gt;&lt;strong&gt;Update Bookmarks in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To update a bookmark in a PDF file, first, get the particular bookmark from the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineColletion&lt;/a&gt; collection by specifying the bookmark&amp;rsquo;s index. Once you have retrieved the bookmark into OutlineItemCollection object, you can update its properties and then save the updated PDF file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method. The following code snippets show how to update bookmarks in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-UpdateBookmarks-UpdateBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;update-child-bookmarks-in-a-pdf-document&#34;&gt;&lt;strong&gt;Update Child Bookmarks in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To update a child bookmark:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Retrieve the child bookmark you want to update from the PDF file by first getting the parent bookmark and then the child bookmark using appropriate index values.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Get a bookmark from the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection by specifying the bookmark&amp;rsquo;s index, and then get the child bookmark by specifying the index od this parent bookmark.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to update child bookmarks in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-UpdateChildBookmarks-UpdateChildBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;inherit-zoom-while-editing-bookmarks&#34;&gt;&lt;strong&gt;Inherit zoom while editing Bookmarks&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The default zoom action when clicking a bookmark (that was generated using Aspose) is to fit the page width. However, we can edit specific bookmark actions using Acrobat, and set the zoom to &amp;ldquo;Inherit Zoom&amp;rdquo;. This way, no matter how the user is currently viewing the document, clicking a bookmark will not change how they&amp;rsquo;re viewing.&amp;rdquo; So the requirement is to programmatically Inherit zoom while editing Bookmarks.&lt;/p&gt;
+&lt;p&gt;In order to specify inherit zoom, you should use 0 value as according to PDF specifications &lt;strong&gt;A null value for any of the parameters left, top, or zoom specifies that the current value of that parameter shall be retained unchanged&lt;/strong&gt;. A zoom value of 0 has the same meaning as a null value. The following code snippets show how to update bookmarks in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-InheritZoom-InheritZoom.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;expanded-bookmarks-when-viewing-document&#34;&gt;&lt;strong&gt;Expanded Bookmarks when viewing document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bookmarks are held in the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlineitemcollection&#34;&gt;OutlineItemCollection&lt;/a&gt; collection, itself in the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/outlinecollection&#34;&gt;OutlineCollection&lt;/a&gt; collection. However, we may have a requirement to have all the bookmarks expanded when viewing the PDF file.&lt;/p&gt;
+&lt;p&gt;In order to accomplish this requirement, we can set open status for each outline/bookmark item as Open. The following code snippet shows you how to set the open status for each bookmark as expanded in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Bookmarks-ExpandBookmarks-ExpandBookmarks.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

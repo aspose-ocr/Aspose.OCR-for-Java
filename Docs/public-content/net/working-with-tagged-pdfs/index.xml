@@ -1,0 +1,906 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Tagged PDFs</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-tagged-pdfs/</link>
+    <description>Recent content in Working with Tagged PDFs on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-tagged-pdfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Create Tagged PDF Documents</title>
+      <link>https://docs.aspose.com/pdf/net/create-tagged-pdf-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/create-tagged-pdf-documents/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;creating-structure-elements&#34;&gt;&lt;strong&gt;Creating Structure Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to create structure elements in a Tagged PDF Document, Aspose.PDF offers methods to create structure element using &lt;strong&gt;ITaggedContent&lt;/strong&gt; Interface. Following code snippet shows how to create structure elements of Tagged PDF:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-CreateStructureElements-CreateStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;creating-structure-elements-tree&#34;&gt;&lt;strong&gt;Creating Structure Elements Tree&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to create structure elements tree in a Tagged PDF Document, Aspose.PDF offers methods to create a structure element tree using &lt;strong&gt;ITaggedContent&lt;/strong&gt; Interface. Following code snippet shows how to create structure elements tree of Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-CreateStructureElementsTree-CreateStructureElementsTree.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;styling-text-structure&#34;&gt;&lt;strong&gt;Styling Text Structure&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to style text structure in a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;Font&lt;/strong&gt;, &lt;strong&gt;FontSize&lt;/strong&gt;, &lt;strong&gt;FontStyle&lt;/strong&gt; and &lt;strong&gt;ForegroundColor&lt;/strong&gt; properties of &lt;strong&gt;StructureTextState&lt;/strong&gt; Class. Following code snippet shows how to style text structure in a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-StyleTextStructure-StyleTextStructure.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;illustrating-structure-elements&#34;&gt;&lt;strong&gt;Illustrating Structure Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to illustrate structure elements in a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;IllustrationElement&lt;/strong&gt; Class. Following code snippet shows how to illustrate structure elements in a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-IllustrationStructureElements-IllustrationStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;validate-tagged-pdf&#34;&gt;&lt;strong&gt;Validate Tagged PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET provides the ability to validate PDF/UA Tagged PDF Document. Validation of PDF/UA standard supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Checks for XObjects&lt;/li&gt;
+&lt;li&gt;Checks for Actions&lt;/li&gt;
+&lt;li&gt;Checks for Optional Content&lt;/li&gt;
+&lt;li&gt;Checks for Embedded Files&lt;/li&gt;
+&lt;li&gt;Checks for Acroform Fields(Validate Natural Language and Alternate Name and Digital Signatures)&lt;/li&gt;
+&lt;li&gt;Checks for XFA Form Fields&lt;/li&gt;
+&lt;li&gt;Checks for Security settings&lt;/li&gt;
+&lt;li&gt;Checks for Navigation&lt;/li&gt;
+&lt;li&gt;Checks for Annotations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code snippet below shows how to validate the Tagged PDF Document. Corresponding problems will be displayed in the XML log report.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-ValidatePDF-1.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract Tagged Content from Tagged PDFs</title>
+      <link>https://docs.aspose.com/pdf/net/extract-tagged-content-from-tagged-pdfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/extract-tagged-content-from-tagged-pdfs/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;getting-tagged-pdf-content&#34;&gt;&lt;strong&gt;Getting Tagged PDF Content&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get content of PDF Document with Tagged Text, Aspose.PDF offers &lt;strong&gt;TaggedContent&lt;/strong&gt; property of &lt;strong&gt;Document&lt;/strong&gt; Class. Following code snippet shows how to get content of a PDF document with Tagged Text:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-TaggedPDFContent-TaggedPDFContent.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;getting-root-structure&#34;&gt;&lt;strong&gt;Getting Root Structure&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to get the root structure of Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;StructTreeRootElement&lt;/strong&gt; and &lt;strong&gt;StructureElement&lt;/strong&gt; properties of &lt;strong&gt;ITaggedContent&lt;/strong&gt; Interface. Following code snippet shows how to get the root structure of Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-RootStructure-RootStructure.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;accessing-children-elements&#34;&gt;&lt;strong&gt;Accessing Children Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to access children elements of a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;ElementList&lt;/strong&gt; Class. Following code snippet shows how to access children elements of a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-AccessChildrenElements-AccessChildrenElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;tagging-images-in-existing-pdf&#34;&gt;&lt;strong&gt;Tagging Images in Existing PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to tag images in existing PDF document, Aspose.PDF offers &lt;strong&gt;FindElements()&lt;/strong&gt; method of &lt;strong&gt;StructureElement&lt;/strong&gt; Class.** **You can add alternative text for figures using **AlternativeText** property of **FigureElement** Class. Following code snippet shows how to tag images in existing PDF document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-TagImageInExistingPDF-TagImageInExistingPDF.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Tagged PDFs Element Properties</title>
+      <link>https://docs.aspose.com/pdf/net/set-tagged-pdfs-element-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/set-tagged-pdfs-element-properties/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;setting-structure-elements-properties&#34;&gt;&lt;strong&gt;Setting Structure Elements Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set structure elements properties in a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;CreateSectElement()&lt;/strong&gt; and &lt;strong&gt;CreateHeaderElement()&lt;/strong&gt; methods of &lt;strong&gt;ITaggedContent&lt;/strong&gt; Interface. Following code snippet shows how to set structure elements properties of a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-StructureElementsProperties-StructureElementsProperties.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-text-structure-elements&#34;&gt;&lt;strong&gt;Setting Text Structure Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set text structure elements of a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;ParagraphElement&lt;/strong&gt; Class. Following code snippet shows how to set text structure elements of a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-TextStructureElements-TextStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-text-block-structure-elements&#34;&gt;&lt;strong&gt;Setting Text Block Structure Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set text block structure elements of a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;HeaderElement&lt;/strong&gt; and &lt;strong&gt;ParagraphElement&lt;/strong&gt; Classes. You can append objects of these classes as a child of &lt;strong&gt;StructureElement&lt;/strong&gt; object. Following code snippet shows how to set text block structure elements of a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-TextBlockStructureElements-TextBlockStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-inline-structure-elements&#34;&gt;&lt;strong&gt;Setting Inline Structure Elements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set inline structure elements of a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;SpanElement&lt;/strong&gt; and &lt;strong&gt;ParagraphElement&lt;/strong&gt; Classes. You can append objects of these classes as a child of &lt;strong&gt;StructureElement&lt;/strong&gt; object. Following code snippet shows how to set inline structure elements of a Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-InlineStructureElements-InlineStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-custom-tag-name&#34;&gt;&lt;strong&gt;Setting Custom Tag Name&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In order to set a custom tag name of the elements of a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;SetTag()&lt;/strong&gt; method for elements. Following code snippet shows how to set custom tag name:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-Document-CustomTagName-CustomTagName.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;adding-structure-element-into-elements&#34;&gt;&lt;strong&gt;Adding Structure Element into Elements&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This feature is supported by version 19.4 or greater.
+&lt;/div&gt;
+
+&lt;p&gt;In order to set link structure elements in a Tagged PDF Document, Aspose.PDF offers &lt;strong&gt;CreateLinkElement()&lt;/strong&gt; method of &lt;strong&gt;ITaggedContent&lt;/strong&gt; Interface. Following code snippet shows how to set structure elements in paragraph with text of Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-LinkStructureElements-LinkStructureElements.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-link-structure-element&#34;&gt;&lt;strong&gt;Setting Link Structure Element&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This feature is supported by version 19.4 or greater.
+&lt;/div&gt;
+ 
+Aspose.PDF for .NET API also allows you to add link structure elements. Following code snippet shows how to add link structure element into Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-AddStructureElementIntoElement-AddStructureElementIntoElement.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-note-structure-element&#34;&gt;&lt;strong&gt;Setting Note Structure Element&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET API also allows you to add &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/noteelement&#34;&gt;NoteElement&lt;/a&gt; in a tagged PDF document. Following code snippet shows how to add note element in Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-CreateNoteStructureElement-CreateNoteStructureElement.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;setting-language-and-title&#34;&gt;&lt;strong&gt;Setting Language and Title&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This feature is supported by version 19.6 or greater.
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.PDF for .NET API also allows you to set language and title for a document according to specification PDF/UA. The language can be set up as for whole document as for its separate structural elements. Following code snippet shows how to et language and title in Tagged PDF Document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-SetupLanguageAndTitle-1.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with Table in Tagged PDFs</title>
+      <link>https://docs.aspose.com/pdf/net/working-with-table-in-tagged-pdfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/working-with-table-in-tagged-pdfs/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+This feature is supported by version 19.6 or greater.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;create-table-in-tagged-pdf&#34;&gt;&lt;strong&gt;Create Table in Tagged PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows creating a table in Tagged PDF documents. For working with tables, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tableelement&#34;&gt;TableElement&lt;/a&gt; class. In order to create a table, you can use &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.tagged/itaggedcontent/methods/createtableelement&#34;&gt;CreateTableElement()&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.tagged/itaggedcontent&#34;&gt;ITaggedContent&lt;/a&gt; interface. Furthermore, you can use &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tableelement/methods/createthead&#34;&gt;CreateTHead()&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tableelement/methods/createtbody&#34;&gt;CreateTBody()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tableelement/methods/createtfoot&#34;&gt;CreateTFoot()&lt;/a&gt; methods of TableElement class for creating Table Head, Table Body, and Table Foot respectively. To create a table row, you can use &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tablerowcollectionelement/methods/createtr&#34;&gt;CreateTR()&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tablerowcollectionelement&#34;&gt;TableRowCollectionElement&lt;/a&gt; class. You can also check if the created PDF document is PDF/UA compliance using the Validate() method of Document class. The following code snippet shows, how to create a table in the Tagged PDF document: &lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-CreateTableElement-1.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;style-table-element&#34;&gt;&lt;strong&gt;Style Table Element&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows styling a table in Tagged PDF document. In order to style a table, you can create a table using &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.tagged/itaggedcontent/methods/createtableelement&#34;&gt;CreateTableElement()&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.tagged/itaggedcontent&#34;&gt;ITaggedContent&lt;/a&gt; interface and set style table using properties of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tableelement&#34;&gt;TableElement&lt;/a&gt; class. The following is the list properties you can use to style a table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BackgroundColor&lt;/li&gt;
+&lt;li&gt;Border&lt;/li&gt;
+&lt;li&gt;Alignment&lt;/li&gt;
+&lt;li&gt;CornerStyle&lt;/li&gt;
+&lt;li&gt;Broken&lt;/li&gt;
+&lt;li&gt;ColumnAdjustment&lt;/li&gt;
+&lt;li&gt;ColumnWidths&lt;/li&gt;
+&lt;li&gt;DefaultCellBorder&lt;/li&gt;
+&lt;li&gt;DefaultCellPadding&lt;/li&gt;
+&lt;li&gt;DefaultCellTextState&lt;/li&gt;
+&lt;li&gt;DefaultColumnWidth&lt;/li&gt;
+&lt;li&gt;IsBroken&lt;/li&gt;
+&lt;li&gt;IsBordersIncluded&lt;/li&gt;
+&lt;li&gt;Left&lt;/li&gt;
+&lt;li&gt;Top&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows how to style a table in Tagged PDF document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-StyleTableElement-1.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;style-table-row&#34;&gt;&lt;strong&gt;Style Table Row&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows styling a table row in Tagged PDF document. In order to style a table row, you can use the properties of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tabletrelement&#34;&gt;TableTRElement&lt;/a&gt; class. The following is the list properties you can use to style a table row:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BackgroundColor&lt;/li&gt;
+&lt;li&gt;Border&lt;/li&gt;
+&lt;li&gt;DefaultCellBorder&lt;/li&gt;
+&lt;li&gt;MinRowHeight&lt;/li&gt;
+&lt;li&gt;FixedRowHeight&lt;/li&gt;
+&lt;li&gt;IsInNewPage&lt;/li&gt;
+&lt;li&gt;IsRowBroken&lt;/li&gt;
+&lt;li&gt;DefaultCellTextState&lt;/li&gt;
+&lt;li&gt;DefaultCellPadding&lt;/li&gt;
+&lt;li&gt;VerticalAlignment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows how to style a table row in the Tagged PDF document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-StyleTableRow-1.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;style-table-cell&#34;&gt;&lt;strong&gt;Style Table Cell&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET allows styling a table cell in Tagged PDF document. In order to style a table cell, you can use the properties of &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.logicalstructure/tablecellelement&#34;&gt;TableCellElement&lt;/a&gt; class. The following is the list properties you can use to style a table cell:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BackgroundColor&lt;/li&gt;
+&lt;li&gt;Border&lt;/li&gt;
+&lt;li&gt;IsNoBorder&lt;/li&gt;
+&lt;li&gt;Margin&lt;/li&gt;
+&lt;li&gt;Alignment&lt;/li&gt;
+&lt;li&gt;DefaultCellTextState&lt;/li&gt;
+&lt;li&gt;IsWordWrapped&lt;/li&gt;
+&lt;li&gt;VerticalAlignment&lt;/li&gt;
+&lt;li&gt;ColSpan&lt;/li&gt;
+&lt;li&gt;RowSpan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows how to style a table cell in the Tagged PDF document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/63473b1ba28e09e229cfbf4430eabd8a.js?file=Examples-CSharp-AsposePDF-Working-with-TaggedPDFs-StyleTableCell-1.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: PDF-UA Compliance Test - Errors List</title>
+      <link>https://docs.aspose.com/pdf/net/pdf-ua-compliance-test-errors-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/pdf-ua-compliance-test-errors-list/</guid>
+      <description>
+        
+        
+        &lt;p&gt;While doing PDF/UA compliance testing using Aspose.PDF API, you may be interested in knowing the error messages that you can get. These errors are of different types such as General, Text, Fonts, Headings, and several others. Information about such errors can be helpful in knowing the exact cause of the errors and their handling. In this article, we list the errors that can arise during PDF/UA compliance testing using the API.&lt;/p&gt;
+&lt;h3 id=&#34;general&#34;&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF/UA identifier missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6.2:1.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Structural parent tree: Inconsistent entry found&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:1.1(14.8.1)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Document is not marked as tagged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:1.1(14.8)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;[OBJECT_NAME] object not tagged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:1.2(14.8.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Artifact present inside tagged content&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:1.3(14.8.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tagged content present inside an artifact&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Structure tree missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Document’ structure element found which is not a root element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘[ELEMENT_NAME]’ structure element used as root element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.4.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Possibly inappropriate use of a ‘[ELEMENT_NAME]’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.4.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid use of a ‘[ELEMENT_NAME]’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:2.5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Possibly wrong nested ‘[ELEMENT_NAME]’ struct element into StructTreeRoot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:3(14.8.4)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Non-standard structure type ‘[TYPE_NAME]’ is neither mapped to a standard structure type nor to another non-standard structure type&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:4(14.8.4)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Standard structure type ‘[TYPE_NAME]’ is remapped to ‘[TYPE_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Need check manual&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Color contrast&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:6.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XMP metadata missing in document&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:6.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Title missing in document’s XMP metadata&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:6.3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Title is empty in document’s XMP metadata&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:7.1(12.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘ViewerPreferences’ dictionary missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:7.2(12.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘DisplayDocTitle’ entry is not set&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:8(14.7.1)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Suspects’ entry is set&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:9.1(14.7)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘StructParents’ key missing in page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:9.2(14.7)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘StructParent’ entry missing in the annotation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.1:9.3(14.7)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Entry for given ‘StructParents’ not found&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;text&#34;&gt;&lt;strong&gt;Text&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Need check manual&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Logical Reading Order&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:2(14.8.2.4.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Characters in a text object cannot be mapped to Unicode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:3.1(14.9.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language for text object cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:3.2(14.9.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of alternative text cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:3.3(14.9.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of actual text cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:3.4(14.9.2.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of expansion text cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.2:4(14.9.4)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Stretchable character no tagged using ActualText&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;fonts&#34;&gt;&lt;strong&gt;Fonts&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Clause&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.3.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Character collection in CIDFont is not compartible with character collection of internal CMap&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.3.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CIDToGIDMap is not embedded or incomplete in font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.3.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CMap is not embedded for font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.4.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CIDSet is missing or incomplete for font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.4.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Glyphs missing in embedded font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Non-symbolic TrueType font ‘[FONT_NAME]’ has no cmap entries&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Encoding entry prohibited for symbolic TrueType font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect encoding is used for TrueType font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.21.6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect “Differences” array for non-symbolic TrueType font ‘[FONT_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;graphics&#34;&gt;&lt;strong&gt;Graphics&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.3:1(14.8.4.5)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘[ELEMENT_NAME]’ element on a single page with no bounding box&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.3:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Alternative text missing for ‘[ELEMENT_NAME]’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.3:3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Caption accompanying figure missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.3:4(14.8.4.5)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Graphics object appears between the BT and ET operators&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;headings&#34;&gt;&lt;strong&gt;Headings&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.4.2:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The first heading is not on the first level&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.4.2:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Numbered heading skips one ore more heading levels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.4.4:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘H’ and ‘Hn’ structure elements found&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.4.4:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;More than one ‘H’ structure element inside the parent structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;tables&#34;&gt;&lt;strong&gt;Tables&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.5:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Irregular table row&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.5:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table header cell has no associated subcells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.5:3.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table headers missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.5:3.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table summary missing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;lists&#34;&gt;&lt;strong&gt;Lists&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.6:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘LI’ structure element must be a child of ‘L’ element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.6:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Lbl’ and ‘LBody’ structure element must be children of ‘LI’ element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;notes-and-references&#34;&gt;&lt;strong&gt;Notes and references&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.9:2.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ID missing in ‘Note’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.9:2.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ID entry in ‘Note’ structure element is not unique&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;optional-content&#34;&gt;&lt;strong&gt;Optional content&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.10:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Name’ missing in optional content configuration dictionary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.10:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optional content configuration dictionary contains ‘AS’ key&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;embedded-files&#34;&gt;&lt;strong&gt;Embedded files&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.11:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘F’ or ‘UF’ key missing in the file specification&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.11:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Desc’ key missing in the file specification&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;digital-signatures&#34;&gt;&lt;strong&gt;Digital signatures&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.13:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Signature form field ‘[FIELD_NAME]’ does not conform to the specification&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.13:2.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of an alternate name of a form field ‘[FIELD_NAME]’ cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.13:2.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Alternate field name entry missing in form field ‘[FIELD_NAME]’&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;non-interactive-forms&#34;&gt;&lt;strong&gt;Non-interactive forms&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.14:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘PrintField’ attribute missing in non-interactive form item&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;xfa&#34;&gt;&lt;strong&gt;XFA&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.15:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF contains a dynamic XFA form&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;security&#34;&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.16:1(7.6.3.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Security settings block assistive technologies from accessing document’s content&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.16:2(7.6.3.2)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conversion is not allowed by permission restrictions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;navigation&#34;&gt;&lt;strong&gt;Navigation&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.17:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Document Outlines Error&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.17:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of outlines can be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.17:3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Need manual check&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Semantically appropriate Page Labels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;annotations&#34;&gt;&lt;strong&gt;Annotations&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.1:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Natural language of Contents entry cannot be determined&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.1:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Alternative description missing for an annotation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.1:3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Annotation is not nested inside an ‘Annot’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.2:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An annotation with subtype undefined in ISO 32000 does not meet 7.18.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.2:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An annotation of subtype TrapNet exists&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.3:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tab order entry in page with annotations not set to ‘S’ (Structure)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.4:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Widget’ annotation not nested inside a ‘Form’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.5:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;‘Link’ annotation is not nested inside a ‘Link’ structure element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.6.2:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CT key is missing from the media clip data dictionary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.6.2:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Alt key is missing from the media clip data dictionary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.7:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;File attachment annotation. ‘F’ or ‘UF’ key missing in file specification&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.7:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Warning&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;File attachment annotation. ‘Desc’ key missing in file specification&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.8:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A PrinterMark annotation is included in logical structure&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.18.8:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The appearance stream of a PrinterMark annotation is not marked as Artifact&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;actions&#34;&gt;&lt;strong&gt;Actions&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.19:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Need check manual&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Actions were found. Need to check actions according to specification PDF/UA manually&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;xobjects&#34;&gt;&lt;strong&gt;XObjects&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Severity&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Message&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.20:1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Reference XObject shall not be used in conforming PDF/UA file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7.20:2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The content of Form XObject isn’t incorporated into structure elements&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,216 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Pages</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-pages/</link>
+    <description>Recent content in Working with Pages on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Concatenate PDF Files</title>
+      <link>https://docs.aspose.com/pdf/net/concatenate-pdf-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/concatenate-pdf-files/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This article shows how to merge multiple PDF files into a single PDF document using Aspose.PDF for .NET. The example is written in C# but the API can be used in other .NET programming languages as well such as VB.NET. PDF files are merged such that the first one is joined at the end of the other document. &lt;/p&gt;
+&lt;h2 id=&#34;merge-pdf-files-using-c&#34;&gt;&lt;strong&gt;Merge PDF Files using C#&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;You can merge PDF files using Aspose.PDF and get the results online at this link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://products.aspose.app/pdf/merger&#34;&gt;products.aspose.app/pdf/merger&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;To concatenate two PDF files:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create two &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; objects, each containing one of the input PDF files.&lt;/li&gt;
+&lt;li&gt;Then call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection&amp;rsquo;s Add method for the Document object you want to add the other PDF file to.&lt;/li&gt;
+&lt;li&gt;Pass the PageCollection collection of the second Document object to the first PageCollection collection&amp;rsquo;s Add method.&lt;/li&gt;
+&lt;li&gt;Finally, save the output PDF file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to concatenate PDF files.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-ConcatenatePdfFiles-ConcatenatePdfFiles.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get and Set Page Properties</title>
+      <link>https://docs.aspose.com/pdf/net/get-and-set-page-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/get-and-set-page-properties/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for .NET lets you read and set properties of pages in a PDF file in your .NET applications. This section shows how to get the number of pages in a PDF file, get information about PDF page properties such as color and set page properties. The examples given are in C# but you can use any .NET language such as VB.NET to achieve the same.&lt;/p&gt;
+&lt;h2 id=&#34;get-number-of-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Get Number of Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;When working with documents, you often want to know how many pages they contain. With Aspose.PDF this takes no more than two lines of code.&lt;/p&gt;
+&lt;p&gt;To get the number of pages in a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the PDF file using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Then use the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection&amp;rsquo;s Count property (from the Document object) to get the total number of pages in the document.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to get the number of pages of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-GetNumberofPages-GetNumberofPages.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;get-page-count-without-saving-the-document&#34;&gt;&lt;strong&gt;Get page count without saving the document&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Sometimes we generate the PDF files on the fly and during PDF file creation, we may come across the requirement (creating Table Of Contents etc.) to get page count of PDF file without saving the file over system or stream. So in order to cater to this requirement, a method &lt;strong&gt;ProcessParagraphs(&amp;hellip;)&lt;/strong&gt; has been introduced in Document class. Please take a look over the following code snippet which shows the steps to get page count without saving the document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-GetPageCount-GetPageCount.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-page-properties&#34;&gt;&lt;strong&gt;Get Page Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Each page in a PDF file has a number of properties, such as the width, height, bleed-, crop- and trimbox. Aspose.PDF allows you to access these properties.&lt;/p&gt;
+&lt;h3 id=&#34;understanding-page-properties-the-difference-between-artbox-bleedbox-cropbox-mediabox-trimbox-and-rect-property&#34;&gt;&lt;strong&gt;Understanding Page Properties: the Difference between Artbox, BleedBox, CropBox, MediaBox, TrimBox and Rect property&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Media box&lt;/strong&gt;: The media box is the largest page box. It corresponds to the page size (for example A4, A5, US Letter, etc.) selected when the document was printed to PostScript or PDF. In other words, the media box determines the physical size of the media on which the PDF document is displayed or printed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bleed box&lt;/strong&gt;: If the document has bleed, the PDF will also have a bleed box. Bleed is the amount of color (or artwork) that extends beyond the edge of a page. It is used to make sure that when the document is printed and cut to size (“trimmed”), the ink will go all the way to the edge of the page. Even if the page is mistrimmed - cut slightly off the trim marks - no white edges will appear on the page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trim box&lt;/strong&gt;: The trim box indicates the final size of a document after printing and trimming.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Art box&lt;/strong&gt;: The art box is the box drawn around the actual contents of the pages in your documents. This page box is used when importing PDF documents in other applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crop box&lt;/strong&gt;: The crop box is the “page” size at which your PDF document is displayed in Adobe Acrobat. In normal view, only the contents of the crop box are displayed in Adobe Acrobat.
+For detailed descriptions of these properties, read the Adobe.Pdf specification, particularly 10.10.1 Page Boundaries.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page.Rect&lt;/strong&gt;: the intersection (commonly visible rectangle) of the MediaBox and DropBox. The picture below illustrates these properties.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For further details, please visit &lt;a href=&#34;http://www.enfocus.com/manuals/ReferenceGuide/PP/10/enUS/en-us/concept/c_aa1095731.html&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;accessing-page-properties&#34;&gt;&lt;strong&gt;Accessing Page Properties&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; class provides all the properties related to a particular PDF page. All the pages of the PDF files are contained in the of the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection.&lt;/p&gt;
+&lt;p&gt;From there, it is possible to access either individual Page objects using their index, or loop through the collection, using a foreach loop, to get all pages. Once an individual page is accessed, we can get its properties. The following code snippet shows how to get page properties.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-GetProperties-GetProperties.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-a-particular-page-of-the-pdf-file&#34;&gt;&lt;strong&gt;Get a Particular Page of the PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF allows you to &lt;a href=&#34;https://docs.aspose.com/pdf/pdf/net/manipulate-page-in-a-pdf-file/&#34;&gt;split a PDF into individual pages&lt;/a&gt; and save them as PDF files. Getting a specified page in a PDF file and saving it as a new PDF is a very similar operation: open the source document, access the page, create a new document and add the page to this.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; holds the pages in the PDF file. To get a particular page from this collection:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Specify the page index using the Pages property.&lt;/li&gt;
+&lt;li&gt;Create a new &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Add the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; object to the new &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Save the output using &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to get a particular page from a PDF file and save it as a new file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-GetParticularPage-GetParticularPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;determine-page-color&#34;&gt;&lt;strong&gt;Determine Page Color&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; class provides the properties related to a particular page in a PDF document, including what type of colour - RGB, black and white, grayscale or undefined - the page uses.&lt;/p&gt;
+&lt;p&gt;All the pages of the PDF files are contained by the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection. The ColorType property specifies the color of elements on page. To get or determine the color information for particular PDF page, use the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; object&amp;rsquo;s ColorType property. The following code snippet shows how to iterate through individual page of PDF file to get color information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-DeterminePageColor-DeterminePageColor.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manipulate Page in a PDF File</title>
+      <link>https://docs.aspose.com/pdf/net/manipulate-page-in-a-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/manipulate-page-in-a-pdf-file/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for .NET API provides full flexibility to work with pages in a PDF document using C# or any other .NET language. It maintains all the pages of a PDF document in &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; that can be used to work with PDG pages. Using the API, you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert pages into a PDF&lt;/li&gt;
+&lt;li&gt;Delete pages from a PDF&lt;/li&gt;
+&lt;li&gt;Change page size of a PDF&lt;/li&gt;
+&lt;li&gt;Rotate pages in a PDF&lt;/li&gt;
+&lt;li&gt;Split PDF Pages into one or multiple PDF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;insert-page-in-a-pdf-file&#34;&gt;&lt;strong&gt;Insert Page in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET lets you insert a page to a PDF document at any location in the file as well as add pages to the end of a PDF file. This section shows how to add pages to a PDF without Acrobat Reader. &lt;/p&gt;
+&lt;h3 id=&#34;insert-page-in-a-pdf-file-at-desired-location&#34;&gt;&lt;strong&gt;Insert Page in a PDF File at Desired Location&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This topic explains how to insert a page in a PDF document using C#. The new page is inserted as an empty page at the specified index. To insert an empty page in a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class object with the input PDF file.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.pagecollection/add/methods/1&#34;&gt;Add&lt;/a&gt; method, without any parameters.&lt;/li&gt;
+&lt;li&gt;Save the output PDF using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to insert a page in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-InsertEmptyPage-InsertEmptyPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;insert-an-empty-page-at-the-end-of-a-pdf-file&#34;&gt;&lt;strong&gt;Insert an Empty Page at the End of a PDF File&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Sometimes, you want to ensure that a document ends on an empty page. This topic explains how to insert an empty page at the end of the PDF document. To insert an empty page at the end of a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class object with the input PDF file.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.pagecollection/add/methods/1&#34;&gt;Add&lt;/a&gt; method, without any parameters.&lt;/li&gt;
+&lt;li&gt;Save the output PDF using the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to insert an empty page at the end of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-InsertEmptyPageAtEnd-InsertEmptyPageAtEnd.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-a-page-from-pdf-file&#34;&gt;&lt;strong&gt;Delete a Page from PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can delete pages from a PDF file using Aspose.PDF for .NET. To delete a particular page from the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection/methods/delete&#34;&gt;Delete&lt;/a&gt; method and specify the page&amp;rsquo;s index&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method to save the updated PDF file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to delete a particular page from the PDF file using C#.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-DeleteParticularPage-DeleteParticularPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;change-pdf-page-size&#34;&gt;&lt;strong&gt;Change PDF Page Size&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for .NET lets you change PDF page size with simple lines of code in your .NET applications. This topic explains how to update/change the page dimensions (size) of an existing PDF file.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; class contains the SetPageSize(&amp;hellip;) method which lets you set the page size. The code snippet below updates page dimensions in a few easy steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Load the source PDF file.&lt;/li&gt;
+&lt;li&gt;Get the pages into the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get a given page.&lt;/li&gt;
+&lt;li&gt;Call the SetPageSize(..) method to update its dimensions.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; class&amp;rsquo; Save(..) method to generate the PDF file with updated page dimensions.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please note that the height and width properties use points as basic unit, where 1 inch = 72 points and 1 cm = 1/2.54 inch = 0.3937 inch = 28.3 points.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows how to change the PDF page dimensions to A4 size.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-UpdateDimensions-UpdateDimensions.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;get-pdf-page-size&#34;&gt;&lt;strong&gt;Get PDF Page Size&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can read PDF page size of an existing PDF file using Aspose.PDF for .NET. The following code sample shows how to read PDF page dimensions using C#.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-GetDimensions-GetDimensions.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-image-as-page-background&#34;&gt;&lt;strong&gt;Add Image as Page Background&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Background images can be used to add a watermark, or other subtle design, to documents. In Aspose.PDF for .NET, each PDF document is a collection of pages and each page contains a collection of artifacts. The &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/backgroundartifact&#34;&gt;BackgroundArtifact&lt;/a&gt; class can be used to add a background image to a page object. The following code snippet shows how to add a background image to PDF pages using the BackgroundArtifact object.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-ImageAsBackground-ImageAsBackground.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;change-page-orientation&#34;&gt;&lt;strong&gt;Change Page Orientation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic describes how to update or change the page orientation of pages in an existing PDF file.&lt;/p&gt;
+&lt;p&gt;From Aspose.PDF for .NET 9.6.0 release, we have added great new features like changing the page orientation from landscape to portrait and vice versa. To change the page orientation, set the page’s MediaBox using the following code snippet. You can also change page orientation by setting rotation angle using Rotate() method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-ChangeOrientation-ChangeOrientation.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;fitting-the-page-content-to-the-new-page-orientation&#34;&gt;&lt;strong&gt;Fitting the Page Content to the New Page Orientation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Please note that when using the above code snippet, some of the document’s content might be cut because the page height is decreased. To avoid this, increase width proportionally and leave the height intact. Example of calculations:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-FitPageContents-FitPageContents.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Besides the above approach, consider using the PdfPageEditor facade which can apply zoom to the page contents).&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-ZoomToPageContents-ZoomToPageContents.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;split-pdf-to-individual-files&#34;&gt;&lt;strong&gt;Split PDF to Individual Files&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic shows how to split PDF pages into individual PDF files in your .NET applications. To split PDF pages into single page PDF files using C#, the following steps can be followed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Loop through the pages of PDF document through the &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/pagecollection&#34;&gt;PageCollection&lt;/a&gt; collection&lt;/li&gt;
+&lt;li&gt;For each iteration, create a new Document object and add the individual &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf/page&#34;&gt;Page&lt;/a&gt; object into the empty document&lt;/li&gt;
+&lt;li&gt;Save the new PDF using &lt;a href=&#34;https://apireference.aspose.com/net/pdf/aspose.pdf.document/save/methods/4&#34;&gt;Save&lt;/a&gt; method&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following C# code snippet shows you how to split PDF pages into individual PDF files.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/7e1330795d76012fcb04248bb81d45b3.js?file=Examples-CSharp-AsposePDF-Pages-SplitToPages-SplitToPages.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

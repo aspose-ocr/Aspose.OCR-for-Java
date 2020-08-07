@@ -1,0 +1,263 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Forms</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-forms/</link>
+    <description>Recent content in Working with Forms on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-forms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Create, Delete and Modify Form Field in a PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/create-delete-and-modify-form-field-in-a-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/create-delete-and-modify-form-field-in-a-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Add Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class provides a collection named Form which helps manage form fields in a PDF document.&lt;/p&gt;
+&lt;p&gt;To add a form field:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create the form field which you want to add.&lt;/li&gt;
+&lt;li&gt;Call the Form collection&amp;rsquo;s add method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This example shows how to add a TextBoxField. You can add any form field using the same approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First, create a field object and set its properties.&lt;/li&gt;
+&lt;li&gt;Then, add the field to the Form collection.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippets shows how to add a TextBoxField to a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddFormFieldInPDFDocument-AddFormFieldInPDFDocument.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-radiobuttonfield&#34;&gt;&lt;strong&gt;Adding RadioButtonField&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;example-1&#34;&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The following code snippets show how to add RadioButtonField in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddFormFieldInPDFDocument-AddRadioButtonFieldInPDFDocument.java&#34;&gt;&lt;/script&gt;
+
+&lt;h4 id=&#34;example-2&#34;&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The following code snippet shows the steps to add RadioButtonField with three options and place them inside Table cells.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddFormFieldInPDFDocument-AddRadioButtonFieldWithThreeOptions.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-combobox-field&#34;&gt;&lt;strong&gt;Adding ComboBox field&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippets show how to add ComboBox field in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddFormFieldInPDFDocument-AddingComboBoxField.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;adding-signature-field&#34;&gt;&lt;strong&gt;Adding Signature field&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The following code snippets show how to add Signature field in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddFormFieldInPDFDocument-AddingSignatureField.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;delete-a-particular-form-field-from-a-pdf-document&#34;&gt;&lt;strong&gt;Delete a Particular Form Field from a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;All the form fields are contained in the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s Form collection. This collection provides different methods that manage form fields, including the delete method. If you want to delete a particular field, pass the field name as a parameter to the delete method and then save the updated PDF document.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to delete a named field from a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-DeleteParticularFormFieldFromPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;modify-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Modify Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s Form collection allows you to manage form fields in a PDF document.&lt;/p&gt;
+&lt;p&gt;To modify a form field, get the field from the Form collection and set its properties. Then save the updated PDF document.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to modify an existing form field in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-ModifyFormFieldInPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;move-form-field-to-a-new-location-in-a-pdf-file&#34;&gt;&lt;strong&gt;Move Form Field to a New Location in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you want to move a form field to a new location on a PDF page, first get the field object and then specify a new value for its setRect method. A &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Rectangle&#34;&gt;Rectangle&lt;/a&gt; object with new coordinates is assigned to the setRect(..) method. Then save the updated PDF using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s save method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to move a form field to a new location.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-MoveFormFieldToNewLocationInPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get and Set value of Form Field in a PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/get-and-set-value-of-form-field-in-a-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-and-set-value-of-form-field-in-a-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;set-value-of-form-field-in-a-pdf-document&#34;&gt;&lt;strong&gt;Set Value of Form Field in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To fill a form field, get the field from the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s Form collection. Then set the field value using the field&amp;rsquo;s setValue method.&lt;/p&gt;
+&lt;p&gt;This example selects a TextBoxField and sets its value using the setValue(..) method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-FillFormFieldInPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-value-from-an-individual-field-of-pdf-document&#34;&gt;&lt;strong&gt;Get Value from an Individual Field of PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The form field&amp;rsquo;s getValue() method allows you to get the value of a particular field.&lt;/p&gt;
+&lt;p&gt;To get the value, get the form field from the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s Form collection.&lt;/p&gt;
+&lt;p&gt;This example selects a TextBoxField and retrieves its value using the getValue() method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-GetValueFromAnIndividualFieldOfPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-values-from-all-fields-in-a-pdf-document&#34;&gt;&lt;strong&gt;Get Values from All Fields in a PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To get values from all the fields in a PDF document, you need to navigate through all the form fields and then get the value using the getValue() property. Get each field from the Form collection using the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/document/methods/getForm()/&#34;&gt;getForm()&lt;/a&gt; method and get the list of form fields into an Field[] array using getFields() and traverse through array to get value of fields.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to get the values of all the fields in a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-GetValuesFromAllFieldsInPDFDocument-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Tooltip to Form Field</title>
+      <link>https://docs.aspose.com/pdf/java/add-tooltip-to-form-field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-tooltip-to-form-field/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; class provides a collection named Form which manages form fields in a PDF document.&lt;/p&gt;
+&lt;p&gt;To add a tooltip to a form field, use the Field class&amp;rsquo; setAlternateName(..) method. Adobe Acrobat uses the &amp;lsquo;alternate name&amp;rsquo; as a field tooltip.&lt;/p&gt;
+&lt;p&gt;The code snippets specified below shows how to add a tooltip to a form field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-AddTooltipToFormField-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to add Grouped CheckBoxes</title>
+      <link>https://docs.aspose.com/pdf/java/how-to-add-grouped-checkboxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/how-to-add-grouped-checkboxes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;&lt;strong&gt;Document&lt;/strong&gt;&lt;/a&gt; class provides a collection named &lt;strong&gt;Form&lt;/strong&gt; which helps you to manage form fields in a PDF document. The &lt;strong&gt;RadioButtonField&lt;/strong&gt; provides the feature to add RadioButtons field to PDF document and in order to represent CheckBoxes, you may consider setting border style for RadioButtonField.&lt;/p&gt;
+&lt;p&gt;Once the RadioButtonField object is created, you need to add &lt;strong&gt;RadioButtonOptionField&lt;/strong&gt; instances to RadioButtonField object and in order to set border style, you need to use &lt;strong&gt;Style&lt;/strong&gt; property and set value from &lt;strong&gt;BoxStyle&lt;/strong&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;BoxStyle&lt;/strong&gt; enumeration supports following values.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Sr. #&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;BoxStyle&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Circle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cross&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Diamond&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Square&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Star&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;The following code snippets show how to create grouped CheckBoxes to a PDF document.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-HowToAddGroupedCheckBoxes-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set Custom Form Field Font</title>
+      <link>https://docs.aspose.com/pdf/java/set-custom-form-field-font/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/set-custom-form-field-font/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Form fields in Adobe PDF files can be configured to use specific default fonts. Aspose.PDF allows developers to apply any font as a field default font, whether one of the 14 core fonts or a custom font.
+&lt;/div&gt;
+
+&lt;p&gt;To set and update the default font used for form fields, Aspose.PDF has the DefaultAppearance(Font font, double size, Color color) class. This class can be accessed using com.aspose.pdf.DefaultAppearance. To use this object, use the Field class&amp;rsquo; setDefaultAppearance(..) method.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to set the default font for PDF form field.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-SetCustomFormFieldFont-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Form Fields from a Specific Region of PDF File</title>
+      <link>https://docs.aspose.com/pdf/java/get-form-fields-from-a-specific-region-of-pdf-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/get-form-fields-from-a-specific-region-of-pdf-file/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Sometimes, you might know where in a document a form field is, but not have it&amp;rsquo;s name. For example, if all you have to go from is a schematic of a printed form. With Aspose.PDF for Java, this is not a problem. You can find out which fields are in a given region of a PDF file.
+&lt;/div&gt;
+
+&lt;p&gt;To get form fields from a specific region of a PDF file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the PDF file using the &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/Document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Get the form from the Forms collection.&lt;/li&gt;
+&lt;li&gt;Specify the rectangular region and pass it to the Form object&amp;rsquo;s GetFieldsInRect method. A Fields collection is returned.&lt;/li&gt;
+&lt;li&gt;Use this to manipulate the fields.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to get form fields in a specific rectangular region of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-GetFormFieldsFromSpecificRegionOfPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Dynamic XFA Form to Standard AcroForm</title>
+      <link>https://docs.aspose.com/pdf/java/convert-dynamic-xfa-form-to-standard-acroform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/convert-dynamic-xfa-form-to-standard-acroform/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Dynamic forms are based on an XML specification known as XFA, the “XML Forms Architecture”. The information about the form (as far as PDF is concerned) is very vague – it specifies that fields exist, with properties, and JavaScript events, but does not specify any rendering.
+&lt;/div&gt;
+
+&lt;p&gt;Currently PDF supports two different methods for integrating data and PDF forms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AcroForms (also known as Acrobat forms), introduced and included in the PDF 1.2 format specification.&lt;/li&gt;
+&lt;li&gt;Adobe XML Forms Architecture (XFA) forms, introduced in the PDF 1.5 format specification as an optional feature. (The XFA specification is not included in the PDF specification, it is only referenced.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s not possible to extract or manipulate pages of XFA Forms, because the form content is generated at runtime (during XFA form viewing) within the application trying to display or render the XFA form. Aspose.PDF has a feature that allows developers to convert XFA forms to standard AcroForms.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-forms-ConvertDynamicXFAFormToStandardAcroForm-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

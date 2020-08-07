@@ -1,0 +1,109 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Developer Guide</title>
+    <link>https://docs.aspose.com/pdf/java/developer-guide/</link>
+    <description>Recent content in Developer Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/developer-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Working with com.aspose.pdf</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+These topics will work with Auto-ported version of Aspose.PDF for Java 4.0.0
+&lt;/div&gt;
+
+&lt;h4 id=&#34;topics-related-to-asposepdf-dom-api-will-be-listed-under-this-section&#34;&gt;&lt;strong&gt;Topics related to Aspose.PDF (DOM) API will be listed under this section&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-document-object/&#34;&gt;Working with Document Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-document-conversion-dom/&#34;&gt;Working with Document Conversion - DOM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-attachments/&#34;&gt;Working with Attachments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-bookmarks/&#34;&gt;Working with Bookmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-annotations/&#34;&gt;Working with Annotations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-links-and-actions/&#34;&gt;Working with Links and Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-security-and-signatures/&#34;&gt;Working with Security and Signatures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-tables-dom/&#34;&gt;Working with Tables - DOM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-tagged-pdfs/&#34;&gt;Working with Tagged PDFs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-forms/&#34;&gt;Working with Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-graphs/&#34;&gt;Working with Graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-headings-dom/&#34;&gt;Working with Headings - DOM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-images-dom/&#34;&gt;Working with Images - DOM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-javascript/&#34;&gt;Working with JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-pages/&#34;&gt;Working with Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-pdf-portfolio/&#34;&gt;Working with PDF Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-stamps-and-watermarks/&#34;&gt;Working with Stamps and Watermarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-text-dom/&#34;&gt;Working with Text - DOM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-accessible-pdf-documents/&#34;&gt;Working with Accessible PDF Documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/miscellaneous/&#34;&gt;Miscellaneous&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/advanced-features/&#34;&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with com.aspose.pdf.facades</title>
+      <link>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf-facades/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/working-with-com-aspose-pdf-facades/</guid>
+      <description>
+        
+        
+        &lt;h6 id=&#34;this-section-includes-the-following-topics-related-to-comasposepdffacades-package&#34;&gt;&lt;strong&gt;This section includes the following topics related to com.aspose.pdf.facades package:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-document-facades/&#34;&gt;Working with Document - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-pdf-printing-facades/&#34;&gt;Working with PDF printing - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-text-facades/&#34;&gt;Working with Text - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-images-facades/&#34;&gt;Working with Images - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-stamps-and-watermarks-facades/&#34;&gt;Working with Stamps and Watermarks - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-forms-facades/&#34;&gt;Working with Forms - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-bookmarks-facades/&#34;&gt;Working with Bookmarks - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-security-and-signatures-facades/&#34;&gt;Working with Security and Signatures - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-annotations-facades/&#34;&gt;Working with Annotations - facades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/working-with-pages-facades/&#34;&gt;Working with Pages - facades&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Knowledge Base</title>
+      <link>https://docs.aspose.com/pdf/java/knowledge-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/knowledge-base/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;knowledge-base&#34;&gt;&lt;strong&gt;Knowledge Base&lt;/strong&gt;&lt;/h2&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/api-limitations/&#34;&gt;API Limitations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/known-issues-in-aspose-pdf-for-android-via-java/&#34;&gt;Known Issues in Aspose.PDF for Android via Java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/technical-articles/&#34;&gt;Technical Articles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/migration-from-earlier-versions-of-aspose-pdf-for-java/&#34;&gt;Migration from earlier versions of Aspose.PDF for Java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/pdf/pdf/java/quick-tips/&#34;&gt;Quick Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

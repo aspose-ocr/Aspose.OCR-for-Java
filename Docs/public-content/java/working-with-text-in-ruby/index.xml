@@ -1,0 +1,207 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Text in Ruby</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-text-in-ruby/</link>
+    <description>Recent content in Working with Text in Ruby on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-text-in-ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Add HTML String using DOM in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/add-html-string-using-dom-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-html-string-using-dom-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---add-html&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Add HTML&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To add HTML string in Pdf document using &lt;strong&gt;Aspose.PDF Java for Ruby&lt;/strong&gt;, simply invoke &lt;strong&gt;AddHtml&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# The path to the documents directory.
+
+data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + &#39;/data/&#39;
+
+# Instantiate Document object
+
+doc = Rjb::import(&#39;com.aspose.pdf.Document&#39;).new
+
+# Add a page to pages collection of PDF file
+
+page = doc.getPages().add()
+
+# Instantiate HtmlFragment with HTML contents
+
+title = Rjb::import(&#39;com.aspose.pdf.HtmlFragment&#39;).new(&amp;quot;&amp;lt;fontsize=10&amp;gt;&amp;lt;b&amp;gt;&amp;lt;i&amp;gt;Table&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/fontsize&amp;gt;&amp;quot;)
+
+# set MarginInfo for margin details
+
+margin = Rjb::import(&#39;com.aspose.pdf.MarginInfo&#39;).new
+
+margin.setBottom(10)
+
+margin.setTop(200)
+
+# Set margin information
+
+title.setMargin(margin)
+
+# Add HTML Fragment to paragraphs collection of page
+
+page.getParagraphs().add(title)
+
+# Save PDF file
+
+doc.save(data_dir + &amp;quot;html.output.pdf&amp;quot;)
+
+puts &amp;quot;HTML added successfully&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Add HTML (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/tree/master/Plugins/Aspose_Pdf_Java_for_Ruby/lib/asposepdfjava/Text/addhtml.rb&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Text to an existing PDF file in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/add-text-to-an-existing-pdf-file-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/add-text-to-an-existing-pdf-file-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---add-text&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Add Text&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To add Text string in Pdf document using &lt;strong&gt;Aspose.PDF Java for Ruby&lt;/strong&gt;, simply invoke &lt;strong&gt;AddText&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# The path to the documents directory.
+
+data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + &#39;/data/&#39;
+
+# Instantiate Document object
+
+doc = Rjb::import(&#39;com.aspose.pdf.Document&#39;).new(data_dir + &#39;input1.pdf&#39;)
+
+# get particular page
+
+pdf_page = doc.getPages().get_Item(1)
+
+# create text fragment
+
+text_fragment = Rjb::import(&#39;com.aspose.pdf.TextFragment&#39;).new(&amp;quot;main text&amp;quot;)
+
+text_fragment.setPosition(Rjb::import(&#39;com.aspose.pdf.Position&#39;).new(100, 600))
+
+font_repository = Rjb::import(&#39;com.aspose.pdf.FontRepository&#39;)
+
+color = Rjb::import(&#39;com.aspose.pdf.Color&#39;)
+
+# set text properties
+
+text_fragment.getTextState().setFont(font_repository.findFont(&amp;quot;Verdana&amp;quot;))
+
+text_fragment.getTextState().setFontSize(14)
+
+#text_fragment.getTextState().setForegroundColor(color.BLUE)
+
+#text_fragment.getTextState().setBackgroundColor(color.GRAY)
+
+# create TextBuilder object
+
+text_builder = Rjb::import(&#39;com.aspose.pdf.TextBuilder&#39;).new(pdf_page)
+
+# append the text fragment to the PDF page
+
+text_builder.appendText(text_fragment)
+
+# Save PDF file
+
+doc.save(data_dir + &amp;quot;Text_Added.pdf&amp;quot;)
+
+puts &amp;quot;Text added successfully&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Add Text (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/tree/master/Plugins/Aspose_Pdf_Java_for_Ruby/lib/asposepdfjava/Text/addtext.rb&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Extract Text From All the Pages of a PDF Document in Ruby</title>
+      <link>https://docs.aspose.com/pdf/java/extract-text-from-all-the-pages-of-a-pdf-document-in-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/extract-text-from-all-the-pages-of-a-pdf-document-in-ruby/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insasposepdf---extract-text-from-all-the-pages&#34;&gt;&lt;ins&gt;&lt;strong&gt;Aspose.PDF - Extract Text From All the Pages&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To extract TextrFrom All the Pages Pdf document using &lt;strong&gt;Aspose.PDF Java for Ruby&lt;/strong&gt;, simply invoke &lt;strong&gt;ExtractTextFromAllPages&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+
+# The path to the documents directory.
+
+data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + &#39;/data/&#39;
+
+# Open the target document
+
+pdf = Rjb::import(&#39;com.aspose.pdf.Document&#39;).new(data_dir + &#39;input1.pdf&#39;)
+
+# create TextAbsorber object to extract text
+
+text_absorber = Rjb::import(&#39;com.aspose.pdf.TextAbsorber&#39;).new
+
+# accept the absorber for all the pages
+
+pdf.getPages().accept(text_absorber)
+
+# In order to extract text from specific page of document, we need to specify the particular page using its index against accept(..) method.
+
+# accept the absorber for particular PDF page
+
+# pdfDocument.getPages().get_Item(1).accept(textAbsorber);
+
+#get the extracted text
+
+extracted_text = text_absorber.getText()
+
+# create a writer and open the file
+
+writer = Rjb::import(&#39;java.io.FileWriter&#39;).new(Rjb::import(&#39;java.io.File&#39;).new(data_dir + &amp;quot;extracted_text.out.txt&amp;quot;))
+
+writer.write(extracted_text)
+
+# write a line of text to the file
+
+# tw.WriteLine(extractedText);
+
+# close the stream
+
+writer.close()
+
+puts &amp;quot;Text extracted successfully. Check output file.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;insdownload-running-code&#34;&gt;&lt;ins&gt;&lt;strong&gt;Download Running Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Extract Text From All the Pages (Aspose.PDF)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-pdf/Aspose.PDF-for-Java/tree/master/Plugins/Aspose_Pdf_Java_for_Ruby/lib/asposepdfjava/Text/extracttextfromallpages.rb&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

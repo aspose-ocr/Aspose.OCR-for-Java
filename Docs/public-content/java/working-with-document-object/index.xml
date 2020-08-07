@@ -1,0 +1,412 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Document Object</title>
+    <link>https://docs.aspose.com/pdf/java/working-with-document-object/</link>
+    <description>Recent content in Working with Document Object on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/java/working-with-document-object/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Create Document</title>
+      <link>https://docs.aspose.com/pdf/java/create-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/create-document/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aspose.PDF for Java API lets Java application developers to embed PDF documents processing functionality in their applications. It can be used to create and read PDF files without the need of any other software installed on the underlying machine. Aspose.PDF for Java can be used in a variety of Java application types such as Desktop, JSP, and JSF applications.&lt;/p&gt;
+&lt;h2 id=&#34;inscreate-pdf-file-using-java&#34;&gt;&lt;ins&gt;&lt;strong&gt;Create PDF File using Java&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To create a PDF file using Java, the following steps can be used.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instantiate a Document object&lt;/li&gt;
+&lt;li&gt;Add a Page to document object&lt;/li&gt;
+&lt;li&gt;Create a TextFragment object&lt;/li&gt;
+&lt;li&gt;Add TextFragment to Paragraph collection of the page&lt;/li&gt;
+&lt;li&gt;Save the resultant PDF document&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-DocumentObject-HelloWorld-HelloWorld.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: PDF File Metadata</title>
+      <link>https://docs.aspose.com/pdf/java/pdf-file-metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/pdf-file-metadata/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insget-pdf-file-information&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get PDF File Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To get file-specific information about a PDF file, first get the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/DocumentInfo&#34;&gt;DocumentInfo&lt;/a&gt; object using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#getInfo--&#34;&gt;getInfo()&lt;/a&gt;. Once the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/DocumentInfo&#34;&gt;DocumentInfo&lt;/a&gt; object is retrieved, you can get the values of the individual properties.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to set PDF file information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-GetPDFFileInformation-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-pdf-file-information&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set PDF File Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java allows you to set file-specific information for a PDF, information like author, creation date, subject, and title.&lt;/p&gt;
+&lt;p&gt;To set this information:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/DocumentInfo&#34;&gt;DocumentInfo&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Set the values of the properties.&lt;/li&gt;
+&lt;li&gt;Save the updated document using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#save-com.aspose.ms.System.IO.FileStream-&#34;&gt;save()&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+Please note that you cannot set values against the &lt;strong&gt;Producer&lt;/strong&gt; and &lt;strong&gt;Creator&lt;/strong&gt; fields, because Aspose.PDF for Java x.x.x will be displayed against these fields.
+&lt;/div&gt;
+
+&lt;p&gt;The following code snippet shows you how to set PDF file information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-SetPDFFileInformation-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;get-xmp-metadata-from-pdf-file&#34;&gt;&lt;strong&gt;Get XMP Metadata from PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java allows you to access a PDF file&amp;rsquo;s XMP metadata.&lt;/p&gt;
+&lt;p&gt;To get a PDF file&amp;rsquo;s metadata,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object and open the input PDF file.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#getMetadata--&#34;&gt;getMetadata()&lt;/a&gt; property to get the metadata.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to get metadata from the PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-GetXMPMetadataFromPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insremove-metadata-from-pdf&#34;&gt;&lt;ins&gt;&lt;strong&gt;Remove Metadata from PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java allows you to add, update, and remove metadata from PDF documents.&lt;/p&gt;
+&lt;p&gt;To remove metadata:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Check if the particular property exists in the PDF file.&lt;/li&gt;
+&lt;li&gt;If it exists, use the removeItem(..) method to remove it.&lt;/li&gt;
+&lt;li&gt;Save the updated document using the Document object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#save-com.aspose.ms.System.IO.FileStream-&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows you how to remove metadata from a PDF file.&lt;/p&gt;
+&lt;p&gt;You cannot remove the pdf:Producer, xmp:ModifyDate, xmp:CreatorTool, or xmp:MetadataDate properties as they are required. All other properties can easily be removed.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-RemoveMetadataFromPDF-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Formatting PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/formatting-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/formatting-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insget-document-window-and-page-display-properties&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get Document Window and Page Display Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic helps you understand how to get the properties of the document window, viewer application, and how pages are displayed.&lt;/p&gt;
+&lt;p&gt;To set these different properties, open the PDF file using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class. You can now get the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object&amp;rsquo;s methods, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#isCenterWindow--&#34;&gt;IsCenterWindow&lt;/a&gt; – Center the document window on screen. Default: false.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setDirection-int-&#34;&gt;SetDirection&lt;/a&gt; – Reading order. This determines how pages are laid out when displayed side by side. Default: left to right.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#isDisplayDocTitle--&#34;&gt;isDisplayDocTitle&lt;/a&gt; – Display the document title in the document window title bar. Default: false (the title is displayed).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideMenubar-boolean-&#34;&gt;setHideMenuBar&lt;/a&gt; – Hide or display the document window&amp;rsquo;s menu bar. Default: false (menu bar is displayed).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideToolBar-boolean-&#34;&gt;setHideToolBar&lt;/a&gt; – Hide or display the document window&amp;rsquo;s toolbar. Default: false (toolbar is displayed).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideWindowUI-boolean-&#34;&gt;setHideWindowUI&lt;/a&gt; – Hide or display document window elements like scroll bars. Default: false (UI elements are displayed).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setNonFullScreenPageMode-int-&#34;&gt;setNonFullScreenPageMode&lt;/a&gt; – How the document is displayed when it is not displayed in full-page mode.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setPageLayout-int-&#34;&gt;setPageLayout&lt;/a&gt; – The page layout.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setPageMode-int-&#34;&gt;setPageMode&lt;/a&gt; – How the document is displayed when first opened. The options are show thumbnails, full-screen, show attachment panel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows you how to get the properties using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-GetDocumentWindowAndPageDisplayProperties-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-document-window-and-page-display-properties&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set Document Window and Page Display Properties&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic explains how to set the properties of the document window, viewer application and page display.&lt;/p&gt;
+&lt;p&gt;To set these different properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the PDF file using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Set the Document object&amp;rsquo;s properties.&lt;/li&gt;
+&lt;li&gt;Save the updated PDF file using the &lt;strong&gt;save&lt;/strong&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Properties available are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setCenterWindow-boolean-&#34;&gt;setCenterWindow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setDirection-int-&#34;&gt;setDirection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setDisplayDocTitle-boolean-&#34;&gt;setDisplayDocTitle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setFitWindow-boolean-&#34;&gt;setFitWindow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideMenubar-boolean-&#34;&gt;setHideMenuBar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideToolBar-boolean-&#34;&gt;setHideToolBar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setHideWindowUI-boolean-&#34;&gt;setHideWindowUI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setNonFullScreenPageMode-int-&#34;&gt;setNonFullScreenPageMode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setPageLayout-int-&#34;&gt;setPageLayout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#setPageMode-int-&#34;&gt;setPageMode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet shows you how to set the properties using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-SetDocumentWindowAndPageDisplayProperties-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insembedding-fonts-in-an-existing-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Embedding Fonts in an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;PDF readers support &lt;a href=&#34;http://en.wikipedia.org/wiki/Portable_Document_Format#Fonts&#34;&gt;a core of 14 fonts&lt;/a&gt; so that documents can be displayed the same way regardless of the platform the document is displayed on. When a PDF contains a font that is outside the core fonts, embed the font to avoid font substitution.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Java supports font embedding in existing PDF documents. You can embed a complete font or a subset. To embed the font:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open an existing PDF file using the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Font&#34;&gt;com.aspose.pdf.Font&lt;/a&gt; class to embed the font.
+&lt;ol&gt;
+&lt;li&gt;The setEmbedded(true) method embeds the full font.&lt;/li&gt;
+&lt;li&gt;The pageFont.isSubset(true) method embeds a subset of the font.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A font subset embeds only the characters that are used and is useful where fonts are used for short sentences or slogans, for example where a corporate font is used for a logo, but not for the body text. Using a subset reduces the file size of the output PDF.&lt;/p&gt;
+&lt;p&gt;However, if a custom font is used for the body text, embed it in its entirety.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to embed a font in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-EmbeddingFontsInExistingPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insembedding-fonts-while-creating-pdf&#34;&gt;&lt;ins&gt;&lt;strong&gt;Embedding Fonts while creating PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you need to use any font other than the 14 core fonts supported by Adobe Reader, then you must embed the font description while generating a PDF file. If font information is not embedded, Adobe Reader will take it from the Operating System if it’s installed over the system, or it will construct a substitute font according to the font descriptor in the PDF. Please note that embedded font must be installed on the host machine i.e. in case of the following code ‘Univers Condensed’ font is installed over the system.&lt;/p&gt;
+&lt;p&gt;We use the property setEmbedded of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Font&#34;&gt;Font&lt;/a&gt; class to embed the font information into PDF file. Setting the value of this property to ‘true’ will embed the complete font file into the PDF, knowing the fact that it will increase the PDF file size. Following is the code snippet that can be used to embed the font information into PDF.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-EmbeddingFontsWhileCreatingPDF-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-default-font-name-while-saving-pdf&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set Default Font Name while Saving PDF&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;When a PDF document contains fonts, which are not available in the document itself and on the device, API replaces these fonts with the default font. When a font is available (is installed on the device or is embedded into the document), output PDF should have the same font (should not be replaced with default font). The value of the default font should contain the name of the font (not the path to the font files). We have implemented a feature to set default font name while saving a document as PDF. Following code snippet can be used to set default font:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-pdf-DocumentObject-SetDefaultFont.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insget-all-fonts-from-pdf-document&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get All Fonts from PDF Document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In case you want to get all fonts from a PDF document, you can use &lt;strong&gt;Document.getFontUtilities().getAllFonts()&lt;/strong&gt; method provided in &lt;strong&gt;Document&lt;/strong&gt; class. Please check following code snippet in order to get all fonts from an existing PDF document:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-pdf-DocumentObject-GetAllFonts.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;instrim-white-space-around-page&#34;&gt;&lt;ins&gt;&lt;strong&gt;Trim White Space around Page&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A PDF file is comprised of text, images, graphics and various other objects. To remove or trim the white space around a PDF page, set the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#setCropBox-com.aspose.pdf.Rectangle-&#34;&gt;CropBox&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#setMediaBox-com.aspose.pdf.Rectangle-&#34;&gt;MediaBox&lt;/a&gt; for that particular page. To determine the correct value of the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#setCropBox-com.aspose.pdf.Rectangle-&#34;&gt;CropBox&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#setMediaBox-com.aspose.pdf.Rectangle-&#34;&gt;MediaBox&lt;/a&gt; coordinates, first you need to identify the position of objects on the page.&lt;/p&gt;
+&lt;p&gt;The graphics primitives boundary detection is not a reliable approach. It is highly probable that some objects can&amp;rsquo;t be found in facades and provide the API to get their rectangle. So it is recommend to get page contents boundary and set Page &lt;a href=&#34;http://www.aspose.com/api/java/pdf/com.aspose.pdf/classes/page/methods/setCropBox(com.aspose.pdf.Rectangle)/&#34;&gt;CropBox&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#setMediaBox-com.aspose.pdf.Rectangle-&#34;&gt;MediaBox&lt;/a&gt; to trim white space around the page. You can either render the PDF page to an image and then determine the margins or you can also use &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#calculateContentBBox--&#34;&gt;calculateContentBBox&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; class to calculate rectangle containing page contents without visible margins.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to trim white space around a page using &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page#calculateContentBBox--&#34;&gt;calculateContentBBox&lt;/a&gt;&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-TrimWhiteSpaceAroundPage-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insget-set-zoom-factor-of-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Get-Set Zoom Factor of PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to set or get the zoom factor of a PDF document. You can easily accomplish this requirement with Aspose.PDF.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/GoToAction&#34;&gt;GoToAction&lt;/a&gt; object allows you to get the zoom value associated with a PDF file. Similarly, it can be used to set a file&amp;rsquo;s Zoom factor.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-GetSetZoomFactorOfPDFFile-GetSetZoomFactorOfPDFFile.java&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The following code snippet shows how to get the Zoom factor of a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-GetSetZoomFactorOfPDFFile-GetZoomFactor.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Optimize PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/optimize-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/optimize-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insoptimize-pdf-document-for-the-web&#34;&gt;&lt;ins&gt;&lt;strong&gt;Optimize PDF Document for the Web&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Optimization or linearization refers to the process of making a PDF file suitable for online browsing using a web browser. Aspose.PDF supports this process.&lt;/p&gt;
+&lt;p&gt;To optimize a PDF for web display:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the input document in a &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#optimize--&#34;&gt;optimize()&lt;/a&gt; method.&lt;/li&gt;
+&lt;li&gt;Save the optimized document using the save(..) method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following code snippet shows how to optimize a PDF document for the web.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdf-DocumentObject-OptimizePDFDocumentForWeb-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insoptimize-pdf-file-size&#34;&gt;&lt;ins&gt;&lt;strong&gt;Optimize PDF File Size&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This topic explains the steps to optimize/reduce the PDF file size. Aspose.PDF API provides the OptimizationOptions class that gives the flexibility to optimize output PDF by removing unnecessary objects and compressing PDF files having images. Both these options are elaborated in the following sections.&lt;/p&gt;
+&lt;h3 id=&#34;remove-unnecessary-objects&#34;&gt;&lt;strong&gt;Remove Unnecessary Objects&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We can optimize the size of PDF documents by removing duplicate and unused objects. The following code snippet shows how.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-DocumentObject-OptimizePDFFileSize-removeUnnecessaryObjects.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;compressing-pdf-with-images&#34;&gt;&lt;strong&gt;Compressing PDF with Images&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;If the source PDF file contains images, consider compressing the images and setting their quality. In order to enable image compression, pass true as an argument to the setCompressImages(..) method. All the images in a document will be re-compressed. The compression is defined by the setImageQuality(..) method, which is the value of the quality in percent. 100% is unchanged quality and image size. To decrease image size, pass an argument of less than 100 to the setImageQuality(..) method.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-com-gists/282750bc23ba43d2659ba38470239283.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdfExamples-DocumentObject-OptimizePDFFileSize-compressingPDFWithImages.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;release-fonts&#34;&gt;&lt;strong&gt;Release Fonts&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;A text-based PDF file can be further optimized by releasing, or un-embedding, embedded fonts. The UnembedFonts(..) method in the OptimizationOptions class is used for this purpose. If true is passed as an argument to this method, any fonts in the PDF file are released and no longer embedded.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setUnembedFonts&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;information-about-the-optimizeresources-method&#34;&gt;&lt;strong&gt;Information About the optimizeResources() method&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#optimizeResources--&#34;&gt;optimizeResources()&lt;/a&gt; method allows you to decrease the document size by eliminating unnecessary information. But this method does not guarantee that a document will shrink.&lt;/p&gt;
+&lt;p&gt;An instance of OptimizationOptions is passed as an argument to OptimizeResources() method.&lt;/p&gt;
+&lt;p&gt;Available optimization methods are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Remove unused objects&lt;/strong&gt; 
+Sometimes PDF document contains PDF objects which are not referenced from any other object in the document. This may happen for example when a page is removed from the document page tree but the page object itself isn&amp;rsquo;t removed. Removing these objects doesn&amp;rsquo;t make document invalid but shrinks it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remove unused streams&lt;/strong&gt; 
+Sometimes a document contains unused resource streams. These streams are not &amp;ldquo;unused objects&amp;rdquo; because they are referenced from a page&amp;rsquo;s resource dictionary. Thus they are not eliminated by the &amp;ldquo;remove unused objects&amp;rdquo; method. But these streams are never used by the page contents. This may happen in cases where an image has been removed from the page but not from the page resources. Also, this situation often occurs when pages are extracted from the document and document pages have &amp;ldquo;common&amp;rdquo; resources, that is, the same Resources object. Page contents are analyzed in order to determine if a resource stream is used or not. Unused streams are removed. Sometimes this decreases the document size.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link duplicate streams&lt;/strong&gt; 
+Sometimes a document contains several identical resource streams (for example images). This may happen for example when a document is concatenated with itself. The output document contains two independent copies of the same resource stream. We analyze all resource streams and compare them. If streams are duplicated they are merged, that is, only one copy is left, references are changed appropriately and copies of the object are removed. Sometimes this decreases the document size.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compress images&lt;/strong&gt; 
+Change the compression level of JPEG images to decrease the size of images. But this also makes the image quality worse.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unembed fonts&lt;/strong&gt; 
+If the document uses embedded fonts it means that all font data is placed in the document. The advantage is that the document is viewable regardless of whether the font is installed on the user&amp;rsquo;s machine or not. But embedding fonts makes the document larger. The unembed fonts method removes all embedded fonts. This decreases the document size but the document may become unreadable if the correct font is not installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The optimization resources apply these methods to the document. If any of these methods apply, the document size will probably decrease. If none of these methods apply, the document size will not change.&lt;/p&gt;
+&lt;h2 id=&#34;insconvert-a-pdf-from-rgb-colorspace-to-grayscale&#34;&gt;&lt;ins&gt;&lt;strong&gt;Convert a PDF from RGB colorspace to Grayscale&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A PDF file is comprised of Text, Image, Attachment, Annotations, Graphs and other objects. You may come across a requirement to convert a PDF from RGB colorspace to Grayscale so that it would be faster while printing those PDF files. Also when the file is converted to Grayscale, the size of the document is also reduced but with this change, the quality of the document may drop. Currently, this feature is supported by the Pre-Flight feature of Adobe Acrobat, but when talking about Office automation, Aspose.PDF is an ultimate solution to provide such leverages for document manipulation.&lt;/p&gt;
+&lt;p&gt;In order to accomplish this requirement, the following code snippet can be used.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-ConvertPDFFromRGBColorspaceToGrayscale-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Manipulate PDF Document</title>
+      <link>https://docs.aspose.com/pdf/java/manipulate-pdf-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/java/manipulate-pdf-document/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;insconverting-non-searchable-pdf-to-searchable-pdf-document&#34;&gt;&lt;ins&gt;&lt;strong&gt;Converting non searchable PDF to searchable PDF document&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Aspose.PDF for Java provides the feature to create as well as manipulate existing PDF documents. When adding Text elements inside PDF file, the resultant PDF is searchable. However if we are converting an Image containing text to PDF file, the contents inside PDF are not searchable. However as a workaround, we can use OCR over the resultant file, so that it becomes searchable.&lt;/p&gt;
+&lt;p&gt;This logic specified below recognizes text for PDF images. For recognition you may use &lt;a href=&#34;http://en.wikipedia.org/wiki/HOCR&#34;&gt;outer OCR supports HOCR standard&lt;/a&gt;. For testing purposes, we have used a free &lt;a href=&#34;http://en.wikipedia.org/wiki/Tesseract_%28software%29&#34;&gt;Google tesseract OCR&lt;/a&gt;. Therefore first you need to install &lt;a href=&#34;https://github.com/tesseract-ocr&#34;&gt;Tesseract-OCR&lt;/a&gt; on your system, and you will have tesseract console application.&lt;/p&gt;
+&lt;p&gt;Following is complete code to accomplish this requirement.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-AsposePdf-DocumentObject-ConvertingNonSearchablePDFToSearchablePDFDocument-ConvertingNonSearchablePDFToSearchablePDFDocument.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insvalidate-pdf-document-for-pdf-a-standard-a-1a-and-a-1b&#34;&gt;&lt;ins&gt;&lt;strong&gt;Validate PDF Document for PDF A Standard (A 1A and A 1B)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To validate a PDF document for PDF/A-1a or PDF/A-1b compatibility, use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document&#34;&gt;Document&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Document#validate-java.io.OutputStream-int-&#34;&gt;validate(..)&lt;/a&gt; method. This method allows you to specify the name of the file in which the result is to be saved and the required validation type &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/PdfFormat&#34;&gt;PdfFormat&lt;/a&gt; enumeration: PDF_A_1A or PDF_A_1B.&lt;/p&gt;
+&lt;p&gt;The output XML format is a custom Aspose format. The XML contains a collection of tags with the name Problem; each tag contains the details of a particular problem. The Problem tag&amp;rsquo;s ObjectID attribute represents the ID of the particular object this problem is related to. The Clause attribute represents a corresponding rule in the PDF specification.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-ValidatePDFDocumentForPDFAStandard-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insworking-with-toc&#34;&gt;&lt;ins&gt;&lt;strong&gt;Working with TOC&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;add-toc-to-existing-pdf&#34;&gt;&lt;strong&gt;Add TOC to Existing PDF&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The ListSection class in the aspose.pdf package allows you to create a table of contents when creating a PDF document from scratch. To add headings, which are elements of the TOC, use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Heading&#34;&gt;aspose.pdf.Heading&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;To add a TOC to an existing PDF file, use the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Heading&#34;&gt;Heading&lt;/a&gt; class in the com.aspose.pdf package. The com.aspose.pdf package can both create new and manipulate existing PDF files. To add a TOC to an existing PDF, use com.aspose.pdf package.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to create a table of contents inside an existing PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-AddTOCToExistingPDF-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;set-different-tableadertype-for-different-toc-levels&#34;&gt;&lt;strong&gt;Set different TabLeaderType for different TOC Levels&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Aspose.PDF also allows setting different TabLeaderType for different TOC levels. You need to set LineDash property of FormatArray with the appropriate value of TabLeaderType enum as following.&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outFile&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;TOC.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Document&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Document&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tocPage&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getPages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TocInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//set LeaderType
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLineDash&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TabLeaderType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Solid&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TextFragment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TextFragment&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Table Of Contents&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontSize&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;30&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setTitle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Add the list section to the
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;sections&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;collection&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;document&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocPage&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setTocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Define the format of the four levels list by setting the left margins
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//and
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//text format settings of each level
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFormatArrayLength&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLeft&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRight&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;30&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLineDash&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TabLeaderType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Dot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontStyle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FontStyles&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Bold&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FontStyles&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Italic&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLeft&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRight&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;30&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLineDash&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TabLeaderType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;None&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontSize&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLeft&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRight&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontStyle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FontStyles&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Bold&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLineDash&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TabLeaderType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Solid&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setLeft&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;30&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getMargin&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setRight&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;30&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;tocInfo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getFormatArray&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFontStyle&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FontStyles&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Bold&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create a section in the Pdf document
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getPages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Add four headings in the section
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Level&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Level&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Level&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt; 
+
+&lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Heading&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;Heading&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Level&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;TextSegment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;segment2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TextSegment&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getSegments&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;segment2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setAutoSequence&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setTocPage&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tocPage&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;segment2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setText&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Sample Heading&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Level&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getTextState&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setFont&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FontRepository&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;findFont&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Arial UnicodeMS&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;));&lt;/span&gt;
+
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Add the heading into Table Of Contents. 
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setInList&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt; 
+
+&lt;span style=&#34;color:#000&#34;&gt;page&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getParagraphs&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;heading2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt; 
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// save the Pdf 
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;doc&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outFile&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;insadd-layers-to-pdf-file&#34;&gt;&lt;ins&gt;&lt;strong&gt;Add Layers to PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Layers can be used in PDF documents in many ways. You might have a multi-lingual file that you want to distribute and want text in each language to appear on different layers, with the background design appearing on a separate layer. You might also create documents with animation that appears on a separate layer. One example could be to add a license agreement to your file, and you don’t want a user to view the content until they agree to the terms of the agreement.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF for Java supports adding layers to PDF files.&lt;/p&gt;
+&lt;p&gt;To work with layers in PDF files, use the following API members.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Layer&#34;&gt;Layer&lt;/a&gt; class represents a layer and contains the following properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt; – the layer&amp;rsquo;s name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Id&lt;/strong&gt; – the layer&amp;rsquo;s ID.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contents&lt;/strong&gt; – a list of layer operators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Layer&#34;&gt;Layer&lt;/a&gt; objects have been defined, add them to the &lt;a href=&#34;https://apireference.aspose.com/java/pdf/com.aspose.pdf/Page&#34;&gt;Page&lt;/a&gt; object&amp;rsquo;s Layers collection. The code below shows how to add layers to a PDF document.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-AddLayersToPDFFile-.java&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;insset-pdf-expiration&#34;&gt;&lt;ins&gt;&lt;strong&gt;Set PDF Expiration&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PDF expiration feature sets how long a PDF file is valid for. On a particular date, if someone tries to access it, a pop-up is displayed, explaining that the file has expired and that they need a new one.&lt;/p&gt;
+&lt;p&gt;Aspose.PDF allows you to set expiration when creating and editing PDF files.&lt;/p&gt;
+&lt;p&gt;The code snippet below shows how to set the expiration date for a PDF file. You need to use JavaScript as files saved by third party components (for example OwnerGuard) cannot be viewed on other workstations without that utility.&lt;/p&gt;
+&lt;p&gt;The PDF file can be created using PDF OwnerGuard using an existing file with an expiration date. But the new file can be opened only on a workstation that has PDF OwnerGuard installed. Workstations without PDF OwnerGuard will give an ExpirationFeatureError. For example, PDF Reader opens the file if OwnerGuard is installed, but Adobe Acrobat returns an error.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/474c352a71ac9477aa0d604fd32e1c6a.js?file=Examples-src-main-java-com-aspose-pdf-examples-NewDocumentObject-SetPDFExpiration-.java&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,137 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Stamps and Watermarks - Facades</title>
+    <link>https://docs.aspose.com/pdf/net/working-with-stamps-and-watermarks-facades/</link>
+    <description>Recent content in Working with Stamps and Watermarks - Facades on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://docs.aspose.com/pdf/net/working-with-stamps-and-watermarks-facades/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add PDF Page Stamp</title>
+      <link>https://docs.aspose.com/pdf/net/add-pdf-page-stamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-pdf-page-stamp/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-pdf-page-stamp-on-all-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add PDF Page Stamp on All Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add PDF page stamp on all the pages of a PDF file. In order to add PDF page stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the PDF page stamp using &lt;strong&gt;Bind&lt;/strong&gt; &lt;strong&gt;Pdf&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add PDF page stamp on all pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddPageStampAll-AddPageStampAll.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-pdf-page-stamp-on-particular-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add PDF Page Stamp on Particular Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add PDF page stamp on particular pages of a PDF file. In order to add PDF page stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the PDF page stamp using &lt;strong&gt;Bind&lt;/strong&gt; &lt;strong&gt;Pdf&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. As you want to add PDF page stamp on particular pages of the PDF file, you also need to set the &lt;strong&gt;Pages&lt;/strong&gt; property of the &lt;strong&gt;Stamp&lt;/strong&gt; class. This property requires an integer array containing numbers of the pages on which you want to add the stamp. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add PDF page stamp on particular pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddPageStampPage-AddPageStampPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-page-number-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Page Number in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add page numbers in a PDF file. In order to add page numbers, you first need to create object of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. If you want to show page number like “Page X of N” while X being the current page number and N the total number of pages in the PDF file then you first need to get the page count using &lt;strong&gt;NumberOfpages&lt;/strong&gt; property of &lt;strong&gt;PdfFileInfo&lt;/strong&gt; class. In order to get the current page number you can use &lt;strong&gt;#&lt;/strong&gt; sign in your text anywhere you like. You can format the page number text using &lt;strong&gt;FormattedText&lt;/strong&gt; class. If you want to start the page numbering from a specific number then you can set &lt;strong&gt;StartingNumber&lt;/strong&gt; property. Once you’re ready to add page number in the file, you need to call &lt;strong&gt;AddPageNumber&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add page number in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddPageNumber-AddPageNumber.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;custom-numbering-style&#34;&gt;&lt;strong&gt;Custom Numbering style&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The PdfFileStamp class offers the feature to add Page Number information as stamp object inside PDF document. Prior to this release, the class only supported 1,2,3,4 as page numbering style. However, there has been a requirement from some customers to use custom numbering style when placing page number stamp inside PDF document. In order to accomplish this requirement, &lt;strong&gt;NumberingStyle&lt;/strong&gt; property has been introduced, which accepts the values from &lt;strong&gt;NumberingStyle&lt;/strong&gt; enumeration. Specified below are values offered in this enumeration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LettersLowercase&lt;/li&gt;
+&lt;li&gt;LettersUppercase&lt;/li&gt;
+&lt;li&gt;NumeralsArabic&lt;/li&gt;
+&lt;li&gt;NumeralsRomanLowercase&lt;/li&gt;
+&lt;li&gt;NumeralsRomanUppercase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddPageNumber-CustomNumberStyle.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Text and Image Stamp</title>
+      <link>https://docs.aspose.com/pdf/net/add-text-and-image-stamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/add-text-and-image-stamp/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-text-stamp-on-all-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Text Stamp on All Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add text stamp on all the pages of a PDF file. In order to add text stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the text stamp using &lt;strong&gt;BindLogo&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add text stamp on all pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddTextStampAll-AddTextStampAll.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-text-stamp-on-particular-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Text Stamp on Particular Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add text stamp on particular pages of a PDF file. In order to add text stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the text stamp using &lt;strong&gt;BindLogo&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. As you want to add text stamp on particular pages of the PDF file, you also need to set the &lt;strong&gt;Pages&lt;/strong&gt; property of the &lt;strong&gt;Stamp&lt;/strong&gt; class. This property requires an integer array containing numbers of the pages on which you want to add the stamp. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add text stamp on particular pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddTextStampPage-AddTextStampPage.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-image-stamp-on-all-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Image Stamp on All Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add image stamp on all the pages of a PDF file. In order to add image stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the image stamp using &lt;strong&gt;BindImage&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add image stamp on all pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddImageStampAll-AddImageStampAll.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;control-image-quality-when-adding-as-stamp&#34;&gt;&lt;strong&gt;Control image quality when adding as stamp&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When adding Image as stamp object, you can also control the quality of image. In order to accomplish this requirement, Quality property is added for &lt;strong&gt;Stamp&lt;/strong&gt; class. It indicates the quality of image in percents (valid values are 0..100).&lt;/p&gt;
+&lt;h2 id=&#34;add-image-stamp-on-particular-pages-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Image Stamp on Particular Pages in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add image stamp on particular pages of a PDF file. In order to add image stamp, you first need to create objects of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; and &lt;strong&gt;Stamp&lt;/strong&gt; classes. You also need to create the image stamp using &lt;strong&gt;Bind&lt;/strong&gt; &lt;strong&gt;Image&lt;/strong&gt; method of &lt;strong&gt;Stamp&lt;/strong&gt; class. You can set other attributes like origin, rotation, background etc. using &lt;strong&gt;Stamp&lt;/strong&gt; object as well. As you want to add image stamp on particular pages of the PDF file, you also need to set the &lt;strong&gt;Pages&lt;/strong&gt; property of the &lt;strong&gt;Stamp&lt;/strong&gt; class. This property requires an integer array containing numbers of the pages on which you want to add the stamp. Then you can add the stamp in the PDF file using &lt;strong&gt;AddStamp&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add image stamp on particular pages in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddImageStampPage-AddImageStampPage.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract Image and Change Position of a Stamp</title>
+      <link>https://docs.aspose.com/pdf/net/extract-image-and-change-position-of-a-stamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/extract-image-and-change-position-of-a-stamp/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;extract-image-from-an-image-stamp&#34;&gt;&lt;strong&gt;Extract Image from an Image Stamp&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfContentEditor&lt;/strong&gt; class allows you to extract images from a stamp in a PDF file. First, you need to create an object of &lt;strong&gt;PdfContentEditor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, call &lt;strong&gt;GetStamps&lt;/strong&gt; method to get array of StampInfo objects from a particular page of PDF file. Then you can get the image from a StampInfo using StampInfo.Image property. Once you get the image, you can save the image or work with different properties of the image. The following code snippet shows you how to extract image from an image stamp.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-ExtractImageImageStamp-ExtractImageImageStamp.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;change-position-of-a-stamp-in-a-pdf-file&#34;&gt;&lt;strong&gt;Change Position of a Stamp in a PDF file&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfContentEditor&lt;/strong&gt; class allows you to change the position of a stamp in a PDF file. First, you need to create an object of &lt;strong&gt;PdfContentEditor&lt;/strong&gt; class and bind input PDF file using &lt;strong&gt;BindPdf&lt;/strong&gt; method. After that, call &lt;strong&gt;MoveStamp&lt;/strong&gt; method with stamp index and new position on a particular page of PDF file. Then, you can save the updated file using &lt;strong&gt;Save&lt;/strong&gt; method. The following code snippet shows you how to move a stamp in a particular page.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-ChangeStampPosition-ChangeStampPosition.cs&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Also, you can use &lt;strong&gt;MoveStampById&lt;/strong&gt; method to move a specific stamp by using StampId.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-ChangeStampPosition-ChangeStampPositionByID.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manage Header and Footer</title>
+      <link>https://docs.aspose.com/pdf/net/manage-header-and-footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.aspose.com/pdf/net/manage-header-and-footer/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;add-header-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Header in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add header in a PDF file. In order to add header, you first need to create object of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You can format the header text using &lt;strong&gt;FormattedText&lt;/strong&gt; class. Once you’re ready to add header in the file, you need to call &lt;strong&gt;Add&lt;/strong&gt; &lt;strong&gt;Header&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You also need to specify at least the top margin in the &lt;strong&gt;AddHeader&lt;/strong&gt; method. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add header in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddHeader-AddHeader.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-footer-in-a-pdf-file&#34;&gt;&lt;strong&gt;Add Footer in a PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add footer in a PDF file. In order to add footer, you first need to create object of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You can format the footer text using &lt;strong&gt;FormattedText&lt;/strong&gt; class. Once you’re ready to add footer in the file, you need to call &lt;strong&gt;Add&lt;/strong&gt; &lt;strong&gt;Footer&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You also need to specify at least the bottom margin in the &lt;strong&gt;AddFooter&lt;/strong&gt; method. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add footer in a PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddFooter-AddFooter.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-image-in-header-of-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Add Image in Header of an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add image in the header of a PDF file. In order to add image in header, you first need to create object of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. After that, you need to call &lt;strong&gt;Add&lt;/strong&gt; &lt;strong&gt;Header&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You can pass the image to the &lt;strong&gt;AddHeader&lt;/strong&gt; method. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add image in header of PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddImageHeader-AddImageHeader.cs&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;add-image-in-footer-of-an-existing-pdf-file&#34;&gt;&lt;strong&gt;Add Image in Footer of an Existing PDF File&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PdfFileStamp&lt;/strong&gt; class allows you to add image in the footer of a PDF file. In order to add image in footer, you first need to create object of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. After that, you need to call &lt;strong&gt;Add&lt;/strong&gt; &lt;strong&gt;Footer&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. You can pass the image to the &lt;strong&gt;Add&lt;/strong&gt; &lt;strong&gt;Footer&lt;/strong&gt; method. Finally, save the output PDF file using &lt;strong&gt;Close&lt;/strong&gt; method of &lt;strong&gt;PdfFileStamp&lt;/strong&gt; class. The following code snippet shows you how to add image in the footer of PDF file.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/aspose-pdf/4a12f0ebd453e7f0d552ed6658ed3253.js?file=Examples-CSharp-AsposePdfFacades-Stamps-Watermarks-AddImageFooter-AddImageFooter.cs&#34;&gt;&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
