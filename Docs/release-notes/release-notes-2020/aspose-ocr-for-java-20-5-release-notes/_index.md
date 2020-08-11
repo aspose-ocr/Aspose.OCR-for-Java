@@ -16,6 +16,7 @@ Aspose.OCR for Java is a library for optical character recognition and document 
 ## Input Formats
 
 For loading images used Image.IO build-in package in the Java core 1.8.
+
 The Image I/O has built-in support for GIF, PNG, JPEG, BMP, and WBMP. The Image I/O is also extensible so that developers or administrators can "plug-in" support for additional formats. For example, plug-ins for TIFF and JPEG 2000 are separately available.
 
 ## Supported Characters
