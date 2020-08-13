@@ -27,13 +27,13 @@ Directory | Description
 * Run the file in your IDE (method may vary depending on the IDE you use).
 * The resources folder in The Examples/src/main folder contains input files used in the examples. It is mandatory that you download this folder along with the examples project.
 
-Please find more details on how to run the examples [here](https://docs.aspose.com/display/OCRJAVA/How+to+Use+the+Examples).
+Please find more details on how to run the examples [here](https://docs.aspose.com/ocr/java/how-to-use-the-examples/).
 
 ## Resources
 
 * **Website:** [www.aspose.com](https://www.aspose.com/)
 * **Product Home:** [Aspose.OCR for Java](https://products.aspose.com/ocr/java)
 * **Download:** [Download Aspose.OCR for Java](https://downloads.aspose.com/ocr/java)
-* **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com//display/OCRjava/Home)
+* **Documentation:** [Aspose.OCR for Java Documentation](https://docs.aspose.com/ocr/java/)
 * **Forum:** [Aspose.OCR for Java Forum](https://forum.aspose.com/c/ocr)
 * **Blog:** [Aspose.OCR for Java Blog](https://blog.aspose.com/category/ocr/)
