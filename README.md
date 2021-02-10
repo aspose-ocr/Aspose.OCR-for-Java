@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-ocr-cloud/aspose-ocr-cloud-java) ![GitHub all releases](https://img.shields.io/github/downloads/aspose-ocr/Aspose.ocr-for-Java/total) ![GitHub](https://img.shields.io/github/license/aspose-ocr/Aspose.ocr-for-java)
 # Java OCR Library
 
 [Aspose.OCR for Java](https://products.aspose.com/ocr/java) is a character and optical mark recognition API that allows developers to add OCR functionality in their applications. It provides a simple set of classes for controlling character recognition.
