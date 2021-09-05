@@ -10,16 +10,11 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.bytedeco</groupId>
-            <artifactId>onnxruntime-platform</artifactId>
-            <version>1.2.0-1.5.3</version>
-        </dependency>
+    <dependencies>       
         <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-ocr</artifactId>
-            <version>20.10</version>
+            <version>21.8</version>
         </dependency>
     </dependencies>
     <repositories>

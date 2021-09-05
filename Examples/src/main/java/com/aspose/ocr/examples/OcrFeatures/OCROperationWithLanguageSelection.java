@@ -1,6 +1,7 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
 import com.aspose.ocr.AsposeOCR;
+import com.aspose.ocr.Language;
 import com.aspose.ocr.License;
 import com.aspose.ocr.RecognitionResult;
 import com.aspose.ocr.RecognitionSettings;
@@ -31,7 +32,7 @@ public class OCROperationWithLanguageSelection {
 		rectangles.add(new Rectangle(90,186,775,95));
 		settings.setRecognitionAreas(rectangles);
 		settings.setSkew(0.5);
-		settings.setLanguage(RecognitionSettings.Language.en);
+		settings.setLanguage(Language.Eng);
 
 		// get result object
 		RecognitionResult result = null;

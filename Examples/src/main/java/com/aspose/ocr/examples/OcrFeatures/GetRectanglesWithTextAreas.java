@@ -1,5 +1,6 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
+import com.aspose.ocr.AreasType;
 import com.aspose.ocr.AsposeOCR;
 import com.aspose.ocr.examples.License.SetLicense;
 import com.aspose.ocr.examples.Utils;
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 
 public class GetRectanglesWithTextAreas {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetRectanglesWithTextAreas.class);
@@ -30,7 +31,7 @@ public class GetRectanglesWithTextAreas {
 		}
 
 		//Get rectangles with text areas in the image.
-		ArrayList<Rectangle> rectResult = api.getTextAreas();
+		ArrayList<Rectangle> rectResult = api.getTextAreas(imagePath, AreasType.PARAGRAPHS, true);
 		for(Rectangle r : rectResult) {
 			System.out.println("Text area:" + r);
 		}

@@ -9,7 +9,7 @@ import java.io.IOException;
 public class PerformOCROnPage {
 
 	public static void main(String[] args) {
-		SetLicense.main(null);
+		//SetLicense.main(null);
 		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PerformOCROnPage.class);
