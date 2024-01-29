@@ -14,13 +14,12 @@ Following is a short description of the contents of the repository:
 Directory | Description
 ----------|------------
 [Examples](Examples) | A collection of Java examples that help you learn how to product features.
-[Plugins](Plugins)  | Demonstrate more features of Aspose.OCR for Java.
 
 ## Convert Image to Text via Java
 
 - Read characters from images.
-- Support for JPG, PNG, GIF, BMP and TIFF image file formats for OCR.
-- Support for English, French, Spanish and Portuguese.
+- Support for JPG, PNG, GIF, BMP, TIFF, PDF file formats for OCR.
+- Support for 27 languages, including Latin, Cyrillic, and Chinese.
 - Read popular fonts including Arial, Times New Roman, Courier New, Verdana, Tahoma and Calibri.
 - Support for regular, bold and italic font styles.
 - Scan the whole image or any part of the image.
@@ -63,20 +62,37 @@ Directory | Description
 
 ## Get Started with Aspose.OCR for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-ocr). You can easily use Aspose.OCR for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.OCR for Java from Maven Repository](https://docs.aspose.com/ocr/java/installation/) documentation page.
+Aspose hosts all Java APIs at the [Aspose Repository](https://releases.aspose.com/ocr/java/). You can easily use Aspose.OCR for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.OCR for Java from Maven Repository](https://docs.aspose.com/ocr/java/installation/) documentation page.
 
 ## Extract Text from Specific Areas on Image
 
 ```java
-// create API instance
-AsposeOCR api = new AsposeOCR();
-// prepare rectangles with texts.
-ArrayList rectArray = new ArrayList();
-rectArray.add(new Rectangle(138, 352, 2033, 537));
-rectArray.add(new Rectangle(147, 890, 2033, 1157));
-String result = api.RecognizePage("template.png", rectArray);
+//SetLicense.main(null);
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(PerformOCROnPage.class);
 
-System.out.println("Result with rect: " + result);
+		// The image path
+		String imagePath = dataDir + "p3.png";
+
+		//Create api instance
+		AsposeOCR api = new AsposeOCR();
+
+		// Set preprocessing filters to rotate image before recognition.
+		PreprocessingFilter filters = new PreprocessingFilter();
+		filters.add(PreprocessingFilter.AutoSkew());
+
+		// Create OcrInput object and add images/documents for recognition
+		OcrInput input = new OcrInput(InputType.SingleImage, filters);
+		input.add(imagePath);
+
+		// Recognize page by full path to file
+		try {
+			ArrayList<RecognitionResult> result = api.Recognize(input);
+			System.out.println("Result: " + result.get(0).recognitionText);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 ```
 
 [Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/ocr/java) | [Docs](https://docs.aspose.com/ocr/java/) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/java) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-Java) | [Blog](https://blog.aspose.com/category/ocr/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/ocr) | [Temporary License](https://purchase.aspose.com/temporary-license)

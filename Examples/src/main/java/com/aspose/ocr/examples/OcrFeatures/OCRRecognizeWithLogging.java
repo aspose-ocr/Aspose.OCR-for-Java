@@ -8,18 +8,23 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class OCRRecognizePdf {
+public class OCRRecognizeWithLogging {
 
 	public static void main(String[] args) throws IOException {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(OCRRecognizePdf.class);
+		String dataDir = Utils.getSharedDataDir(OCRRecognizeWithLogging.class);
 
 		// The image path
 		String file = dataDir + "multi_page_1.pdf";
 
 		// Create api instance
 		AsposeOCR api = new AsposeOCR();
+
+		// Set logging level and output
+		Logging.loggingLevel = LoggingLevel.Debug;
+		Logging.fileSystem = false;
+		Logging.console = true;
 
 		// Set recognition options
 		RecognitionSettings settings = new RecognitionSettings();

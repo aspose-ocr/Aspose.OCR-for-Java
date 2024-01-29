@@ -30,16 +30,22 @@ public class SaveResultToFile {
 		input.add(imagePath1);
 		input.add(imagePath2);
 
-		// Recognize page by full path to file
+		// Recognize images
 		try {
+			RecognitionSettings settings = new RecognitionSettings();
+			settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 			ArrayList<RecognitionResult> result = api.Recognize(input);
 
+			// Save recognition result as multipage document
 			AsposeOCR.SaveMultipageDocument("output.txt", Format.Text, result);
 			AsposeOCR.SaveMultipageDocument("output.pdf", Format.Pdf, result);
 			AsposeOCR.SaveMultipageDocument("output.xlsx", Format.Xlsx, result);
 			AsposeOCR.SaveMultipageDocument("output.html", Format.Html, result);
 			AsposeOCR.SaveMultipageDocument("output.docx", Format.Docx, result);
 			AsposeOCR.SaveMultipageDocument("output.json", Format.Json, result);
+
+			// Or save only one page from the result
+			result.get(0).save("output_page_0.rtf", Format.Rtf);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

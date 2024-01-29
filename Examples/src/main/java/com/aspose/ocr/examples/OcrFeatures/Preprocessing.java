@@ -17,7 +17,7 @@ public class Preprocessing {
 		String dataDir = Utils.getSharedDataDir(Preprocessing.class);
 
 		// The image path
-		String imagePath = dataDir + "p3.png";
+		String imagePath = dataDir + "atlantis.jpg";
 
 		//Create api instance
 		AsposeOCR api = new AsposeOCR();
