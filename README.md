@@ -64,16 +64,12 @@ Directory | Description
 
 Aspose hosts all Java APIs at the [Aspose Repository](https://releases.aspose.com/ocr/java/). You can easily use Aspose.OCR for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.OCR for Java from Maven Repository](https://docs.aspose.com/ocr/java/installation/) documentation page.
 
-## Extract Text from Specific Areas on Image
+## Extract Text from Image with skew correction
 
 ```java
-//SetLicense.main(null);
-		// ExStart:1
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(PerformOCROnPage.class);
 
 		// The image path
-		String imagePath = dataDir + "p3.png";
+		String imagePath = "p3.png";
 
 		//Create api instance
 		AsposeOCR api = new AsposeOCR();
@@ -87,12 +83,8 @@ Aspose hosts all Java APIs at the [Aspose Repository](https://releases.aspose.co
 		input.add(imagePath);
 
 		// Recognize page by full path to file
-		try {
-			ArrayList<RecognitionResult> result = api.Recognize(input);
-			System.out.println("Result: " + result.get(0).recognitionText);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		ArrayList<RecognitionResult> result = api.Recognize(input);
+		System.out.println("Result: " + result.get(0).recognitionText);
 ```
 
 [Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/ocr/java) | [Docs](https://docs.aspose.com/ocr/java/) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/java) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-Java) | [Blog](https://blog.aspose.com/category/ocr/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/ocr) | [Temporary License](https://purchase.aspose.com/temporary-license)
