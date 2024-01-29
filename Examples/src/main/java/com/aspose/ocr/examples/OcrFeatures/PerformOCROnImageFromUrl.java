@@ -1,9 +1,6 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
-import com.aspose.ocr.AsposeOCR;
-import com.aspose.ocr.License;
-import com.aspose.ocr.RecognitionResult;
-import com.aspose.ocr.RecognitionSettings;
+import com.aspose.ocr.*;
 import com.aspose.ocr.examples.License.SetLicense;
 import com.aspose.ocr.examples.Utils;
 
@@ -18,33 +15,33 @@ public class PerformOCROnImageFromUrl {
 		//Create api instance
 		AsposeOCR api = new AsposeOCR();
 
-		String uri = "https://www.castlegateit.co.uk/wp-content/uploads/2016/09/justified_text.png";
+		String uri = "https://imgv3.fotor.com/images/blog-richtext-image/How-to-Make-Text-Stand-Out-And-More-Readable.jpg";
 
-		// set recognition options
-		RecognitionSettings settings = new RecognitionSettings();
-		settings.setAutoSkew(false);
-		ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
-		rectangles.add(new Rectangle(90,186,775,95));
-		settings.setRecognitionAreas(rectangles);
+		// Set preprocessing filters to rotate image before recognition.
+		PreprocessingFilter filters = new PreprocessingFilter();
+		filters.add(PreprocessingFilter.AutoSkew());
 
+		// Create OcrInput object and add images/documents for recognition
+		OcrInput input = new OcrInput(InputType.URL, filters);
+		input.add(uri);
 
 		// get result object
-		RecognitionResult result = null;
+		ArrayList<RecognitionResult> result = null;
 		try {
-			result = api.RecognizePageFromUri(uri, settings);
+			result = api.Recognize(input);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
 		// print result
-		System.out.println("Result: \n" + result.recognitionText+"\n\n");
+		System.out.println("Result: \n" + result.get(0).recognitionText+"\n\n");
 		System.out.println("RecognitionAreasText: \n");
-		for(String text: result.recognitionAreasText) {
+		for(String text: result.get(0).recognitionAreasText) {
 			System.out.println(text);
 		}
-		System.out.println("JSON: \n" + result.GetJson());
+		System.out.println("JSON: \n" + result.get(0).GetJson());
 		System.out.println("Warnings: \n");
-		for(String warning: result.warnings) {
+		for(String warning: result.get(0).warnings) {
 			System.out.println(warning);
 		}
 		// ExEnd:1

@@ -1,11 +1,10 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
-import com.aspose.ocr.AsposeOCR;
-import com.aspose.ocr.RecognitionResult;
-import com.aspose.ocr.RecognitionSettings;
+import com.aspose.ocr.*;
 import com.aspose.ocr.examples.Utils;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class RecognizeLine {
 
@@ -20,12 +19,16 @@ public class RecognizeLine {
 		//Create api instance
 		AsposeOCR api = new AsposeOCR();
 
+		// Create OcrInput object and add images/documents for recognition
+		OcrInput input = new OcrInput(InputType.SingleImage);
+		input.add(imagePath);
+
 		try {
 			RecognitionSettings settings = new RecognitionSettings();
 			settings.setRecognizeSingleLine(true);
-			RecognitionResult result = api.RecognizePage(imagePath, settings);
+			ArrayList<RecognitionResult> result = api.Recognize(input, settings);
 			System.out.println("File: " + imagePath);
-			System.out.println("Result line: " + result.recognitionText);
+			System.out.println("Result line: " + result.get(0).recognitionText);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

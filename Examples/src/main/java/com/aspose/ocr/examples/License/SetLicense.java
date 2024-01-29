@@ -8,7 +8,7 @@ public class SetLicense {
 		// ExStart:1
 		//Set license
 		String file = "Aspose.Total.lic"; //change the path to point to a valid license
-		License.setLicense(file);
+		License .setLicense(file);
 
 		//Check license
 		boolean resLicense = License.isValid();

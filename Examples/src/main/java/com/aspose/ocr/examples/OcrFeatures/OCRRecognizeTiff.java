@@ -1,12 +1,7 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
-import com.aspose.ocr.AsposeOCR;
-import com.aspose.ocr.DetectAreasMode;
-import com.aspose.ocr.DocumentRecognitionSettings;
-import com.aspose.ocr.Language;
-import com.aspose.ocr.RecognitionResult;
+import com.aspose.ocr.*;
 import com.aspose.ocr.RecognitionResult.LinesResult;
-import com.aspose.ocr.pdf.AsposeOCRPdf;
 import com.aspose.ocr.examples.Utils;
 
 import java.awt.*;
@@ -25,12 +20,16 @@ public class OCRRecognizeTiff {
 		// Create api instance
 		AsposeOCR api = new AsposeOCR();
 
+		// Create OcrInput object and add images/documents for recognition
+		OcrInput input = new OcrInput(InputType.TIFF);
+		input.add(file, 0, 2);
+
 		// Set recognition options
-		DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
+		RecognitionSettings settings = new RecognitionSettings();
 		settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 
 		// Get result list
-		ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
+		ArrayList<RecognitionResult> result = api.Recognize(input, settings);
 
 		// print result		
 		for(RecognitionResult r: result) {

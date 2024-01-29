@@ -1,12 +1,7 @@
 package com.aspose.ocr.examples.OcrFeatures;
 
-import com.aspose.ocr.AsposeOCR;
-import com.aspose.ocr.DetectAreasMode;
-import com.aspose.ocr.Language;
-import com.aspose.ocr.License;
-import com.aspose.ocr.RecognitionResult;
+import com.aspose.ocr.*;
 import com.aspose.ocr.RecognitionResult.LinesResult;
-import com.aspose.ocr.RecognitionSettings;
 import com.aspose.ocr.examples.License.SetLicense;
 import com.aspose.ocr.examples.Utils;
 
@@ -22,25 +17,30 @@ public class OCROperationWithDetectAreasMode {
 		String dataDir = Utils.getSharedDataDir(OCROperationWithDetectAreasMode.class);
 
 		// The image path
-		String file = dataDir + "Receipt.jpg";
+		String imagePath = dataDir + "Receipt.jpg";
 
 		//Create api instance
 		AsposeOCR api = new AsposeOCR();
 
+		// Create OcrInput object and add images/documents for recognition
+		OcrInput input = new OcrInput(InputType.SingleImage);
+		input.add(imagePath);
+
 		// set recognition options
 		RecognitionSettings settings = new RecognitionSettings();
 		settings.setDetectAreasMode(DetectAreasMode.PHOTO);
+		//settings.setDetectAreasMode(DetectAreasMode.TEXT_IN_WILD); // choose by your needs
 
 		// get result object
-		RecognitionResult result = null;
+		ArrayList<RecognitionResult> result = null;
 		try {
-			result = api.RecognizePage(file, settings);
+			result = api.Recognize(input, settings);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
 		// print result
-		printResult(result);
+		printResult(result.get(0));
 		// ExEnd:1
 
 		System.out.println("OCROperationWithDetectAreasMode: execution complete");
